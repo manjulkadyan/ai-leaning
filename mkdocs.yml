@@ -86,3 +86,4 @@ nav:
           - "Day 1: Workstation setup": lessons/phase-1/day-01-setup.md
           - "Day 2: Python core types": lessons/phase-1/day-02-python-types.md
           - "Day 3: Functions & classes": lessons/phase-1/day-03-functions-classes.md
+          - "Day 4: NumPy arrays": lessons/phase-1/day-04-numpy-arrays.md

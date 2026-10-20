@@ -1,5 +1,8 @@
 /* Figures: centered diagrams with a caption, readable in light and dark mode */
 .md-typeset figure.diagram {
+  display: block;
+  width: 100%;
+  max-width: 760px;
   margin: 1.5em auto;
   text-align: center;
 }

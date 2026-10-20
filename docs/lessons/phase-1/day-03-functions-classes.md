@@ -328,4 +328,4 @@ from collections import Counter, defaultdict
 - [ ] I can explain how `model(x)` ends up calling `forward(x)`.
 - [ ] I built a small package and imported from it.
 
-**Next:** Day 4: NumPy arrays (coming soon)
+**Next:** [Day 4: NumPy arrays, and why ML runs on them](day-04-numpy-arrays.md)

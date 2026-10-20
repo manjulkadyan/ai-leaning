@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7986cb"/>
+    </marker>
+  </defs>
+  <text x="20" y="28" font-weight="bold" font-size="16" fill="#3949ab">Python list [1.0, 2.0, 3.0, 4.0]</text>
+  <text x="20" y="48" font-size="12" fill="#555">an array of pointers to separate float objects, scattered in memory</text>
+  <g>
+    <rect x="20" y="65" width="50" height="36" fill="#e8eaf6" stroke="#3949ab"/>
+    <rect x="70" y="65" width="50" height="36" fill="#e8eaf6" stroke="#3949ab"/>
+    <rect x="120" y="65" width="50" height="36" fill="#e8eaf6" stroke="#3949ab"/>
+    <rect x="170" y="65" width="50" height="36" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="45" y="88" text-anchor="middle">ptr</text><text x="95" y="88" text-anchor="middle">ptr</text>
+    <text x="145" y="88" text-anchor="middle">ptr</text><text x="195" y="88" text-anchor="middle">ptr</text>
+    <g font-size="12">
+      <rect x="470" y="58" width="110" height="30" rx="6" fill="#fff" stroke="#9e9e9e"/><text x="525" y="78" text-anchor="middle">float obj 1.0</text>
+      <rect x="300" y="140" width="110" height="30" rx="6" fill="#fff" stroke="#9e9e9e"/><text x="355" y="160" text-anchor="middle">float obj 2.0</text>
+      <rect x="620" y="120" width="110" height="30" rx="6" fill="#fff" stroke="#9e9e9e"/><text x="675" y="140" text-anchor="middle">float obj 3.0</text>
+      <rect x="450" y="160" width="110" height="30" rx="6" fill="#fff" stroke="#9e9e9e"/><text x="505" y="180" text-anchor="middle">float obj 4.0</text>
+    </g>
+    <line x1="45" y1="101" x2="468" y2="73" stroke="#7986cb" stroke-width="1.5" marker-end="url(#p)"/>
+    <line x1="95" y1="101" x2="298" y2="155" stroke="#7986cb" stroke-width="1.5" marker-end="url(#p)"/>
+    <line x1="145" y1="101" x2="618" y2="135" stroke="#7986cb" stroke-width="1.5" marker-end="url(#p)"/>
+    <line x1="195" y1="101" x2="448" y2="175" stroke="#7986cb" stroke-width="1.5" marker-end="url(#p)"/>
+  </g>
+  <!-- a reader hopping between objects -->
+  <circle r="7" fill="#e53935">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M45,83 L525,73 L355,155 L675,135 L505,175 L45,83" keyPoints="0;0.2;0.45;0.7;0.9;1" keyTimes="0;0.2;0.45;0.7;0.9;1" calcMode="linear"/>
+  </circle>
+
+  <text x="20" y="220" font-weight="bold" font-size="16" fill="#00897b">NumPy array np.array([1.0, 2.0, 3.0, 4.0])</text>
+  <text x="20" y="240" font-size="12" fill="#555">one contiguous block of raw 8-byte float64 values, read in a straight line</text>
+  <g font-family="Menlo, Consolas, monospace">
+    <rect x="20" y="255" width="90" height="40" fill="#e0f2f1" stroke="#00897b"/>
+    <rect x="110" y="255" width="90" height="40" fill="#e0f2f1" stroke="#00897b"/>
+    <rect x="200" y="255" width="90" height="40" fill="#e0f2f1" stroke="#00897b"/>
+    <rect x="290" y="255" width="90" height="40" fill="#e0f2f1" stroke="#00897b"/>
+    <text x="65" y="280" text-anchor="middle">1.0</text><text x="155" y="280" text-anchor="middle">2.0</text>
+    <text x="245" y="280" text-anchor="middle">3.0</text><text x="335" y="280" text-anchor="middle">4.0</text>
+  </g>
+  <rect x="20" y="255" width="90" height="40" fill="#26a69a" opacity="0.35">
+    <animate attributeName="x" values="20;110;200;290;20" keyTimes="0;0.25;0.5;0.75;1" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="400" y="272" font-size="12" fill="#555">CPU cache and SIMD instructions love this:</text>
+  <text x="400" y="290" font-size="12" fill="#555">same work, a fraction of the time</text>
+  <text x="20" y="318" font-size="12" fill="#9e9e9e">Animated: the red dot chases pointers; the green highlight streams through memory.</text>
+</svg>
