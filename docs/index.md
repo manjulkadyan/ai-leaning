@@ -23,4 +23,4 @@ Your engineering background is a real head start. Throughout the course you'll s
 
 ## Status
 
-The site is being built in phases. The roadmap and study plan come first, then lessons are added one by one.
+The course is being built in phases, a week of lessons at a time. See [Course Progress](progress.md) for what's written and what's next.

@@ -49,7 +49,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | Day | Lesson | Time |
 |---|---|---|
 | 22 | Norms and distances *(coming soon)* | 90 min |
-| 23 | Linear transformations *(coming soon)* | 120 min |
+| 23 | Rank, span and linear independence *(coming soon)* | 120 min |
 | 24 | Eigenvectors, intuitively *(coming soon)* | 120 min |
 | 25 | Projections and PCA preview *(coming soon)* | 120 min |
 | 26 | Month 1 recap and gaps *(coming soon)* | 90 min |

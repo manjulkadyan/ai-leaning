@@ -79,6 +79,7 @@ nav:
   - Home: index.md
   - How Lessons Work: how-lessons-work.md
   - Roadmap: roadmap/index.md
+  - Progress: progress.md
   - Study Plan:
       - plan/index.md
       - Monthly plan: plan/monthly.md
