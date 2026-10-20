@@ -24,7 +24,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 8 | Shapes, reshaping and indexing *(coming soon)* | 90 min |
+| 8 | [Shapes, reshaping and indexing](../lessons/phase-1/day-08-shapes-indexing.md) | 90 min |
 | 9 | Broadcasting *(coming soon)* | 90 min |
 | 10 | Matrices and matrix multiplication *(coming soon)* | 120 min |
 | 11 | Transpose, identity and inverse *(coming soon)* | 90 min |

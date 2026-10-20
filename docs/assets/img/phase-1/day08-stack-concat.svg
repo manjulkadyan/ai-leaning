@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<text x="20" y="26" font-weight="bold" font-size="15">concatenate joins along an existing axis; stack creates a new one</text>
+<text x="20" y="62" font-size="13" font-weight="bold">inputs</text>
+<rect x="20" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="31.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="42" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="53.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="64" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="75.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="20" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="31.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="42" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="53.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="64" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="75.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<text x="20" y="140" font-size="12" font-family="Menlo, Consolas, monospace">a (2, 3)</text>
+<rect x="20" y="160" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="31.0" y="175" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="42" y="160" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="53.0" y="175" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="64" y="160" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="75.0" y="175" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="20" y="182" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="31.0" y="197" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="42" y="182" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="53.0" y="197" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="64" y="182" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="75.0" y="197" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<text x="20" y="224" font-size="12" font-family="Menlo, Consolas, monospace">b (2, 3)</text>
+<line x1="110" y1="50" x2="110" y2="235" stroke="#cfd8dc" stroke-dasharray="4 4"/>
+<text x="150" y="62" font-size="12" font-family="Menlo, Consolas, monospace">concatenate(axis=0)</text>
+<rect x="170" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="181.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="192" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="203.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="214" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="225.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="170" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="181.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="192" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="203.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="214" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="225.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="170" y="120" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="181.0" y="135" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="192" y="120" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="203.0" y="135" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="214" y="120" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="225.0" y="135" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="170" y="142" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="181.0" y="157" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="192" y="142" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="203.0" y="157" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="214" y="142" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="225.0" y="157" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<text x="170" y="190" font-size="13" font-weight="bold" font-family="Menlo, Consolas, monospace" fill="#3949ab">(4, 3)</text>
+<text x="150" y="212" font-size="12" fill="#555">rows add up: 2 + 2</text>
+<text x="330" y="62" font-size="12" font-family="Menlo, Consolas, monospace">concatenate(axis=1)</text>
+<rect x="330" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="341.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="352" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="363.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="374" y="76" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="385.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="330" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="341.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="352" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="363.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="374" y="98" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="385.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="396" y="76" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="407.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="418" y="76" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="429.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="440" y="76" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="451.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="396" y="98" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="407.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="418" y="98" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="429.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="440" y="98" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="451.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<text x="330" y="146" font-size="13" font-weight="bold" font-family="Menlo, Consolas, monospace" fill="#3949ab">(2, 6)</text>
+<text x="330" y="168" font-size="12" fill="#555">columns add up: 3 + 3</text>
+<text x="530" y="62" font-size="12" font-family="Menlo, Consolas, monospace">stack(axis=0)</text>
+<rect x="558" y="76" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="569.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="580" y="76" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="591.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="602" y="76" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="613.0" y="91" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="558" y="98" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="569.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="580" y="98" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="591.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="602" y="98" width="22" height="22" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="613.0" y="113" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#ef6c00">b</text>
+<rect x="558" y="76" width="66" height="44" fill="none" stroke="#ef6c00" stroke-width="2"/>
+<rect x="530" y="100" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="541.0" y="115" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="552" y="100" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="563.0" y="115" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="574" y="100" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="585.0" y="115" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="530" y="122" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="541.0" y="137" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="552" y="122" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="563.0" y="137" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="574" y="122" width="22" height="22" fill="#e0f2f1" stroke="#00897b"/>
+<text x="585.0" y="137" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#00897b">a</text>
+<rect x="530" y="100" width="66" height="44" fill="none" stroke="#00897b" stroke-width="2"/>
+<text x="638" y="96" font-size="11" fill="#ef6c00">[1]</text>
+<text x="602" y="136" font-size="11" fill="#00897b">[0]</text>
+<text x="530" y="170" font-size="13" font-weight="bold" font-family="Menlo, Consolas, monospace" fill="#3949ab">(2, 2, 3)</text>
+<text x="530" y="192" font-size="12" fill="#555">a new axis 0 of size 2,</text>
+<text x="530" y="208" font-size="12" fill="#555">like 2 images → a batch</text>
+<text x="370" y="262" text-anchor="middle" font-size="12" fill="#555">concatenate: ndim stays 2.   stack: ndim goes from 2 to 3, and every input must have exactly the same shape.</text>
+</svg>
