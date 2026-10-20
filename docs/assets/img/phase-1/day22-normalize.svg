@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs><marker id="ma" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker><marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e88e5"/></marker><marker id="mc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker><marker id="md" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker></defs>
+  <text x="20" y="26" font-weight="bold" font-size="15">Normalizing: shrink or stretch every vector onto the unit circle</text>
+  <g stroke="#90a4ae" stroke-width="1.2"><line x1="40" y1="215" x2="400" y2="215"/><line x1="190" y1="330" x2="190" y2="45"/></g>
+  <circle cx="190" cy="215" r="58" fill="#e0f2f1" fill-opacity="0.6" stroke="#00897b" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="86" y="271" font-size="11" fill="#00897b">unit circle</text>
+  <line x1="364.0" y1="157.0" x2="248.0" y2="70.0" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="5 4">
+    <animate attributeName="x1" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="364.0;364.0;245.0;245.0;364.0;364.0"/>
+    <animate attributeName="y1" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="157.0;157.0;196.7;196.7;157.0;157.0"/>
+    <animate attributeName="x2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="248.0;248.0;211.5;211.5;248.0;248.0"/>
+    <animate attributeName="y2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="70.0;70.0;161.1;161.1;70.0;70.0"/>
+  </line>
+  <line x1="190" y1="215" x2="364.0" y2="157.0" stroke="#e53935" stroke-width="3" marker-end="url(#ma)">
+    <animate attributeName="x2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="364.0;364.0;245.0;245.0;364.0;364.0"/>
+    <animate attributeName="y2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="157.0;157.0;196.7;196.7;157.0;157.0"/>
+  </line><line x1="190" y1="215" x2="248.0" y2="70.0" stroke="#1e88e5" stroke-width="3" marker-end="url(#mb)">
+    <animate attributeName="x2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="248.0;248.0;211.5;211.5;248.0;248.0"/>
+    <animate attributeName="y2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="70.0;70.0;161.1;161.1;70.0;70.0"/>
+  </line><line x1="190" y1="215" x2="103.0" y2="186.0" stroke="#00897b" stroke-width="3" marker-end="url(#mc)">
+    <animate attributeName="x2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="103.0;103.0;135.0;135.0;103.0;103.0"/>
+    <animate attributeName="y2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="186.0;186.0;196.7;196.7;186.0;186.0"/>
+  </line><line x1="190" y1="215" x2="207.4" y2="238.2" stroke="#ef6c00" stroke-width="3" marker-end="url(#md)">
+    <animate attributeName="x2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="207.4;207.4;224.8;224.8;207.4;207.4"/>
+    <animate attributeName="y2" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="238.2;238.2;261.4;261.4;238.2;238.2"/>
+  </line>
+  <text x="379.2" y="156.9" fill="#e53935" font-weight="bold" text-anchor="middle">a
+    <animate attributeName="x" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="379.2;379.2;260.2;260.2;379.2;379.2"/>
+    <animate attributeName="y" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="156.9;156.9;196.6;196.6;156.9;156.9"/>
+  </text><text x="253.9" y="60.1" fill="#1e88e5" font-weight="bold" text-anchor="middle">b
+    <animate attributeName="x" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="253.9;253.9;217.5;217.5;253.9;253.9"/>
+    <animate attributeName="y" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="60.1;60.1;151.3;151.3;60.1;60.1"/>
+  </text><text x="87.8" y="185.9" fill="#00897b" font-weight="bold" text-anchor="middle">c
+    <animate attributeName="x" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="87.8;87.8;119.8;119.8;87.8;87.8"/>
+    <animate attributeName="y" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="185.9;185.9;196.6;196.6;185.9;185.9"/>
+  </text><text x="217.0" y="256.0" fill="#ef6c00" font-weight="bold" text-anchor="middle">d
+    <animate attributeName="x" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="217.0;217.0;234.4;234.4;217.0;217.0"/>
+    <animate attributeName="y" dur="10s" repeatCount="indefinite" keyTimes="0;0.15;0.35;0.75;0.95;1" values="256.0;256.0;279.2;279.2;256.0;256.0"/>
+  </text>
+  <circle cx="190" cy="215" r="3" fill="#333"/>
+  <rect x="420" y="60" width="270" height="200" rx="8" fill="#e8eaf6"/>
+  <g opacity="1">
+    <animate attributeName="opacity" calcMode="discrete" dur="10s" repeatCount="indefinite" values="1;0;1" keyTimes="0;0.25;0.85"/>
+    <text x="555" y="86" text-anchor="middle" font-weight="bold" font-size="15">Before: any length</text><text x="555" y="120" text-anchor="middle" font-size="13">‖a‖ = 3.16,  ‖b‖ = 2.69</text><text x="555" y="146" text-anchor="middle" font-size="13">‖c‖ = 1.58,  ‖d‖ = 0.50</text><text x="555" y="190" text-anchor="middle" font-size="13" fill="#7b1fa2">distance a to b: 2.50</text><text x="555" y="214" text-anchor="middle" font-size="12" fill="#555">mixes length and direction</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" dur="10s" repeatCount="indefinite" values="0;1;0" keyTimes="0;0.25;0.85"/>
+    <text x="555" y="86" text-anchor="middle" font-weight="bold" font-size="15">After: v / ‖v‖</text><text x="555" y="120" text-anchor="middle" font-size="13">every length ‖v‖ = 1</text><text x="555" y="146" text-anchor="middle" font-size="13">directions unchanged</text><text x="555" y="190" text-anchor="middle" font-size="13" fill="#7b1fa2">distance a to b: 0.84</text><text x="555" y="214" text-anchor="middle" font-size="12" fill="#555">depends on the angle only:</text><text x="555" y="236" text-anchor="middle" font-size="13">√(2 − 2·cos θ) = √(2 − 2·0.646)</text>
+  </g>
+  <text x="555" y="290" text-anchor="middle" font-size="12" fill="#555">For unit vectors, ranking by L2 distance</text>
+  <text x="555" y="307" text-anchor="middle" font-size="12" fill="#555">and ranking by cosine similarity agree.</text>
+</svg>

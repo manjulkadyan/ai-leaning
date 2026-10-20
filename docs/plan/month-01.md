@@ -48,7 +48,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 22 | Norms and distances *(coming soon)* | 90 min |
+| 22 | [Norms and distances](../lessons/phase-1/day-22-norms-distances.md) | 90 min |
 | 23 | Rank, span and linear independence *(coming soon)* | 120 min |
 | 24 | Eigenvectors, intuitively *(coming soon)* | 120 min |
 | 25 | Projections and PCA preview *(coming soon)* | 120 min |

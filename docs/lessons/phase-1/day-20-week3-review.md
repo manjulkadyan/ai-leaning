@@ -1118,4 +1118,4 @@ Questions I missed:
 - [ ] I finished at least one stretch goal.
 - [ ] I wrote my Week 3 retro in the journal.
 
-**Next:** Week 4 begins with Day 22: Norms and distances (coming soon)
+**Next:** Week 4 begins with [Day 22: Norms and distances](day-22-norms-distances.md)

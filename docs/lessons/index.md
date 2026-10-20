@@ -36,3 +36,9 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 18 | [groupby, merge and pivot](phase-1/day-18-pandas-groupby-merge.md) |
 | 19 | [Plotting with Matplotlib](phase-1/day-19-matplotlib.md) |
 | 20 | [Week 3 review and mini-project: exploratory analysis of app data](phase-1/day-20-week3-review.md) |
+
+### Week 4: Linear algebra for ML
+
+| Day | Lesson |
+|---|---|
+| 22 | [Norms and distances](phase-1/day-22-norms-distances.md) |
