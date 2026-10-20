@@ -31,7 +31,7 @@ What's written, what's planned, and what's next. This page is updated with every
 | 24 | Eigenvectors, intuitively | ✅ |
 | 25 | Projections and PCA preview | ✅ |
 | 26 | Month 1 recap and gaps | ✅ |
-| 27–28 | Month 1 milestone project and retrospective | ⬜ |
+| 27–28 | Month 1 milestone project and retrospective | ✅ |
 
 ## Months 2–12
 

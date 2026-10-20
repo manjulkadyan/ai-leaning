@@ -737,4 +737,4 @@ Total: __ / 45
 - [ ] I put my review days (Day 27, 29, 33, 36, 40, 55) in my calendar with row numbers.
 - [ ] I copied the recap template into my journal and filled it in.
 
-**Next:** Days 27–28: Month 1 milestone (coming soon)
+**Next:** [Days 27–28: Month 1 milestone](day-27-month1-milestone.md)

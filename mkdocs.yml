@@ -116,5 +116,6 @@ nav:
           - "Day 24: Eigenvectors": lessons/phase-1/day-24-eigenvectors.md
           - "Day 25: Projections & PCA": lessons/phase-1/day-25-projections-pca.md
           - "Day 26: Month 1 recap": lessons/phase-1/day-26-month1-recap.md
+          - "Days 27–28: Month 1 milestone": lessons/phase-1/day-27-month1-milestone.md
   - Datasets: datasets.md
   - Glossary: glossary.md
