@@ -1,0 +1,487 @@
+app_id,app_name,category,rating,reviews,installs,size_mb,price_usd,has_ads,min_android,last_updated,developer_id
+com.bright.quest.x,Bright Quest X,Productivity,3.8,2581,"50,000+",47.7,0.99,No,9.0,2026-02-10,D025
+com.quick.cleaner,Quick Cleaner,Productivity,3.9,65066,"1,000,000+",11.4,0.0,No,7.0,2024-12-19,D020
+com.pocket.radio.kids,Pocket Radio Kids,Tools,3.7,54869,"1,000,000+",26.8,0.0,Yes,7.0,2026-05-24,D025
+com.lumen.learn.pro,Lumen Learn Pro,Games,4.0,4936,"100,000+",202.2,4.99,No,9.0,2026-03-09,D009
+com.quick.quest,Quick Quest,productivity,,5041,"100,000+",29.5,0.0,Yes,9.0,2025-12-07,D001
+com.orbit.tasks.kids,Orbit Tasks Kids,Finance,4.8,197,"5,000+",84.3,0.0,Yes,9.0,2023-02-19,D040
+com.calm.camera.plus,Calm Camera Plus,Education,4.6,1127,"50,000+",94.2,4.99,No,13,2025-11-03,D035
+com.spark.camera.x,Spark Camera X,Tools,,9022,"100,000+",11.5,0.0,No,7.0,2025-05-06,D029
+com.spark.camera.pro,Spark Camera Pro,Tools,4.4,1569,"50,000+",8.4,0.0,Yes,10,2026-09-22,D013
+com.lumen.wallet,Lumen Wallet,Productivity,4.5,14371,"500,000+",64.2,0.0,Yes,10,2026-02-02,D018
+com.pixel.coach,Pixel Coach,Productivity,4.2,1003,"10,000+",26.7,0.0,Yes,10,2026-07-17,D039
+com.bright.camera,Bright Camera,Productivity,4.4,191,"10,000+",20.9,0.0,Yes,11,2026-04-17,D010
+com.quick.camera.go,Quick Camera Go,Games,3.7,2556,"100,000+",,1.99,No,9.0,2024-12-29,D026
+com.tiny.fit.plus,Tiny Fit Plus,Productivity,4.9,1430,"50,000+",14.6,0.0,Yes,10,2026-06-26,D001
+com.zen.budget.plus,Zen Budget Plus,Health & Fitness,4.1,4153,"100,000+",25.2,0.0,Yes,12,2026-02-10,D016
+com.bright.beats.go,Bright Beats Go,Health & Fitness,4.0,5358,"100,000+",15.4,0.0,No,11,2026-09-18,D035
+com.mega.beats.lite,Mega Beats Lite,Finance,4.0,46668,"1,000,000+",11.7,0.0,No,8.0,2025-01-09,D009
+com.zen.camera.pro,Zen Camera Pro,productivity,4.9,322,"10,000+",80.8,0.0,Yes,13,2026-02-08,D002
+com.lumen.tutor,Lumen Tutor,Health & Fitness,3.6,258,"5,000+",38.5,0.0,Yes,11,2025-12-17,D026
+com.pixel.budget.x,Pixel Budget X,Tools,4.6,3636,"100,000+",83.4,1.99,No,10,2026-08-15,D038
+com.smart.wallet,Smart Wallet,Productivity,3.7,1260,"50,000+",38.9,0.0,Yes,11,2025-05-09,D037
+com.pocket.runner,Pocket Runner,Photography,4.2,2890,"10,000+",51.5,0.0,Yes,11,2026-08-21,D029
+com.pixel.scanner.kids,Pixel Scanner Kids,Finance,4.0,16720,"500,000+",20.9,2.99,No,9.0,2026-09-04,D033
+com.pocket.notes.go,Pocket Notes Go,Games,3.7,8409,"100,000+",131.8,2.99,No,8.0,2026-06-05,D035
+com.swift.tasks.lite,Swift Tasks Lite,Games,4.5,70,"1,000+",151.7,0.0,Yes,9.0,2026-03-16,D036
+com.smart.budget.lite,Smart Budget Lite,Education,4.2,8701,"100,000+",36.8,0.0,Yes,8.0,2024-08-30,D020
+com.swift.cleaner.plus,Swift Cleaner Plus,productivity,3.6,2718,"10,000+",22.2,1.99,No,13,2025-08-23,D017
+com.spark.notes,Spark Notes,Finance,,1,"1,000+",30.3,0.0,Yes,13,2025-01-20,D035
+com.pocket.quest.lite,Pocket Quest Lite,Productivity,3.9,19471,"100,000+",21.4,0.0,No,11,2026-08-10,D015
+com.swift.quest,Swift Quest,Education,3.7,193,"1,000+",42.8,0.0,Yes,12,2026-04-01,D021
+com.echo.coach.go,Echo Coach Go,tools,4.3,13539,"500,000+",15.2,0.0,Yes,8.0,2026-06-06,D031
+com.pocket.notes,Pocket Notes,Education,3.4,2,"1,000+",125.7,0.0,Yes,11,2026-09-08,D016
+com.orbit.radio.plus,Orbit Radio Plus,Tools,3.5,1018,"50,000+",26.6,0.0,Yes,12,2026-04-11,D014
+com.nova.learn.x,Nova Learn X,games,4.3,292,"10,000+",77.3,0.0,Yes,9.0,2026-02-20,D026
+com.smart.budget.pro,Smart Budget Pro,Education,4.1,1179,"10,000+",45.1,0.0,No,11,2025-04-26,D019
+com.tiny.beats,Tiny Beats,Finance,4.5,2962,"50,000+",19.6,0.0,No,10,2025-12-24,D035
+com.nova.runner.x,Nova Runner X,Productivity,4.3,2008,"50,000+",47.2,0.0,Yes,8.0,2026-03-02,D024
+com.nova.tasks,Nova Tasks,Games,4.2,92,"1,000+",98.6,2.99,No,12,2026-09-22,D013
+com.mega.coach.lite,Mega Coach Lite,Games,4.7,152767,"5,000,000+",146.5,0.0,Yes,10,2026-01-18,D017
+com.tiny.quest.lite,Tiny Quest Lite,Finance,3.9,1527,"50,000+",13.9,0.0,Yes,8.0,2025-08-23,D026
+com.lumen.cleaner.plus,Lumen Cleaner Plus,Tools,3.6,453,"10,000+",37.5,0.0,No,10,2026-03-20,D014
+com.lumen.fit.x,Lumen Fit X,Games,,43845,"1,000,000+",98.0,0.0,No,10,2026-03-20,D005
+com.zen.coach,Zen Coach,PRODUCTIVITY,4.1,40294,"500,000+",8.3,1.99,No,11,2026-09-30,D028
+com.quick.tasks,Quick Tasks,Productivity,4.7,9572,"500,000+",40.0,0.0,Yes,9.0,2026-09-25,D038
+com.smart.radio.pro,Smart Radio Pro,Music & Audio,3.4,177,"10,000+",14.3,0.0,Yes,11,2025-12-30,D025
+com.zen.quest.go,Zen Quest Go,Photography,3.1,12167,"100,000+",16.6,1.99,No,8.0,2026-05-31,D019
+com.pixel.learn.lite,Pixel Learn Lite,Games,4.4,5344,"100,000+",79.1,0.0,Yes,7.0,2026-06-30,D015
+com.daily.learn.pro,Daily Learn Pro,Games,4.7,3057,"10,000+",117.9,0.0,Yes,11,2026-07-08,D027
+com.calm.coach,Calm Coach,Music & Audio,3.6,1453,"10,000+",53.9,0.0,Yes,11,2026-02-24,D005
+com.nova.fit,Nova Fit,Productivity ,3.7,1838,"100,000+",22.0,0.0,No,10,2026-04-26,D040
+com.zen.learn,Zen Learn,Tools,4.5,302,"10,000+",29.6,0.0,Yes,12,2026-08-28,D009
+com.tiny.learn.pro,Tiny Learn Pro,Productivity,4.1,1538,"10,000+",24.1,0.0,No,9.0,2026-05-08,D006
+com.mega.tutor.x,Mega Tutor X,Music & Audio,4.1,17596,"100,000+",32.4,0.0,No,11,2026-05-30,D037
+com.lumen.tasks,Lumen Tasks,Games,3.8,4513,"100,000+",58.6,0.0,Yes,13,2026-06-19,D036
+com.quick.lens,Quick Lens,Productivity,4.2,77959,"1,000,000+",34.2,0.0,Yes,11,2026-01-29,D006
+com.tiny.budget,Tiny Budget,Education,3.4,37,"1,000+",48.8,0.0,Yes,10,2025-03-03,D020
+com.bright.runner,Bright Runner,Finance,4.2,159,"1,000+",13.5,0.0,Yes,8.0,2026-04-09,D032
+com.mega.lens.lite,Mega Lens Lite,Photography,4.6,413,"10,000+",45.6,0.0,Yes,8.0,2026-09-02,D036
+com.pixel.radio.kids,Pixel Radio Kids,Tools,4.5,463,"5,000+",64.3,0.0,No,8.0,2026-06-10,D011
+com.pocket.budget,Pocket Budget,Finance,4.1,267,"5,000+",15.3,1.99,No,10,2025-06-10,D005
+com.quick.beats.plus,Quick Beats Plus,Photography,4.6,210,"5,000+",9.6,0.0,Yes,11,2026-06-04,D008
+com.swift.runner,Swift Runner,Health & Fitness,3.8,335,"5,000+",36.4,0.0,No,12,2026-09-04,D005
+com.echo.notes.plus,Echo Notes Plus,Games,3.9,4781,"100,000+",145.5,0.0,No,13,2026-04-12,D013
+com.orbit.cleaner,Orbit Cleaner,Photography,4.3,4003,"100,000+",37.1,0.0,No,12,2026-05-31,D014
+com.pixel.camera,Pixel Camera,Education,3.0,64988,"1,000,000+",60.9,0.0,No,9.0,2026-06-24,D002
+com.smart.budget.plus,Smart Budget Plus,Education,4.4,39,"1,000+",58.6,0.0,Yes,13,2025-02-24,D014
+com.bright.coach.x,Bright Coach X,Tools,4.8,16489,"500,000+",18.9,0.0,Yes,8.0,2026-03-20,D005
+com.tiny.fit,Tiny Fit,Games,4.0,261,"5,000+",47.5,0.0,Yes,10,2025-11-29,D018
+com.daily.camera,Daily Camera,Games,4.1,142,"1,000+",72.3,0.0,Yes,8.0,2026-08-13,D039
+com.echo.quest.pro,Echo Quest Pro,Photography,4.4,381,"5,000+",43.9,0.0,No,8.0,2026-07-11,D027
+com.spark.camera.go,Spark Camera Go,Health & Fitness,3.5,1341,"10,000+",28.6,0.0,Yes,10,2026-01-01,D027
+com.daily.budget.lite,Daily Budget Lite,Tools,5.0,250,"5,000+",8.4,0.0,Yes,10,2026-06-10,D004
+com.echo.notes.kids,Echo Notes Kids,Music & Audio,4.1,117,"5,000+",7.9,0.0,Yes,7.0,2026-05-31,D040
+com.mega.tasks,Mega Tasks,Games,4.4,674533,"10,000,000+",75.7,1.99,No,10,2026-06-22,D034
+com.nova.quest.kids,Nova Quest Kids,Games,4.7,2402,"50,000+",86.6,0.0,Yes,11,2025-10-03,D008
+com.smart.quest.plus,Smart Quest Plus,Finance,3.7,140,"1,000+",37.3,0.0,No,10,2025-09-28,D013
+com.spark.radio,Spark Radio,Photography,4.5,149,"1,000+",16.2,0.0,No,11,2025-09-12,D028
+com.lumen.notes,Lumen Notes,Music & Audio,4.3,7797,"100,000+",49.9,0.0,Yes,12,2026-07-26,D025
+com.bright.camera.pro,Bright Camera Pro,Games,4.3,1422,"50,000+",82.4,0.0,Yes,9.0,2026-09-06,D033
+com.nova.tutor,Nova Tutor,Health & Fitness,4.3,3238,"100,000+",41.2,0.0,Yes,8.0,2026-01-24,D014
+com.pocket.learn,Pocket Learn,Health & Fitness,3.3,7476,"100,000+",17.0,2.99,No,10,2026-06-18,D023
+com.orbit.runner.x,Orbit Runner X,Tools,4.3,1154,"50,000+",27.7,0.0,No,11,2026-05-09,D029
+com.mega.coach.go,Mega Coach Go,Productivity,5.0,30302,"500,000+",31.3,0.0,Yes,11,2026-05-18,D040
+com.zen.coach.kids,Zen Coach Kids,Education,4.4,1314,"10,000+",8.6,0.0,No,8.0,2026-04-27,D038
+com.tiny.radio,Tiny Radio,Games,4.9,506,"10,000+",78.6,0.0,No,8.0,2026-01-07,D019
+com.lumen.coach.pro,Lumen Coach Pro,Games,4.5,471,"10,000+",24.7,0.0,Yes,11,2025-06-17,D037
+com.orbit.fit,Orbit Fit,Productivity,3.5,6638,"50,000+",23.9,9.99,No,10,2025-11-14,D029
+com.nova.beats.plus,Nova Beats Plus,Games,4.5,4817,"100,000+",55.5,0.0,No,11,2026-02-25,D012
+com.daily.runner.go,Daily Runner Go,Games,5.0,3197,"100,000+",70.3,0.0,Yes,8.0,2026-01-26,D022
+com.mega.notes,Mega Notes,Productivity,4.4,29457,"100,000+",16.4,0.0,No,13,2025-01-11,D038
+com.calm.tasks,Calm Tasks,Finance,3.5,986,"10,000+",30.7,0.0,Yes,9.0,2025-09-23,D037
+com.mega.notes.x,Mega Notes X,Health & Fitness,4.6,509,"10,000+",31.1,4.99,No,9.0,2026-09-09,D007
+com.spark.coach,Spark Coach,Games,4.1,772,"10,000+",188.1,4.99,No,13,2026-05-17,D031
+com.nova.lens.x,Nova Lens X,Games,4.2,4254,"100,000+",50.6,9.99,No,10,2025-07-12,D023
+com.mega.wallet,Mega Wallet,Finance,3.6,52,"1,000+",20.8,0.0,No,10,2026-08-05,D023
+com.spark.camera,Spark Camera,Health & Fitness,4.4,158,"1,000+",32.6,0.0,Yes,13,2026-07-01,D019
+com.zen.wallet.pro,Zen Wallet Pro,Games,3.4,1576,"10,000+",90.9,0.0,Yes,11,2026-03-30,D021
+com.daily.runner,Daily Runner,Games,4.7,1106,"50,000+",77.0,9.99,No,9.0,2026-01-13,D038
+com.tiny.fit.x,Tiny Fit X,Tools,4.6,2561,"100,000+",24.7,0.0,No,13,2026-07-16,D024
+com.tiny.coach.plus,Tiny Coach Plus,Games,3.6,239,"5,000+",55.7,0.0,Yes,12,2026-02-24,D028
+com.orbit.wallet.pro,Orbit Wallet Pro,Games,4.7,3232,"100,000+",108.7,0.0,Yes,11,2026-04-21,D035
+com.quick.budget.kids,Quick Budget Kids,Music & Audio,4.5,521,"10,000+",23.0,0.0,No,13,2025-01-10,D004
+com.lumen.lens,Lumen Lens,Productivity,3.3,1509,"10,000+",23.1,0.0,Yes,7.0,2025-06-02,D018
+com.calm.tasks.kids,Calm Tasks Kids,Productivity,4.0,326,"5,000+",27.9,0.0,Yes,7.0,2026-05-20,D017
+com.zen.budget.lite,Zen Budget Lite,Games,3.5,4116,"50,000+",,0.0,Yes,7.0,2026-03-02,D020
+com.calm.quest,Calm Quest,Photography,4.2,43372,"500,000+",85.6,0.0,No,7.0,2026-05-04,D019
+com.bright.cleaner,Bright Cleaner,Tools,4.1,200,"5,000+",52.9,0.0,No,11,2025-02-03,D029
+com.smart.notes,Smart Notes,Games,4.9,103411,"1,000,000+",55.5,0.0,No,9.0,2026-08-14,D038
+com.mega.quest.lite,Mega Quest Lite,Tools,3.4,5921,"10,000+",16.2,0.0,No,11,2026-01-09,D036
+com.swift.lens,Swift Lens,Health & Fitness,3.8,867,"10,000+",8.9,0.0,Yes,13,2026-03-13,D037
+com.pocket.lens.go,Pocket Lens Go,Health & Fitness,3.5,18,"1,000+",9.0,0.0,Yes,10,2026-08-26,D004
+com.smart.cleaner.kids,Smart Cleaner Kids,Games,4.3,3267,"100,000+",56.1,0.0,Yes,7.0,2025-10-10,D008
+com.orbit.quest.x,Orbit Quest X,Photography,4.2,1701,"50,000+",24.7,0.0,No,9.0,2026-09-07,D032
+com.pocket.coach.go,Pocket Coach Go,Education,3.7,662,"10,000+",30.6,0.0,Yes,8.0,2026-08-12,D027
+com.spark.quest,Spark Quest,Tools,4.0,317,"10,000+",31.9,0.0,No,13,2026-08-05,D008
+com.daily.coach.x,Daily Coach X,Games,,661,"10,000+",73.8,0.0,Yes,8.0,2026-01-22,D032
+com.mega.runner,Mega Runner,Health & Fitness,3.8,2579,"100,000+",20.8,0.0,Yes,8.0,2025-03-29,D012
+com.quick.radio.lite,Quick Radio Lite, Games,3.4,4577,"100,000+",90.4,0.0,Yes,10,2026-09-04,D020
+com.mega.fit,Mega Fit,Music & Audio,4.4,10344,"100,000+",93.5,0.0,Yes,10,2025-11-12,D029
+com.calm.runner,Calm Runner,Games,4.2,243129,"10,000,000+",28.8,0.0,Yes,11,2026-04-30,D031
+com.nova.notes,Nova Notes,finance,3.9,252,"10,000+",18.8,0.0,Yes,10,2026-07-28,D012
+com.smart.runner.x,Smart Runner X,Games,4.6,7436,"100,000+",112.0,0.0,Yes,9.0,2026-06-07,D037
+com.smart.tutor.x,Smart Tutor X,Productivity,3.6,48169,"1,000,000+",10.3,0.0,No,8.0,2026-09-30,D014
+com.lumen.notes.go,Lumen Notes Go,Health & Fitness,4.2,712,"10,000+",32.9,0.0,No,11,2026-08-22,D007
+com.daily.learn.lite,Daily Learn Lite,Education,4.1,690677,"10,000,000+",Varies with device,0.0,No,10,2026-09-11,D006
+com.daily.scanner.go,Daily Scanner Go,Games,4.0,92,"1,000+",91.2,0.0,Yes,7.0,2026-08-21,D025
+com.spark.learn.x,Spark Learn X,Productivity,4.7,8480,"100,000+",18.1,0.0,No,8.0,2026-05-01,D035
+com.calm.lens.x,Calm Lens X,Games,4.2,12993,"100,000+",40.1,0.0,Yes,10,2025-03-16,D028
+com.tiny.runner.pro,Tiny Runner Pro,Music & Audio,4.9,22,"1,000+",46.4,2.99,No,12,2024-05-11,D009
+com.orbit.notes,Orbit Notes,Education,3.8,857,"5,000+",18.1,0.0,Yes,12,2026-08-10,D008
+com.echo.budget.pro,Echo Budget Pro,Health & Fitness,4.6,51,"1,000+",15.9,0.0,No,10,2025-05-22,D031
+com.pocket.wallet.go,Pocket Wallet Go,Photography,3.5,492,"10,000+",15.9,0.0,Yes,10,2026-02-26,D001
+com.orbit.quest,Orbit Quest,Productivity,3.9,96,"1,000+",15.2,0.0,No,11,2025-12-15,D021
+com.swift.cleaner,Swift Cleaner,Games,4.5,6352,"100,000+",49.1,0.0,Yes,11,2026-03-29,D032
+com.smart.tutor.kids,Smart Tutor Kids,Music & Audio,4.0,34462,"500,000+",34.7,0.0,No,10,2026-07-13,D034
+com.pixel.budget.go,Pixel Budget Go,Productivity,4.0,4206,"100,000+",42.8,0.0,No,10,2026-09-21,D007
+com.quick.runner,Quick Runner,Games,4.5,9445,"100,000+",55.2,0.0,Yes,11,2026-07-26,D040
+com.orbit.radio.go,Orbit Radio Go,Health & Fitness,3.8,1440,"10,000+",65.3,0.0,Yes,8.0,2026-07-09,D033
+com.calm.cleaner.plus,Calm Cleaner Plus,Games,5.0,102896,"5,000,000+",114.8,0.0,Yes,8.0,2026-07-21,D007
+com.zen.beats.go,Zen Beats Go,Education,4.5,2984,"100,000+",27.0,0.0,Yes,12,2026-08-08,D027
+com.bright.coach.kids,Bright Coach Kids,Finance,3.8,21065,"1,000,000+",14.1,0.0,No,9.0,2026-04-05,D034
+com.zen.radio.plus,Zen Radio Plus,Productivity,4.5,1767,"10,000+",24.6,0.0,Yes,11,2026-09-30,D030
+com.nova.learn.plus,Nova Learn Plus,Games,,77,"1,000+",37.4,0.0,No,8.0,2026-09-19,D002
+com.calm.cleaner,Calm Cleaner,FINANCE,4.5,751,"10,000+",22.8,0.0,Yes,11,2026-06-02,D034
+com.smart.budget,Smart Budget,Games,4.5,491,"10,000+",41.8,0.0,Yes,12,2026-05-12,D019
+com.pocket.radio.kids,Pocket Radio Kids,Tools,3.7,54869,"1,000,000+",26.8,0.0,Yes,7.0,2026-05-24,D025
+com.nova.quest,Nova Quest,Tools,4.4,645,"10,000+",26.1,0.0,Yes,10,2026-01-13,D037
+com.orbit.budget.go,Orbit Budget Go,Health & Fitness,4.3,116,"1,000+",11.5,0.0,No,10,2025-09-10,D021
+com.lumen.fit.go,Lumen Fit Go,Games,4.7,507,"10,000+",78.4,0.0,Yes,8.0,2026-09-12,D021
+com.spark.scanner,Spark Scanner,Education,3.5,64328,"1,000,000+",49.0,0.0,Yes,8.0,2026-02-01,D001
+com.daily.tutor.lite,Daily Tutor Lite,Finance,4.0,4007,"50,000+",9.5,0.0,Yes,10,2024-11-20,D015
+com.quick.radio,Quick Radio,Tools,3.8,2047,"10,000+",16.9,0.0,Yes,9.0,2025-07-20,D030
+com.echo.notes.lite,Echo Notes Lite,Education,4.3,12,"1,000+",11.0,0.0,Yes,9.0,2026-09-23,D022
+com.spark.lens,Spark Lens,Games,4.4,858,"10,000+",44.9,0.0,No,12,2026-08-29,D025
+com.lumen.budget.plus,Lumen Budget Plus,Music & Audio,4.3,1986,"50,000+",37.1,0.0,Yes,8.0,2026-03-08,D007
+com.smart.radio.go,Smart Radio Go,Finance,3.8,39563,"500,000+",26.3,0.0,Yes,11,2026-08-13,D023
+com.mega.runner.kids,Mega Runner Kids,Games,3.6,316,"5,000+",42.4,0.0,No,10,2026-08-26,D020
+com.smart.camera.go,Smart Camera Go,Games,4.0,167,"5,000+",122.7,0.0,Yes,8.0,2026-02-01,D030
+com.pixel.budget,Pixel Budget,Games,3.3,28622,"1,000,000+",72.7,0.0,Yes,11,2026-09-10,D010
+com.spark.beats.plus,Spark Beats Plus,Productivity,4.2,9860,"100,000+",45.4,0.0,Yes,12,2025-10-25,D028
+com.pixel.fit,Pixel Fit,Games,5.0,72984,"1,000,000+",45.7,0.0,Yes,10,2026-06-27,D007
+com.pocket.budget.x,Pocket Budget X,Productivity,5.0,2163,"10,000+",44.4,0.0,Yes,10,2026-05-05,D024
+com.pixel.camera.lite,Pixel Camera Lite,Health & Fitness,4.6,17021,"500,000+",20.2,0.0,Yes,8.0,2026-03-23,D016
+com.bright.radio.x,Bright Radio X,Photography,3.7,1814,"50,000+",21.5,0.0,Yes,11,2026-06-23,D004
+com.calm.tasks.go,Calm Tasks Go,Games,3.8,525,"10,000+",205.2,0.0,No,8.0,2026-07-30,D005
+com.tiny.runner,Tiny Runner,Productivity,3.6,1029,"10,000+",17.2,0.0,No,11,2026-05-08,D039
+com.echo.beats,Echo Beats,Games,4.6,20223,"500,000+",136.6,0.0,Yes,11,2025-11-05,D006
+com.spark.beats,Spark Beats,Games,4.1,13412,"500,000+",167.0,0.0,Yes,10,2025-10-01,D004
+com.tiny.learn.x,Tiny Learn X,Education,3.9,1967,"50,000+",22.2,0.0,Yes,11,2026-08-30,D005
+com.nova.camera,Nova Camera,Music & Audio,4.3,14337,"100,000+",11.1,0.0,Yes,10,2024-09-12,D038
+com.quick.budget,Quick Budget,Music & Audio,4.7,214761,"10,000,000+",29.4,0.0,Yes,11,2025-11-26,D026
+com.tiny.budget.x,Tiny Budget X,Photography,3.5,157,"5,000+",22.0,0.0,Yes,11,2025-10-16,D008
+com.smart.scanner,Smart Scanner,MUSIC & AUDIO,4.6,61,"1,000+",15.5,0.0,No,9.0,2026-07-06,D003
+com.swift.learn,Swift Learn,Education,3.1,21024,"1,000,000+",11.0,2.99,No,11,2025-03-18,D008
+com.bright.fit,Bright Fit,Productivity,3.6,965,"10,000+",49.0,0.0,No,11,2026-09-10,D024
+com.spark.runner,Spark Runner,Music & Audio,4.7,529,"10,000+",26.1,0.0,Yes,11,2026-08-29,D039
+com.calm.learn,Calm Learn,Education,4.7,5035,"10,000+",18.2,0.0,No,13,2026-08-17,D032
+com.tiny.notes,Tiny Notes,Tools,4.5,93,"1,000+",37.2,0.0,Yes,8.0,2025-12-27,D027
+com.nova.radio.pro,Nova Radio Pro,Games,4.8,669,"10,000+",172.6,0.0,Yes,9.0,2026-06-12,D025
+com.quick.wallet,Quick Wallet, Games,3.7,438,"10,000+",69.5,0.0,Yes,11,2026-07-30,D012
+com.nova.scanner.kids,Nova Scanner Kids,Tools,4.6,896,"5,000+",Varies with device,0.0,No,10,2026-07-18,D036
+com.daily.coach,Daily Coach,Photography,3.9,235,"5,000+",12.5,0.0,No,7.0,2026-06-10,D016
+com.echo.notes,Echo Notes,Games,4.8,2831,"50,000+",103.0,0.0,No,12,2026-09-04,D020
+com.calm.wallet,Calm Wallet,Health & Fitness,3.9,10,"1,000+",17.9,0.0,Yes,11,2026-06-16,D016
+com.pixel.tasks.go,Pixel Tasks Go,Photography,5.0,1146,"10,000+",17.1,0.0,Yes,13,2026-09-23,D019
+com.spark.learn,Spark Learn,Games,4.2,4771,"100,000+",147.0,0.0,Yes,11,2025-07-30,D017
+com.calm.camera,Calm Camera,Finance,,3237,"100,000+",47.7,1.99,No,10,2026-08-15,D005
+com.lumen.radio,Lumen Radio,Education,4.5,4639,"100,000+",36.6,0.0,Yes,9.0,2026-06-03,D001
+com.orbit.budget,Orbit Budget,Tools,4.4,84585,"1,000,000+",46.6,0.0,Yes,10,2026-08-06,D021
+com.mega.lens.pro,Mega Lens Pro,Productivity,4.6,49499,"1,000,000+",20.7,0.0,Yes,10,2025-10-30,D012
+com.mega.tutor,Mega Tutor,Education,4.5,199,"1,000+",32.3,0.0,Yes,13,2026-02-22,D038
+com.pocket.wallet.plus,Pocket Wallet Plus,Tools,3.8,14989,"100,000+",46.7,0.0,No,10,2025-11-13,D029
+com.pixel.tasks.kids,Pixel Tasks Kids,Tools,3.7,269,"10,000+",22.6,0.0,Yes,9.0,2026-09-12,D019
+com.quick.camera.plus,Quick Camera Plus,Tools,4.5,36,"1,000+",6.5,0.0,Yes,11,2025-08-11,D019
+com.swift.tasks,Swift Tasks,Music & Audio,4.0,56169,"1,000,000+",16.0,0.0,No,10,2025-04-02,D033
+com.orbit.lens.kids,Orbit Lens Kids,Games,4.1,214,"10,000+",43.1,0.0,Yes,10,2026-01-27,D011
+com.lumen.quest,Lumen Quest,Games,4.9,13905,"500,000+",203.7,9.99,No,13,2026-05-25,D034
+com.nova.lens.plus,Nova Lens Plus,Tools,4.6,6,"1,000+",33.5,0.0,No,9.0,2026-05-02,D003
+com.nova.runner,Nova Runner,Productivity,4.0,35,"1,000+",20.7,0.0,Yes,12,2025-10-07,D027
+com.bright.quest.kids,Bright Quest Kids,Tools,3.7,3845,"100,000+",21.3,0.0,No,9.0,2025-09-23,D013
+com.orbit.quest.plus,Orbit Quest Plus,Education,4.5,60,"1,000+",17.2,0.0,Yes,13,2024-10-05,D003
+com.tiny.tutor,Tiny Tutor,Tools,3.5,3364,"100,000+",21.9,0.0,No,10,2026-06-27,D013
+com.swift.beats,Swift Beats,Education,4.8,2621,"50,000+",18.4,0.0,No,10,2026-09-04,D040
+com.lumen.beats,Lumen Beats,Photography,4.7,98,"1,000+",20.9,0.0,Yes,12,2026-05-14,D029
+com.orbit.wallet,Orbit Wallet,Music & Audio,3.5,557,"10,000+",17.9,0.0,Yes,13,2026-05-20,D006
+com.pixel.notes,Pixel Notes,Tools,3.1,2061,"100,000+",18.7,0.0,Yes,8.0,2026-05-14,D014
+com.pixel.notes.x,Pixel Notes X,Tools,3.5,23036,"1,000,000+",42.3,0.0,Yes,12,2026-07-18,D022
+com.echo.tasks,Echo Tasks,Education,3.8,10349,"100,000+",,0.0,Yes,11,2026-04-12,D029
+com.quick.tutor,Quick Tutor,Music & Audio,4.6,438,"10,000+",20.2,0.0,Yes,11,2025-06-16,D006
+com.lumen.camera,Lumen Camera,Music & Audio,5.0,619,"10,000+",18.6,0.0,Yes,9.0,2026-04-17,D027
+com.orbit.scanner,Orbit Scanner,Games,4.6,150,"1,000+",87.6,0.0,Yes,7.0,2026-09-11,D040
+com.smart.runner,Smart Runner,Productivity,4.4,1329,"50,000+",15.6,9.99,No,11,2026-05-29,D007
+com.lumen.coach,Lumen Coach,Education,3.7,5316,"100,000+",28.4,0.0,Yes,10,2026-04-17,D028
+com.daily.cleaner.go,Daily Cleaner Go,Productivity,4.6,280,"5,000+",52.8,0.0,Yes,7.0,2026-02-14,D021
+com.spark.fit.x,Spark Fit X,Productivity,4.5,176,"5,000+",19.2,0.0,Yes,10,2025-09-20,D013
+com.calm.radio.pro,Calm Radio Pro,Education,3.9,48,"1,000+",16.0,0.0,Yes,9.0,2025-12-26,D026
+com.tiny.quest.x,Tiny Quest X,Photography,4.5,141,"1,000+",9.0,0.0,Yes,10,2025-08-06,D022
+com.tiny.camera.plus,Tiny Camera Plus,Photography,4.0,724,"10,000+",22.7,0.0,Yes,8.0,2026-06-08,D019
+com.smart.learn.x,Smart Learn X,Health & Fitness,4.3,54862,"500,000+",100.9,0.0,Yes,8.0,2025-01-24,D015
+com.pocket.radio,Pocket Radio,Education,3.5,5623,"100,000+",17.1,0.0,Yes,10,2025-09-04,D024
+com.echo.tutor,Echo Tutor,Games,3.7,76,"1,000+",95.0,0.0,Yes,11,2026-03-12,D038
+com.spark.fit,Spark Fit,Education,3.5,3439,"10,000+",6.1,0.0,Yes,12,2026-09-09,D001
+com.tiny.notes.x,Tiny Notes X,Productivity,4.7,1720,"10,000+",43.2,0.0,Yes,9.0,2025-12-22,D015
+com.pocket.fit,Pocket Fit,Productivity,4.2,853,"10,000+",30.8,0.0,No,8.0,2026-09-15,D019
+com.bright.coach,Bright Coach,Productivity,4.8,23,"1,000+",35.3,0.0,Yes,12,2026-07-21,D029
+com.zen.tutor,Zen Tutor,Tools,4.9,6494,"100,000+",6.7,0.0,Yes,8.0,2025-10-10,D011
+com.daily.wallet,Daily Wallet,Games,4.0,88,"1,000+",40.0,0.0,Yes,8.0,2026-07-18,D003
+com.mega.cleaner.go,Mega Cleaner Go,Games,4.6,20676,"100,000+",26.1,0.0,No,10,2026-01-22,D030
+com.swift.wallet,Swift Wallet,Productivity,4.0,335,"5,000+",19.7,0.0,No,12,2026-04-04,D011
+com.daily.tutor.kids,Daily Tutor Kids,Health & Fitness,4.4,2384,"50,000+",22.0,0.0,Yes,10,2026-06-06,D020
+com.spark.quest.x,Spark Quest X,Tools,3.7,3614,"100,000+",16.0,9.99,No,13,2026-08-26,D099
+com.daily.fit,Daily Fit,music & audio,3.4,14796,"500,000+",37.5,0.0,No,11,2026-06-22,D030
+com.zen.beats,Zen Beats,Finance,4.2,1297,"10,000+",27.4,0.0,Yes,11,2026-04-14,D024
+com.lumen.cleaner.x,Lumen Cleaner X,Games,5.0,411,"10,000+",49.5,0.0,Yes,8.0,2025-07-21,D014
+com.zen.quest,Zen Quest,Tools,3.3,80,"1,000+",19.9,0.0,Yes,10,2025-06-06,D023
+com.nova.camera.x,Nova Camera X,Games,4.1,1033,"10,000+",93.8,0.0,Yes,10,2026-06-19,D033
+com.tiny.radio.plus,Tiny Radio Plus,Health & Fitness,4.6,135,"5,000+",12.5,0.0,No,12,2026-08-15,D009
+com.mega.camera,Mega Camera,Education,3.7,937,"10,000+",19.6,0.0,Yes,10,2026-09-24,D015
+com.pixel.wallet.go,Pixel Wallet Go,Games,4.4,2937,"100,000+",76.7,0.0,Yes,12,2026-07-09,D020
+com.pixel.learn,Pixel Learn,Games,4.3,27815,"500,000+",42.1,0.0,No,7.0,2026-04-12,D009
+com.quick.beats,Quick Beats,Tools,4.2,19472,"100,000+",22.0,0.0,No,8.0,2025-12-29,D032
+com.orbit.tasks,Orbit Tasks,Games,3.8,46496,"1,000,000+",21.7,0.0,Yes,10,2025-06-18,D030
+com.nova.wallet,Nova Wallet,Photography ,3.7,6660,"100,000+",31.3,0.0,No,13,2026-05-07,D018
+com.mega.scanner,Mega Scanner,Photography,4.0,6642,"100,000+",20.5,0.0,Yes,9.0,2025-12-23,D029
+com.calm.tutor.go,Calm Tutor Go,Health & Fitness,3.4,590,"10,000+",14.3,9.99,No,8.0,2025-02-23,D027
+com.pixel.runner,Pixel Runner,Tools,3.6,24136,"500,000+",32.8,0.0,Yes,10,2025-06-19,D015
+com.tiny.lens,Tiny Lens,Productivity,4.4,196,"1,000+",66.1,0.0,Yes,9.0,2026-09-09,D029
+com.calm.camera.kids,Calm Camera Kids,Tools,3.9,371,"1,000+",17.4,0.0,Yes,10,2023-10-20,D034
+com.nova.scanner.x,Nova Scanner X,Games,5.0,1918,"50,000+",63.1,0.0,Yes,11,2025-03-11,D020
+com.echo.notes.go,Echo Notes Go,Games,4.4,25872,"1,000,000+",89.1,0.0,Yes,8.0,2026-08-16,D022
+com.spark.scanner.kids,Spark Scanner Kids,Finance,4.4,7489,"100,000+",7.2,0.0,Yes,7.0,2026-08-31,D008
+com.daily.radio,Daily Radio,Productivity,,1945,"10,000+",40.0,0.0,Yes,12,2026-01-20,D032
+com.lumen.notes.x,Lumen Notes X,Tools,4.2,46546,"1,000,000+",,0.0,Yes,13,2026-08-12,D038
+com.zen.cleaner,Zen Cleaner,Photography,4.0,6483,"100,000+",32.4,0.0,No,10,2025-12-14,D003
+com.pixel.coach.pro,Pixel Coach Pro,Photography,4.0,6741,"100,000+",21.4,1.99,No,8.0,2026-06-22,D035
+com.pixel.radio,Pixel Radio,Productivity,3.1,34854,"100,000+",10.7,0.0,Yes,11,2026-05-11,D020
+com.smart.radio,Smart Radio,Tools,4.2,566,"10,000+",57.4,0.0,Yes,9.0,2026-05-27,D020
+com.echo.tasks.x,Echo Tasks X,Tools,4.8,912,"10,000+",13.1,0.0,Yes,10,2026-06-22,D038
+com.echo.wallet,Echo Wallet,Education,3.8,1242,"50,000+",12.4,0.0,Yes,8.0,2026-09-24,D015
+com.smart.notes.kids,Smart Notes Kids,Games,4.5,4644,"10,000+",78.6,0.0,Yes,10,2026-06-12,D029
+com.calm.notes,Calm Notes, Games,4.5,330,"10,000+",,0.0,No,13,2026-06-25,D027
+com.tiny.learn,Tiny Learn,Tools,4.4,23335,"500,000+",4.4,0.0,No,11,2025-11-09,D030
+com.mega.tasks.x,Mega Tasks X,Finance,3.7,216,"1,000+",17.0,2.99,No,10,2026-08-05,D024
+com.tiny.camera.x,Tiny Camera X,Games,4.6,591,"10,000+",46.0,0.0,Yes,7.0,2026-08-03,D012
+com.daily.wallet.x,Daily Wallet X,Education,5.0,155,"1,000+",17.9,0.0,Yes,12,2025-09-12,D029
+com.smart.beats,Smart Beats,Health & Fitness,3.3,6046,"100,000+",157.9,0.0,No,8.0,2026-01-05,D004
+com.mega.cleaner.x,Mega Cleaner X,Education,3.3,27,"1,000+",27.7,0.0,No,9.0,2025-04-14,D022
+com.mega.wallet.x,Mega Wallet X,Education,3.9,2707,"100,000+",29.4,0.0,No,11,2026-09-13,D017
+com.daily.runner.lite,Daily Runner Lite,Games,4.9,461,"10,000+",106.9,0.0,Yes,9.0,2025-08-14,D007
+com.pixel.tasks,Pixel Tasks,Tools,4.3,1993,"50,000+",7.6,0.0,Yes,9.0,2025-09-02,D029
+com.mega.lens,Mega Lens,Health & Fitness,2.9,2068,"50,000+",23.2,0.0,No,10,2025-12-06,D036
+com.smart.learn,Smart Learn,Health & Fitness,4.2,5,"1,000+",32.0,0.0,No,13,2024-09-08,D027
+com.tiny.tasks,Tiny Tasks,Productivity,3.8,1254,"10,000+",17.7,0.0,Yes,11,2026-09-20,D007
+com.mega.beats.pro,Mega Beats Pro,Education,4.2,25,"1,000+",26.7,0.0,Yes,9.0,2026-09-27,D020
+com.bright.tasks.plus,Bright Tasks Plus,Photography,4.4,219,"5,000+",15.8,0.0,Yes,13,2025-05-24,D023
+com.echo.fit.x,Echo Fit X,Photography,4.4,14822,"100,000+",17.6,0.0,Yes,10,2026-08-03,D005
+com.tiny.wallet.go,Tiny Wallet Go,Education,4.5,5441,"100,000+",35.8,0.0,No,12,2026-03-19,D022
+com.lumen.quest.x,Lumen Quest X,Games,4.1,4512,"100,000+",78.1,0.0,No,10,2026-09-25,D040
+com.bright.learn.go,Bright Learn Go,Photography,4.6,4860,"100,000+",33.9,0.0,Yes,8.0,2026-08-27,D007
+com.calm.radio,Calm Radio,Games,4.0,3,"1,000+",48.5,0.0,Yes,9.0,2026-06-29,D027
+com.zen.fit,Zen Fit,Education,3.9,153,"5,000+",57.5,0.0,No,9.0,2025-06-30,D016
+com.tiny.budget.kids,Tiny Budget Kids,Tools,3.1,636,"10,000+",24.2,0.0,Yes,10,2024-10-06,D023
+com.calm.beats,Calm Beats,Health & Fitness,4.8,12,"1,000+",14.9,0.0,No,8.0,2026-05-17,D009
+com.daily.budget,Daily Budget,Music & Audio,4.0,1850,"50,000+",27.5,0.0,Yes,7.0,2026-09-08,D038
+com.smart.notes.pro,Smart Notes Pro,Education,3.8,8864,"100,000+",18.7,0.0,Yes,12,2025-06-06,D037
+com.calm.tasks.plus,Calm Tasks Plus,Games,4.1,2573,"100,000+",115.5,0.0,Yes,12,2026-04-28,D031
+com.zen.lens.plus,Zen Lens Plus,Education ,4.2,87166,"1,000,000+",20.3,0.0,Yes,13,2026-04-25,D030
+com.nova.budget.lite,Nova Budget Lite,Tools,4.4,987,"5,000+",27.6,0.0,No,8.0,2026-08-23,D023
+com.orbit.runner,Orbit Runner,Photography,4.2,105487,"1,000,000+",13.0,0.0,Yes,9.0,2023-09-18,D002
+com.zen.coach.plus,Zen Coach Plus,Tools,4.5,81,"1,000+",20.3,0.0,No,10,2025-09-12,D019
+com.swift.camera,Swift Camera,Tools,4.3,474,"10,000+",5.3,0.0,Yes,11,2026-06-27,D023
+com.spark.learn.pro,Spark Learn Pro,Games,4.0,3222,"50,000+",,1.99,No,12,2026-06-15,D039
+com.pocket.coach.pro,Pocket Coach Pro,Education,3.6,439,"10,000+",13.0,0.0,Yes,11,2026-06-17,D036
+com.bright.tasks,Bright Tasks,Tools,4.0,251,"10,000+",25.3,0.0,Yes,10,2026-07-26,D030
+com.orbit.tutor,Orbit Tutor,Education,3.6,6,"1,000+",8.8,0.0,Yes,8.0,2026-02-18,D012
+com.lumen.budget,Lumen Budget,Tools,3.6,1704,"50,000+",21.3,0.0,Yes,9.0,2025-01-08,D010
+com.pocket.camera,Pocket Camera,Productivity,4.3,16861,"500,000+",32.1,0.0,Yes,10,2024-09-11,D020
+com.calm.coach.lite,Calm Coach Lite,Education,5.0,982,"10,000+",24.2,0.0,No,9.0,2026-07-30,D029
+com.nova.coach,Nova Coach,Games,4.1,5905,"10,000+",104.9,0.0,Yes,10,2026-05-19,D015
+com.spark.tasks.go,Spark Tasks Go,Tools,,158,"1,000+",46.2,0.0,Yes,10,2025-02-24,D002
+com.pocket.wallet,Pocket Wallet,Tools,4.3,1296,"10,000+",7.0,0.0,Yes,11,2025-08-09,D016
+com.swift.fit,Swift Fit,Finance,4.1,973,"10,000+",19.6,0.0,Yes,13,2025-12-15,D031
+com.daily.lens.kids,Daily Lens Kids,Games,4.5,20577,"500,000+",42.5,0.0,No,8.0,2026-09-10,D015
+com.orbit.budget.plus,Orbit Budget Plus,Education,,784,"10,000+",13.9,0.0,Yes,12,2026-05-05,D001
+com.smart.cleaner,Smart Cleaner,Music & Audio,4.6,484,"10,000+",27.1,0.99,No,11,2025-12-23,D006
+com.zen.runner.plus,Zen Runner Plus,Games,4.5,378,"5,000+",48.5,9.99,No,10,2026-08-25,D003
+com.daily.beats,Daily Beats,Productivity,3.4,363,"5,000+",36.5,0.0,Yes,12,2026-08-13,D015
+com.smart.camera,Smart Camera,Games,3.9,17826,"500,000+",70.4,0.0,Yes,11,2026-09-18,D011
+com.swift.quest.lite,Swift Quest Lite,Productivity,4.7,28056,"1,000,000+",30.2,0.99,No,9.0,2026-01-27,D026
+com.tiny.quest,Tiny Quest,Tools,4.7,2066,"50,000+",24.0,2.99,No,11,2025-09-19,D020
+com.mega.fit.lite,Mega Fit Lite,Games,4.2,239,"5,000+",,0.0,No,11,2026-06-03,D024
+com.zen.camera.go,Zen Camera Go,Photography,4.2,1501,"50,000+",40.2,0.0,Yes,11,2023-05-12,D039
+com.swift.quest.kids,Swift Quest Kids,Tools,4.0,2607,"50,000+",41.9,0.0,Yes,11,2026-05-03,D029
+com.pixel.scanner.x,Pixel Scanner X,Tools,4.5,162,"1,000+",27.2,0.0,No,10,2025-11-26,D034
+com.spark.scanner.x,Spark Scanner X,Productivity,4.0,473,"10,000+",20.5,0.0,Yes,12,2026-09-14,D005
+com.tiny.coach,Tiny Coach,Productivity,4.0,7589,"100,000+",36.2,0.0,Yes,13,2025-05-09,D005
+com.pocket.lens,Pocket Lens,Games,4.4,19312,"500,000+",63.6,0.0,Yes,11,2026-04-05,D039
+com.zen.budget,Zen Budget,Finance,4.7,71758,"1,000,000+",41.7,0.0,No,11,2025-09-28,D014
+com.pixel.notes.kids,Pixel Notes Kids, Games,4.3,798,"10,000+",81.3,0.0,Yes,9.0,2026-08-08,D009
+com.spark.notes.x,Spark Notes X,Photography,3.8,79722,"500,000+",35.9,0.0,Yes,10,2026-06-28,D035
+com.smart.lens,Smart Lens,Education,4.0,9910,"100,000+",31.2,0.0,No,10,2025-09-18,D024
+com.bright.radio,Bright Radio,PHOTOGRAPHY,,20822,"1,000,000+",35.7,0.0,No,11,2026-09-09,D028
+com.tiny.quest.kids,Tiny Quest Kids,Tools,4.7,3362,"100,000+",17.1,0.0,No,9.0,2025-12-23,D007
+com.daily.learn.kids,Daily Learn Kids,Photography,4.2,13062,"100,000+",50.7,2.99,No,11,2024-12-13,D036
+com.lumen.cleaner,Lumen Cleaner,Photography,4.7,28119,"500,000+",69.3,0.0,Yes,10,2026-02-02,D033
+com.pixel.coach.plus,Pixel Coach Plus,Health & Fitness,4.5,789,"10,000+",29.1,1.99,No,9.0,2026-02-02,D010
+com.daily.learn,Daily Learn,Games,4.4,270,"10,000+",94.3,0.0,Yes,11,2025-12-23,D022
+com.mega.tutor.go,Mega Tutor Go,Games,4.0,2410,"50,000+",21.6,0.0,Yes,12,2026-06-30,D026
+com.mega.tasks.go,Mega Tasks Go,Productivity,4.9,1513,"10,000+",22.1,0.0,Yes,10,2026-07-21,D020
+com.orbit.beats.kids,Orbit Beats Kids,Finance,4.2,1358,"50,000+",17.4,0.0,Yes,9.0,2026-08-01,D020
+com.echo.quest,Echo Quest,Education,4.5,455,"10,000+",16.1,0.0,No,8.0,2026-02-27,D040
+com.mega.quest,Mega Quest,Music & Audio,4.0,1554,"10,000+",Varies with device,0.0,Yes,12,2026-07-19,D023
+com.zen.cleaner.plus,Zen Cleaner Plus,Tools,4.0,3557,"100,000+",63.3,0.0,Yes,8.0,2026-06-13,D009
+com.orbit.beats.plus,Orbit Beats Plus,Music & Audio,4.7,599,"10,000+",13.4,0.0,Yes,10,2025-05-19,D040
+com.nova.scanner,Nova Scanner,Education,4.4,2515,"100,000+",16.0,0.0,Yes,10,2026-05-25,D011
+com.nova.budget.plus,Nova Budget Plus,Music & Audio,3.6,2313,"50,000+",11.1,0.0,No,13,2026-08-31,D015
+com.nova.runner.kids,Nova Runner Kids,Education,3.8,722,"10,000+",21.6,0.0,Yes,11,2026-09-25,D028
+com.echo.cleaner.lite,Echo Cleaner Lite,Games,4.0,20847,"1,000,000+",Varies with device,0.0,Yes,10,2026-06-05,D005
+com.bright.quest.plus,Bright Quest Plus,Tools,4.5,819,"10,000+",85.6,0.0,Yes,8.0,2026-07-22,D007
+com.echo.coach,Echo Coach,Education,4.1,657,"10,000+",17.0,0.0,Yes,12,2026-09-19,D017
+com.mega.radio.kids,Mega Radio Kids,Tools,4.3,3347,"100,000+",6.8,0.0,Yes,8.0,2026-02-10,D040
+com.pocket.quest,Pocket Quest,Photography,4.2,27,"1,000+",25.0,0.0,Yes,12,2025-08-12,D031
+com.smart.notes.go,Smart Notes Go,Music & Audio,4.7,51,"1,000+",26.2,0.0,Yes,13,2026-08-06,D008
+com.smart.tasks,Smart Tasks,Education,3.7,241,"5,000+",22.3,0.0,Yes,13,2026-03-30,D019
+com.quick.notes.lite,Quick Notes Lite,Tools,4.3,774,"5,000+",26.4,0.0,No,10,2026-08-08,D009
+com.smart.scanner.x,Smart Scanner X,Games,3.9,9986,"500,000+",67.0,0.0,Yes,10,2026-07-10,D024
+com.daily.wallet.pro,Daily Wallet Pro,Health & Fitness,4.5,972,"50,000+",17.6,0.0,Yes,7.0,2023-11-23,D023
+com.swift.fit.pro,Swift Fit Pro,Tools,4.3,11,"1,000+",6.9,0.0,Yes,10,2026-07-16,D001
+com.zen.beats.lite,Zen Beats Lite,Productivity,4.2,757,"10,000+",14.5,0.0,Yes,8.0,2023-10-04,D003
+com.mega.beats,Mega Beats,Tools,3.9,1198,"10,000+",,0.0,Yes,13,2026-09-03,D025
+com.tiny.wallet.plus,Tiny Wallet Plus,Tools,3.6,3346,"100,000+",60.9,9.99,No,8.0,2026-07-14,D027
+com.echo.cleaner,Echo Cleaner,Productivity,4.1,97,"5,000+",26.7,0.0,Yes,9.0,2026-06-27,D015
+com.orbit.fit.go,Orbit Fit Go,Tools,4.3,2103,"50,000+",24.4,0.0,Yes,10,2025-11-17,D004
+com.mega.notes.go,Mega Notes Go,Games,4.9,2134,"100,000+",37.3,0.0,Yes,9.0,2025-09-11,D021
+com.lumen.quest.x,Lumen Quest X,Games,4.1,4512,"100,000+",78.1,0.0,No,10,2026-09-25,D040
+com.pocket.coach.lite,Pocket Coach Lite,Productivity,3.9,1958,"10,000+",39.3,0.0,No,10,2026-09-19,D021
+com.nova.radio,Nova Radio,Photography,3.7,214,"5,000+",38.7,0.0,No,11,2026-09-06,D003
+com.lumen.fit.pro,Lumen Fit Pro,Music & Audio,4.2,59,"1,000+",30.0,0.0,Yes,12,2026-04-28,D031
+com.bright.notes,Bright Notes,Photography ,3.8,576,"10,000+",,0.0,No,12,2026-03-22,D023
+com.quick.fit.lite,Quick Fit Lite,Tools,3.7,11593,"100,000+",20.4,0.0,No,12,2026-05-05,D099
+com.daily.runner.x,Daily Runner X,Games,4.2,17180,"500,000+",177.9,0.0,Yes,12,2025-12-08,D029
+com.quick.notes,Quick Notes,Photography,3.7,7198,"100,000+",12.2,0.0,Yes,12,2026-06-19,D030
+com.echo.lens.x,Echo Lens X,Productivity,4.1,4093,"100,000+",39.0,0.0,No,8.0,2026-07-01,D010
+com.daily.scanner,Daily Scanner,Photography,4.9,1551,"50,000+",32.0,0.0,No,10,2025-03-22,D020
+com.swift.learn.pro,Swift Learn Pro,Education,4.4,1455,"50,000+",Varies with device,0.0,No,11,2026-05-27,D006
+com.mega.cleaner,Mega Cleaner,Tools,3.8,590,"10,000+",11.0,0.0,Yes,10,2026-09-04,D038
+com.orbit.lens,Orbit Lens,Games,,53,"1,000+",72.5,0.0,Yes,10,2026-07-17,D033
+com.daily.cleaner,Daily Cleaner,Education,4.4,4883,"100,000+",141.3,0.0,Yes,10,2026-06-17,D028
+com.lumen.learn,Lumen Learn,Education,4.0,2944,"50,000+",48.9,0.0,Yes,7.0,2025-08-30,D025
+com.calm.quest.x,Calm Quest X,Tools,3.8,1156,"10,000+",65.1,0.0,Yes,10,2026-06-06,D013
+com.pocket.tasks,Pocket Tasks,Music & Audio,4.8,4481,"100,000+",82.0,0.0,Yes,10,2026-09-06,D029
+com.daily.notes.x,Daily Notes X,Health & Fitness,3.3,21184,"1,000,000+",21.3,0.0,No,11,2026-02-16,D022
+com.nova.scanner.pro,Nova Scanner Pro,Education,4.4,265,"10,000+",35.8,0.0,Yes,7.0,2026-09-27,D004
+com.echo.quest.go,Echo Quest Go,Photography,3.6,109220,"1,000,000+",24.1,0.0,Yes,11,2025-12-26,D008
+com.pixel.scanner,Pixel Scanner,Games,4.1,605,"10,000+",51.9,0.0,No,8.0,2026-03-22,D013
+com.tiny.quest.pro,Tiny Quest Pro,Games,4.4,15,"1,000+",,0.0,Yes,8.0,2025-09-03,D016
+com.echo.budget.lite,Echo Budget Lite,Finance,4.3,7584,"50,000+",11.6,0.0,Yes,13,2026-06-23,D009
+com.nova.learn,Nova Learn,Education,4.6,3821,"100,000+",18.4,0.0,Yes,11,2026-05-23,D034
+com.quick.runner.plus,Quick Runner Plus,Education,4.3,2396,"50,000+",13.4,0.0,Yes,10,2025-11-07,D021
+com.pixel.fit.pro,Pixel Fit Pro,Productivity,4.0,13438,"500,000+",72.7,0.0,No,11,2023-09-23,D006
+com.zen.radio,Zen Radio,Photography,4.1,123,"1,000+",Varies with device,0.0,No,9.0,2026-06-07,D039
+com.echo.fit,Echo Fit,Tools,4.4,165,"1,000+",14.6,0.0,Yes,9.0,2026-04-24,D010
+com.mega.camera.plus,Mega Camera Plus,Tools,3.9,9302,"100,000+",38.2,0.0,Yes,8.0,2026-05-01,D026
+com.calm.camera.plus,Calm Camera Plus,Education,4.6,1127,"50,000+",94.2,4.99,No,13,2025-11-03,D035
+com.zen.runner,Zen Runner,Photography,3.7,6206,"100,000+",11.5,0.0,Yes,9.0,2026-07-10,D017
+com.calm.wallet.go,Calm Wallet Go,GAMES,4.1,451,"5,000+",94.2,0.0,Yes,7.0,2025-03-07,D015
+com.quick.beats.pro,Quick Beats Pro,Tools,,190,"5,000+",14.3,0.0,No,12,2026-01-12,D032
+com.quick.fit,Quick Fit,Productivity,4.7,825,"10,000+",25.1,0.0,Yes,12,2025-07-18,D002
+com.zen.radio.go,Zen Radio Go,Tools,5.0,19955,"500,000+",27.8,0.0,Yes,12,2026-02-18,D022
+com.nova.budget,Nova Budget,Health & Fitness,3.8,1406,"10,000+",12.6,0.0,No,8.0,2026-07-22,D003
+com.quick.camera.kids,Quick Camera Kids,Games,5.0,417,"10,000+",108.2,0.0,No,10,2026-03-13,D013
+com.echo.radio,Echo Radio,Finance,3.7,4015,"10,000+",20.6,0.0,No,8.0,2026-08-05,D008
+com.daily.runner.kids,Daily Runner Kids,Health & Fitness,4.3,6007,"100,000+",,0.0,Yes,9.0,2026-08-16,D009
+com.bright.wallet,Bright Wallet,Photography,5.0,217,"10,000+",26.0,0.0,Yes,11,2026-06-12,D006
+com.quick.learn,Quick Learn,Games,3.6,742,"10,000+",100.2,0.0,Yes,8.0,2025-11-22,D038
+com.orbit.beats,Orbit Beats,Productivity,3.8,2028,"10,000+",29.1,0.0,Yes,12,2026-09-20,D014
+com.echo.cleaner.x,Echo Cleaner X,Productivity,3.0,275,"10,000+",12.6,0.0,Yes,7.0,2025-12-31,D006
+com.bright.coach.go,Bright Coach Go,Tools,4.9,11748,"100,000+",8.5,0.0,No,9.0,2026-09-03,D031
+com.smart.scanner.plus,Smart Scanner Plus,Health & Fitness,4.3,2954,"50,000+",,0.0,Yes,12,2026-07-03,D031
+com.orbit.lens.lite,Orbit Lens Lite,Games,3.7,2525379,"100,000,000+",83.2,4.99,No,9.0,2026-06-23,D002
+com.tiny.scanner,Tiny Scanner,Tools ,4.4,412,"5,000+",52.0,2.99,No,9.0,2026-06-23,D014
+com.orbit.radio.x,Orbit Radio X,Games,4.3,22334,"1,000,000+",79.0,0.0,Yes,10,2026-07-11,D012
+com.mega.coach,Mega Coach,Music & Audio,4.5,39,"1,000+",29.7,0.0,No,11,2026-03-25,D005
+com.lumen.tutor.plus,Lumen Tutor Plus,Health & Fitness,4.9,2556,"100,000+",21.9,0.0,Yes,11,2026-03-21,D015
+com.calm.lens,Calm Lens,Productivity,3.6,1206,"10,000+",15.9,0.0,Yes,11,2026-09-05,D006
+com.zen.tutor.pro,Zen Tutor Pro,Games,3.7,375,"5,000+",66.2,1.99,No,12,2026-07-10,D015
+com.nova.radio.plus,Nova Radio Plus,Productivity,4.0,105,"1,000+",34.2,0.0,Yes,12,2026-02-02,D012
+com.tiny.camera,Tiny Camera,Games,4.8,443,"10,000+",148.1,0.0,Yes,11,2026-07-05,D027
+com.bright.quest,Bright Quest,Education,3.6,1108,"10,000+",48.6,0.0,Yes,11,2026-08-06,D038
+com.bright.learn,Bright Learn,Finance,,1569,"50,000+",10.9,0.0,Yes,13,2026-06-07,D035
+com.orbit.scanner.lite,Orbit Scanner Lite,Music & Audio,3.9,477,"10,000+",25.4,0.0,Yes,13,2025-11-30,D001
+com.echo.tasks.kids,Echo Tasks Kids,Photography,4.8,13071,"500,000+",36.9,0.0,No,9.0,2026-07-20,D023
+com.zen.notes,Zen Notes,Education,4.1,7510,"100,000+",12.6,0.0,No,10,2026-01-16,D020
+com.tiny.scanner,Tiny Scanner,Tools ,4.4,412,"5,000+",52.0,2.99,No,9.0,2026-06-23,D014
+com.pocket.scanner,Pocket Scanner,Photography,3.8,1749,"100,000+",9.4,1.99,No,8.0,2026-08-11,D015
+com.bright.beats.x,Bright Beats X,Education,,11776,"100,000+",18.2,0.0,No,10,2026-07-19,D012
+com.quick.coach,Quick Coach,Music & Audio,3.8,18407,"100,000+",55.4,0.0,Yes,11,2026-08-18,D005
+com.spark.budget,Spark Budget,Tools,4.1,256,"1,000+",11.2,0.0,No,8.0,2026-02-25,D036
+com.swift.fit.lite,Swift Fit Lite,Education,4.5,19975,"500,000+",69.4,0.0,Yes,8.0,2026-05-27,D018
+com.zen.lens,Zen Lens,Education,4.5,5129,"100,000+",43.7,0.0,Yes,7.0,2026-03-24,D034
+com.pocket.beats,Pocket Beats,Finance,4.3,31526,"1,000,000+",41.2,0.0,Yes,11,2025-08-01,D030
+com.pixel.runner.x,Pixel Runner X,Education,3.7,9,"1,000+",51.1,0.0,No,12,2026-09-27,D007
+com.smart.coach,Smart Coach,Education,3.7,3985,"50,000+",68.0,0.0,Yes,12,2025-12-18,D016
+com.echo.lens,Echo Lens,Tools,4.3,1681,"10,000+",48.8,0.0,Yes,11,2026-08-16,D014
+com.pixel.tutor.kids,Pixel Tutor Kids,Tools,3.9,6344,"100,000+",20.8,0.0,No,8.0,2025-04-28,D010
+com.tiny.runner.lite,Tiny Runner Lite,Games,4.0,603,"10,000+",40.8,0.0,Yes,9.0,2026-01-05,D028
+com.pixel.tutor,Pixel Tutor,Education,3.7,7303,"100,000+",28.2,0.0,Yes,10,2026-06-29,D024
+com.pixel.wallet,Pixel Wallet,Photography,4.7,3946,"50,000+",31.4,0.0,No,10,2025-10-15,D032
+com.echo.beats.lite,Echo Beats Lite,Tools,3.8,1636,"10,000+",33.0,0.0,Yes,10,2026-02-21,D036
+com.bright.quest.pro,Bright Quest Pro,Health & Fitness,4.4,838,"5,000+",17.3,0.0,Yes,11,2026-04-16,D036
+com.calm.scanner,Calm Scanner,Photography,4.4,439,"5,000+",40.0,0.0,Yes,11,2025-05-21,D005
+com.pixel.radio.plus,Pixel Radio Plus,Tools,4.3,862,"10,000+",25.0,0.0,No,13,2026-09-14,D004
+com.mega.coach.plus,Mega Coach Plus,Education,3.2,102,"1,000+",19.4,0.0,Yes,11,2026-06-25,D020
+com.bright.beats,Bright Beats,Games,4.2,10670,"100,000+",141.5,0.0,No,10,2025-11-18,D020
+com.spark.tasks,Spark Tasks,Games,3.3,141,"5,000+",147.7,0.0,Yes,11,2026-04-19,D024
+com.bright.quest.lite,Bright Quest Lite,Games,5.0,19246,"500,000+",98.1,0.0,Yes,9.0,2026-03-12,D029
+com.orbit.radio,Orbit Radio, Games,4.3,19145,"100,000+",104.5,0.0,No,7.0,2026-01-12,D010
+com.pixel.tasks.pro,Pixel Tasks Pro,Games,4.9,2103,"50,000+",106.7,0.0,Yes,7.0,2026-04-23,D018
+com.tiny.runner.pro,Tiny Runner Pro,Music & Audio,4.9,22,"1,000+",46.4,2.99,No,12,2024-05-11,D009
+com.nova.lens,Nova Lens,Music & Audio,4.0,338,"5,000+",74.2,0.0,Yes,11,2026-07-13,D010
+com.smart.tutor,Smart Tutor,Photography,,82,"1,000+",31.8,2.99,No,11,2025-10-23,D013
+com.bright.budget,Bright Budget,Health & Fitness,4.3,1995,"100,000+",65.5,0.0,Yes,11,2026-01-10,D022
+com.daily.tutor.go,Daily Tutor Go,Productivity,4.6,130,"5,000+",9.0,0.0,Yes,9.0,2025-10-22,D021
+com.mega.scanner.kids,Mega Scanner Kids,Games,4.4,689,"10,000+",44.3,0.0,Yes,12,2025-05-22,D039
+com.swift.tutor,Swift Tutor,Education,3.6,7323,"50,000+",29.5,9.99,No,10,2026-09-26,D036
+com.zen.wallet,Zen Wallet,Finance,3.9,589,"10,000+",32.3,0.0,Yes,10,2026-06-06,D020
+com.echo.camera,Echo Camera,Music & Audio,4.5,324,"5,000+",12.7,0.0,Yes,12,2026-08-20,D003
+com.echo.budget,Echo Budget,Games,4.8,3607,"10,000+",26.1,0.0,Yes,10,2025-01-11,D039
+com.swift.camera.lite,Swift Camera Lite,Games,4.7,135,"5,000+",160.2,0.0,No,10,2025-10-29,D025
+com.pixel.fit.x,Pixel Fit X,Games,4.3,756,"5,000+",59.4,4.99,No,9.0,2026-08-24,D013
+com.quick.notes.plus,Quick Notes Plus,Games,4.1,460,"5,000+",103.6,0.0,Yes,12,2025-06-06,D011
+com.mega.wallet.lite,Mega Wallet Lite,Health & Fitness,4.4,6,"1,000+",20.9,0.0,Yes,13,2026-07-25,D012
+com.lumen.scanner,Lumen Scanner,Productivity,3.8,112885,"1,000,000+",37.3,0.0,Yes,12,2026-06-23,D013
+com.zen.radio.pro,Zen Radio Pro,Education,5.0,31259,"1,000,000+",38.2,4.99,No,9.0,2024-04-29,D038
+com.smart.quest,Smart Quest,Games,4.8,531,"10,000+",Varies with device,0.0,No,7.0,2026-09-07,D006
+com.calm.lens.lite,Calm Lens Lite,TOOLS,5.0,160,"5,000+",11.3,0.0,Yes,8.0,2024-12-13,D005
+com.calm.lens.go,Calm Lens Go,Health & Fitness,4.0,13119,"500,000+",10.9,0.0,Yes,13,2026-06-12,D004
+com.tiny.coach.plus,Tiny Coach Plus,Games,3.6,239,"5,000+",55.7,0.0,Yes,12,2026-02-24,D028
+com.daily.tutor,Daily Tutor,Productivity,,351,"10,000+",20.6,0.0,Yes,12,2025-09-13,D002
+com.pixel.budget.pro,Pixel Budget Pro,Music & Audio,3.6,4183,"50,000+",10.9,0.0,Yes,13,2026-05-21,D007
+com.tiny.wallet,Tiny Wallet,Games,3.9,467,"10,000+",38.6,0.0,Yes,12,2025-07-10,D038
+com.orbit.coach,Orbit Coach,Tools,4.1,32,"1,000+",35.5,9.99,No,10,2026-07-23,D005
+com.pixel.quest.lite,Pixel Quest Lite,Education,3.9,5283,"50,000+",22.0,0.0,Yes,12,2026-06-05,D027
+com.echo.learn,Echo Learn,Games,3.9,51136,"1,000,000+",157.7,0.0,No,8.0,2026-04-19,D017
+com.daily.lens,Daily Lens,Music & Audio ,4.2,1205,"10,000+",16.7,0.0,Yes,10,2026-09-30,D018
+com.pixel.lens,Pixel Lens, Health & Fitness,3.6,269,"1,000+",45.9,0.0,No,10,2024-12-01,D035
+com.pocket.coach,Pocket Coach,Photography,3.5,2411,"50,000+",15.8,0.0,Yes,8.0,2026-09-06,D018
+com.mega.radio,Mega Radio,Games,4.4,483,"10,000+",143.5,0.0,Yes,10,2026-08-04,D034
+com.daily.notes,Daily Notes,Productivity,3.8,5100,"100,000+",Varies with device,0.0,Yes,13,2025-11-01,D013
+com.calm.cleaner.go,Calm Cleaner Go,Games,4.8,10644,"50,000+",149.4,0.0,No,8.0,2026-06-04,D024
+com.spark.beats.go,Spark Beats Go,Education,,11096,"100,000+",55.5,0.0,Yes,11,2026-03-20,D029
+com.pixel.quest,Pixel Quest,Music & Audio,4.2,883,"50,000+",36.6,1.99,No,10,2026-09-28,D028
+com.orbit.learn,Orbit Learn,Photography,4.4,328,"10,000+",16.2,4.99,No,9.0,2025-09-29,D025
+com.echo.tasks.go,Echo Tasks Go,Games,4.0,3426,"100,000+",174.4,0.0,No,9.0,2026-06-17,D040
+com.zen.quest.kids,Zen Quest Kids,Games,4.4,16578,"500,000+",44.0,0.0,Yes,9.0,2026-02-28,D025
+com.mega.runner.x,Mega Runner X,Finance,4.8,5294,"100,000+",36.6,9.99,No,10,2024-12-15,D009
+com.calm.tutor,Calm Tutor,Games,4.2,11891,"100,000+",70.9,1.99,No,8.0,2026-05-16,D024
+com.nova.beats,Nova Beats,Education,4.5,7262,"100,000+",12.8,0.0,Yes,11,2026-09-25,D018
+com.calm.beats.pro,Calm Beats Pro,Education,4.2,23954,"1,000,000+",39.4,0.0,Yes,9.0,2025-12-29,D028
+com.zen.camera.x,Zen Camera X,Health & Fitness,4.4,66,"1,000+",26.1,9.99,No,10,2026-06-02,D036
+com.calm.tutor.x,Calm Tutor X,Games,3.7,781,"10,000+",41.5,0.0,No,10,2026-08-07,D009
+com.spark.cleaner,Spark Cleaner,Photography,3.9,2616,"50,000+",36.5,0.0,No,10,2026-06-27,D037
+com.quick.camera,Quick Camera,Tools,3.6,2817,"100,000+",43.1,0.0,Yes,7.0,2026-08-29,D004
+com.lumen.fit,Lumen Fit,Health & Fitness,4.4,10244,"100,000+",7.0,0.0,Yes,11,2026-06-16,D037
+com.zen.camera,Zen Camera,Finance,4.3,13860,"500,000+",27.5,0.0,Yes,10,2026-06-04,D013
+com.daily.camera.x,Daily Camera X,Photography,5.0,34700,"1,000,000+",77.4,0.0,Yes,12,2025-09-13,D002
