@@ -72,3 +72,7 @@ plugins:
 nav:
   - Home: index.md
   - Roadmap: roadmap/index.md
+  - Study Plan:
+      - plan/index.md
+      - Monthly plan: plan/monthly.md
+      - Month 1: plan/month-01.md
