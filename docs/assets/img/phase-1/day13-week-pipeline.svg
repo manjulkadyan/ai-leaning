@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="Helvetica, Arial, sans-serif" font-size="13" class="animated">
+<text x="14" y="28" font-weight="bold" font-size="15">Week 2 in one picture: a 28×28 digit becomes a prediction</text>
+<rect x="14" y="52" width="136" height="96" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="14" y="52" width="136" height="96" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="82.0" y="74" text-anchor="middle" font-size="11" fill="#555">Day 8</text>
+<text x="82.0" y="94" text-anchor="middle" font-weight="bold" fill="#3949ab">reshape</text>
+<text x="82.0" y="115" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11">img.reshape(1, -1)</text>
+<text x="82.0" y="135" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5" fill="#555">(28, 28) → (1, 784)</text>
+<path d="M151 100.0 L161 100.0" stroke="#555" stroke-width="1.5"/>
+<path d="M157 96.0 L161 100.0 L157 104.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="162" y="52" width="136" height="96" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="162" y="52" width="136" height="96" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="230.0" y="74" text-anchor="middle" font-size="11" fill="#555">Day 9</text>
+<text x="230.0" y="94" text-anchor="middle" font-weight="bold" fill="#00897b">broadcast</text>
+<text x="230.0" y="115" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11">(X - mean) / std</text>
+<text x="230.0" y="135" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5" fill="#555">(1, 784) op (784,)</text>
+<path d="M299 100.0 L309 100.0" stroke="#555" stroke-width="1.5"/>
+<path d="M305 96.0 L309 100.0 L305 104.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="310" y="52" width="136" height="96" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="310" y="52" width="136" height="96" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="378.0" y="74" text-anchor="middle" font-size="11" fill="#555">Days 10–11</text>
+<text x="378.0" y="94" text-anchor="middle" font-weight="bold" fill="#3949ab">matmul + .T</text>
+<text x="378.0" y="115" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11">X @ W1.T</text>
+<text x="378.0" y="135" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5" fill="#555">(1,784)@(784,128)</text>
+<path d="M447 100.0 L457 100.0" stroke="#555" stroke-width="1.5"/>
+<path d="M453 96.0 L457 100.0 L453 104.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="458" y="52" width="136" height="96" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<rect x="458" y="52" width="136" height="96" rx="8" fill="#fff59d" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="526.0" y="74" text-anchor="middle" font-size="11" fill="#555">Day 12</text>
+<text x="526.0" y="94" text-anchor="middle" font-weight="bold" fill="#ef6c00">a layer</text>
+<text x="526.0" y="115" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11">+ b1, ReLU, @ W2.T</text>
+<text x="526.0" y="135" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5" fill="#555">(1,128) → (1,10)</text>
+<path d="M595 100.0 L605 100.0" stroke="#555" stroke-width="1.5"/>
+<path d="M601 96.0 L605 100.0 L601 104.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="606" y="52" width="136" height="96" rx="8" fill="#fff3e0" stroke="#e53935" stroke-width="1.5"/>
+<rect x="606" y="52" width="136" height="96" rx="8" fill="#fff59d" stroke="#e53935" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="674.0" y="74" text-anchor="middle" font-size="11" fill="#555">Day 12</text>
+<text x="674.0" y="94" text-anchor="middle" font-weight="bold" fill="#e53935">prediction</text>
+<text x="674.0" y="115" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11">Z.argmax(axis=1)</text>
+<text x="674.0" y="135" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5" fill="#555">(1, 10) → (1,)</text>
+<line x1="14" y1="178" x2="742" y2="178" stroke="#ccc" stroke-width="3" stroke-linecap="round"/>
+<circle cx="0" cy="178" r="9" fill="#ef6c00" stroke="#fff" stroke-width="2"><animate attributeName="cx" calcMode="discrete" values="20;82;230;378;526;674" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></circle>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><text x="14" y="224" font-size="16" font-weight="bold">Start: a 28×28 grayscale digit</text><text x="14" y="248" font-size="13" fill="#333">shape (28, 28): 784 numbers in one flat block of memory</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><text x="14" y="224" font-size="16" font-weight="bold">Day 8: add a batch axis and flatten</text><text x="14" y="248" font-size="13" fill="#333">reshape is free: same memory, new way of reading it → (1, 784)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><text x="14" y="224" font-size="16" font-weight="bold">Day 9: standardize every pixel</text><text x="14" y="248" font-size="13" fill="#333">a (784,) mean and std stretch over the batch axis → still (1, 784)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><text x="14" y="224" font-size="16" font-weight="bold">Days 10–11: 128 dot products at once</text><text x="14" y="248" font-size="13" fill="#333">W1 is (128, 784), so W1.T is (784, 128): inner 784s match → (1, 128)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><text x="14" y="224" font-size="16" font-weight="bold">Day 12: bias, ReLU, second layer</text><text x="14" y="248" font-size="13" fill="#333">b1 broadcasts, ReLU zeroes negatives, W2 (10, 128) → 10 logits (1, 10)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><text x="14" y="224" font-size="16" font-weight="bold">Done: the biggest logit wins</text><text x="14" y="248" font-size="13" fill="#333">argmax over axis 1 → one class index per example, e.g. [7]</text></g>
+<text x="14" y="284" font-size="12" fill="#555">Every arrow is a shape change you can predict on paper. Check shapes first; most ML bugs are shape bugs.</text>
+</svg>

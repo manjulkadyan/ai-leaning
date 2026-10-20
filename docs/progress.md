@@ -19,7 +19,7 @@ What's written, what's planned, and what's next. This page is updated with every
 | 10 | [Matrices and matrix multiplication](lessons/phase-1/day-10-matrices-matmul.md) | ✅ |
 | 11 | [Transpose, identity and inverse](lessons/phase-1/day-11-transpose-identity-inverse.md) | ✅ |
 | 12 | [A neural-network layer is a matrix multiply](lessons/phase-1/day-12-layer-is-matmul.md) | ✅ |
-| 13 | Week 2 review and mini-project: pure-Python vs NumPy matrix benchmark | 🚧 |
+| 13 | Week 2 review and mini-project: pure-Python vs NumPy matrix benchmark | ✅ |
 | 15 | pandas: DataFrames and Series | 🚧 |
 | 16 | Selecting, filtering and sorting | 🚧 |
 | 17 | Missing data and cleaning | 🚧 |
