@@ -648,4 +648,4 @@ Norms don't only measure data; they also measure **models**. In Phase 2 you'll t
 - [ ] I can show with an example why features must be standardized before computing distances.
 - [ ] I ran the curse-of-dimensionality experiment and can explain why distances concentrate.
 
-**Next:** Day 23: Rank, span and linear independence (coming soon)
+**Next:** [Day 23: Rank, span and linear independence](day-23-rank-span.md)

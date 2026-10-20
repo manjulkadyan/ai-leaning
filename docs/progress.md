@@ -27,7 +27,7 @@ What's written, what's planned, and what's next. This page is updated with every
 | 19 | Plotting with Matplotlib | ✅ |
 | 20 | Week 3 review and mini-project: exploratory analysis | ✅ |
 | 22 | Norms and distances | ✅ |
-| 23 | Rank, span and linear independence | ⬜ |
+| 23 | Rank, span and linear independence | ✅ |
 | 24 | Eigenvectors, intuitively | ⬜ |
 | 25 | Projections and PCA preview | ⬜ |
 | 26 | Month 1 recap and gaps | ⬜ |

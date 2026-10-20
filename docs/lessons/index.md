@@ -42,3 +42,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | Day | Lesson |
 |---|---|
 | 22 | [Norms and distances](phase-1/day-22-norms-distances.md) |
+| 23 | [Rank, span and linear independence](phase-1/day-23-rank-span.md) |

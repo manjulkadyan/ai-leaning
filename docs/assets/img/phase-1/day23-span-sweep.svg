@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<defs>
+<marker id="d23sr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+<marker id="d23sb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e88e5"/></marker>
+<marker id="d23so" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker>
+<marker id="d23sg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9e9e9e"/></marker>
+<clipPath id="d23c1"><rect x="15" y="62" width="355" height="236" rx="8"/></clipPath>
+<clipPath id="d23c2"><rect x="390" y="62" width="355" height="236" rx="8"/></clipPath>
+</defs>
+<text x="20" y="26" font-weight="bold" font-size="15">Span: every point you can reach with a·v + b·w</text>
+<rect x="15" y="40" width="355" height="305" rx="8" fill="#e0f2f1"/>
+<rect x="390" y="40" width="355" height="305" rx="8" fill="#e8eaf6"/>
+<text x="192" y="58" text-anchor="middle" font-weight="bold">v = [2, 1], w = [1, 3]: independent</text>
+<text x="567" y="58" text-anchor="middle" font-weight="bold">p = [1, 2], q = [2, 4]: parallel</text>
+<g stroke="#90a4ae" stroke-width="1.2"><line x1="25" y1="205" x2="360" y2="205"/><line x1="170" y1="66" x2="170" y2="296"/></g>
+<g stroke="#90a4ae" stroke-width="1.2"><line x1="400" y1="235" x2="735" y2="235"/><line x1="545" y1="66" x2="545" y2="296"/></g>
+<g clip-path="url(#d23c1)" stroke="#00897b" stroke-width="1" opacity="0.15">
+<animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.6;1" values="0.1;0.55;0.55"/>
+<line x1="-490" y1="985" x2="470" y2="505"/>
+<line x1="-430" y1="1105" x2="50" y2="-335"/>
+<line x1="-460" y1="895" x2="500" y2="415"/>
+<line x1="-370" y1="1075" x2="110" y2="-365"/>
+<line x1="-430" y1="805" x2="530" y2="325"/>
+<line x1="-310" y1="1045" x2="170" y2="-395"/>
+<line x1="-400" y1="715" x2="560" y2="235"/>
+<line x1="-250" y1="1015" x2="230" y2="-425"/>
+<line x1="-370" y1="625" x2="590" y2="145"/>
+<line x1="-190" y1="985" x2="290" y2="-455"/>
+<line x1="-340" y1="535" x2="620" y2="55"/>
+<line x1="-130" y1="955" x2="350" y2="-485"/>
+<line x1="-310" y1="445" x2="650" y2="-35"/>
+<line x1="-70" y1="925" x2="410" y2="-515"/>
+<line x1="-280" y1="355" x2="680" y2="-125"/>
+<line x1="-10" y1="895" x2="470" y2="-545"/>
+<line x1="-250" y1="265" x2="710" y2="-215"/>
+<line x1="50" y1="865" x2="530" y2="-575"/>
+<line x1="-220" y1="175" x2="740" y2="-305"/>
+<line x1="110" y1="835" x2="590" y2="-605"/>
+<line x1="-190" y1="85" x2="770" y2="-395"/>
+<line x1="170" y1="805" x2="650" y2="-635"/>
+<line x1="-160" y1="-5" x2="800" y2="-485"/>
+<line x1="230" y1="775" x2="710" y2="-665"/>
+<line x1="-130" y1="-95" x2="830" y2="-575"/>
+<line x1="290" y1="745" x2="770" y2="-695"/>
+</g>
+<line clip-path="url(#d23c2)" x1="365" y1="595" x2="725" y2="-125" stroke="#3949ab" stroke-width="5" opacity="0.25"/>
+<circle cx="635" cy="205" r="5" fill="none" stroke="#9e9e9e" stroke-width="2"/>
+<text x="605" y="193" font-size="12" fill="#555">[3, 1]: unreachable</text>
+<line x1="170" y1="205" x2="230" y2="175" stroke="#e53935" stroke-width="3" marker-end="url(#d23sr)"/>
+<line x1="170" y1="205" x2="200" y2="115" stroke="#1e88e5" stroke-width="3" marker-end="url(#d23sb)"/>
+<text x="236" y="189" fill="#e53935" font-weight="bold">v</text>
+<text x="206" y="115" fill="#1e88e5" font-weight="bold">w</text>
+<line x1="545" y1="235" x2="605" y2="115" stroke="#1e88e5" stroke-width="6" marker-end="url(#d23sb)"/>
+<line x1="545" y1="235" x2="575" y2="175" stroke="#e53935" stroke-width="3" marker-end="url(#d23sr)"/>
+<text x="583" y="187" fill="#e53935" font-weight="bold">p</text>
+<text x="615" y="125" fill="#1e88e5" font-weight="bold">q = 2p</text>
+<g opacity="1"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="1;0;0;0"/>
+<line x1="170" y1="205" x2="230" y2="175" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="230" y1="175" x2="260" y2="85" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="260" cy="85" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="192" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">1·v + 1·w = [3, 4]</text>
+</g>
+<g opacity="1"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="1;0;0;0"/>
+<line x1="545" y1="235" x2="575" y2="175" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="575" y1="175" x2="605" y2="115" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="605" cy="115" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="567" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">1·p + 0.5·q = [2, 4]</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;1;0;0"/>
+<line x1="170" y1="205" x2="290" y2="145" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="290" y1="145" x2="260" y2="235" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="260" cy="235" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="192" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">2·v − 1·w = [3, −1]</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;1;0;0"/>
+<line x1="545" y1="235" x2="605" y2="115" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="605" y1="115" x2="545" y2="235" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="545" cy="235" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="567" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">2·p − 1·q = [0, 0]</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;0;1;0"/>
+<line x1="170" y1="205" x2="110" y2="235" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="110" y1="235" x2="155" y2="100" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="155" cy="100" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="192" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">−1·v + 1.5·w = [−0.5, 3.5]</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;0;1;0"/>
+<line x1="545" y1="235" x2="515" y2="295" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="515" y1="295" x2="530" y2="265" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="530" cy="265" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="567" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">−1·p + 0.25·q = [−0.5, −1]</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;0;0;1"/>
+<line x1="170" y1="205" x2="200" y2="190" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="200" y1="190" x2="170" y2="280" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="170" cy="280" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="192" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">0.5·v − 1·w = [0, −2.5]</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;0;0;1"/>
+<line x1="545" y1="235" x2="590" y2="145" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="590" y1="145" x2="560" y2="205" stroke="#1e88e5" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="560" cy="205" r="6" fill="#ef6c00" stroke="#fff" stroke-width="1.5"/>
+<text x="567" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">1.5·p − 0.5·q = [0.5, 1]</text>
+</g>
+<text x="192" y="337" text-anchor="middle" font-size="12" fill="#555">the v,w grid tiles the whole plane: span = all of 2-D</text>
+<text x="567" y="337" text-anchor="middle" font-size="12" fill="#c62828">every recipe stays on one line: span = a line</text>
+</svg>
