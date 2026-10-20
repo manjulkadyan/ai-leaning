@@ -240,4 +240,4 @@ Use **VS Code** with the **Python** and **Jupyter** extensions, or **PyCharm** (
 - [ ] Ran a GPU check in Colab.
 - [ ] Wrote today's journal entry.
 
-**Next:** Day 2: Python's core types, through Kotlin eyes (coming soon)
+**Next:** [Day 2: Python's core types, through Kotlin eyes](day-02-python-types.md)
