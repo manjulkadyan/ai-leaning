@@ -1,5 +1,8 @@
 /* Figures: centered diagrams with a caption, readable in light and dark mode */
 .md-typeset figure.diagram {
+  display: block;
+  width: 100%;
+  max-width: 760px;
   margin: 1.5em auto;
   text-align: center;
 }
@@ -44,3 +47,29 @@
     animation: none !important;
   }
 }
+
+/* Interactive vector playground (docs/javascripts/vector-playground.js) */
+.md-typeset .vector-playground {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5em 0;
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+.md-typeset .vector-playground .vp-svg { width: 100%; max-width: 340px; }
+.md-typeset .vector-playground .vp-readout { font-family: var(--md-code-font-family); font-size: 0.75rem; line-height: 1.9; }
+.vp-grid { stroke: var(--md-default-fg-color--lightest); }
+.vp-axis { stroke: var(--md-default-fg-color--light); stroke-width: 1.5; }
+.vp-a { stroke: #3949ab; stroke-width: 3; }
+.vp-b { stroke: #00897b; stroke-width: 3; }
+.vp-a-fill { fill: #3949ab; }
+.vp-b-fill { fill: #00897b; }
+.vp-a-text { color: #5c6bc0; }
+.vp-b-text { color: #26a69a; }
+.vp-arc { fill: none; stroke: #e53935; stroke-width: 2; }
+.vp-handle { cursor: grab; opacity: 0.35; }
+.vp-handle:hover { opacity: 0.6; }
+.vp-label { font: bold 14px sans-serif; }

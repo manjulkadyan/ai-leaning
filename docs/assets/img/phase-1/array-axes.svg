@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+    <marker id="y" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e88e5"/></marker>
+  </defs>
+  <!-- 1-D -->
+  <text x="20" y="25" font-weight="bold">1-D, shape (4,)</text>
+  <g font-family="Menlo, Consolas, monospace">
+    <rect x="20" y="40" width="40" height="36" fill="#e0f2f1" stroke="#00897b"/><text x="40" y="63" text-anchor="middle">1</text>
+    <rect x="60" y="40" width="40" height="36" fill="#e0f2f1" stroke="#00897b"/><text x="80" y="63" text-anchor="middle">2</text>
+    <rect x="100" y="40" width="40" height="36" fill="#e0f2f1" stroke="#00897b"/><text x="120" y="63" text-anchor="middle">3</text>
+    <rect x="140" y="40" width="40" height="36" fill="#e0f2f1" stroke="#00897b"/><text x="160" y="63" text-anchor="middle">4</text>
+  </g>
+  <line x1="20" y1="92" x2="180" y2="92" stroke="#e53935" stroke-width="2" marker-end="url(#x)"/>
+  <text x="60" y="110" fill="#e53935" font-size="12">axis 0</text>
+  <text x="20" y="140" font-size="12" fill="#555">a vector, e.g. one sound sample</text>
+  <text x="20" y="156" font-size="12" fill="#555">window or one embedding</text>
+
+  <!-- 2-D -->
+  <text x="250" y="25" font-weight="bold">2-D, shape (3, 4)</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="13">
+    <g fill="#e8eaf6" stroke="#3949ab">
+      <rect x="270" y="40" width="40" height="34"/><rect x="310" y="40" width="40" height="34"/><rect x="350" y="40" width="40" height="34"/><rect x="390" y="40" width="40" height="34"/>
+      <rect x="270" y="74" width="40" height="34"/><rect x="310" y="74" width="40" height="34"/><rect x="350" y="74" width="40" height="34"/><rect x="390" y="74" width="40" height="34"/>
+      <rect x="270" y="108" width="40" height="34"/><rect x="310" y="108" width="40" height="34"/><rect x="350" y="108" width="40" height="34"/><rect x="390" y="108" width="40" height="34"/>
+    </g>
+    <text x="290" y="62" text-anchor="middle">0</text><text x="330" y="62" text-anchor="middle">1</text><text x="370" y="62" text-anchor="middle">2</text><text x="410" y="62" text-anchor="middle">3</text>
+    <text x="290" y="96" text-anchor="middle">4</text><text x="330" y="96" text-anchor="middle">5</text><text x="370" y="96" text-anchor="middle">6</text><text x="410" y="96" text-anchor="middle">7</text>
+    <text x="290" y="130" text-anchor="middle">8</text><text x="330" y="130" text-anchor="middle">9</text><text x="370" y="130" text-anchor="middle">10</text><text x="410" y="130" text-anchor="middle">11</text>
+  </g>
+  <line x1="256" y1="40" x2="256" y2="142" stroke="#1e88e5" stroke-width="2" marker-end="url(#y)"/>
+  <text x="225" y="100" fill="#1e88e5" font-size="12" transform="rotate(-90 236 95)">axis 0 (rows)</text>
+  <line x1="270" y1="156" x2="430" y2="156" stroke="#e53935" stroke-width="2" marker-end="url(#x)"/>
+  <text x="300" y="174" fill="#e53935" font-size="12">axis 1 (columns)</text>
+  <text x="250" y="200" font-size="12" fill="#555">a matrix, e.g. a table: 3 samples × 4 features,</text>
+  <text x="250" y="216" font-size="12" fill="#555">or a grayscale image: height × width</text>
+
+  <!-- 3-D -->
+  <text x="500" y="25" font-weight="bold">3-D, shape (2, 3, 4)</text>
+  <g fill="#fff3e0" stroke="#ef6c00">
+    <rect x="540" y="40" width="140" height="90"/>
+    <rect x="525" y="55" width="140" height="90"/>
+  </g>
+  <g stroke="#ef6c00" stroke-opacity="0.5">
+    <line x1="525" y1="85" x2="665" y2="85"/><line x1="525" y1="115" x2="665" y2="115"/>
+    <line x1="560" y1="55" x2="560" y2="145"/><line x1="595" y1="55" x2="595" y2="145"/><line x1="630" y1="55" x2="630" y2="145"/>
+  </g>
+  <text x="500" y="200" font-size="12" fill="#555">a stack of matrices, e.g. a color</text>
+  <text x="500" y="216" font-size="12" fill="#555">image (H, W, 3) or a batch of</text>
+  <text x="500" y="232" font-size="12" fill="#555">grayscale images (N, H, W)</text>
+</svg>

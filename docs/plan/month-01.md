@@ -13,8 +13,8 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 1 | [Your AI workstation and first Python program](../lessons/phase-1/day-01-setup.md) | 90 min |
 | 2 | [Python's core types, through Kotlin eyes](../lessons/phase-1/day-02-python-types.md) | 90 min |
 | 3 | [Functions, classes and modules](../lessons/phase-1/day-03-functions-classes.md) | 90 min |
-| 4 | NumPy arrays: why ML runs on them *(coming soon)* | 120 min |
-| 5 | Vectors: the atoms of machine learning *(coming soon)* | 120 min |
+| 4 | [NumPy arrays: why ML runs on them](../lessons/phase-1/day-04-numpy-arrays.md) | 120 min |
+| 5 | [Vectors: the atoms of machine learning](../lessons/phase-1/day-05-vectors.md) | 120 min |
 | 6 | **Review + mini-project:** a word-frequency analyzer that turns sentences into count vectors and finds the most similar pair | 3 h |
 | 7 | Rest | |
 
