@@ -796,4 +796,4 @@ Same nearest neighbours, similarities within 0.015, and about 7× less storage i
 - [ ] I can say how the SVD gives the same components, and why libraries prefer it.
 - [ ] I can describe how to fit PCA offline and apply it on device to compress embeddings.
 
-**Next:** Day 26: Month 1 recap and gaps (coming soon)
+**Next:** [Day 26: Month 1 recap and gaps](day-26-month1-recap.md)

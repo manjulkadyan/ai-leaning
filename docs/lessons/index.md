@@ -45,3 +45,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 23 | [Rank, span and linear independence](phase-1/day-23-rank-span.md) |
 | 24 | [Eigenvectors, intuitively](phase-1/day-24-eigenvectors.md) |
 | 25 | [Projections and PCA preview](phase-1/day-25-projections-pca.md) |
+| 26 | [Month 1 recap and gaps](phase-1/day-26-month1-recap.md) |
