@@ -106,4 +106,5 @@ nav:
           - "Day 12: A layer is a matmul": lessons/phase-1/day-12-layer-is-matmul.md
           - "Day 13: Week 2 review": lessons/phase-1/day-13-week2-review.md
           - "Day 15: pandas DataFrames": lessons/phase-1/day-15-pandas-dataframes.md
+          - "Day 16: Selecting & filtering": lessons/phase-1/day-16-pandas-selecting.md
   - Datasets: datasets.md

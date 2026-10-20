@@ -571,4 +571,4 @@ apps["category"].unique().tolist()[:12]
 - [ ] I run `head()`, `info()` and `describe()` (both kinds) on every new dataset, and I can list most of the warning lights in the table above from memory.
 - [ ] I know pandas' `std` divides by \( n - 1 \) and skips `NaN`, and NumPy's doesn't.
 
-**Next:** Day 16: Selecting, filtering and sorting (coming soon)
+**Next:** [Day 16: Selecting, filtering and sorting](day-16-pandas-selecting.md)

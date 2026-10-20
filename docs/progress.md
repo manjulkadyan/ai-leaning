@@ -21,7 +21,7 @@ What's written, what's planned, and what's next. This page is updated with every
 | 12 | [A neural-network layer is a matrix multiply](lessons/phase-1/day-12-layer-is-matmul.md) | ✅ |
 | 13 | Week 2 review and mini-project: pure-Python vs NumPy matrix benchmark | ✅ |
 | 15 | pandas: DataFrames and Series | ✅ |
-| 16 | Selecting, filtering and sorting | 🚧 |
+| 16 | Selecting, filtering and sorting | ✅ |
 | 17 | Missing data and cleaning | 🚧 |
 | 18 | groupby, merge and pivot | 🚧 |
 | 19 | Plotting with Matplotlib | 🚧 |
