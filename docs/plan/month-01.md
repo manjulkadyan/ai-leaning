@@ -15,7 +15,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 3 | [Functions, classes and modules](../lessons/phase-1/day-03-functions-classes.md) | 90 min |
 | 4 | [NumPy arrays: why ML runs on them](../lessons/phase-1/day-04-numpy-arrays.md) | 120 min |
 | 5 | [Vectors: the atoms of machine learning](../lessons/phase-1/day-05-vectors.md) | 120 min |
-| 6 | **Review + mini-project:** a word-frequency analyzer that turns sentences into count vectors and finds the most similar pair | 3 h |
+| 6 | **Review + mini-project:** [a word-frequency analyzer that turns sentences into count vectors and finds the most similar pair](../lessons/phase-1/day-06-week1-review.md) | 3 h |
 | 7 | Rest | |
 
 **Self-check.** Can you explain the difference between a Python list and a NumPy array? What does a dot product measure?

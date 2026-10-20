@@ -13,6 +13,7 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 3 | [Functions, classes and modules](phase-1/day-03-functions-classes.md) |
 | 4 | [NumPy arrays, and why ML runs on them](phase-1/day-04-numpy-arrays.md) |
 | 5 | [Vectors, the atoms of machine learning](phase-1/day-05-vectors.md) |
+| 6 | [Week 1 review and mini-project: a word-frequency analyzer](phase-1/day-06-week1-review.md) |
 
 ### Week 2: NumPy in depth and matrices
 
