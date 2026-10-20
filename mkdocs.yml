@@ -110,5 +110,6 @@ nav:
           - "Day 17: Cleaning data": lessons/phase-1/day-17-pandas-cleaning.md
           - "Day 18: groupby & merge": lessons/phase-1/day-18-pandas-groupby-merge.md
           - "Day 19: Matplotlib": lessons/phase-1/day-19-matplotlib.md
+          - "Day 20: Week 3 review": lessons/phase-1/day-20-week3-review.md
   - Datasets: datasets.md
   - Glossary: glossary.md

@@ -595,4 +595,4 @@ Do the arithmetic, with one more decimal than the printout (Games 4.283, Educati
 - [ ] I made a grid of subplots and saved a figure as SVG and PNG.
 - [ ] I can pick a chart for a question using the table, and spot a truncated axis.
 
-**Next:** Week 3 review and mini-project (Day 20, coming soon)
+**Next:** [Day 20: Week 3 review and mini-project](day-20-week3-review.md)
