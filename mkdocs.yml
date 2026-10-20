@@ -51,6 +51,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
@@ -65,11 +66,13 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/matmul-stepper.css
+  - stylesheets/run-python.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/vector-playground.js
   - javascripts/matmul-stepper.js
+  - javascripts/run-python.js
   - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
 
 plugins:
