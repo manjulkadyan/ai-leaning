@@ -85,3 +85,4 @@ nav:
       - Phase 1 · Foundations:
           - "Day 1: Workstation setup": lessons/phase-1/day-01-setup.md
           - "Day 2: Python core types": lessons/phase-1/day-02-python-types.md
+          - "Day 3: Functions & classes": lessons/phase-1/day-03-functions-classes.md
