@@ -21,3 +21,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 8 | [Shapes, reshaping and indexing](phase-1/day-08-shapes-indexing.md) |
 | 9 | [Broadcasting](phase-1/day-09-broadcasting.md) |
 | 10 | [Matrices and matrix multiplication](phase-1/day-10-matrices-matmul.md) |
+| 11 | [Transpose, identity and inverse](phase-1/day-11-transpose-identity-inverse.md) |

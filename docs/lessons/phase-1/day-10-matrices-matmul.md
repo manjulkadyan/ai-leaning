@@ -477,4 +477,4 @@ Your numbers will differ (on that machine, repeated runs gave 0.6 to 0.8 s for t
 - [ ] I can count the cost \( m \cdot n \cdot p \) and explain why GPUs and NPUs are built for matmul.
 - [ ] I ran the pure-Python vs NumPy timing and played with the stepper.
 
-**Next:** Day 11: Transpose, identity and inverse (coming soon)
+**Next:** [Day 11: Transpose, identity and inverse](day-11-transpose-identity-inverse.md)

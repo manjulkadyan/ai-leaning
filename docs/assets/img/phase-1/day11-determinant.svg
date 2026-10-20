@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs>
+    <marker id="d11di" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+    <marker id="d11dj" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e88e5"/></marker>
+  </defs>
+  <text x="20" y="28" font-weight="bold" font-size="15">The determinant is the area-scaling factor</text>
+  <!-- panel backgrounds -->
+  <rect x="15" y="45" width="230" height="300" rx="8" fill="#e0f2f1"/>
+  <rect x="265" y="45" width="230" height="300" rx="8" fill="#e8eaf6"/>
+  <rect x="515" y="45" width="230" height="300" rx="8" fill="#fff3e0"/>
+  <!-- axes: 1 unit = 32px; origins (90,280) (320,280) (570,280) -->
+  <g stroke="#90a4ae" stroke-width="1.2">
+    <line x1="80" y1="280" x2="230" y2="280"/><line x1="90" y1="290" x2="90" y2="85"/>
+    <line x1="310" y1="280" x2="480" y2="280"/><line x1="320" y1="290" x2="320" y2="85"/>
+    <line x1="560" y1="280" x2="730" y2="280"/><line x1="570" y1="290" x2="570" y2="85"/>
+  </g>
+
+  <!-- panel 1: the unit square -->
+  <text x="130" y="68" text-anchor="middle" font-weight="bold">before: unit square</text>
+  <polygon points="90,280 122,280 122,248 90,248" fill="#fff59d" stroke="#ef6c00" stroke-width="2"/>
+  <line x1="90" y1="280" x2="122" y2="280" stroke="#e53935" stroke-width="3" marker-end="url(#d11di)"/>
+  <line x1="90" y1="280" x2="90" y2="248" stroke="#1e88e5" stroke-width="3" marker-end="url(#d11dj)"/>
+  <text x="135" y="262" font-size="13">area = 1</text>
+  <text x="130" y="312" text-anchor="middle" font-size="12" fill="#555">î = [1, 0], ĵ = [0, 1]</text>
+  <text x="130" y="330" text-anchor="middle" font-size="12" fill="#555">det(I) = 1</text>
+
+  <!-- panel 2: A = [[2, 1], [1, 3]], det 5 -->
+  <text x="380" y="68" text-anchor="middle" font-weight="bold">A = [[2, 1], [1, 3]]</text>
+  <polygon points="320,280 352,280 352,248 320,248" fill="none" stroke="#9e9e9e" stroke-dasharray="4 3"/>
+  <polygon points="320,280 352,280 352,248 320,248" fill="#fff59d" fill-opacity="0.85" stroke="#ef6c00" stroke-width="2">
+    <animate attributeName="points" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="320,280 352,280 352,248 320,248;320,280 352,280 352,248 320,248;320,280 384,248 416,152 352,184;320,280 384,248 416,152 352,184;320,280 352,280 352,248 320,248"/>
+  </polygon>
+  <line x1="320" y1="280" x2="352" y2="280" stroke="#e53935" stroke-width="3" marker-end="url(#d11di)">
+    <animate attributeName="x2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="352;352;384;384;352"/>
+    <animate attributeName="y2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="280;280;248;248;280"/>
+  </line>
+  <line x1="320" y1="280" x2="320" y2="248" stroke="#1e88e5" stroke-width="3" marker-end="url(#d11dj)">
+    <animate attributeName="x2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="320;320;352;352;320"/>
+    <animate attributeName="y2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="248;248;184;184;248"/>
+  </line>
+  <text x="425" y="210" font-size="13" opacity="0">area = 5
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="0;0;1;1;0"/>
+  </text>
+  <text x="380" y="312" text-anchor="middle" font-size="12" fill="#555">det = 2·3 − 1·1 = 5</text>
+  <text x="380" y="330" text-anchor="middle" font-size="12" fill="#555">every area grows 5×</text>
+
+  <!-- panel 3: singular [[1, 2], [2, 4]], det 0 -->
+  <text x="630" y="68" text-anchor="middle" font-weight="bold">singular: [[1, 2], [2, 4]]</text>
+  <line x1="560" y1="300" x2="665" y2="90" stroke="#e53935" stroke-width="1" stroke-dasharray="2 4" opacity="0.6"/>
+  <polygon points="570,280 602,280 602,248 570,248" fill="none" stroke="#9e9e9e" stroke-dasharray="4 3"/>
+  <polygon points="570,280 602,280 602,248 570,248" fill="#fff59d" fill-opacity="0.85" stroke="#ef6c00" stroke-width="2">
+    <animate attributeName="points" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="570,280 602,280 602,248 570,248;570,280 602,280 602,248 570,248;570,280 602,216 666,88 634,152;570,280 602,216 666,88 634,152;570,280 602,280 602,248 570,248"/>
+  </polygon>
+  <line x1="570" y1="280" x2="602" y2="280" stroke="#e53935" stroke-width="3" marker-end="url(#d11di)">
+    <animate attributeName="x2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="602;602;602;602;602"/>
+    <animate attributeName="y2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="280;280;216;216;280"/>
+  </line>
+  <line x1="570" y1="280" x2="570" y2="248" stroke="#1e88e5" stroke-width="3" marker-end="url(#d11dj)">
+    <animate attributeName="x2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="570;570;634;634;570"/>
+    <animate attributeName="y2" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="248;248;152;152;248"/>
+  </line>
+  <text x="672" y="190" font-size="13" opacity="0">area = 0
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="0;0;1;1;0"/>
+  </text>
+  <text x="672" y="206" font-size="12" fill="#c62828" opacity="0">a line!
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;0.45;0.88;1" values="0;0;1;1;0"/>
+  </text>
+  <text x="630" y="312" text-anchor="middle" font-size="12" fill="#555">det = 1·4 − 2·2 = 0</text>
+  <text x="630" y="330" text-anchor="middle" font-size="12" fill="#c62828">squashed flat: no inverse</text>
+</svg>
