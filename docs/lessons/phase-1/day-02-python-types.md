@@ -253,4 +253,4 @@ match device:
 - [ ] I rewrote a Kotlin `filter { }.map { }` chain as a comprehension.
 - [ ] I tried exercise 3 in Python Tutor and saw the shared list.
 
-**Next:** Day 3: Functions, classes and modules (coming soon)
+**Next:** [Day 3: Functions, classes and modules](day-03-functions-classes.md)
