@@ -11,19 +11,19 @@ This is the whole journey on one page: nine phases, in prerequisite order, rough
 
 ```mermaid
 flowchart TD
-    P1[1. Foundations<br/>Python, NumPy, math] --> P2[2. Machine Learning]
-    P1 --> P3[3. Deep Learning]
+    P1["Phase 1: Foundations<br/>Python, NumPy, math"] --> P2["Phase 2: Machine Learning"]
+    P1 --> P3["Phase 3: Deep Learning"]
     P2 --> P3
-    P3 --> P4[4. Generative AI & LLMs]
-    P4 --> P5[5. AI Engineering]
-    P3 --> P6[6. On-Device AI/ML]
+    P3 --> P4["Phase 4: Generative AI & LLMs"]
+    P4 --> P5["Phase 5: AI Engineering"]
+    P3 --> P6["Phase 6: On-Device AI/ML"]
     P4 --> P6
     P5 --> P6
-    P3 --> P7[7. Advanced Topics]
+    P3 --> P7["Phase 7: Advanced Topics"]
     P6 --> P7
-    P4 --> P8[8. Research & Open Source]
+    P4 --> P8["Phase 8: Research & Open Source"]
     P7 --> P8
-    P5 --> P9[9. Career Preparation]
+    P5 --> P9["Phase 9: Career Preparation"]
     P6 --> P9
     P8 --> P9
 ```
