@@ -473,4 +473,4 @@ Notice the second version is *still* broadcasting: a `(1000, 1)` column plus a `
 - [ ] I check shapes before combining predictions and labels, and I reach for `keepdims=True` on row-wise reductions.
 - [ ] I know broadcast results can be huge and how to avoid it.
 
-**Next:** Day 10: Matrices and matrix multiplication (coming soon)
+**Next:** [Day 10: Matrices and matrix multiplication](day-10-matrices-matmul.md)

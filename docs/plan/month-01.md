@@ -26,7 +26,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 |---|---|---|
 | 8 | [Shapes, reshaping and indexing](../lessons/phase-1/day-08-shapes-indexing.md) | 90 min |
 | 9 | [Broadcasting](../lessons/phase-1/day-09-broadcasting.md) | 90 min |
-| 10 | Matrices and matrix multiplication *(coming soon)* | 120 min |
+| 10 | [Matrices and matrix multiplication](../lessons/phase-1/day-10-matrices-matmul.md) | 120 min |
 | 11 | Transpose, identity and inverse *(coming soon)* | 90 min |
 | 12 | A neural-network layer is a matrix multiply *(coming soon)* | 120 min |
 | 13 | **Review + mini-project:** pure-Python vs NumPy matrix benchmark | 3 h |
