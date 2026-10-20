@@ -606,4 +606,4 @@ long.head(4)
 - [ ] I use `validate="many_to_one"` on lookup joins and know a growing row count means duplicate keys.
 - [ ] I built a `pivot_table` with margins, a `crosstab`, and melted a wide table back to long.
 
-**Next:** Day 19: Plotting with Matplotlib (coming soon)
+**Next:** [Day 19: Plotting with Matplotlib](day-19-matplotlib.md)

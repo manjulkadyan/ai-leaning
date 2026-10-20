@@ -40,7 +40,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 16 | [Selecting, filtering and sorting](../lessons/phase-1/day-16-pandas-selecting.md) | 90 min |
 | 17 | [Missing data and cleaning](../lessons/phase-1/day-17-pandas-cleaning.md) | 90 min |
 | 18 | [groupby, merge and pivot](../lessons/phase-1/day-18-pandas-groupby-merge.md) | 120 min |
-| 19 | Plotting with Matplotlib *(coming soon)* | 90 min |
+| 19 | [Plotting with Matplotlib](../lessons/phase-1/day-19-matplotlib.md) | 90 min |
 | 20 | **Review + mini-project:** exploratory analysis of a public dataset | 3 h |
 | 21 | Rest | |
 

@@ -109,4 +109,5 @@ nav:
           - "Day 16: Selecting & filtering": lessons/phase-1/day-16-pandas-selecting.md
           - "Day 17: Cleaning data": lessons/phase-1/day-17-pandas-cleaning.md
           - "Day 18: groupby & merge": lessons/phase-1/day-18-pandas-groupby-merge.md
+          - "Day 19: Matplotlib": lessons/phase-1/day-19-matplotlib.md
   - Datasets: datasets.md

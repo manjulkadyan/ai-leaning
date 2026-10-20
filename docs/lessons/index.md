@@ -34,3 +34,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 16 | [Selecting, filtering and sorting](phase-1/day-16-pandas-selecting.md) |
 | 17 | [Missing data and cleaning](phase-1/day-17-pandas-cleaning.md) |
 | 18 | [groupby, merge and pivot](phase-1/day-18-pandas-groupby-merge.md) |
+| 19 | [Plotting with Matplotlib](phase-1/day-19-matplotlib.md) |
