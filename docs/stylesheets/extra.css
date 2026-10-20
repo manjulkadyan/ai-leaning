@@ -1,0 +1,45 @@
+/* Figures: centered diagrams with a caption, readable in light and dark mode */
+.md-typeset figure.diagram {
+  margin: 1.5em auto;
+  text-align: center;
+}
+.md-typeset figure.diagram img,
+.md-typeset figure.diagram svg {
+  max-width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.md-typeset figure.diagram figcaption {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.5em;
+}
+
+/* "Android bridge" callout: maps a new idea to something an Android engineer knows */
+.md-typeset .admonition.android,
+.md-typeset details.android {
+  border-color: #3ddc84;
+}
+.md-typeset .android > .admonition-title,
+.md-typeset .android > summary {
+  background-color: rgba(61, 220, 132, 0.12);
+}
+.md-typeset .android > .admonition-title::before,
+.md-typeset .android > summary::before {
+  background-color: #3ddc84;
+  -webkit-mask-image: var(--md-admonition-icon--android);
+  mask-image: var(--md-admonition-icon--android);
+}
+:root {
+  --md-admonition-icon--android: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.61 15.15a.83.83 0 1 1 .83-.83.83.83 0 0 1-.83.83m-9.2 0a.83.83 0 1 1 .83-.83.83.83 0 0 1-.83.83m9.5-5.01 1.67-2.88a.35.35 0 0 0-.6-.35l-1.69 2.92a10.4 10.4 0 0 0-8.56 0L6.04 6.91a.35.35 0 0 0-.6.35l1.67 2.88A9.86 9.86 0 0 0 2 17.99h20a9.86 9.86 0 0 0-5.09-7.85"/></svg>');
+}
+
+/* Respect users who prefer less motion: pause SVG/CSS animations */
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .animated * {
+    animation: none !important;
+  }
+}
