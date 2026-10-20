@@ -5,6 +5,7 @@
 }
 .md-typeset figure.diagram img,
 .md-typeset figure.diagram svg {
+  width: 100%;
   max-width: 100%;
   height: auto;
   background: #fff;
