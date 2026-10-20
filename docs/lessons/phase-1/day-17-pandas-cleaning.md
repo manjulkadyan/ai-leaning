@@ -555,4 +555,4 @@ The rows look almost the same printed, but now `apps["installs"].sum()` is `2174
 - [ ] I can explain why `10.0` is the wrong type for an Android version.
 - [ ] I have a working `clean_apps(df)` and I call it once, right after loading.
 
-**Next:** Day 18: groupby, merge and pivot (coming soon)
+**Next:** [Day 18: groupby, merge and pivot](day-18-pandas-groupby-merge.md)
