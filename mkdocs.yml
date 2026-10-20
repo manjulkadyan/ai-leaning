@@ -71,3 +71,4 @@ plugins:
 
 nav:
   - Home: index.md
+  - Roadmap: roadmap/index.md
