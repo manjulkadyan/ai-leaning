@@ -638,4 +638,4 @@ That second `Photography` and second `Tools` look identical to the first, but th
 - [ ] I add columns with `assign` or a single `.loc[mask, col] = value`, never chained `[][]` assignment.
 - [ ] I run `value_counts` on text columns to spot messy spellings before trusting a filter.
 
-**Next:** Day 17: Missing data and cleaning (coming soon)
+**Next:** [Day 17: Missing data and cleaning](day-17-pandas-cleaning.md)

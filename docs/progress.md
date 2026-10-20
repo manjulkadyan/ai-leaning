@@ -22,7 +22,7 @@ What's written, what's planned, and what's next. This page is updated with every
 | 13 | Week 2 review and mini-project: pure-Python vs NumPy matrix benchmark | ✅ |
 | 15 | pandas: DataFrames and Series | ✅ |
 | 16 | Selecting, filtering and sorting | ✅ |
-| 17 | Missing data and cleaning | 🚧 |
+| 17 | Missing data and cleaning | ✅ |
 | 18 | groupby, merge and pivot | 🚧 |
 | 19 | Plotting with Matplotlib | 🚧 |
 | 20 | Week 3 review and mini-project: exploratory analysis | ⬜ |

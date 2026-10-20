@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<defs><marker id="p17a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/></marker></defs>
+<text x="20" y="28" font-weight="bold" font-size="15">Cleaning pipeline: one messy row through six steps</text>
+<rect x="20" y="46" width="108" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"><animate attributeName="fill" calcMode="discrete" values="#e8eaf6;#fff59d;#e0f2f1" keyTimes="0;0.125;0.25" dur="16s" repeatCount="indefinite"/></rect>
+<text x="74" y="64" text-anchor="middle" font-size="11" fill="#555">step 1</text>
+<text x="74" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949ab">drop duplicates</text>
+<text x="74" y="94" text-anchor="middle" font-size="10.5" fill="#555">drop_duplicates()</text>
+<line x1="129" y1="73" x2="141" y2="73" stroke="#3949ab" stroke-width="1.5" marker-end="url(#p17a)"/>
+<rect x="142" y="46" width="108" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"><animate attributeName="fill" calcMode="discrete" values="#e8eaf6;#fff59d;#e0f2f1" keyTimes="0;0.25;0.375" dur="16s" repeatCount="indefinite"/></rect>
+<text x="196" y="64" text-anchor="middle" font-size="11" fill="#555">step 2</text>
+<text x="196" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949ab">category</text>
+<text x="196" y="94" text-anchor="middle" font-size="10.5" fill="#555">strip + title</text>
+<line x1="251" y1="73" x2="263" y2="73" stroke="#3949ab" stroke-width="1.5" marker-end="url(#p17a)"/>
+<rect x="264" y="46" width="108" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"><animate attributeName="fill" calcMode="discrete" values="#e8eaf6;#fff59d;#e0f2f1" keyTimes="0;0.375;0.5" dur="16s" repeatCount="indefinite"/></rect>
+<text x="318" y="64" text-anchor="middle" font-size="11" fill="#555">step 3</text>
+<text x="318" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949ab">installs</text>
+<text x="318" y="94" text-anchor="middle" font-size="10.5" fill="#555">remove , and +</text>
+<line x1="373" y1="73" x2="385" y2="73" stroke="#3949ab" stroke-width="1.5" marker-end="url(#p17a)"/>
+<rect x="386" y="46" width="108" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"><animate attributeName="fill" calcMode="discrete" values="#e8eaf6;#fff59d;#e0f2f1" keyTimes="0;0.5;0.625" dur="16s" repeatCount="indefinite"/></rect>
+<text x="440" y="64" text-anchor="middle" font-size="11" fill="#555">step 4</text>
+<text x="440" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949ab">size_mb</text>
+<text x="440" y="94" text-anchor="middle" font-size="10.5" fill="#555">Varies → NaN</text>
+<line x1="495" y1="73" x2="507" y2="73" stroke="#3949ab" stroke-width="1.5" marker-end="url(#p17a)"/>
+<rect x="508" y="46" width="108" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"><animate attributeName="fill" calcMode="discrete" values="#e8eaf6;#fff59d;#e0f2f1" keyTimes="0;0.625;0.75" dur="16s" repeatCount="indefinite"/></rect>
+<text x="562" y="64" text-anchor="middle" font-size="11" fill="#555">step 5</text>
+<text x="562" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949ab">last_updated</text>
+<text x="562" y="94" text-anchor="middle" font-size="10.5" fill="#555">to_datetime</text>
+<line x1="617" y1="73" x2="629" y2="73" stroke="#3949ab" stroke-width="1.5" marker-end="url(#p17a)"/>
+<rect x="630" y="46" width="108" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"><animate attributeName="fill" calcMode="discrete" values="#e8eaf6;#fff59d;#e0f2f1" keyTimes="0;0.75;0.875" dur="16s" repeatCount="indefinite"/></rect>
+<text x="684" y="64" text-anchor="middle" font-size="11" fill="#555">step 6</text>
+<text x="684" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#3949ab">min_android</text>
+<text x="684" y="94" text-anchor="middle" font-size="10.5" fill="#555">float → version</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.125;0.875" dur="16s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0,0;20,0;142,0;264,0;386,0;508,0;630,0" keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75" dur="16s" repeatCount="indefinite"/><path d="M54,106 L46,116 L62,116 z" fill="#ef6c00"/></g>
+<text x="132.0" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">category</text>
+<text x="268.0" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">installs</text>
+<text x="404.0" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">size_mb</text>
+<text x="540.0" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">last_updated</text>
+<text x="676.0" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">min_android</text>
+<text x="56" y="173" text-anchor="end" font-size="11" fill="#555">row</text>
+<rect x="64" y="150" width="136" height="38" fill="#ffffff" stroke="#90a4ae"><animate attributeName="fill" calcMode="discrete" values="#ffffff;#fff59d;#e0f2f1" keyTimes="0;0.25;0.375" dur="16s" repeatCount="indefinite"/></rect>
+<text x="132.0" y="174" text-anchor="middle" font-size="13" fill="#e53935" font-family="Menlo, Consolas, monospace">" games"<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.3125" dur="16s" repeatCount="indefinite"/></text>
+<text x="132.0" y="174" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold" font-family="Menlo, Consolas, monospace" opacity="0">"Games"<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.3125" dur="16s" repeatCount="indefinite"/></text>
+<text x="132.0" y="204" text-anchor="middle" font-size="11" fill="#555">str<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.3125" dur="16s" repeatCount="indefinite"/></text>
+<text x="132.0" y="204" text-anchor="middle" font-size="11" fill="#00897b" font-weight="bold" opacity="0">str<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.3125" dur="16s" repeatCount="indefinite"/></text>
+<rect x="200" y="150" width="136" height="38" fill="#ffffff" stroke="#90a4ae"><animate attributeName="fill" calcMode="discrete" values="#ffffff;#fff59d;#e0f2f1" keyTimes="0;0.375;0.5" dur="16s" repeatCount="indefinite"/></rect>
+<text x="268.0" y="174" text-anchor="middle" font-size="13" fill="#e53935" font-family="Menlo, Consolas, monospace">"1,000,000+"<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.4375" dur="16s" repeatCount="indefinite"/></text>
+<text x="268.0" y="174" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold" font-family="Menlo, Consolas, monospace" opacity="0">1000000<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.4375" dur="16s" repeatCount="indefinite"/></text>
+<text x="268.0" y="204" text-anchor="middle" font-size="11" fill="#555">str<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.4375" dur="16s" repeatCount="indefinite"/></text>
+<text x="268.0" y="204" text-anchor="middle" font-size="11" fill="#00897b" font-weight="bold" opacity="0">int64<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.4375" dur="16s" repeatCount="indefinite"/></text>
+<rect x="336" y="150" width="136" height="38" fill="#ffffff" stroke="#90a4ae"><animate attributeName="fill" calcMode="discrete" values="#ffffff;#fff59d;#e0f2f1" keyTimes="0;0.5;0.625" dur="16s" repeatCount="indefinite"/></rect>
+<text x="404.0" y="174" text-anchor="middle" font-size="11" fill="#e53935" font-family="Menlo, Consolas, monospace">"Varies with device"<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5625" dur="16s" repeatCount="indefinite"/></text>
+<text x="404.0" y="174" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold" font-family="Menlo, Consolas, monospace" opacity="0">NaN<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.5625" dur="16s" repeatCount="indefinite"/></text>
+<text x="404.0" y="204" text-anchor="middle" font-size="11" fill="#555">str<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5625" dur="16s" repeatCount="indefinite"/></text>
+<text x="404.0" y="204" text-anchor="middle" font-size="11" fill="#00897b" font-weight="bold" opacity="0">float64<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.5625" dur="16s" repeatCount="indefinite"/></text>
+<rect x="472" y="150" width="136" height="38" fill="#ffffff" stroke="#90a4ae"><animate attributeName="fill" calcMode="discrete" values="#ffffff;#fff59d;#e0f2f1" keyTimes="0;0.625;0.75" dur="16s" repeatCount="indefinite"/></rect>
+<text x="540.0" y="174" text-anchor="middle" font-size="13" fill="#e53935" font-family="Menlo, Consolas, monospace">"2026-06-07"<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.6875" dur="16s" repeatCount="indefinite"/></text>
+<text x="540.0" y="174" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold" font-family="Menlo, Consolas, monospace" opacity="0">2026-06-07<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.6875" dur="16s" repeatCount="indefinite"/></text>
+<text x="540.0" y="204" text-anchor="middle" font-size="11" fill="#555">str<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.6875" dur="16s" repeatCount="indefinite"/></text>
+<text x="540.0" y="204" text-anchor="middle" font-size="11" fill="#00897b" font-weight="bold" opacity="0">datetime64<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.6875" dur="16s" repeatCount="indefinite"/></text>
+<rect x="608" y="150" width="136" height="38" fill="#ffffff" stroke="#90a4ae"><animate attributeName="fill" calcMode="discrete" values="#ffffff;#fff59d;#e0f2f1" keyTimes="0;0.75;0.875" dur="16s" repeatCount="indefinite"/></rect>
+<text x="676.0" y="174" text-anchor="middle" font-size="13" fill="#e53935" font-family="Menlo, Consolas, monospace">10.0<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.8125" dur="16s" repeatCount="indefinite"/></text>
+<text x="676.0" y="174" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold" font-family="Menlo, Consolas, monospace" opacity="0">"10"<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.8125" dur="16s" repeatCount="indefinite"/></text>
+<text x="676.0" y="204" text-anchor="middle" font-size="11" fill="#555">float64<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.8125" dur="16s" repeatCount="indefinite"/></text>
+<text x="676.0" y="204" text-anchor="middle" font-size="11" fill="#00897b" font-weight="bold" opacity="0">str<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.8125" dur="16s" repeatCount="indefinite"/></text>
+<text x="56" y="204" text-anchor="end" font-size="11" fill="#555">dtype</text>
+<g><animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.25" dur="16s" repeatCount="indefinite"/>
+<text x="56" y="241" text-anchor="end" font-size="11" fill="#555">twin</text>
+<rect x="64" y="218" width="136" height="38" fill="#fafafa" stroke="#cfd8dc" stroke-dasharray="4 3"/>
+<text x="132.0" y="242" text-anchor="middle" font-size="13" fill="#9e9e9e" font-family="Menlo, Consolas, monospace">" games"</text>
+<rect x="200" y="218" width="136" height="38" fill="#fafafa" stroke="#cfd8dc" stroke-dasharray="4 3"/>
+<text x="268.0" y="242" text-anchor="middle" font-size="13" fill="#9e9e9e" font-family="Menlo, Consolas, monospace">"1,000,000+"</text>
+<rect x="336" y="218" width="136" height="38" fill="#fafafa" stroke="#cfd8dc" stroke-dasharray="4 3"/>
+<text x="404.0" y="242" text-anchor="middle" font-size="11" fill="#9e9e9e" font-family="Menlo, Consolas, monospace">"Varies with device"</text>
+<rect x="472" y="218" width="136" height="38" fill="#fafafa" stroke="#cfd8dc" stroke-dasharray="4 3"/>
+<text x="540.0" y="242" text-anchor="middle" font-size="13" fill="#9e9e9e" font-family="Menlo, Consolas, monospace">"2026-06-07"</text>
+<rect x="608" y="218" width="136" height="38" fill="#fafafa" stroke="#cfd8dc" stroke-dasharray="4 3"/>
+<text x="676.0" y="242" text-anchor="middle" font-size="13" fill="#9e9e9e" font-family="Menlo, Consolas, monospace">10.0</text>
+<line x1="64" y1="237" x2="744" y2="237" stroke="#e53935" stroke-width="2.5" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.1625" dur="16s" repeatCount="indefinite"/></line>
+</g>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333">A raw row, plus an exact duplicate of it further down the file.<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.125" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Step 1: drop_duplicates() keeps the first copy and drops the twin (486 → 480 rows).<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.125;0.25" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Step 2: strip the space, title-case the text: 26 spellings become 8 categories.<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.25;0.375" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Step 3: remove &quot;,&quot; and &quot;+&quot;, then astype(int64): the text becomes a number you can sum.<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.375;0.5" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Step 4: &quot;Varies with device&quot; becomes NaN, so the column can be float64.<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.5;0.625" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Step 5: pd.to_datetime turns text into real dates you can subtract and sort.<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.625;0.75" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Step 6: 10.0 becomes the version string &quot;10&quot; (8.0 stays &quot;8.0&quot;).<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.75;0.875" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="300" text-anchor="middle" font-size="13" fill="#333" opacity="0">Done: one meaning and one dtype per column. Missing values are visible as NaN.<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.875" dur="16s" repeatCount="indefinite"/></text>
+<text x="380" y="336" text-anchor="middle" font-size="11" fill="#555">Illustrative row combining the kinds of mess in play_store_apps.csv. Yellow = step in progress, teal = done.</text>
+</svg>

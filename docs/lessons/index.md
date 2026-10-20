@@ -32,3 +32,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 |---|---|
 | 15 | [pandas: DataFrames and Series](phase-1/day-15-pandas-dataframes.md) |
 | 16 | [Selecting, filtering and sorting](phase-1/day-16-pandas-selecting.md) |
+| 17 | [Missing data and cleaning](phase-1/day-17-pandas-cleaning.md) |
