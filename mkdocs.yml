@@ -111,3 +111,4 @@ nav:
           - "Day 18: groupby & merge": lessons/phase-1/day-18-pandas-groupby-merge.md
           - "Day 19: Matplotlib": lessons/phase-1/day-19-matplotlib.md
   - Datasets: datasets.md
+  - Glossary: glossary.md

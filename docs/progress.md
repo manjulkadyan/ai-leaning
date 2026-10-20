@@ -60,4 +60,4 @@ The goals and milestones for every month are already in the [Monthly plan](plan/
 | Animated SVG diagrams in every lesson | ✅ |
 | Interactive widgets (vector playground, matmul stepper) | ✅ |
 | Course datasets for hands-on lessons | ✅ |
-| Glossary of terms and acronyms | ⬜ |
+| [Glossary](glossary.md) of terms and acronyms (Month 1 terms; grows with each lesson) | ✅ |
