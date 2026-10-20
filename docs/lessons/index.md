@@ -25,3 +25,9 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 11 | [Transpose, identity and inverse](phase-1/day-11-transpose-identity-inverse.md) |
 | 12 | [A neural-network layer is a matrix multiply](phase-1/day-12-layer-is-matmul.md) |
 | 13 | [Week 2 review and mini-project: a matrix-multiply benchmark](phase-1/day-13-week2-review.md) |
+
+### Week 3: pandas and plotting
+
+| Day | Lesson |
+|---|---|
+| 15 | [pandas: DataFrames and Series](phase-1/day-15-pandas-dataframes.md) |

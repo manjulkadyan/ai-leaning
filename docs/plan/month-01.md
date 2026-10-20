@@ -36,7 +36,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 15 | DataFrames and Series *(coming soon)* | 90 min |
+| 15 | [DataFrames and Series](../lessons/phase-1/day-15-pandas-dataframes.md) | 90 min |
 | 16 | Selecting, filtering and sorting *(coming soon)* | 90 min |
 | 17 | Missing data and cleaning *(coming soon)* | 90 min |
 | 18 | groupby, merge and pivot *(coming soon)* | 120 min |

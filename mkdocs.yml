@@ -105,4 +105,5 @@ nav:
           - "Day 11: Transpose & inverse": lessons/phase-1/day-11-transpose-identity-inverse.md
           - "Day 12: A layer is a matmul": lessons/phase-1/day-12-layer-is-matmul.md
           - "Day 13: Week 2 review": lessons/phase-1/day-13-week2-review.md
+          - "Day 15: pandas DataFrames": lessons/phase-1/day-15-pandas-dataframes.md
   - Datasets: datasets.md

@@ -812,4 +812,4 @@ Questions I missed:
 - [ ] I can explain why phone NPUs use int8 and why the sums are kept in int32.
 - [ ] I wrote my Week 2 retro in the journal.
 
-**Next:** Day 15: pandas: DataFrames and Series (coming soon)
+**Next:** Week 3 begins with [Day 15: pandas: DataFrames and Series](day-15-pandas-dataframes.md)
