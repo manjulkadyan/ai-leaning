@@ -258,4 +258,4 @@ img.nbytes            # 150528  ≈ 147 KB
 - [ ] I know slices are views and when to `.copy()`.
 - [ ] I can work out an array's or model's memory size from its dtype.
 
-**Next:** Day 5: Vectors, the atoms of machine learning (coming soon)
+**Next:** [Day 5: Vectors, the atoms of machine learning](day-05-vectors.md)
