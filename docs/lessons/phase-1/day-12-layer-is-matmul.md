@@ -402,4 +402,4 @@ x = np.ones(4)                # one example, shape (4,), not (1, 4)
 - [ ] I can map `nn.Linear(in, out)` and LiteRT's `FULLY_CONNECTED` to the same math.
 - [ ] I can read the three shape errors above and know the fix for each.
 
-**Next:** Week 3 begins with pandas: DataFrames and Series (coming soon)
+**Next:** [Day 13: Week 2 review and mini-project](day-13-week2-review.md)

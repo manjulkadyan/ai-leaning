@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="20" y="26" font-weight="bold" font-size="15">.loc picks by label, .iloc picks by position</text>
+<text x="20" y="54" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#3949ab" font-weight="bold">small.loc["com.quick.cleaner":"com.quick.quest"]</text>
+<text x="46.0" y="72" text-anchor="middle" fill="#555" font-size="11">position</text>
+<text x="80" y="72" fill="#555" font-size="11">index label (app_id)</text>
+<text x="292" y="72" text-anchor="end" fill="#555" font-size="11">rating</text>
+<rect x="20" y="78" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="46.0" y="98" text-anchor="middle" fill="#222" font-weight="normal">0</text>
+<rect x="72" y="78" width="170" height="30" fill="#ffffff" stroke="#bdbdbd"/>
+<text x="80" y="98" fill="#222">com.bright.quest.x</text>
+<rect x="242" y="78" width="56" height="30" fill="#ffffff" stroke="#bdbdbd"/>
+<text x="290" y="98" text-anchor="end" fill="#222">3.8</text>
+<rect x="20" y="108" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="46.0" y="128" text-anchor="middle" fill="#222" font-weight="normal">1</text>
+<rect x="72" y="108" width="170" height="30" fill="#fff59d" stroke="#3949ab"/>
+<text x="80" y="128" fill="#222">com.quick.cleaner</text>
+<rect x="242" y="108" width="56" height="30" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="290" y="128" text-anchor="end" fill="#222">3.9</text>
+<rect x="20" y="138" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="46.0" y="158" text-anchor="middle" fill="#222" font-weight="normal">2</text>
+<rect x="72" y="138" width="170" height="30" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="80" y="158" fill="#222">com.pocket.radio.kids</text>
+<rect x="242" y="138" width="56" height="30" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="290" y="158" text-anchor="end" fill="#222">3.7</text>
+<rect x="20" y="168" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="46.0" y="188" text-anchor="middle" fill="#222" font-weight="normal">3</text>
+<rect x="72" y="168" width="170" height="30" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="80" y="188" fill="#222">com.lumen.learn.pro</text>
+<rect x="242" y="168" width="56" height="30" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="290" y="188" text-anchor="end" fill="#222">4.0</text>
+<rect x="20" y="198" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="46.0" y="218" text-anchor="middle" fill="#222" font-weight="normal">4</text>
+<rect x="72" y="198" width="170" height="30" fill="#fff59d" stroke="#3949ab"/>
+<text x="80" y="218" fill="#222">com.quick.quest</text>
+<rect x="242" y="198" width="56" height="30" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="290" y="218" text-anchor="end" fill="#e53935">NaN</text>
+<path d="M306,112 h6 V224 h-6" fill="none" stroke="#3949ab" stroke-width="2"/>
+<text x="318" y="166.0" fill="#3949ab" font-weight="bold">4 rows</text>
+<text x="20" y="254" fill="#555" font-size="12">Start and stop are LABELS (yellow).</text>
+<text x="20" y="272" fill="#555" font-size="12">The stop label is INCLUDED: rows 1 to 4.</text>
+<text x="400" y="54" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#00897b" font-weight="bold">small.iloc[1:4]</text>
+<text x="426.0" y="72" text-anchor="middle" fill="#555" font-size="11">position</text>
+<text x="460" y="72" fill="#555" font-size="11">index label (app_id)</text>
+<text x="672" y="72" text-anchor="end" fill="#555" font-size="11">rating</text>
+<rect x="400" y="78" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="426.0" y="98" text-anchor="middle" fill="#222" font-weight="normal">0</text>
+<rect x="452" y="78" width="170" height="30" fill="#ffffff" stroke="#bdbdbd"/>
+<text x="460" y="98" fill="#222">com.bright.quest.x</text>
+<rect x="622" y="78" width="56" height="30" fill="#ffffff" stroke="#bdbdbd"/>
+<text x="670" y="98" text-anchor="end" fill="#222">3.8</text>
+<rect x="400" y="108" width="52" height="30" fill="#fff59d" stroke="#bdbdbd"/>
+<text x="426.0" y="128" text-anchor="middle" fill="#222" font-weight="bold">1</text>
+<rect x="452" y="108" width="170" height="30" fill="#e0f2f1" stroke="#00897b"/>
+<text x="460" y="128" fill="#222">com.quick.cleaner</text>
+<rect x="622" y="108" width="56" height="30" fill="#e0f2f1" stroke="#00897b"/>
+<text x="670" y="128" text-anchor="end" fill="#222">3.9</text>
+<rect x="400" y="138" width="52" height="30" fill="#fff59d" stroke="#bdbdbd"/>
+<text x="426.0" y="158" text-anchor="middle" fill="#222" font-weight="bold">2</text>
+<rect x="452" y="138" width="170" height="30" fill="#e0f2f1" stroke="#00897b"/>
+<text x="460" y="158" fill="#222">com.pocket.radio.kids</text>
+<rect x="622" y="138" width="56" height="30" fill="#e0f2f1" stroke="#00897b"/>
+<text x="670" y="158" text-anchor="end" fill="#222">3.7</text>
+<rect x="400" y="168" width="52" height="30" fill="#fff59d" stroke="#bdbdbd"/>
+<text x="426.0" y="188" text-anchor="middle" fill="#222" font-weight="bold">3</text>
+<rect x="452" y="168" width="170" height="30" fill="#e0f2f1" stroke="#00897b"/>
+<text x="460" y="188" fill="#222">com.lumen.learn.pro</text>
+<rect x="622" y="168" width="56" height="30" fill="#e0f2f1" stroke="#00897b"/>
+<text x="670" y="188" text-anchor="end" fill="#222">4.0</text>
+<rect x="400" y="198" width="52" height="30" fill="#f5f5f5" stroke="#bdbdbd"/>
+<text x="426.0" y="218" text-anchor="middle" fill="#222" font-weight="normal">4</text>
+<rect x="452" y="198" width="170" height="30" fill="#ffffff" stroke="#bdbdbd"/>
+<text x="460" y="218" fill="#222">com.quick.quest</text>
+<rect x="622" y="198" width="56" height="30" fill="#ffffff" stroke="#bdbdbd"/>
+<text x="670" y="218" text-anchor="end" fill="#e53935">NaN</text>
+<rect x="401" y="199" width="276" height="28" fill="none" stroke="#e53935" stroke-width="1.6" stroke-dasharray="5 3"/>
+<path d="M686,112 h6 V194 h-6" fill="none" stroke="#00897b" stroke-width="2"/>
+<text x="698" y="151.0" fill="#00897b" font-weight="bold">3 rows</text>
+<text x="400" y="254" fill="#555" font-size="12">Start and stop are POSITIONS (yellow).</text>
+<text x="400" y="272" fill="#555" font-size="12">The stop position 4 is EXCLUDED (red dashes),</text>
+<text x="400" y="290" fill="#555" font-size="12">like a Python list slice: rows 1 to 3.</text>
+<line x1="380" y1="64" x2="380" y2="300" stroke="#e0e0e0" stroke-width="1.5"/>
+<text x="20" y="326" fill="#555" font-size="12">Same five rows, two ways to address them. loc = location by name, iloc = integer location.</text>
+</svg>

@@ -15,7 +15,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 3 | [Functions, classes and modules](../lessons/phase-1/day-03-functions-classes.md) | 90 min |
 | 4 | [NumPy arrays: why ML runs on them](../lessons/phase-1/day-04-numpy-arrays.md) | 120 min |
 | 5 | [Vectors: the atoms of machine learning](../lessons/phase-1/day-05-vectors.md) | 120 min |
-| 6 | **Review + mini-project:** a word-frequency analyzer that turns sentences into count vectors and finds the most similar pair | 3 h |
+| 6 | **Review + mini-project:** [a word-frequency analyzer that turns sentences into count vectors and finds the most similar pair](../lessons/phase-1/day-06-week1-review.md) | 3 h |
 | 7 | Rest | |
 
 **Self-check.** Can you explain the difference between a Python list and a NumPy array? What does a dot product measure?
@@ -29,18 +29,18 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 10 | [Matrices and matrix multiplication](../lessons/phase-1/day-10-matrices-matmul.md) | 120 min |
 | 11 | [Transpose, identity and inverse](../lessons/phase-1/day-11-transpose-identity-inverse.md) | 90 min |
 | 12 | [A neural-network layer is a matrix multiply](../lessons/phase-1/day-12-layer-is-matmul.md) | 120 min |
-| 13 | **Review + mini-project:** pure-Python vs NumPy matrix benchmark | 3 h |
+| 13 | **Review + mini-project:** [pure-Python vs NumPy matrix benchmark](../lessons/phase-1/day-13-week2-review.md) | 3 h |
 | 14 | Rest | |
 
 ## Week 3: pandas and plotting
 
 | Day | Lesson | Time |
 |---|---|---|
-| 15 | DataFrames and Series *(coming soon)* | 90 min |
-| 16 | Selecting, filtering and sorting *(coming soon)* | 90 min |
-| 17 | Missing data and cleaning *(coming soon)* | 90 min |
-| 18 | groupby, merge and pivot *(coming soon)* | 120 min |
-| 19 | Plotting with Matplotlib *(coming soon)* | 90 min |
+| 15 | [DataFrames and Series](../lessons/phase-1/day-15-pandas-dataframes.md) | 90 min |
+| 16 | [Selecting, filtering and sorting](../lessons/phase-1/day-16-pandas-selecting.md) | 90 min |
+| 17 | [Missing data and cleaning](../lessons/phase-1/day-17-pandas-cleaning.md) | 90 min |
+| 18 | [groupby, merge and pivot](../lessons/phase-1/day-18-pandas-groupby-merge.md) | 120 min |
+| 19 | [Plotting with Matplotlib](../lessons/phase-1/day-19-matplotlib.md) | 90 min |
 | 20 | **Review + mini-project:** exploratory analysis of a public dataset | 3 h |
 | 21 | Rest | |
 
@@ -49,7 +49,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | Day | Lesson | Time |
 |---|---|---|
 | 22 | Norms and distances *(coming soon)* | 90 min |
-| 23 | Linear transformations *(coming soon)* | 120 min |
+| 23 | Rank, span and linear independence *(coming soon)* | 120 min |
 | 24 | Eigenvectors, intuitively *(coming soon)* | 120 min |
 | 25 | Projections and PCA preview *(coming soon)* | 120 min |
 | 26 | Month 1 recap and gaps *(coming soon)* | 90 min |

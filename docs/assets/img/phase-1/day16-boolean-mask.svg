@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Helvetica, Arial, sans-serif" font-size="13" class="animated">
+<text x="20" y="26" font-weight="bold" font-size="15">A boolean mask keeps the rows marked True</text>
+<text x="20" y="48" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">mask = six["rating"] &gt;= 4.0</text>
+<text x="440" y="48" font-family="Menlo, Consolas, monospace" font-size="13" fill="#00897b">six[mask]</text>
+<rect x="20" y="66" width="246" height="28" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+<text x="64" y="85" font-weight="bold" fill="#222">app_name</text>
+<text x="258" y="85" text-anchor="end" font-weight="bold" fill="#222">rating</text>
+<text x="38.0" y="85" text-anchor="middle" fill="#555" font-size="11">index</text>
+<rect x="286" y="66" width="76" height="28" fill="#fff59d" stroke="#ef6c00" stroke-width="1.2"/>
+<text x="324" y="85" text-anchor="middle" font-weight="bold" fill="#222">mask</text>
+<g><animate attributeName="opacity" values="1;1;0.15;0.15;1" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;0,0;-14,0;-14,0;0,0" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="20" y="94" width="36" height="30" fill="#eceff1" stroke="#9fa8da" stroke-width="1"/>
+<text x="38.0" y="114" text-anchor="middle" fill="#555">0</text>
+<rect x="56" y="94" width="210" height="30" fill="#ffffff" stroke="#9fa8da" stroke-width="1"/>
+<text x="64" y="114" fill="#222">Bright Quest X</text>
+<text x="258" y="114" text-anchor="end" fill="#222">3.8</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.08;0.10;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="286" y="94" width="76" height="30" fill="#ffebee" stroke="#e53935" stroke-width="1.2"/>
+<text x="324" y="114" text-anchor="middle" font-weight="bold" fill="#c62828">False</text>
+</g>
+</g>
+<g><animate attributeName="opacity" values="1;1;0.15;0.15;1" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;0,0;-14,0;-14,0;0,0" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="20" y="124" width="36" height="30" fill="#eceff1" stroke="#9fa8da" stroke-width="1"/>
+<text x="38.0" y="144" text-anchor="middle" fill="#555">1</text>
+<rect x="56" y="124" width="210" height="30" fill="#ffffff" stroke="#9fa8da" stroke-width="1"/>
+<text x="64" y="144" fill="#222">Quick Cleaner</text>
+<text x="258" y="144" text-anchor="end" fill="#222">3.9</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13;0.15;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="286" y="124" width="76" height="30" fill="#ffebee" stroke="#e53935" stroke-width="1.2"/>
+<text x="324" y="144" text-anchor="middle" font-weight="bold" fill="#c62828">False</text>
+</g>
+</g>
+<g><animate attributeName="opacity" values="1;1;0.15;0.15;1" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;0,0;-14,0;-14,0;0,0" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="20" y="154" width="36" height="30" fill="#eceff1" stroke="#9fa8da" stroke-width="1"/>
+<text x="38.0" y="174" text-anchor="middle" fill="#555">2</text>
+<rect x="56" y="154" width="210" height="30" fill="#ffffff" stroke="#9fa8da" stroke-width="1"/>
+<text x="64" y="174" fill="#222">Pocket Radio Kids</text>
+<text x="258" y="174" text-anchor="end" fill="#222">3.7</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.20;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="286" y="154" width="76" height="30" fill="#ffebee" stroke="#e53935" stroke-width="1.2"/>
+<text x="324" y="174" text-anchor="middle" font-weight="bold" fill="#c62828">False</text>
+</g>
+</g>
+<g>
+<rect x="20" y="184" width="36" height="30" fill="#eceff1" stroke="#9fa8da" stroke-width="1"/>
+<text x="38.0" y="204" text-anchor="middle" fill="#555">3</text>
+<rect x="56" y="184" width="210" height="30" fill="#ffffff" stroke="#9fa8da" stroke-width="1"/>
+<text x="64" y="204" fill="#222">Lumen Learn Pro</text>
+<text x="258" y="204" text-anchor="end" fill="#222">4.0</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.23;0.25;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="286" y="184" width="76" height="30" fill="#e0f2f1" stroke="#00897b" stroke-width="1.2"/>
+<text x="324" y="204" text-anchor="middle" font-weight="bold" fill="#00695c">True</text>
+</g>
+</g>
+<g><animate attributeName="opacity" values="1;1;0.15;0.15;1" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;0,0;-14,0;-14,0;0,0" keyTimes="0;0.38;0.46;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="20" y="214" width="36" height="30" fill="#eceff1" stroke="#9fa8da" stroke-width="1"/>
+<text x="38.0" y="234" text-anchor="middle" fill="#555">4</text>
+<rect x="56" y="214" width="210" height="30" fill="#ffffff" stroke="#9fa8da" stroke-width="1"/>
+<text x="64" y="234" fill="#222">Quick Quest</text>
+<text x="258" y="234" text-anchor="end" fill="#e53935">NaN</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.30;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="286" y="214" width="76" height="30" fill="#ffebee" stroke="#e53935" stroke-width="1.2"/>
+<text x="324" y="234" text-anchor="middle" font-weight="bold" fill="#c62828">False</text>
+</g>
+</g>
+<g>
+<rect x="20" y="244" width="36" height="30" fill="#eceff1" stroke="#9fa8da" stroke-width="1"/>
+<text x="38.0" y="264" text-anchor="middle" fill="#555">5</text>
+<rect x="56" y="244" width="210" height="30" fill="#ffffff" stroke="#9fa8da" stroke-width="1"/>
+<text x="64" y="264" fill="#222">Orbit Tasks Kids</text>
+<text x="258" y="264" text-anchor="end" fill="#222">4.8</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.35;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="286" y="244" width="76" height="30" fill="#e0f2f1" stroke="#00897b" stroke-width="1.2"/>
+<text x="324" y="264" text-anchor="middle" font-weight="bold" fill="#00695c">True</text>
+</g>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.32;0.97;1" dur="10s" repeatCount="indefinite"/>
+<text x="372" y="234" fill="#c62828" font-size="11">NaN &gt;= 4.0</text>
+<text x="372" y="247" fill="#c62828" font-size="11">is False</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.48;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="440" y="66" width="246" height="28" fill="#e0f2f1" stroke="#00897b" stroke-width="1.2"/>
+<text x="484" y="85" font-weight="bold" fill="#222">app_name</text>
+<text x="678" y="85" text-anchor="end" font-weight="bold" fill="#222">rating</text>
+<text x="458.0" y="85" text-anchor="middle" fill="#555" font-size="11">index</text>
+<rect x="440" y="94" width="246" height="30" fill="none" stroke="#00897b" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="440" y="124" width="246" height="30" fill="none" stroke="#00897b" stroke-width="1" stroke-dasharray="3 3"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.51;0.97;1" dur="10s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0,0;0,0;420,-90;420,-90;0,0" keyTimes="0;0.50;0.57;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="20" y="184" width="36" height="30" fill="#eceff1" stroke="#00897b" stroke-width="1"/>
+<text x="38.0" y="204" text-anchor="middle" fill="#555">3</text>
+<rect x="56" y="184" width="210" height="30" fill="#e0f2f1" stroke="#00897b" stroke-width="1"/>
+<text x="64" y="204" fill="#00695c">Lumen Learn Pro</text>
+<text x="258" y="204" text-anchor="end" fill="#222">4.0</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.58;0.59;0.97;1" dur="10s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0,0;0,0;420,-120;420,-120;0,0" keyTimes="0;0.58;0.65;0.97;1" dur="10s" repeatCount="indefinite"/>
+<rect x="20" y="244" width="36" height="30" fill="#eceff1" stroke="#00897b" stroke-width="1"/>
+<text x="38.0" y="264" text-anchor="middle" fill="#555">5</text>
+<rect x="56" y="244" width="210" height="30" fill="#e0f2f1" stroke="#00897b" stroke-width="1"/>
+<text x="64" y="264" fill="#00695c">Orbit Tasks Kids</text>
+<text x="258" y="264" text-anchor="end" fill="#222">4.8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.68;0.71;0.97;1" dur="10s" repeatCount="indefinite"/>
+<text x="440" y="178" fill="#00695c" font-size="13" font-weight="bold">2 rows survive, shape (2, 2)</text>
+<text x="440" y="198" fill="#555" font-size="12">The index labels 3 and 5 are kept:</text>
+<text x="440" y="214" fill="#555" font-size="12">filtering never renumbers rows.</text>
+</g>
+<text x="20" y="304" fill="#555" font-size="12">Step 1: compare every rating with 4.0 at once, giving a True/False Series with the same index.</text>
+<text x="20" y="322" fill="#555" font-size="12">Step 2: rows whose mask is False are dropped. Step 3: the rest are returned in their original order.</text>
+</svg>

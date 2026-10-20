@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 290" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="v17r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+    <marker id="v17t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker>
+  </defs>
+  <text x="20" y="28" font-weight="bold" font-size="15">A version number is a list of integers, not a decimal</text>
+
+  <!-- left: as float -->
+  <rect x="20" y="44" width="320" height="200" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+  <text x="180" y="68" text-anchor="middle" font-weight="bold" fill="#ef6c00">Stored as float64</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="13">
+    <text x="36" y="100">"8.1"</text>  <line x1="96" y1="96" x2="150" y2="96" stroke="#e53935" stroke-width="1.5" marker-end="url(#v17r)"/><text x="158" y="100" fill="#e53935">8.1</text>
+    <text x="36" y="124">"8.10"</text> <line x1="96" y1="120" x2="150" y2="120" stroke="#e53935" stroke-width="1.5" marker-end="url(#v17r)"/><text x="158" y="124" fill="#e53935">8.1</text>
+    <text x="200" y="112" fill="#e53935" font-family="Helvetica, Arial, sans-serif" font-size="12">two versions collapse</text>
+    <text x="36" y="160">1.10 &lt; 1.9</text><text x="158" y="160" fill="#e53935">True</text>
+    <text x="200" y="160" fill="#e53935" font-family="Helvetica, Arial, sans-serif" font-size="12">but 1.10 is newer</text>
+    <text x="36" y="196">"4.4.2"</text><line x1="96" y1="192" x2="150" y2="192" stroke="#e53935" stroke-width="1.5" marker-end="url(#v17r)"/><text x="158" y="196" fill="#e53935">ValueError</text>
+  </g>
+  <text x="36" y="228" font-size="12" fill="#555">Android 10 is "10", but a float prints it as "10.0".</text>
+
+  <!-- right: as version -->
+  <rect x="360" y="44" width="320" height="200" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+  <text x="520" y="68" text-anchor="middle" font-weight="bold" fill="#00897b">Stored as a string, compared as parts</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="13">
+    <text x="376" y="100">"8.1"</text>  <line x1="436" y1="96" x2="490" y2="96" stroke="#00897b" stroke-width="1.5" marker-end="url(#v17t)"/><text x="498" y="100" fill="#00897b">(8, 1)</text>
+    <text x="376" y="124">"8.10"</text> <line x1="436" y1="120" x2="490" y2="120" stroke="#00897b" stroke-width="1.5" marker-end="url(#v17t)"/><text x="498" y="124" fill="#00897b">(8, 10)</text>
+    <text x="376" y="160">(1, 10) &gt; (1, 9)</text><text x="560" y="160" fill="#00897b">True</text>
+    <text x="376" y="196">"4.4.2"</text><line x1="436" y1="192" x2="490" y2="192" stroke="#00897b" stroke-width="1.5" marker-end="url(#v17t)"/><text x="498" y="196" fill="#00897b">(4, 4, 2)</text>
+  </g>
+  <text x="376" y="228" font-size="12" fill="#555">Android names them "8.0", "8.1", "9", "10", ...</text>
+  <text x="350" y="272" text-anchor="middle" font-size="12" fill="#555">Split on "." and compare integer by integer: that is what every version comparator does.</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="28" font-weight="bold" font-size="15">Same meaning, zero shared words: where counting fails</text>
+
+  <!-- left: the two token lists (stop words removed) -->
+  <text x="20" y="64" font-size="13" fill="#3949ab" font-weight="bold">#0 "The phone battery drains fast when the screen is bright."</text>
+  <g font-size="13" text-anchor="middle">
+    <rect x="20" y="76" width="62" height="28" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="51" y="95">phone</text>
+    <rect x="90" y="76" width="68" height="28" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="124" y="95">battery</text>
+    <rect x="166" y="76" width="62" height="28" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="197" y="95">drains</text>
+    <rect x="236" y="76" width="48" height="28" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="260" y="95">fast</text>
+    <rect x="292" y="76" width="62" height="28" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="323" y="95">screen</text>
+    <rect x="362" y="76" width="56" height="28" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="390" y="95">bright</text>
+  </g>
+
+  <text x="20" y="226" font-size="13" fill="#00897b" font-weight="bold">#7 "The handset's cell ran flat in an hour."</text>
+  <g font-size="13" text-anchor="middle">
+    <rect x="20" y="182" width="78" height="28" rx="6" fill="#e0f2f1" stroke="#00897b"/><text x="59" y="201">handsets</text>
+    <rect x="106" y="182" width="44" height="28" rx="6" fill="#e0f2f1" stroke="#00897b"/><text x="128" y="201">cell</text>
+    <rect x="166" y="182" width="62" height="28" rx="6" fill="#e0f2f1" stroke="#00897b"/><text x="197" y="201">ran</text>
+    <rect x="236" y="182" width="48" height="28" rx="6" fill="#e0f2f1" stroke="#00897b"/><text x="260" y="201">flat</text>
+    <rect x="292" y="182" width="56" height="28" rx="6" fill="#e0f2f1" stroke="#00897b"/><text x="320" y="201">hour</text>
+  </g>
+
+  <!-- step 2+: the meaning links a human sees -->
+  <g opacity="0" stroke="#ef6c00" stroke-width="2" stroke-dasharray="5 4"><animate attributeName="opacity" calcMode="discrete" values="0;1;1" keyTimes="0;0.33;0.66" dur="12s" repeatCount="indefinite"/>
+    <line x1="51" y1="106" x2="59" y2="180"/>
+    <line x1="124" y1="106" x2="128" y2="180"/>
+    <line x1="197" y1="106" x2="232" y2="180"/>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;1" keyTimes="0;0.33;0.66" dur="12s" repeatCount="indefinite"/>
+    <text x="252" y="126" font-size="13" fill="#ef6c00" font-weight="bold">what a human sees:</text>
+    <text x="252" y="143" font-size="12" fill="#ef6c00">phone ≈ handset</text>
+    <text x="252" y="158" font-size="12" fill="#ef6c00">battery ≈ cell</text>
+    <text x="252" y="173" font-size="12" fill="#ef6c00">drains ≈ ran flat</text>
+  </g>
+
+  <!-- step 3: illustrative embedding space -->
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1" keyTimes="0;0.33;0.66" dur="12s" repeatCount="indefinite"/>
+    <rect x="470" y="50" width="236" height="200" rx="8" fill="#fff3e0" stroke="#ef6c00"/>
+    <text x="588" y="72" text-anchor="middle" font-size="13" font-weight="bold">Embedding space (Phase 4)</text>
+    <circle cx="540" cy="120" r="7" fill="#3949ab"/><text x="552" y="116" font-size="12" fill="#3949ab">#0 battery drains</text>
+    <circle cx="560" cy="146" r="7" fill="#00897b"/><text x="572" y="150" font-size="12" fill="#00897b">#7 cell ran flat</text>
+    <circle cx="664" cy="200" r="7" fill="#555"/><text x="652" y="204" font-size="12" fill="#555" text-anchor="end">#2 train the model</text>
+    <text x="588" y="244" text-anchor="middle" font-size="11" fill="#555">meanings close → vectors close</text>
+  </g>
+
+  <text x="20" y="254" font-size="14">Exact word matches: <tspan font-weight="bold" fill="#e53935">none</tspan>  →  dot product 0  →  cosine <tspan font-weight="bold" fill="#e53935">0.000</tspan></text>
+  <text x="20" y="280" font-size="13">Counting compares <tspan font-weight="bold">spellings</tspan>. A learned embedding compares <tspan font-weight="bold">meanings</tspan>.</text>
+  <text x="20" y="304" font-size="11" fill="#555">Left: real tokens after stop-word removal. Right: an illustrative sketch, not output from a real model.</text>
+</svg>

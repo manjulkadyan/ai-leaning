@@ -16,6 +16,17 @@ Every lesson follows the same shape so you always know where you are.
 | **Resources** | Free courses, docs, videos and repos with direct links |
 | **Checklist** | Tick these before moving on |
 
+## Running the code
+
+Every Python block has a **▶ Run** button under it. It runs the code in your browser with [Pyodide](https://pyodide.org/), a full Python with NumPy, pandas and Matplotlib compiled to WebAssembly, so nothing needs installing.
+
+- The first run on a page downloads Python (about 15 MB plus the packages it imports), which takes a few seconds. Later runs are instant.
+- Blocks on one page share their variables, like notebook cells, so run them top to bottom. **Reset** forgets everything.
+- The value of each bare expression is printed, the way the `# comment` after it shows. Plots appear as images.
+- A few blocks can't run in a browser: PyTorch, shell commands such as `!nvidia-smi`, and anything that needs your files or GPU. They say so when you run them. Timings from `%timeit` are slower than on your computer.
+
+Each lesson also has a **Download this lesson's code as a Jupyter notebook** link under its title. Open the file in Jupyter, VS Code or [Google Colab](https://colab.research.google.com/) (File → Upload notebook) to run everything on a real machine.
+
 ## Callout boxes
 
 !!! android "Android bridge"

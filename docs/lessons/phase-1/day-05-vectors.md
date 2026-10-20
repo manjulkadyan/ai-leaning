@@ -273,4 +273,4 @@ The neuron's output is high when the input points in the same direction as its w
 - [ ] I played with the vector playground and did the three experiments.
 - [ ] I can write a neuron's output as \( \mathbf{w} \cdot \mathbf{x} + b \).
 
-**Next:** Week 1 review and mini-project (Day 6), then Week 2 begins with [Day 8: Shapes, reshaping and indexing](day-08-shapes-indexing.md).
+**Next:** [Day 6: Week 1 review and mini-project](day-06-week1-review.md), then Week 2 begins with [Day 8: Shapes, reshaping and indexing](day-08-shapes-indexing.md).

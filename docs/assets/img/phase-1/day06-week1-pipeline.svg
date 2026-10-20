@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs>
+    <marker id="p6a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <text x="20" y="28" font-weight="bold" font-size="15">Week 1 in one pipeline: text → tokens → count vectors → similarity</text>
+
+  <!-- highlight halos, one per step (10 s loop, 5 steps of 2 s) -->
+  <rect x="14" y="54" width="162" height="132" rx="10" fill="#fff59d" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/></rect>
+  <rect x="190" y="54" width="162" height="132" rx="10" fill="#fff59d" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/></rect>
+  <rect x="366" y="54" width="162" height="132" rx="10" fill="#fff59d" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/></rect>
+  <rect x="542" y="54" width="162" height="132" rx="10" fill="#fff59d" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/></rect>
+
+  <!-- the four stages -->
+  <rect x="20" y="60" width="150" height="120" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+  <text x="95" y="84" text-anchor="middle" font-weight="bold" fill="#3949ab">Days 1–2</text>
+  <text x="95" y="106" text-anchor="middle" font-size="13">Python types</text>
+  <text x="95" y="130" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">s.lower()</text>
+  <text x="95" y="148" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">.split()</text>
+  <text x="95" y="168" text-anchor="middle" font-size="11" fill="#555">str, list, dict, set</text>
+
+  <rect x="196" y="60" width="150" height="120" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+  <text x="271" y="84" text-anchor="middle" font-weight="bold" fill="#00897b">Day 3</text>
+  <text x="271" y="106" text-anchor="middle" font-size="13">Functions</text>
+  <text x="271" y="130" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">def tokenize(</text>
+  <text x="271" y="148" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">  text: str)</text>
+  <text x="271" y="168" text-anchor="middle" font-size="11" fill="#555">reusable, type-hinted</text>
+
+  <rect x="372" y="60" width="150" height="120" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <text x="447" y="84" text-anchor="middle" font-weight="bold" fill="#ef6c00">Day 4</text>
+  <text x="447" y="106" text-anchor="middle" font-size="13">NumPy arrays</text>
+  <text x="447" y="130" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">np.zeros((8, 45))</text>
+  <text x="447" y="148" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">X[i, j] += 1</text>
+  <text x="447" y="168" text-anchor="middle" font-size="11" fill="#555">shape, dtype, axis</text>
+
+  <rect x="548" y="60" width="150" height="120" rx="8" fill="#e8eaf6" stroke="#e53935" stroke-width="2"/>
+  <text x="623" y="84" text-anchor="middle" font-weight="bold" fill="#e53935">Day 5</text>
+  <text x="623" y="106" text-anchor="middle" font-size="13">Vectors</text>
+  <text x="623" y="130" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">a @ b /</text>
+  <text x="623" y="148" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace">(‖a‖ ‖b‖)</text>
+  <text x="623" y="168" text-anchor="middle" font-size="11" fill="#555">dot, norm, cosine</text>
+
+  <!-- arrows -->
+  <line x1="172" y1="120" x2="194" y2="120" stroke="#555" stroke-width="2" marker-end="url(#p6a)"/>
+  <line x1="348" y1="120" x2="370" y2="120" stroke="#555" stroke-width="2" marker-end="url(#p6a)"/>
+  <line x1="524" y1="120" x2="546" y2="120" stroke="#555" stroke-width="2" marker-end="url(#p6a)"/>
+
+  <!-- the data at each stage, appearing as the step reaches it -->
+  <g font-size="11" font-family="Menlo, Consolas, monospace">
+    <g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;1;1;1;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>
+      <text x="95" y="210" text-anchor="middle">"My phone's</text>
+      <text x="95" y="226" text-anchor="middle">battery dies…"</text></g>
+    <g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;1;1;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>
+      <text x="271" y="210" text-anchor="middle">['my', 'phones',</text>
+      <text x="271" y="226" text-anchor="middle">'battery', …]</text></g>
+    <g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;1;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>
+      <text x="447" y="210" text-anchor="middle">one row of 45</text>
+      <text x="447" y="226" text-anchor="middle">word counts</text></g>
+    <g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>
+      <text x="623" y="210" text-anchor="middle">cos(row 0, row 1)</text>
+      <text x="623" y="226" text-anchor="middle">= 0.667</text></g>
+  </g>
+
+  <!-- step captions -->
+  <g font-size="13">
+    <text x="20" y="272" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>Step 1: a sentence is just a <tspan font-weight="bold">str</tspan>; lowercase it and split it into a <tspan font-weight="bold">list</tspan> of words.</text>
+    <text x="20" y="272" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>Step 2: wrap the cleaning in a <tspan font-weight="bold">function</tspan> so every sentence is treated the same way.</text>
+    <text x="20" y="272" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>Step 3: count each vocabulary word into an <tspan font-weight="bold">array</tspan>: one row per sentence.</text>
+    <text x="20" y="272" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/>Step 4: each row is a <tspan font-weight="bold">vector</tspan>; cosine similarity says how alike two rows point.</text>
+    <text x="20" y="272" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" keyTimes="0;0.2;0.4;0.6;0.8" dur="10s" repeatCount="indefinite"/><tspan font-weight="bold">Day 6:</tspan> the mini-project chains all four into one working program.</text>
+  </g>
+  <text x="20" y="292" font-size="11" fill="#555">Real values from today's mini-project: 45 words in the raw vocabulary; 0.667 is the score after stop-word removal.</text>
+</svg>

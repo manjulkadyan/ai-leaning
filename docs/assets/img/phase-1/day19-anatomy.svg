@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif" font-size="13" class="animated">
+  <!-- Figure background -->
+  <rect x="10" y="10" width="510" height="320" rx="4" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5"/>
+  <text x="18" y="27" font-size="11" fill="#78909c">Figure</text>
+  <!-- Axes background -->
+  <rect x="90" y="60" width="400" height="200" fill="#ffffff"/>
+
+  <!-- Highlights: one per step, 7 steps of 1.6 s (11.2 s cycle) -->
+  <g fill="#fff59d" fill-opacity="0.6" stroke="#e53935" stroke-width="2.5" stroke-dasharray="7 4">
+    <rect x="12" y="12" width="506" height="316" rx="4" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="90" y="60" width="400" height="200" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="198" y="26" width="184" height="24" rx="3" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+    </rect>
+    <g opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+      <rect x="84" y="254" width="412" height="12" rx="3"/>
+      <rect x="84" y="54" width="12" height="212" rx="3"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+      <rect x="54" y="50" width="38" height="220" rx="3"/>
+      <rect x="112" y="261" width="380" height="26" rx="3"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+      <rect x="248" y="292" width="84" height="24" rx="3"/>
+      <rect x="22" y="120" width="26" height="80" rx="3"/>
+    </g>
+    <rect x="374" y="66" width="112" height="56" rx="4" opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Title -->
+  <text x="290" y="43" text-anchor="middle" font-size="15" font-weight="bold" fill="#212121">Mean rating per month</text>
+  <!-- light grid -->
+  <g stroke="#eceff1"><line x1="90" y1="193" x2="490" y2="193"/><line x1="90" y1="127" x2="490" y2="127"/><line x1="90" y1="60" x2="490" y2="60"/></g>
+  <!-- spines (the two Axis lines) -->
+  <g stroke="#212121" stroke-width="1.5"><line x1="90" y1="260" x2="490" y2="260"/><line x1="90" y1="60" x2="90" y2="260"/></g>
+  <!-- y ticks and labels -->
+  <g stroke="#212121"><line x1="84" y1="260" x2="90" y2="260"/><line x1="84" y1="193" x2="90" y2="193"/><line x1="84" y1="127" x2="90" y2="127"/><line x1="84" y1="60" x2="90" y2="60"/></g>
+  <g font-size="12" fill="#212121" text-anchor="end"><text x="80" y="264">3.5</text><text x="80" y="197">4.0</text><text x="80" y="131">4.5</text><text x="80" y="64">5.0</text></g>
+  <!-- x ticks and labels -->
+  <g stroke="#212121"><line x1="130" y1="260" x2="130" y2="266"/><line x1="198" y1="260" x2="198" y2="266"/><line x1="266" y1="260" x2="266" y2="266"/><line x1="334" y1="260" x2="334" y2="266"/><line x1="402" y1="260" x2="402" y2="266"/><line x1="470" y1="260" x2="470" y2="266"/></g>
+  <g font-size="12" fill="#212121" text-anchor="middle"><text x="130" y="281">Jan</text><text x="198" y="281">Feb</text><text x="266" y="281">Mar</text><text x="334" y="281">Apr</text><text x="402" y="281">May</text><text x="470" y="281">Jun</text></g>
+  <!-- axis labels -->
+  <text x="290" y="309" text-anchor="middle" fill="#212121">Month</text>
+  <text x="40" y="160" text-anchor="middle" fill="#212121" transform="rotate(-90 40 160)">Rating</text>
+  <!-- data -->
+  <polyline points="130,180 198,167 266,173 334,153 402,160 470,147" fill="none" stroke="#3949ab" stroke-width="2.5"/>
+  <polyline points="130,220 198,207 266,193 334,200 402,180 470,187" fill="none" stroke="#ef6c00" stroke-width="2.5"/>
+  <g fill="#3949ab"><circle cx="130" cy="180" r="3.5"/><circle cx="198" cy="167" r="3.5"/><circle cx="266" cy="173" r="3.5"/><circle cx="334" cy="153" r="3.5"/><circle cx="402" cy="160" r="3.5"/><circle cx="470" cy="147" r="3.5"/></g>
+  <g fill="#ef6c00"><circle cx="130" cy="220" r="3.5"/><circle cx="198" cy="207" r="3.5"/><circle cx="266" cy="193" r="3.5"/><circle cx="334" cy="200" r="3.5"/><circle cx="402" cy="180" r="3.5"/><circle cx="470" cy="187" r="3.5"/></g>
+  <!-- legend -->
+  <rect x="380" y="72" width="100" height="44" rx="3" fill="#ffffff" stroke="#bdbdbd"/>
+  <line x1="390" y1="88" x2="412" y2="88" stroke="#3949ab" stroke-width="2.5"/><text x="420" y="92" font-size="12" fill="#212121">Games</text>
+  <line x1="390" y1="105" x2="412" y2="105" stroke="#ef6c00" stroke-width="2.5"/><text x="420" y="109" font-size="12" fill="#212121">Tools</text>
+
+  <!-- Right-hand list of parts -->
+  <text x="540" y="32" font-weight="bold" font-size="14" fill="#212121">Parts and their code</text>
+  <g>
+    <rect x="534" y="44" width="180" height="38" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="2">
+      <animate attributeName="y" calcMode="discrete" values="44;84;124;164;204;244;284" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g fill="#212121">
+    <text x="542" y="60" font-weight="bold">Figure</text><text x="542" y="76" font-size="11" fill="#555" font-family="monospace">fig, ax = plt.subplots()</text>
+    <text x="542" y="100" font-weight="bold">Axes (one chart area)</text><text x="542" y="116" font-size="11" fill="#555" font-family="monospace">ax.plot(x, y)</text>
+    <text x="542" y="140" font-weight="bold">Title</text><text x="542" y="156" font-size="11" fill="#555" font-family="monospace">ax.set_title("...")</text>
+    <text x="542" y="180" font-weight="bold">Axis (x and y)</text><text x="542" y="196" font-size="11" fill="#555" font-family="monospace">ax.set_xscale("log")</text>
+    <text x="542" y="220" font-weight="bold">Ticks + tick labels</text><text x="542" y="236" font-size="11" fill="#555" font-family="monospace">ax.set_xticks([...])</text>
+    <text x="542" y="260" font-weight="bold">Axis labels</text><text x="542" y="276" font-size="11" fill="#555" font-family="monospace">ax.set_xlabel("...")</text>
+    <text x="542" y="300" font-weight="bold">Legend</text><text x="542" y="316" font-size="11" fill="#555" font-family="monospace">ax.legend()</text>
+  </g>
+
+  <!-- Caption for the current step -->
+  <g font-size="12" fill="#555">
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Figure: the whole canvas, the thing you save. It holds one or more Axes.</text>
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Axes: one chart area with its own data, scales and coordinates. You draw on it.</text>
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Title: belongs to one Axes (fig.suptitle() puts a title on the whole Figure).</text>
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Axis (singular): ax.xaxis and ax.yaxis turn data values into positions.</text>
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Ticks and tick labels: the marks on each Axis that tell the reader the scale.</text>
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;0" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Axis labels: what each direction measures, with its unit.</text>
+    <text x="14" y="356" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1" keyTimes="0;0.142857;0.285714;0.428571;0.571429;0.714286;0.857143" dur="11.2s" repeatCount="indefinite"/>Legend: which line is which, built from the label= you gave each plot call.</text>
+  </g>
+  <text x="14" y="384" font-size="11" fill="#90a4ae">Hierarchy: Figure → Axes → Axis → ticks. A Figure can hold many Axes (subplots); each Axes has its own two Axis objects.</text>
+</svg>

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Helvetica, Arial, sans-serif" font-size="12" class="animated">
+<text x="20" y="26" font-weight="bold" font-size="15">Joining apps to developers on developer_id: inner vs left</text>
+<text x="20" y="56" font-weight="bold" fill="#3949ab">few_apps (left table)</text>
+<rect x="20" y="64" width="130" height="26" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="26" y="81" font-weight="bold" fill="#333">app_name</text>
+<rect x="150" y="64" width="90" height="26" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="156" y="81" font-weight="bold" fill="#333">developer_id</text>
+<rect x="20" y="90" width="130" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="26" y="107" fill="#222">Pocket Radio Kids</text>
+<rect x="150" y="90" width="90" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="156" y="107" fill="#222">D025</text>
+<rect x="20" y="116" width="130" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="26" y="133" fill="#222">Lumen Learn Pro</text>
+<rect x="150" y="116" width="90" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="156" y="133" fill="#222">D009</text>
+<rect x="20" y="142" width="130" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="26" y="159" fill="#222">Orbit Tasks Kids</text>
+<rect x="150" y="142" width="90" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="156" y="159" fill="#222">D040</text>
+<rect x="20" y="168" width="130" height="26" fill="#fff" stroke="#3949ab"/>
+<text x="26" y="185" fill="#222">Spark Quest X</text>
+<rect x="150" y="168" width="90" height="26" fill="#ffebee" stroke="#3949ab"/>
+<text x="156" y="185" fill="#e53935">D099</text>
+<text x="470" y="56" font-weight="bold" fill="#00897b">few_devs (right table)</text>
+<rect x="470" y="64" width="90" height="26" fill="#e0f2f1" stroke="#00897b"/>
+<text x="476" y="81" font-weight="bold" fill="#333">developer_id</text>
+<rect x="560" y="64" width="110" height="26" fill="#e0f2f1" stroke="#00897b"/>
+<text x="566" y="81" font-weight="bold" fill="#333">developer_name</text>
+<rect x="670" y="64" width="70" height="26" fill="#e0f2f1" stroke="#00897b"/>
+<text x="676" y="81" font-weight="bold" fill="#333">country</text>
+<rect x="470" y="90" width="90" height="26" fill="#fff" stroke="#00897b"/>
+<text x="476" y="107" fill="#222">D009</text>
+<rect x="560" y="90" width="110" height="26" fill="#fff" stroke="#00897b"/>
+<text x="566" y="107" fill="#222">Pine Works</text>
+<rect x="670" y="90" width="70" height="26" fill="#fff" stroke="#00897b"/>
+<text x="676" y="107" fill="#222">Japan</text>
+<rect x="470" y="116" width="90" height="26" fill="#fff" stroke="#00897b"/>
+<text x="476" y="133" fill="#222">D025</text>
+<rect x="560" y="116" width="110" height="26" fill="#fff" stroke="#00897b"/>
+<text x="566" y="133" fill="#222">South Apps</text>
+<rect x="670" y="116" width="70" height="26" fill="#fff" stroke="#00897b"/>
+<text x="676" y="133" fill="#222">Canada</text>
+<rect x="470" y="142" width="90" height="26" fill="#fff" stroke="#00897b"/>
+<text x="476" y="159" fill="#222">D040</text>
+<rect x="560" y="142" width="110" height="26" fill="#fff" stroke="#00897b"/>
+<text x="566" y="159" fill="#222">Blue Studio</text>
+<rect x="670" y="142" width="70" height="26" fill="#fff" stroke="#00897b"/>
+<text x="676" y="159" fill="#222">USA</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.1000;0.1400;0.9600;1.0000" dur="10s" repeatCount="indefinite"/><line x1="240" y1="103" x2="470" y2="129" stroke="#ef6c00" stroke-width="2"/><circle cx="240" cy="103" r="3" fill="#ef6c00"/><circle cx="470" cy="129" r="3" fill="#ef6c00"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.1600;0.2000;0.9600;1.0000" dur="10s" repeatCount="indefinite"/><line x1="240" y1="129" x2="470" y2="103" stroke="#ef6c00" stroke-width="2"/><circle cx="240" cy="129" r="3" fill="#ef6c00"/><circle cx="470" cy="103" r="3" fill="#ef6c00"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.2200;0.2600;0.9600;1.0000" dur="10s" repeatCount="indefinite"/><line x1="240" y1="155" x2="470" y2="155" stroke="#ef6c00" stroke-width="2"/><circle cx="240" cy="155" r="3" fill="#ef6c00"/><circle cx="470" cy="155" r="3" fill="#ef6c00"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.3000;0.3400;0.9600;1.0000" dur="10s" repeatCount="indefinite"/><line x1="240" y1="181" x2="310" y2="181" stroke="#e53935" stroke-width="2" stroke-dasharray="5 4"/><text x="318" y="185" fill="#e53935" font-weight="bold">D099: no match</text></g>
+<text x="20" y="216" font-size="12" fill="#555">Orange lines: rows whose developer_id appears in both tables.</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.4000;0.4400;0.9600;1.0000" dur="10s" repeatCount="indefinite"/>
+<text x="14" y="254" font-weight="bold" fill="#333">how="inner": 3 rows</text>
+<rect x="14" y="262" width="116" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="20" y="279" font-weight="bold" fill="#333">app_name</text>
+<rect x="130" y="262" width="84" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="136" y="279" font-weight="bold" fill="#333">developer_id</text>
+<rect x="214" y="262" width="104" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="220" y="279" font-weight="bold" fill="#333">developer_name</text>
+<rect x="318" y="262" width="56" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="324" y="279" font-weight="bold" fill="#333">country</text>
+<rect x="14" y="288" width="116" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="20" y="305" fill="#222">Pocket Radio Kids</text>
+<rect x="130" y="288" width="84" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="136" y="305" fill="#222">D025</text>
+<rect x="214" y="288" width="104" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="220" y="305" fill="#222">South Apps</text>
+<rect x="318" y="288" width="56" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="324" y="305" fill="#222">Canada</text>
+<rect x="14" y="314" width="116" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="20" y="331" fill="#222">Lumen Learn Pro</text>
+<rect x="130" y="314" width="84" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="136" y="331" fill="#222">D009</text>
+<rect x="214" y="314" width="104" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="220" y="331" fill="#222">Pine Works</text>
+<rect x="318" y="314" width="56" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="324" y="331" fill="#222">Japan</text>
+<rect x="14" y="340" width="116" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="20" y="357" fill="#222">Orbit Tasks Kids</text>
+<rect x="130" y="340" width="84" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="136" y="357" fill="#222">D040</text>
+<rect x="214" y="340" width="104" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="220" y="357" fill="#222">Blue Studio</text>
+<rect x="318" y="340" width="56" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="324" y="357" fill="#222">USA</text>
+<rect x="14" y="366" width="360" height="26" fill="none" stroke="#e53935" stroke-dasharray="4 3"/>
+<text x="20" y="383" fill="#e53935" opacity="0.7">Spark Quest X</text><line x1="18" y1="379" x2="106" y2="379" stroke="#e53935" stroke-width="1.5"/>
+<text x="144" y="383" fill="#e53935">dropped: D099 has no developer</text>
+<text x="14" y="412" fill="#555">Keeps only keys found in BOTH tables.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.5400;0.5800;0.9600;1.0000" dur="10s" repeatCount="indefinite"/>
+<text x="386" y="254" font-weight="bold" fill="#333">how="left": 4 rows</text>
+<rect x="386" y="262" width="116" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="392" y="279" font-weight="bold" fill="#333">app_name</text>
+<rect x="502" y="262" width="84" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="508" y="279" font-weight="bold" fill="#333">developer_id</text>
+<rect x="586" y="262" width="104" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="592" y="279" font-weight="bold" fill="#333">developer_name</text>
+<rect x="690" y="262" width="56" height="26" fill="#fff3e0" stroke="#ef6c00"/>
+<text x="696" y="279" font-weight="bold" fill="#333">country</text>
+<rect x="386" y="288" width="116" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="392" y="305" fill="#222">Pocket Radio Kids</text>
+<rect x="502" y="288" width="84" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="508" y="305" fill="#222">D025</text>
+<rect x="586" y="288" width="104" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="592" y="305" fill="#222">South Apps</text>
+<rect x="690" y="288" width="56" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="696" y="305" fill="#222">Canada</text>
+<rect x="386" y="314" width="116" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="392" y="331" fill="#222">Lumen Learn Pro</text>
+<rect x="502" y="314" width="84" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="508" y="331" fill="#222">D009</text>
+<rect x="586" y="314" width="104" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="592" y="331" fill="#222">Pine Works</text>
+<rect x="690" y="314" width="56" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="696" y="331" fill="#222">Japan</text>
+<rect x="386" y="340" width="116" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="392" y="357" fill="#222">Orbit Tasks Kids</text>
+<rect x="502" y="340" width="84" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="508" y="357" fill="#222">D040</text>
+<rect x="586" y="340" width="104" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="592" y="357" fill="#222">Blue Studio</text>
+<rect x="690" y="340" width="56" height="26" fill="#fff" stroke="#ef6c00"/>
+<text x="696" y="357" fill="#222">USA</text>
+<rect x="386" y="366" width="116" height="26" fill="#ffebee" stroke="#ef6c00"/>
+<text x="392" y="383" fill="#e53935">Spark Quest X</text>
+<rect x="502" y="366" width="84" height="26" fill="#ffebee" stroke="#ef6c00"/>
+<text x="508" y="383" fill="#e53935">D099</text>
+<rect x="586" y="366" width="104" height="26" fill="#ffebee" stroke="#ef6c00"/>
+<text x="592" y="383" fill="#e53935">NaN</text>
+<rect x="690" y="366" width="56" height="26" fill="#ffebee" stroke="#ef6c00"/>
+<text x="696" y="383" fill="#e53935">NaN</text>
+<text x="386" y="412" fill="#555">Keeps EVERY left row; missing right side becomes NaN.</text>
+</g>
+<text x="20" y="450" font-size="12" fill="#555">few_apps.merge(few_devs, on="developer_id", how=...)  (the 4 apps and 3 developers are real rows of the course data)</text>
+</svg>
