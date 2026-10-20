@@ -19,3 +19,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | Day | Lesson |
 |---|---|
 | 8 | [Shapes, reshaping and indexing](phase-1/day-08-shapes-indexing.md) |
+| 9 | [Broadcasting](phase-1/day-09-broadcasting.md) |

@@ -408,4 +408,4 @@ np.stack([np.zeros(3), np.zeros(4)])
 - [ ] I can choose between `stack` and `concatenate` by asking "do I want a new axis?"
 - [ ] I got at least 8 of the 10 shape predictions right before checking.
 
-**Next:** Day 9: Broadcasting (coming soon)
+**Next:** [Day 9: Broadcasting](day-09-broadcasting.md)

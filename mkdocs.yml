@@ -90,3 +90,4 @@ nav:
           - "Day 4: NumPy arrays": lessons/phase-1/day-04-numpy-arrays.md
           - "Day 5: Vectors": lessons/phase-1/day-05-vectors.md
           - "Day 8: Shapes & indexing": lessons/phase-1/day-08-shapes-indexing.md
+          - "Day 9: Broadcasting": lessons/phase-1/day-09-broadcasting.md

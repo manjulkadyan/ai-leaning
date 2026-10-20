@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="28" font-weight="bold" font-size="15">The silent bug: (3, 1) minus (3,) gives (3, 3), not (3,)</text>
+  <rect x="30" y="70" width="50" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="55.0" y="92.0" text-anchor="middle" fill="#3949ab" font-weight="bold">1.1</text>
+  <rect x="30" y="104" width="50" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="55.0" y="126.0" text-anchor="middle" fill="#3949ab" font-weight="bold">1.9</text>
+  <rect x="30" y="138" width="50" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="55.0" y="160.0" text-anchor="middle" fill="#3949ab" font-weight="bold">3.2</text>
+  <text x="55" y="196" text-anchor="middle" font-size="12" fill="#3949ab" font-weight="bold">y_pred</text>
+  <text x="55" y="212" text-anchor="middle" font-size="12" fill="#3949ab">(3, 1) column</text>
+  <text x="104" y="129" text-anchor="middle" font-size="24" fill="#555">−</text>
+  <rect x="128" y="70" width="50" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="153.0" y="92.0" text-anchor="middle" fill="#ef6c00" font-weight="bold">1.0</text>
+  <rect x="178" y="70" width="50" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="203.0" y="92.0" text-anchor="middle" fill="#ef6c00" font-weight="bold">2.0</text>
+  <rect x="228" y="70" width="50" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="253.0" y="92.0" text-anchor="middle" fill="#ef6c00" font-weight="bold">3.0</text>
+  <text x="203" y="128" text-anchor="middle" font-size="12" fill="#ef6c00" font-weight="bold">y_true</text>
+  <text x="203" y="144" text-anchor="middle" font-size="12" fill="#ef6c00">(3,) row</text>
+  <text x="306" y="129" text-anchor="middle" font-size="24" fill="#555">=</text>
+  <rect x="330" y="70" width="56" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="358.0" y="92.0" text-anchor="middle" fill="#00695c" font-weight="bold">0.1</text>
+  <rect x="386" y="70" width="56" height="34" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/><text x="414.0" y="92.0" text-anchor="middle" fill="#c62828">-0.9</text>
+  <rect x="442" y="70" width="56" height="34" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/><text x="470.0" y="92.0" text-anchor="middle" fill="#c62828">-1.9</text>
+  <rect x="330" y="104" width="56" height="34" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/><text x="358.0" y="126.0" text-anchor="middle" fill="#c62828">0.9</text>
+  <rect x="386" y="104" width="56" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="414.0" y="126.0" text-anchor="middle" fill="#00695c" font-weight="bold">-0.1</text>
+  <rect x="442" y="104" width="56" height="34" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/><text x="470.0" y="126.0" text-anchor="middle" fill="#c62828">-1.1</text>
+  <rect x="330" y="138" width="56" height="34" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/><text x="358.0" y="160.0" text-anchor="middle" fill="#c62828">2.2</text>
+  <rect x="386" y="138" width="56" height="34" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/><text x="414.0" y="160.0" text-anchor="middle" fill="#c62828">1.2</text>
+  <rect x="442" y="138" width="56" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="470.0" y="160.0" text-anchor="middle" fill="#00695c" font-weight="bold">0.2</text>
+  <text x="414" y="196" text-anchor="middle" font-size="12" fill="#555" font-weight="bold">result: shape (3, 3)</text>
+  <text x="414" y="212" text-anchor="middle" font-size="12" fill="#555">9 numbers, no error raised</text>
+  <rect x="520" y="74" width="14" height="14" fill="#e0f2f1" stroke="#00897b"/>
+  <text x="542" y="86" font-size="12" fill="#555">diagonal: the 3 errors</text>
+  <text x="542" y="101" font-size="12" fill="#555">you actually wanted</text>
+  <rect x="520" y="120" width="14" height="14" fill="#ffebee" stroke="#e53935"/>
+  <text x="542" y="132" font-size="12" fill="#555">off-diagonal: prediction i</text>
+  <text x="542" y="147" font-size="12" fill="#555">minus target j, garbage</text>
+  <text x="520" y="180" font-size="12" fill="#e53935" font-weight="bold">mean of squares: 1.42</text>
+  <text x="520" y="196" font-size="12" fill="#00897b" font-weight="bold">correct MSE: 0.02</text>
+  <line x1="20" y1="236" x2="680" y2="236" stroke="#cfd8dc"/>
+  <text x="20" y="260" font-size="13" fill="#00897b" font-weight="bold">Fix: make the shapes match first</text>
+  <text x="20" y="282" font-size="13" fill="#555" font-family="Menlo, Consolas, monospace">y_pred.ravel() - y_true  →  shape (3,): [0.1, -0.1, 0.2]</text>
+</svg>
