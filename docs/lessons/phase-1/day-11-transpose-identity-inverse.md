@@ -495,4 +495,4 @@ Notice `X.T @ X` has shape `(2, 50) @ (50, 2) = (2, 2)`: a tiny square matrix, n
 - [ ] I use `np.linalg.solve(A, b)`, not `np.linalg.inv(A) @ b`, and can say why.
 - [ ] I can explain why neural networks are trained with gradient descent instead of matrix inversion.
 
-**Next:** Day 12: A neural-network layer is a matrix multiply (coming soon)
+**Next:** [Day 12: A neural-network layer is a matrix multiply](day-12-layer-is-matmul.md)

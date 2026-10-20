@@ -95,3 +95,4 @@ nav:
           - "Day 9: Broadcasting": lessons/phase-1/day-09-broadcasting.md
           - "Day 10: Matrix multiplication": lessons/phase-1/day-10-matrices-matmul.md
           - "Day 11: Transpose & inverse": lessons/phase-1/day-11-transpose-identity-inverse.md
+          - "Day 12: A layer is a matmul": lessons/phase-1/day-12-layer-is-matmul.md

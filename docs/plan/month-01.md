@@ -28,7 +28,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 9 | [Broadcasting](../lessons/phase-1/day-09-broadcasting.md) | 90 min |
 | 10 | [Matrices and matrix multiplication](../lessons/phase-1/day-10-matrices-matmul.md) | 120 min |
 | 11 | [Transpose, identity and inverse](../lessons/phase-1/day-11-transpose-identity-inverse.md) | 90 min |
-| 12 | A neural-network layer is a matrix multiply *(coming soon)* | 120 min |
+| 12 | [A neural-network layer is a matrix multiply](../lessons/phase-1/day-12-layer-is-matmul.md) | 120 min |
 | 13 | **Review + mini-project:** pure-Python vs NumPy matrix benchmark | 3 h |
 | 14 | Rest | |
 
