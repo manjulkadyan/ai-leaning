@@ -10,7 +10,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 1 | Your AI workstation and first Python program *(coming soon)* | 90 min |
+| 1 | [Your AI workstation and first Python program](../lessons/phase-1/day-01-setup.md) | 90 min |
 | 2 | Python's core types, through Kotlin eyes *(coming soon)* | 90 min |
 | 3 | Functions, classes and modules *(coming soon)* | 90 min |
 | 4 | NumPy arrays: why ML runs on them *(coming soon)* | 120 min |

@@ -80,3 +80,7 @@ nav:
       - plan/index.md
       - Monthly plan: plan/monthly.md
       - Month 1: plan/month-01.md
+  - Lessons:
+      - lessons/index.md
+      - Phase 1 · Foundations:
+          - "Day 1: Workstation setup": lessons/phase-1/day-01-setup.md
