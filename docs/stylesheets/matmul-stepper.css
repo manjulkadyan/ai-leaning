@@ -1,0 +1,76 @@
+/* Interactive matrix-multiplication stepper (docs/javascripts/matmul-stepper.js).
+   Colors come from Material's CSS variables so it works in light and dark mode. */
+.md-typeset .matmul-stepper {
+  margin: 1.5em 0;
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+.matmul-stepper .mm-board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+.matmul-stepper .mm-matrix { display: flex; flex-direction: column; align-items: center; }
+.matmul-stepper .mm-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  white-space: pre;
+}
+.matmul-stepper .mm-a .mm-label { color: #5c6bc0; }
+.matmul-stepper .mm-b .mm-label { color: #26a69a; }
+.matmul-stepper .mm-c .mm-label { color: #ef6c00; }
+.matmul-stepper .mm-grid {
+  display: grid;
+  gap: 4px;
+  padding: 4px;
+  border-left: 2px solid var(--md-default-fg-color--light);
+  border-right: 2px solid var(--md-default-fg-color--light);
+  border-radius: 4px;
+}
+.matmul-stepper .mm-op { font-size: 1.2rem; color: var(--md-default-fg-color--light); padding: 0 0.2rem; }
+.matmul-stepper .mm-cell {
+  box-sizing: border-box;
+  width: 3.2em;
+  height: 2.2em;
+  font-family: var(--md-code-font-family);
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+.matmul-stepper .mm-input { padding: 0 2px; -moz-appearance: textfield; appearance: textfield; }
+.matmul-stepper .mm-input::-webkit-outer-spin-button,
+.matmul-stepper .mm-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.matmul-stepper .mm-input:focus { outline: 2px solid var(--md-accent-fg-color); outline-offset: 0; }
+.matmul-stepper .mm-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ef6c00;
+  cursor: help;
+}
+.matmul-stepper .mm-out.mm-pending { color: var(--md-default-fg-color--light); font-weight: 400; }
+.matmul-stepper .mm-out:focus { outline: 2px solid var(--md-accent-fg-color); }
+.matmul-stepper .mm-a .mm-cell.mm-hl { background: rgba(92, 107, 192, 0.22); border-color: #5c6bc0; }
+.matmul-stepper .mm-b .mm-cell.mm-hl { background: rgba(38, 166, 154, 0.22); border-color: #26a69a; }
+.matmul-stepper .mm-c .mm-cell.mm-hl { background: rgba(239, 108, 0, 0.2); border-color: #ef6c00; border-width: 2px; }
+.matmul-stepper .mm-controls { display: flex; gap: 0.5rem; margin-top: 0.75rem; }
+.md-typeset .matmul-stepper .mm-btn { margin: 0; padding: 0.3em 1.2em; font-size: 0.7rem; cursor: pointer; }
+.matmul-stepper .mm-readout {
+  margin-top: 0.6rem;
+  min-height: 3.6em;
+  font-family: var(--md-code-font-family);
+  font-size: 0.75rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.matmul-stepper .mm-ta { color: #5c6bc0; font-weight: 700; }
+.matmul-stepper .mm-tb { color: #26a69a; font-weight: 700; }
+.matmul-stepper .mm-tc { color: #ef6c00; }

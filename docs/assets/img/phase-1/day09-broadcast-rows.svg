@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 312" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="28" font-weight="bold" font-size="15">Broadcasting a (3,) row across a (4, 3) matrix</text>
+  <g>
+    <rect x="30" y="64" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="52.0" y="86.0" text-anchor="middle" fill="#222">0</text>
+    <rect x="74" y="64" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="96.0" y="86.0" text-anchor="middle" fill="#222">0</text>
+    <rect x="118" y="64" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="140.0" y="86.0" text-anchor="middle" fill="#222">0</text>
+    <rect x="30" y="98" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="52.0" y="120.0" text-anchor="middle" fill="#222">10</text>
+    <rect x="74" y="98" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="96.0" y="120.0" text-anchor="middle" fill="#222">10</text>
+    <rect x="118" y="98" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="140.0" y="120.0" text-anchor="middle" fill="#222">10</text>
+    <rect x="30" y="132" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="52.0" y="154.0" text-anchor="middle" fill="#222">20</text>
+    <rect x="74" y="132" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="96.0" y="154.0" text-anchor="middle" fill="#222">20</text>
+    <rect x="118" y="132" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="140.0" y="154.0" text-anchor="middle" fill="#222">20</text>
+    <rect x="30" y="166" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="52.0" y="188.0" text-anchor="middle" fill="#222">30</text>
+    <rect x="74" y="166" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="96.0" y="188.0" text-anchor="middle" fill="#222">30</text>
+    <rect x="118" y="166" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="140.0" y="188.0" text-anchor="middle" fill="#222">30</text>
+  </g>
+  <text x="96" y="222" text-anchor="middle" fill="#3949ab" font-weight="bold">M  (4, 3)</text>
+  <text x="196.0" y="140" text-anchor="middle" font-size="26" fill="#555">+</text>
+  <g>
+    <rect x="230" y="64" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="252.0" y="86.0" text-anchor="middle" fill="#222" font-weight="bold">1</text>
+    <rect x="274" y="64" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="296.0" y="86.0" text-anchor="middle" fill="#222" font-weight="bold">2</text>
+    <rect x="318" y="64" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="340.0" y="86.0" text-anchor="middle" fill="#222" font-weight="bold">3</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.12;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,34;0,34" keyTimes="0;0.1;0.17;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="230" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="252.0" y="86.0" text-anchor="middle" fill="#ef6c00">1</text>
+    <rect x="274" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="296.0" y="86.0" text-anchor="middle" fill="#ef6c00">2</text>
+    <rect x="318" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="340.0" y="86.0" text-anchor="middle" fill="#ef6c00">3</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2;0.22;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,68;0,68" keyTimes="0;0.2;0.27;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="230" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="252.0" y="86.0" text-anchor="middle" fill="#ef6c00">1</text>
+    <rect x="274" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="296.0" y="86.0" text-anchor="middle" fill="#ef6c00">2</text>
+    <rect x="318" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="340.0" y="86.0" text-anchor="middle" fill="#ef6c00">3</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.32;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,102;0,102" keyTimes="0;0.3;0.37;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="230" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="252.0" y="86.0" text-anchor="middle" fill="#ef6c00">1</text>
+    <rect x="274" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="296.0" y="86.0" text-anchor="middle" fill="#ef6c00">2</text>
+    <rect x="318" y="64" width="44" height="34" fill="#fffaf2" stroke="#ef6c00" stroke-width="1.5" stroke-dasharray="4 3"/><text x="340.0" y="86.0" text-anchor="middle" fill="#ef6c00">3</text>
+  </g>
+  <text x="296" y="222" text-anchor="middle" fill="#ef6c00" font-weight="bold">v  (3,)</text>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.42;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <text x="296" y="240" text-anchor="middle" fill="#ef6c00" font-size="12">acts like (4, 3)</text></g>
+  <text x="396.0" y="140" text-anchor="middle" font-size="26" fill="#555">=</text>
+  <g>
+    <rect x="430" y="64" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="474" y="64" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="518" y="64" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="430" y="98" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="474" y="98" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="518" y="98" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="430" y="132" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="474" y="132" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="518" y="132" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="430" y="166" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="474" y="166" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <rect x="518" y="166" width="44" height="34" fill="none" stroke="#00897b" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.48;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="430" y="64" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="452.0" y="86.0" text-anchor="middle" fill="#00695c" font-weight="bold">1</text>
+    <rect x="474" y="64" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="496.0" y="86.0" text-anchor="middle" fill="#00695c" font-weight="bold">2</text>
+    <rect x="518" y="64" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="540.0" y="86.0" text-anchor="middle" fill="#00695c" font-weight="bold">3</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.51;0.54;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="430" y="98" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="452.0" y="120.0" text-anchor="middle" fill="#00695c" font-weight="bold">11</text>
+    <rect x="474" y="98" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="496.0" y="120.0" text-anchor="middle" fill="#00695c" font-weight="bold">12</text>
+    <rect x="518" y="98" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="540.0" y="120.0" text-anchor="middle" fill="#00695c" font-weight="bold">13</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.60;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="430" y="132" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="452.0" y="154.0" text-anchor="middle" fill="#00695c" font-weight="bold">21</text>
+    <rect x="474" y="132" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="496.0" y="154.0" text-anchor="middle" fill="#00695c" font-weight="bold">22</text>
+    <rect x="518" y="132" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="540.0" y="154.0" text-anchor="middle" fill="#00695c" font-weight="bold">23</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.63;0.66;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <rect x="430" y="166" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="452.0" y="188.0" text-anchor="middle" fill="#00695c" font-weight="bold">31</text>
+    <rect x="474" y="166" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="496.0" y="188.0" text-anchor="middle" fill="#00695c" font-weight="bold">32</text>
+    <rect x="518" y="166" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="540.0" y="188.0" text-anchor="middle" fill="#00695c" font-weight="bold">33</text>
+  </g>
+  <text x="496" y="222" text-anchor="middle" fill="#00897b" font-weight="bold">M + v  (4, 3)</text>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.05;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <text x="20" y="264" font-size="12" fill="#555">1. v's 3 elements line up with M's last axis (3 columns).</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.13;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <text x="20" y="282" font-size="12" fill="#555">2. NumPy treats v as if it were repeated down all 4 rows (no real copy is made).</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.48;0.97;1" dur="8s" repeatCount="indefinite"/>
+    <text x="20" y="300" font-size="12" fill="#555">3. Shapes now match, so the add happens element by element.</text></g>
+</svg>

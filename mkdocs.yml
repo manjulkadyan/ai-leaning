@@ -64,10 +64,12 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/matmul-stepper.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/vector-playground.js
+  - javascripts/matmul-stepper.js
   - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
 
 plugins:
@@ -89,3 +91,8 @@ nav:
           - "Day 3: Functions & classes": lessons/phase-1/day-03-functions-classes.md
           - "Day 4: NumPy arrays": lessons/phase-1/day-04-numpy-arrays.md
           - "Day 5: Vectors": lessons/phase-1/day-05-vectors.md
+          - "Day 8: Shapes & indexing": lessons/phase-1/day-08-shapes-indexing.md
+          - "Day 9: Broadcasting": lessons/phase-1/day-09-broadcasting.md
+          - "Day 10: Matrix multiplication": lessons/phase-1/day-10-matrices-matmul.md
+          - "Day 11: Transpose & inverse": lessons/phase-1/day-11-transpose-identity-inverse.md
+          - "Day 12: A layer is a matmul": lessons/phase-1/day-12-layer-is-matmul.md

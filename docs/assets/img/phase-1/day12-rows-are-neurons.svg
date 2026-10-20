@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<text x="20" y="28" font-weight="bold" font-size="15">One row of W = one neuron's weights</text>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.25;1" dur="8s" repeatCount="indefinite" calcMode="discrete"/><rect x="46" y="77" width="164" height="42" rx="5" fill="#fff59d" stroke="#3949ab" stroke-width="2.5"/><rect x="236" y="95" width="54" height="114" rx="5" fill="#fff59d" stroke="#3949ab" stroke-width="2.5"/><rect x="326" y="77" width="54" height="42" rx="5" fill="#fff59d" stroke="#3949ab" stroke-width="2.5"/><rect x="416" y="77" width="60" height="42" rx="5" fill="#fff59d" stroke="#3949ab" stroke-width="2.5"/><circle cx="565" cy="98.0" r="20" fill="#fff59d"/><text x="360" y="285" text-anchor="middle" fill="#3949ab" font-weight="bold">neuron 1:  0.5·2 + (−0.2)·1 + 0.1·3 + 0.4 = 1.5</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;0.5" dur="8s" repeatCount="indefinite" calcMode="discrete"/><rect x="46" y="113" width="164" height="42" rx="5" fill="#fff59d" stroke="#00897b" stroke-width="2.5"/><rect x="236" y="95" width="54" height="114" rx="5" fill="#fff59d" stroke="#00897b" stroke-width="2.5"/><rect x="326" y="113" width="54" height="42" rx="5" fill="#fff59d" stroke="#00897b" stroke-width="2.5"/><rect x="416" y="113" width="60" height="42" rx="5" fill="#fff59d" stroke="#00897b" stroke-width="2.5"/><circle cx="565" cy="134.0" r="20" fill="#fff59d"/><text x="360" y="285" text-anchor="middle" fill="#00897b" font-weight="bold">neuron 2:  0·2 + 1·1 + (−1)·3 + 0 = −2</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.75" dur="8s" repeatCount="indefinite" calcMode="discrete"/><rect x="46" y="149" width="164" height="42" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2.5"/><rect x="236" y="95" width="54" height="114" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2.5"/><rect x="326" y="149" width="54" height="42" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2.5"/><rect x="416" y="149" width="60" height="42" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2.5"/><circle cx="565" cy="170.0" r="20" fill="#fff59d"/><text x="360" y="285" text-anchor="middle" fill="#ef6c00" font-weight="bold">neuron 3:  0.3·2 + 0.3·1 + 0.3·3 + (−1) = 0.8</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.75;1.0" dur="8s" repeatCount="indefinite" calcMode="discrete"/><rect x="46" y="185" width="164" height="42" rx="5" fill="#fff59d" stroke="#e53935" stroke-width="2.5"/><rect x="236" y="95" width="54" height="114" rx="5" fill="#fff59d" stroke="#e53935" stroke-width="2.5"/><rect x="326" y="185" width="54" height="42" rx="5" fill="#fff59d" stroke="#e53935" stroke-width="2.5"/><rect x="416" y="185" width="60" height="42" rx="5" fill="#fff59d" stroke="#e53935" stroke-width="2.5"/><circle cx="565" cy="206.0" r="20" fill="#fff59d"/><text x="360" y="285" text-anchor="middle" fill="#e53935" font-weight="bold">neuron 4:  (−0.4)·2 + 0.2·1 + 0.6·3 + 0.1 = 1.3</text></g>
+<rect x="50" y="80" width="156" height="36" fill="#e8eaf6" fill-opacity="0.85"/>
+<text x="76.0" y="103" text-anchor="middle" fill="#3949ab" font-weight="bold">0.5</text>
+<text x="128.0" y="103" text-anchor="middle" fill="#3949ab" font-weight="bold">−0.2</text>
+<text x="180.0" y="103" text-anchor="middle" fill="#3949ab" font-weight="bold">0.1</text>
+<rect x="50" y="116" width="156" height="36" fill="#e0f2f1" fill-opacity="0.85"/>
+<text x="76.0" y="139" text-anchor="middle" fill="#00897b" font-weight="bold">0</text>
+<text x="128.0" y="139" text-anchor="middle" fill="#00897b" font-weight="bold">1</text>
+<text x="180.0" y="139" text-anchor="middle" fill="#00897b" font-weight="bold">−1</text>
+<rect x="50" y="152" width="156" height="36" fill="#fff3e0" fill-opacity="0.85"/>
+<text x="76.0" y="175" text-anchor="middle" fill="#ef6c00" font-weight="bold">0.3</text>
+<text x="128.0" y="175" text-anchor="middle" fill="#ef6c00" font-weight="bold">0.3</text>
+<text x="180.0" y="175" text-anchor="middle" fill="#ef6c00" font-weight="bold">0.3</text>
+<rect x="50" y="188" width="156" height="36" fill="#ffebee" fill-opacity="0.85"/>
+<text x="76.0" y="211" text-anchor="middle" fill="#e53935" font-weight="bold">−0.4</text>
+<text x="128.0" y="211" text-anchor="middle" fill="#e53935" font-weight="bold">0.2</text>
+<text x="180.0" y="211" text-anchor="middle" fill="#e53935" font-weight="bold">0.6</text>
+<path d="M54,78 h-6 v148 h6" fill="none" stroke="#333" stroke-width="1.5"/><path d="M202,78 h6 v148 h-6" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="263" y="121" text-anchor="middle">2</text>
+<text x="263" y="157" text-anchor="middle">1</text>
+<text x="263" y="193" text-anchor="middle">3</text>
+<path d="M246,96 h-6 v112 h6" fill="none" stroke="#333" stroke-width="1.5"/><path d="M280,96 h6 v112 h-6" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="308" y="157" text-anchor="middle" font-size="20">+</text>
+<text x="353" y="103" text-anchor="middle" fill="#3949ab">0.4</text>
+<text x="353" y="139" text-anchor="middle" fill="#00897b">0</text>
+<text x="353" y="175" text-anchor="middle" fill="#ef6c00">−1</text>
+<text x="353" y="211" text-anchor="middle" fill="#e53935">0.1</text>
+<path d="M336,78 h-6 v148 h6" fill="none" stroke="#333" stroke-width="1.5"/><path d="M370,78 h6 v148 h-6" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="398" y="157" text-anchor="middle" font-size="20">=</text>
+<text x="446" y="103" text-anchor="middle" fill="#3949ab" font-weight="bold">1.5</text>
+<text x="446" y="139" text-anchor="middle" fill="#00897b" font-weight="bold">−2</text>
+<text x="446" y="175" text-anchor="middle" fill="#ef6c00" font-weight="bold">0.8</text>
+<text x="446" y="211" text-anchor="middle" fill="#e53935" font-weight="bold">1.3</text>
+<path d="M426,78 h-6 v148 h6" fill="none" stroke="#333" stroke-width="1.5"/><path d="M466,78 h6 v148 h-6" fill="none" stroke="#333" stroke-width="1.5"/>
+<line x1="480" y1="98.0" x2="548" y2="98.0" stroke="#3949ab" stroke-dasharray="4 3"/>
+<circle cx="565" cy="98.0" r="15" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+<text x="565" y="103.0" text-anchor="middle" font-size="12" fill="#3949ab" font-weight="bold">1</text>
+<text x="590" y="103.0" font-size="12" fill="#3949ab">neuron 1 → z1</text>
+<line x1="480" y1="134.0" x2="548" y2="134.0" stroke="#00897b" stroke-dasharray="4 3"/>
+<circle cx="565" cy="134.0" r="15" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="565" y="139.0" text-anchor="middle" font-size="12" fill="#00897b" font-weight="bold">2</text>
+<text x="590" y="139.0" font-size="12" fill="#00897b">neuron 2 → z2</text>
+<line x1="480" y1="170.0" x2="548" y2="170.0" stroke="#ef6c00" stroke-dasharray="4 3"/>
+<circle cx="565" cy="170.0" r="15" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<text x="565" y="175.0" text-anchor="middle" font-size="12" fill="#ef6c00" font-weight="bold">3</text>
+<text x="590" y="175.0" font-size="12" fill="#ef6c00">neuron 3 → z3</text>
+<line x1="480" y1="206.0" x2="548" y2="206.0" stroke="#e53935" stroke-dasharray="4 3"/>
+<circle cx="565" cy="206.0" r="15" fill="#ffebee" stroke="#e53935" stroke-width="2"/>
+<text x="565" y="211.0" text-anchor="middle" font-size="12" fill="#e53935" font-weight="bold">4</text>
+<text x="590" y="211.0" font-size="12" fill="#e53935">neuron 4 → z4</text>
+<g font-size="12" fill="#555" text-anchor="middle"><text x="128.0" y="245">W  (4 neurons × 3 inputs)</text><text x="263" y="245">x  (3)</text><text x="353" y="245">b  (4)</text><text x="446" y="245">z  (4)</text><text x="620" y="245">each output belongs</text><text x="620" y="260">to one neuron</text></g>
+<text x="360" y="322" text-anchor="middle" font-size="12" fill="#555">Row i of W · x, plus b_i, is neuron i's output. A single W @ x + b computes all four at once.</text>
+</svg>
