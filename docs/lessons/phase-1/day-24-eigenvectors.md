@@ -581,4 +581,4 @@ np.allclose(Q @ np.diag(w) @ Q.T, C)    # True: C = Q Λ Qᵀ
 - [ ] I can say what λ = −1, λ = 0 and complex eigenvalues mean geometrically.
 - [ ] I can explain why a covariance matrix is symmetric and why its eigenvectors are perpendicular axes of the data.
 
-**Next:** Day 25: Projections and PCA preview (coming soon)
+**Next:** [Day 25: Projections and PCA preview](day-25-projections-pca.md)

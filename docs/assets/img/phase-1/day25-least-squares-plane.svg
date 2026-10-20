@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 330" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs>
+    <marker id="d25ly" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/></marker>
+    <marker id="d25lc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker>
+    <marker id="d25lh" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+  </defs>
+  <text x="20" y="26" font-weight="bold" font-size="15">Least squares: y can't reach the plane of X's columns, so take its shadow</text>
+  <!-- the plane: every X w -->
+  <polygon points="30,285 370,285 460,190 120,190" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+  <text x="40" y="306" font-size="12" fill="#00897b">the plane = every possible X w (all lines you could draw)</text>
+  <!-- the two columns of X -->
+  <line x1="150" y1="262" x2="320" y2="262" stroke="#00897b" stroke-width="3" marker-end="url(#d25lc)"/>
+  <text x="250" y="279" font-size="12" fill="#00897b">column 1 (the x values)</text>
+  <line x1="150" y1="262" x2="205" y2="212" stroke="#00897b" stroke-width="3" marker-end="url(#d25lc)"/>
+  <text x="165" y="240" text-anchor="end" font-size="12" fill="#00897b">column 2 (ones)</text>
+  <!-- y, sticking out of the plane -->
+  <line x1="150" y1="262" x2="298" y2="78" stroke="#3949ab" stroke-width="3.5" marker-end="url(#d25ly)"/>
+  <text x="206" y="88" fill="#3949ab" font-weight="bold">y (the data)</text>
+
+  <!-- candidate X w moving around the plane, with the miss y - Xw -->
+  <line x1="300" y1="75" x2="190" y2="272" stroke="#ef6c00" stroke-width="2" stroke-dasharray="6 4">
+    <animate attributeName="x2" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.17;0.33;0.5" values="190;400;245;300"/>
+    <animate attributeName="y2" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.17;0.33;0.5" values="272;248;205;232"/>
+  </line>
+  <circle cx="190" cy="272" r="5" fill="#ef6c00">
+    <animate attributeName="cx" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.17;0.33;0.5" values="190;400;245;300"/>
+    <animate attributeName="cy" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.17;0.33;0.5" values="272;248;205;232"/>
+  </circle>
+  <!-- final: the projection -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5;1" values="0;1;1"/>
+    <line x1="150" y1="262" x2="296" y2="233" stroke="#e53935" stroke-width="3.5" marker-end="url(#d25lh)"/>
+    <line x1="300" y1="232" x2="300" y2="80" stroke="#00897b" stroke-width="2.5"/>
+    <polyline points="300,220 312,218 312,230" fill="none" stroke="#333" stroke-width="1.5"/>
+    <text x="320" y="246" fill="#e53935" font-weight="bold">ŷ = X ŵ</text>
+    <text x="308" y="150" fill="#00897b" font-weight="bold">r = y − ŷ</text>
+    <text x="308" y="166" font-size="12" fill="#555">perpendicular to the plane</text>
+  </g>
+  <!-- step captions -->
+  <g font-size="12" fill="#ef6c00">
+    <text x="30" y="52" opacity="1"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5" values="1;0"/>orange dashed = the miss for one guess of w (trying a few)</text>
+  </g>
+
+  <!-- right panel -->
+  <rect x="478" y="45" width="207" height="255" rx="8" fill="#e8eaf6"/>
+  <text x="581" y="70" text-anchor="middle" font-weight="bold">Why it works</text>
+  <text x="490" y="98" font-size="13">Each guess w gives a point</text>
+  <text x="490" y="116" font-size="13">X w in the plane.</text>
+  <text x="490" y="142" font-size="13">The miss ‖y − X w‖ is</text>
+  <text x="490" y="160" font-size="13">shortest straight below y.</text>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5;1" values="0;1;1"/>
+    <text x="490" y="190" font-size="13" fill="#00897b">r ⟂ both columns:</text>
+    <text x="490" y="212" font-size="13">Xᵀ (y − X ŵ) = 0</text>
+    <text x="490" y="240" font-size="13">⇒ Xᵀ X ŵ = Xᵀ y</text>
+    <text x="490" y="262" font-size="12" fill="#555">the normal equation</text>
+    <text x="490" y="278" font-size="12" fill="#555">from Day 11</text>
+  </g>
+</svg>

@@ -51,6 +51,6 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 22 | [Norms and distances](../lessons/phase-1/day-22-norms-distances.md) | 90 min |
 | 23 | [Rank, span and linear independence](../lessons/phase-1/day-23-rank-span.md) | 120 min |
 | 24 | [Eigenvectors, intuitively](../lessons/phase-1/day-24-eigenvectors.md) | 120 min |
-| 25 | Projections and PCA preview *(coming soon)* | 120 min |
+| 25 | [Projections and PCA preview](../lessons/phase-1/day-25-projections-pca.md) | 120 min |
 | 26 | Month 1 recap and gaps *(coming soon)* | 90 min |
 | 27–28 | **Monthly milestone** and retrospective | 6 h |
