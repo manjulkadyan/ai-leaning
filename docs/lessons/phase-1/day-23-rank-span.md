@@ -597,4 +597,4 @@ The paper reports that, on GPT-3 175B, LoRA cut the number of trainable paramete
 - [ ] I can explain why a redundant feature makes \( X^\top X \) singular, and I know `drop_first=True` avoids the dummy-variable trap.
 - [ ] I can build a rank-\( r \) matrix as \( BA \), and compute LoRA's parameter count for given \( d, k, r \).
 
-**Next:** Day 24: Eigenvectors, intuitively (coming soon)
+**Next:** [Day 24: Eigenvectors, intuitively](day-24-eigenvectors.md)
