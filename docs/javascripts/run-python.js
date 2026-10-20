@@ -24,6 +24,24 @@ def _patch_pandas():
     pd.read_csv = read_csv
     pd._course_patched = True
 
+_saved = []
+
+def _patch_matplotlib():
+    # Lessons often save a figure and close it; keep a copy so it still shows.
+    fig_mod = sys.modules.get("matplotlib.figure")
+    if fig_mod is None or getattr(fig_mod.Figure.savefig, "_course", False):
+        return
+    orig = fig_mod.Figure.savefig
+    def savefig(self, fname, *args, **kwargs):
+        result = orig(self, fname, *args, **kwargs)
+        if isinstance(fname, (str, os.PathLike)):
+            buf = io.BytesIO()
+            orig(self, buf, format="png", dpi=100, bbox_inches="tight")
+            _saved.append((id(self), base64.b64encode(buf.getvalue()).decode()))
+        return result
+    savefig._course = True
+    fig_mod.Figure.savefig = savefig
+
 def _timeit(expr, ns):
     import timeit
     t = timeit.Timer(expr, globals=ns)
@@ -49,14 +67,19 @@ def _prepare(src):
     return "\n".join(lines)
 
 def _figures():
+    latest = dict(_saved)  # a figure saved twice (png and svg) shows once
+    shown = set(latest)
+    images = list(latest.values())
+    _saved.clear()
     plt = sys.modules.get("matplotlib.pyplot")
     if plt is None:
-        return []
-    images = []
+        return images
     for num in plt.get_fignums():
-        buf = io.BytesIO()
-        plt.figure(num).savefig(buf, format="png", dpi=100, bbox_inches="tight")
-        images.append(base64.b64encode(buf.getvalue()).decode())
+        fig = plt.figure(num)
+        if id(fig) not in shown:
+            buf = io.BytesIO()
+            fig.savefig(buf, format="png", dpi=100, bbox_inches="tight")
+            images.append(base64.b64encode(buf.getvalue()).decode())
     plt.close("all")
     return images
 
@@ -70,6 +93,7 @@ def course_run(src, ns):
         tree = ast.parse(_prepare(src), "<cell>")
         for node in tree.body:
             _patch_pandas()
+            _patch_matplotlib()
             if isinstance(node, ast.Expr):
                 value = eval(compile(ast.Expression(node.value), "<cell>", "eval"), ns)
                 if value is not None:
@@ -77,6 +101,7 @@ def course_run(src, ns):
             else:
                 exec(compile(ast.Module([node], []), "<cell>", "exec"), ns)
             _patch_pandas()
+            _patch_matplotlib()
     except BaseException as e:
         ok = False
         print("".join(traceback.format_exception_only(type(e), e)).rstrip())
