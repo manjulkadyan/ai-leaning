@@ -662,4 +662,4 @@ print(keep.astype(int))
 - [ ] I solved the birthday problem by simulation and exactly, and can explain why 23 is enough.
 - [ ] I can name three places where probability appears in training or using a model.
 
-**Next:** Day 37: Common distributions: Bernoulli, binomial, uniform, normal (coming soon)
+**Next:** [Day 37: Common distributions: Bernoulli, binomial, uniform, normal](day-37-distributions.md)

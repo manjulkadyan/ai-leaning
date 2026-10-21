@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="24" font-weight="bold" font-size="15">A Galton board: four coin-flip bounces per ball add up to a binomial count</text>
+  <circle cx="200" cy="80" r="5" fill="#3949ab"/>
+  <circle cx="170" cy="120" r="5" fill="#3949ab"/>
+  <circle cx="230" cy="120" r="5" fill="#3949ab"/>
+  <circle cx="140" cy="160" r="5" fill="#3949ab"/>
+  <circle cx="200" cy="160" r="5" fill="#3949ab"/>
+  <circle cx="260" cy="160" r="5" fill="#3949ab"/>
+  <circle cx="110" cy="200" r="5" fill="#3949ab"/>
+  <circle cx="170" cy="200" r="5" fill="#3949ab"/>
+  <circle cx="230" cy="200" r="5" fill="#3949ab"/>
+  <circle cx="290" cy="200" r="5" fill="#3949ab"/>
+  <path d="M160,40 L190,58 M240,40 L210,58" stroke="#90a4ae" stroke-width="2" fill="none"/>
+  <line x1="50" y1="240" x2="50" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="110" y1="240" x2="110" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="170" y1="240" x2="170" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="230" y1="240" x2="230" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="290" y1="240" x2="290" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="350" y1="240" x2="350" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="50" y1="322" x2="350" y2="322" stroke="#90a4ae" stroke-width="2"/>
+  <text x="80" y="340" font-size="12" fill="#555" text-anchor="middle">k = 0</text>
+  <text x="140" y="340" font-size="12" fill="#555" text-anchor="middle">k = 1</text>
+  <text x="200" y="340" font-size="12" fill="#555" text-anchor="middle">k = 2</text>
+  <text x="260" y="340" font-size="12" fill="#555" text-anchor="middle">k = 3</text>
+  <text x="320" y="340" font-size="12" fill="#555" text-anchor="middle">k = 4</text>
+  <rect x="55" y="322" width="50" height="0" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5">
+    <animate attributeName="y" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="322;309;309"/>
+    <animate attributeName="height" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;13;13"/>
+  </rect>
+  <rect x="115" y="322" width="50" height="0" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5">
+    <animate attributeName="y" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.3071;0.6786;1.0000" values="322;309;270;270"/>
+    <animate attributeName="height" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.3071;0.6786;1.0000" values="0;13;52;52"/>
+  </rect>
+  <rect x="175" y="322" width="50" height="0" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5">
+    <animate attributeName="y" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.4500;0.5929;0.6786;1.0000" values="322;309;296;244;244"/>
+    <animate attributeName="height" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.4500;0.5929;0.6786;1.0000" values="0;13;26;78;78"/>
+  </rect>
+  <rect x="235" y="322" width="50" height="0" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5">
+    <animate attributeName="y" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.1643;0.6786;1.0000" values="322;309;270;270"/>
+    <animate attributeName="height" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.1643;0.6786;1.0000" values="0;13;52;52"/>
+  </rect>
+  <rect x="295" y="322" width="50" height="0" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5">
+    <animate attributeName="y" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="322;309;309"/>
+    <animate attributeName="height" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;13;13"/>
+  </rect>
+  <text x="80" y="303" font-size="13" font-weight="bold" fill="#00897b" text-anchor="middle" opacity="0">1<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;1;1"/></text>
+  <text x="140" y="264" font-size="13" font-weight="bold" fill="#00897b" text-anchor="middle" opacity="0">4<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;1;1"/></text>
+  <text x="200" y="238" font-size="13" font-weight="bold" fill="#00897b" text-anchor="middle" opacity="0">6<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;1;1"/></text>
+  <text x="260" y="264" font-size="13" font-weight="bold" fill="#00897b" text-anchor="middle" opacity="0">4<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;1;1"/></text>
+  <text x="320" y="303" font-size="13" font-weight="bold" fill="#00897b" text-anchor="middle" opacity="0">1<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;1;1"/></text>
+  <circle r="7" fill="#ef6c00" opacity="0">
+    <animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.0357;0.1643;1.0000" values="0;1;0;0"/>
+    <animateMotion dur="14s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0.0000;0.0357;0.1643;1.0000" path="M200,40 L200,68 L230,98 L230,108 L200,138 L200,148 L230,178 L230,188 L260,218 L260,314"/>
+  </circle>
+  <circle r="7" fill="#ef6c00" opacity="0">
+    <animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.1786;0.3071;1.0000" values="0;1;0;0"/>
+    <animateMotion dur="14s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0.0000;0.1786;0.3071;1.0000" path="M200,40 L200,68 L170,98 L170,108 L140,138 L140,148 L170,178 L170,188 L140,218 L140,314"/>
+  </circle>
+  <circle r="7" fill="#ef6c00" opacity="0">
+    <animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.3214;0.4500;1.0000" values="0;1;0;0"/>
+    <animateMotion dur="14s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0.0000;0.3214;0.4500;1.0000" path="M200,40 L200,68 L230,98 L230,108 L200,138 L200,148 L170,178 L170,188 L200,218 L200,314"/>
+  </circle>
+  <circle r="7" fill="#ef6c00" opacity="0">
+    <animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.4643;0.5929;1.0000" values="0;1;0;0"/>
+    <animateMotion dur="14s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0.0000;0.4643;0.5929;1.0000" path="M200,40 L200,68 L170,98 L170,108 L200,138 L200,148 L230,178 L230,188 L200,218 L200,314"/>
+  </circle>
+  <rect x="396" y="44" width="310" height="290" rx="8" fill="#e8eaf6" stroke="#3949ab"/>
+  <text x="410" y="68" font-size="13">Each peg: bounce <tspan font-weight="bold">R</tspan>ight with p = 0.5</text>
+  <text x="410" y="86" font-size="13" fill="#555">(one Bernoulli trial)</text>
+  <text x="410" y="110" font-size="13">k = number of R in n = 4 bounces</text>
+  <text x="410" y="128" font-size="13" fill="#555">(a binomial count, 0 to 4)</text>
+  <text x="410" y="158" font-size="13" fill="#ef6c00" opacity="0">ball 1: R L R R  →  k = 3<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.1643;0.6786;1.0000" values="0;1;0;0"/></text>
+  <text x="410" y="178" font-size="13" fill="#ef6c00" opacity="0">ball 2: L L R L  →  k = 1<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.3071;0.6786;1.0000" values="0;1;0;0"/></text>
+  <text x="410" y="198" font-size="13" fill="#ef6c00" opacity="0">ball 3: R L L R  →  k = 2<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.4500;0.6786;1.0000" values="0;1;0;0"/></text>
+  <text x="410" y="218" font-size="13" fill="#ef6c00" opacity="0">ball 4: L R R L  →  k = 2<animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.5929;0.6786;1.0000" values="0;1;0;0"/></text>
+  <g opacity="0"><animate attributeName="opacity" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6786;1.0000" values="0;1;1"/>
+    <text x="410" y="158" font-size="13" font-weight="bold" fill="#00897b">Expected out of 16 balls:</text>
+    <text x="410" y="180" font-size="13" fill="#00897b">1, 4, 6, 4, 1  for k = 0, 1, 2, 3, 4</text>
+    <text x="410" y="210" font-size="13">ways to get k rights: C(4, k)</text>
+    <text x="410" y="228" font-size="13">each path has chance 0.5⁴ = 1/16</text>
+    <text x="410" y="258" font-size="13" font-weight="bold">P(k = 2) = 6 / 16 = 0.375</text>
+    <text x="410" y="290" font-size="12" fill="#555">the middle wins because the most</text>
+    <text x="410" y="306" font-size="12" fill="#555">paths lead there, not because it is "luckier"</text>
+  </g>
+</svg>

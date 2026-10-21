@@ -23,7 +23,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | Day | Lesson | Time |
 |---|---|---|
 | 36 | [Probability and random variables, by simulation](../lessons/phase-1/day-36-probability-basics.md) | 90 min |
-| 37 | Common distributions: Bernoulli, binomial, uniform, normal *(coming soon)* | 120 min |
+| 37 | [Common distributions: Bernoulli, binomial, uniform, normal](../lessons/phase-1/day-37-distributions.md) | 120 min |
 | 38 | Conditional probability and Bayes' rule *(coming soon)* | 120 min |
 | 39 | Expectation, variance and the law of large numbers *(coming soon)* | 90 min |
 | 40 | Joint distributions, independence and the central limit theorem *(coming soon)* | 120 min |
