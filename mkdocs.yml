@@ -123,5 +123,6 @@ nav:
           - "Day 29: Derivatives": lessons/phase-1/day-29-derivatives.md
           - "Day 30: Derivative rules": lessons/phase-1/day-30-derivative-rules.md
           - "Day 31: Chain rule": lessons/phase-1/day-31-chain-rule.md
+          - "Day 32: Partials & gradient": lessons/phase-1/day-32-partial-derivatives-gradient.md
   - Datasets: datasets.md
   - Glossary: glossary.md

@@ -13,7 +13,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 29 | [Derivatives as slopes and rates of change](../lessons/phase-1/day-29-derivatives.md) | 120 min |
 | 30 | [Derivative rules you'll actually use](../lessons/phase-1/day-30-derivative-rules.md) | 90 min |
 | 31 | [The chain rule and computational graphs](../lessons/phase-1/day-31-chain-rule.md) | 120 min |
-| 32 | Partial derivatives and the gradient *(coming soon)* | 120 min |
+| 32 | [Partial derivatives and the gradient](../lessons/phase-1/day-32-partial-derivatives-gradient.md) | 120 min |
 | 33 | Gradients of vectors and matrices, checked numerically *(coming soon)* | 120 min |
 | 34 | **Review + mini-project:** a tiny autodiff engine for scalar expressions *(coming soon)* | 3 h |
 | 35 | Rest | |

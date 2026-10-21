@@ -556,4 +556,4 @@ Ten layers deep, a nudge to the input barely reaches the output: the gradient is
 - [ ] I computed \( \frac{\partial L}{\partial w} \) and \( \frac{\partial L}{\partial b} \) for a neuron and checked them with central differences.
 - [ ] I can explain why backpropagation gives all gradients for the price of a few forward passes, and why deep sigmoid chains make gradients vanish.
 
-**Next:** Day 32: Partial derivatives and the gradient (coming soon)
+**Next:** [Day 32: Partial derivatives and the gradient](day-32-partial-derivatives-gradient.md)
