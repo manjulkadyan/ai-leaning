@@ -687,4 +687,4 @@ Prediction doesn't need causation: a model that predicts churn from correlations
 - [ ] I can explain why randomization recovers the true effect without measuring any confounder.
 - [ ] I can show that the best of many noise correlations looks significant, and test it honestly with a max-statistic permutation test or Bonferroni.
 
-**Next:** Day 47: Maximum likelihood estimation (coming soon)
+**Next:** [Day 47: Maximum likelihood estimation](day-47-maximum-likelihood.md)

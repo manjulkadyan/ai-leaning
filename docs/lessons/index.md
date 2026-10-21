@@ -78,3 +78,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 44 | [Confidence intervals and the bootstrap](phase-1/day-44-confidence-intervals.md) |
 | 45 | [Hypothesis tests, p-values and A/B tests](phase-1/day-45-hypothesis-tests.md) |
 | 46 | [Correlation, causation and confounders](phase-1/day-46-correlation-causation.md) |
+| 47 | [Maximum likelihood estimation](phase-1/day-47-maximum-likelihood.md) |
