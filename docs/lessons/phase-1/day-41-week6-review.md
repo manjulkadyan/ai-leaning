@@ -1053,4 +1053,4 @@ Questions I missed:
 - [ ] I finished at least one stretch goal.
 - [ ] I wrote my Week 6 retro in the journal.
 
-**Next:** Week 7 begins with Day 43: Samples, populations and the sampling distribution (coming soon)
+**Next:** Week 7 begins with [Day 43: Samples, populations and the sampling distribution](day-43-sampling.md)

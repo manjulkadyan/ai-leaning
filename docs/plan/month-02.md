@@ -34,7 +34,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 43 | Samples, populations and the sampling distribution *(coming soon)* | 90 min |
+| 43 | [Samples, populations and the sampling distribution](../lessons/phase-1/day-43-sampling.md) | 90 min |
 | 44 | Confidence intervals and the bootstrap *(coming soon)* | 120 min |
 | 45 | Hypothesis tests, p-values and A/B tests *(coming soon)* | 120 min |
 | 46 | Correlation, causation and confounders *(coming soon)* | 90 min |

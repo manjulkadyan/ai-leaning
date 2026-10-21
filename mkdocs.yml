@@ -132,5 +132,6 @@ nav:
           - "Day 39: Expectation & variance": lessons/phase-1/day-39-expectation-variance.md
           - "Day 40: Joint distributions & CLT": lessons/phase-1/day-40-joint-clt.md
           - "Day 41: Week 6 review": lessons/phase-1/day-41-week6-review.md
+          - "Day 43: Sampling": lessons/phase-1/day-43-sampling.md
   - Datasets: datasets.md
   - Glossary: glossary.md

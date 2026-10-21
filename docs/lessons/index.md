@@ -69,3 +69,9 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 39 | [Expectation, variance and the law of large numbers](phase-1/day-39-expectation-variance.md) |
 | 40 | [Joint distributions, independence and the central limit theorem](phase-1/day-40-joint-clt.md) |
 | 41 | [Week 6 review and mini-project: a naive Bayes spam filter](phase-1/day-41-week6-review.md) |
+
+### Week 7: Statistics
+
+| Day | Lesson |
+|---|---|
+| 43 | [Samples, populations and the sampling distribution](phase-1/day-43-sampling.md) |
