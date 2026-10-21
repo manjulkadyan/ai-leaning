@@ -598,4 +598,4 @@ int(np.ceil(1.96**2 * 0.92 * 0.08 / 0.01**2))   # 2828
 - [ ] I can build an interval for a proportion and switch to Wilson for rare events or zero counts.
 - [ ] I can put an error bar on a model's accuracy and estimate the test-set size a target margin needs.
 
-**Next:** Day 45: Hypothesis tests, p-values and A/B tests (coming soon)
+**Next:** [Day 45: Hypothesis tests, p-values and A/B tests](day-45-hypothesis-tests.md)
