@@ -58,3 +58,9 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 32 | [Partial derivatives and the gradient](phase-1/day-32-partial-derivatives-gradient.md) |
 | 33 | [Gradients of vectors and matrices, checked numerically](phase-1/day-33-vector-matrix-gradients.md) |
 | 34 | [Week 5 review and mini-project: a tiny autodiff engine](phase-1/day-34-week5-review.md) |
+
+### Week 6: Probability
+
+| Day | Lesson |
+|---|---|
+| 36 | [Probability and random variables, by simulation](phase-1/day-36-probability-basics.md) |

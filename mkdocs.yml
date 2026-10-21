@@ -126,5 +126,6 @@ nav:
           - "Day 32: Partials & gradient": lessons/phase-1/day-32-partial-derivatives-gradient.md
           - "Day 33: Vector & matrix gradients": lessons/phase-1/day-33-vector-matrix-gradients.md
           - "Day 34: Week 5 review": lessons/phase-1/day-34-week5-review.md
+          - "Day 36: Probability basics": lessons/phase-1/day-36-probability-basics.md
   - Datasets: datasets.md
   - Glossary: glossary.md

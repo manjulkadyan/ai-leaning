@@ -1231,4 +1231,4 @@ Questions I missed:
 - [ ] I finished at least one stretch goal.
 - [ ] I wrote my Week 5 retro in the journal.
 
-**Next:** Week 6 begins with Day 36: Probability and random variables, by simulation (coming soon)
+**Next:** Week 6 begins with [Day 36: Probability and random variables, by simulation](day-36-probability-basics.md)
