@@ -129,5 +129,6 @@ nav:
           - "Day 36: Probability basics": lessons/phase-1/day-36-probability-basics.md
           - "Day 37: Distributions": lessons/phase-1/day-37-distributions.md
           - "Day 38: Bayes' rule": lessons/phase-1/day-38-bayes-rule.md
+          - "Day 39: Expectation & variance": lessons/phase-1/day-39-expectation-variance.md
   - Datasets: datasets.md
   - Glossary: glossary.md

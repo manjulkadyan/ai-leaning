@@ -569,4 +569,4 @@ print(round(adjust_for_base_rate(0.90, 0.5, 0.05), 4))    # 0.3214
 - [ ] I can work the medical-test example with 1000 dots, with the formula and by simulation, and explain why the answer is about 9%, not 90%.
 - [ ] I can update in odds form and explain why precision depends on the base rate.
 
-**Next:** Day 39: Expectation, variance and the law of large numbers (coming soon)
+**Next:** [Day 39: Expectation, variance and the law of large numbers](day-39-expectation-variance.md)
