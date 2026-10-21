@@ -622,4 +622,4 @@ You now have the one idea the rest of the week is built on: **the derivative is 
 - [ ] I can write `forward_diff` and `central_diff`, and explain why \( h \) can be too big and too small, using the V-shaped error plot.
 - [ ] I can estimate a velocity from samples with `np.gradient`, and explain why noisy samples with a tiny time step give noisy velocities.
 
-**Next:** Day 30: Derivative rules you'll actually use (coming soon)
+**Next:** [Day 30: Derivative rules you'll actually use](day-30-derivative-rules.md)
