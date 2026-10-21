@@ -15,7 +15,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 31 | [The chain rule and computational graphs](../lessons/phase-1/day-31-chain-rule.md) | 120 min |
 | 32 | [Partial derivatives and the gradient](../lessons/phase-1/day-32-partial-derivatives-gradient.md) | 120 min |
 | 33 | [Gradients of vectors and matrices, checked numerically](../lessons/phase-1/day-33-vector-matrix-gradients.md) | 120 min |
-| 34 | **Review + mini-project:** a tiny autodiff engine for scalar expressions *(coming soon)* | 3 h |
+| 34 | **Review + mini-project:** [a tiny autodiff engine for scalar expressions](../lessons/phase-1/day-34-week5-review.md) | 3 h |
 | 35 | Rest | |
 
 ## Week 6: Probability

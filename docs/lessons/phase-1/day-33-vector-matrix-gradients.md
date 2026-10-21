@@ -686,4 +686,4 @@ The `size_mb` entry jumps from −0.11 to −368, not because size matters more,
 - [ ] I can say what a Jacobian is and what a vector-Jacobian product has to do with backpropagation.
 - [ ] I computed and checked a real gradient on the Play Store data, and saw why standardizing features matters for it.
 
-**Next:** Day 34: Week 5 review and mini-project (coming soon)
+**Next:** [Day 34: Week 5 review and mini-project](day-34-week5-review.md)
