@@ -75,3 +75,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | Day | Lesson |
 |---|---|
 | 43 | [Samples, populations and the sampling distribution](phase-1/day-43-sampling.md) |
+| 44 | [Confidence intervals and the bootstrap](phase-1/day-44-confidence-intervals.md) |

@@ -596,4 +596,4 @@ So if model A scores 91% and model B 89% on the same 200 images, you have not sh
 - [ ] I can explain Bessel's correction with the "sum of squares is smallest at \( \bar{x} \)" argument, and I know what `ddof` does.
 - [ ] I can compute the standard error of a test-set accuracy and say whether a 2-point gap between two models means anything.
 
-**Next:** Day 44: Confidence intervals and the bootstrap (coming soon)
+**Next:** [Day 44: Confidence intervals and the bootstrap](day-44-confidence-intervals.md)
