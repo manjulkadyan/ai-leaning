@@ -54,3 +54,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 |---|---|
 | 29 | [Derivatives as slopes and rates of change](phase-1/day-29-derivatives.md) |
 | 30 | [Derivative rules you'll actually use](phase-1/day-30-derivative-rules.md) |
+| 31 | [The chain rule and computational graphs](phase-1/day-31-chain-rule.md) |

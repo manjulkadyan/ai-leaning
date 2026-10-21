@@ -689,4 +689,4 @@ This is a simplified picture: real backward passes also multiply by the weights,
 - [ ] I check derivatives numerically with a central difference, away from kinks.
 - [ ] I can explain, with the number 0.25, why deep stacks of sigmoids suffer from vanishing gradients.
 
-**Next:** Day 31: The chain rule and computational graphs (coming soon)
+**Next:** [Day 31: The chain rule and computational graphs](day-31-chain-rule.md)

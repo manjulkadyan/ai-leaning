@@ -122,5 +122,6 @@ nav:
           - "Days 27–28: Month 1 milestone": lessons/phase-1/day-27-month1-milestone.md
           - "Day 29: Derivatives": lessons/phase-1/day-29-derivatives.md
           - "Day 30: Derivative rules": lessons/phase-1/day-30-derivative-rules.md
+          - "Day 31: Chain rule": lessons/phase-1/day-31-chain-rule.md
   - Datasets: datasets.md
   - Glossary: glossary.md
