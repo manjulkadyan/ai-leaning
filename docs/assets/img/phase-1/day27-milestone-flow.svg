@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Helvetica, Arial, sans-serif" font-size="13" class="animated">
+<text x="14" y="28" font-weight="bold" font-size="15">Month 1 milestone: two parts, one finish line</text>
+<text x="14" y="88" font-weight="bold" fill="#3949ab">Part 1</text><text x="14" y="106" font-size="11" fill="#555">Day 27</text><text x="14" y="120" font-size="11" fill="#555">from scratch</text>
+<text x="14" y="198" font-weight="bold" fill="#00897b">Part 2</text><text x="14" y="216" font-size="11" fill="#555">Day 28</text><text x="14" y="230" font-size="11" fill="#555">unguided</text>
+<rect x="110" y="62" width="150" height="64" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="110" y="62" width="150" height="64" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<text x="185.0" y="82" text-anchor="middle" font-weight="bold" fill="#3949ab">1. Write</text>
+<text x="185.0" y="100" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">transpose · matmul</text>
+<text x="185.0" y="116" text-anchor="middle" font-size="11" fill="#555">L1 · L2 in plain Python</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;1;1;1;1;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><circle cx="256" cy="66" r="10" fill="#00897b"/><path d="M251 66 l4 4 l7 -8" fill="none" stroke="#fff" stroke-width="2.5"/></g>
+<path d="M261 94.0 L280 94.0" stroke="#555" stroke-width="1.5"/><path d="M276 90.0 L280 94.0 L276 98.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="282" y="62" width="150" height="64" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="282" y="62" width="150" height="64" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<text x="357.0" y="82" text-anchor="middle" font-weight="bold" fill="#3949ab">2. Test</text>
+<text x="357.0" y="100" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">assert np.allclose</text>
+<text x="357.0" y="116" text-anchor="middle" font-size="11" fill="#555">hand + random shapes</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;1;1;1;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><circle cx="428" cy="66" r="10" fill="#00897b"/><path d="M423 66 l4 4 l7 -8" fill="none" stroke="#fff" stroke-width="2.5"/></g>
+<path d="M433 94.0 L452 94.0" stroke="#555" stroke-width="1.5"/><path d="M448 90.0 L452 94.0 L448 98.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="454" y="62" width="150" height="64" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="454" y="62" width="150" height="64" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<text x="529.0" y="82" text-anchor="middle" font-weight="bold" fill="#3949ab">3. Benchmark</text>
+<text x="529.0" y="100" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">NumPy vs your loops</text>
+<text x="529.0" y="116" text-anchor="middle" font-size="11" fill="#555">≥100× at n = 128</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;1;1;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><circle cx="600" cy="66" r="10" fill="#00897b"/><path d="M595 66 l4 4 l7 -8" fill="none" stroke="#fff" stroke-width="2.5"/></g>
+<rect x="110" y="172" width="150" height="64" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="110" y="172" width="150" height="64" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<text x="185.0" y="192" text-anchor="middle" font-weight="bold" fill="#00897b">4. Clean</text>
+<text x="185.0" y="210" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">clean_apps(raw)</text>
+<text x="185.0" y="226" text-anchor="middle" font-size="11" fill="#555">+ merge developers</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;1;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><circle cx="256" cy="176" r="10" fill="#00897b"/><path d="M251 176 l4 4 l7 -8" fill="none" stroke="#fff" stroke-width="2.5"/></g>
+<path d="M261 204.0 L280 204.0" stroke="#555" stroke-width="1.5"/><path d="M276 200.0 L280 204.0 L276 208.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="282" y="172" width="150" height="64" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="282" y="172" width="150" height="64" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<text x="357.0" y="192" text-anchor="middle" font-weight="bold" fill="#00897b">5. Explore</text>
+<text x="357.0" y="210" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">five questions</text>
+<text x="357.0" y="226" text-anchor="middle" font-size="11" fill="#555">five charts</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><circle cx="428" cy="176" r="10" fill="#00897b"/><path d="M423 176 l4 4 l7 -8" fill="none" stroke="#fff" stroke-width="2.5"/></g>
+<path d="M433 204.0 L452 204.0" stroke="#555" stroke-width="1.5"/><path d="M448 200.0 L452 204.0 L448 208.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="454" y="172" width="150" height="64" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="454" y="172" width="150" height="64" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<text x="529.0" y="192" text-anchor="middle" font-weight="bold" fill="#00897b">6. Report</text>
+<text x="529.0" y="210" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">one finding per chart</text>
+<text x="529.0" y="226" text-anchor="middle" font-size="11" fill="#555">no causal claims</text>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><circle cx="600" cy="176" r="10" fill="#00897b"/><path d="M595 176 l4 4 l7 -8" fill="none" stroke="#fff" stroke-width="2.5"/></g>
+<rect x="640" y="62" width="106" height="174" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<rect x="640" y="62" width="106" height="174" rx="8" fill="#fff59d" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></rect>
+<rect x="673" y="80" width="10" height="10" fill="#333" stroke="#333" stroke-width="0.5"/>
+<rect x="673" y="90" width="10" height="10" fill="#fff" stroke="#333" stroke-width="0.5"/>
+<rect x="673" y="100" width="10" height="10" fill="#333" stroke="#333" stroke-width="0.5"/>
+<rect x="683" y="80" width="10" height="10" fill="#fff" stroke="#333" stroke-width="0.5"/>
+<rect x="683" y="90" width="10" height="10" fill="#333" stroke="#333" stroke-width="0.5"/>
+<rect x="683" y="100" width="10" height="10" fill="#fff" stroke="#333" stroke-width="0.5"/>
+<rect x="693" y="80" width="10" height="10" fill="#333" stroke="#333" stroke-width="0.5"/>
+<rect x="693" y="90" width="10" height="10" fill="#fff" stroke="#333" stroke-width="0.5"/>
+<rect x="693" y="100" width="10" height="10" fill="#333" stroke="#333" stroke-width="0.5"/>
+<rect x="703" y="80" width="10" height="10" fill="#fff" stroke="#333" stroke-width="0.5"/>
+<rect x="703" y="90" width="10" height="10" fill="#333" stroke="#333" stroke-width="0.5"/>
+<rect x="703" y="100" width="10" height="10" fill="#fff" stroke="#333" stroke-width="0.5"/>
+<line x1="673" y1="80" x2="673" y2="140" stroke="#333" stroke-width="2"/>
+<text x="693.0" y="164" text-anchor="middle" font-weight="bold" fill="#ef6c00">7. Retro</text>
+<text x="693.0" y="184" text-anchor="middle" font-size="11" fill="#555">what worked,</text>
+<text x="693.0" y="200" text-anchor="middle" font-size="11" fill="#555">what didn't,</text>
+<text x="693.0" y="216" text-anchor="middle" font-size="11" fill="#555">then Month 2</text>
+<path d="M605 94.0 L639 94.0" stroke="#555" stroke-width="1.5"/><path d="M635 90.0 L639 94.0 L635 98.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M605 204.0 L639 204.0" stroke="#555" stroke-width="1.5"/><path d="M635 200.0 L639 204.0 L635 208.0" fill="none" stroke="#555" stroke-width="1.5"/>
+<circle cx="0" cy="0" r="7" fill="#ef6c00" stroke="#fff" stroke-width="2"><animate attributeName="cx" calcMode="discrete" values="185;357;529;185;357;529;693" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><animate attributeName="cy" calcMode="discrete" values="140;140;140;250;250;250;250" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/></circle>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Write the three operations yourself</text><text x="14" y="310" font-size="12.5" fill="#333">lists of lists only: no NumPy inside your functions</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Prove they are right before timing them</text><text x="14" y="310" font-size="12.5" fill="#333">hand-worked examples, edge shapes, errors, then random matrices vs NumPy</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Measure the gap</text><text x="14" y="310" font-size="12.5" fill="#333">same answers, but NumPy's matmul is thousands of times faster at n = 128</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Clean the real data</text><text x="14" y="310" font-size="12.5" fill="#333">duplicates, category spelling, installs text, sizes, dates (Day 17)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Pick your own five questions</text><text x="14" y="310" font-size="12.5" fill="#333">one question → one chart → one number you can quote</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;0" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Say what the chart shows, and no more</text><text x="14" y="310" font-size="12.5" fill="#333">&quot;is associated with&quot;, not &quot;causes&quot;; give group sizes</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571" dur="14s" repeatCount="indefinite"/><text x="14" y="288" font-size="15" font-weight="bold">Look back, then look ahead</text><text x="14" y="310" font-size="12.5" fill="#333">fill in the Month 1 retro; Month 2 is calculus, probability, statistics</text></g>
+</svg>

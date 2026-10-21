@@ -35,3 +35,15 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 17 | [Missing data and cleaning](phase-1/day-17-pandas-cleaning.md) |
 | 18 | [groupby, merge and pivot](phase-1/day-18-pandas-groupby-merge.md) |
 | 19 | [Plotting with Matplotlib](phase-1/day-19-matplotlib.md) |
+| 20 | [Week 3 review and mini-project: exploratory analysis of app data](phase-1/day-20-week3-review.md) |
+
+### Week 4: Linear algebra for ML
+
+| Day | Lesson |
+|---|---|
+| 22 | [Norms and distances](phase-1/day-22-norms-distances.md) |
+| 23 | [Rank, span and linear independence](phase-1/day-23-rank-span.md) |
+| 24 | [Eigenvectors, intuitively](phase-1/day-24-eigenvectors.md) |
+| 25 | [Projections and PCA preview](phase-1/day-25-projections-pca.md) |
+| 26 | [Month 1 recap and gaps](phase-1/day-26-month1-recap.md) |
+| 27–28 | [Month 1 milestone and retrospective](phase-1/day-27-month1-milestone.md) |

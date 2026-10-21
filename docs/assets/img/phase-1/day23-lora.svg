@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<text x="20" y="26" font-weight="bold" font-size="15">LoRA: keep W frozen, learn a thin update ΔW = B·A</text>
+<text x="20" y="46" font-size="12" fill="#555">one 4096 × 4096 weight matrix of a large model; the widths of B and A are exaggerated so you can see them</text>
+<rect x="30" y="75" width="170" height="170" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+<text x="115" y="155" text-anchor="middle" font-weight="bold" fill="#3949ab">W</text>
+<text x="115" y="175" text-anchor="middle" font-size="12" fill="#3949ab">frozen</text>
+<text x="222" y="167" text-anchor="middle" font-size="26" fill="#555">+</text>
+<rect x="245" y="75" width="5" height="170" fill="#fff59d" stroke="#e53935" stroke-width="2"><animate attributeName="width" dur="10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="5;12;20;34"/></rect>
+<text x="262" y="265" text-anchor="middle" font-weight="bold" fill="#e53935">B</text>
+<text x="300" y="175" text-anchor="middle" font-size="40" font-weight="bold" fill="#555">·</text>
+<rect x="315" y="75" width="170" height="5" fill="#fff59d" stroke="#e53935" stroke-width="2"><animate attributeName="height" dur="10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="5;12;20;34"/></rect>
+<text x="400" y="135" text-anchor="middle" font-weight="bold" fill="#e53935">A</text>
+<text x="507" y="167" text-anchor="middle" font-size="26" fill="#555">=</text>
+<rect x="530" y="75" width="170" height="170" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<text x="615" y="155" text-anchor="middle" font-weight="bold" fill="#ef6c00">ΔW</text>
+<text x="615" y="175" text-anchor="middle" font-size="12" fill="#ef6c00">rank ≤ r</text>
+<text x="115" y="265" text-anchor="middle" font-size="12" fill="#555">4096 × 4096</text>
+<text x="400" y="265" text-anchor="middle" font-size="12" fill="#555">B: 4096 × r,  A: r × 4096</text>
+<text x="615" y="265" text-anchor="middle" font-size="12" fill="#555">4096 × 4096</text>
+<g opacity="1"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="1;0;0;0"/>
+<rect x="30" y="285" width="670" height="58" rx="8" fill="#e0f2f1"/>
+<text x="45" y="308" font-weight="bold" fill="#00897b">r = 1</text>
+<text x="110" y="308">trainable: 4096·1 + 1·4096 = <tspan font-weight="bold">8,192</tspan> numbers</text>
+<text x="110" y="330" fill="#555" font-size="13">vs 16,777,216 to fine-tune W itself: 0.05% of the parameters, 1/2048 of the size</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;1;0;0"/>
+<rect x="30" y="285" width="670" height="58" rx="8" fill="#e0f2f1"/>
+<text x="45" y="308" font-weight="bold" fill="#00897b">r = 4</text>
+<text x="110" y="308">trainable: 4096·4 + 4·4096 = <tspan font-weight="bold">32,768</tspan> numbers</text>
+<text x="110" y="330" fill="#555" font-size="13">vs 16,777,216 to fine-tune W itself: 0.20% of the parameters, 1/512 of the size</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;0;1;0"/>
+<rect x="30" y="285" width="670" height="58" rx="8" fill="#e0f2f1"/>
+<text x="45" y="308" font-weight="bold" fill="#00897b">r = 8</text>
+<text x="110" y="308">trainable: 4096·8 + 8·4096 = <tspan font-weight="bold">65,536</tspan> numbers</text>
+<text x="110" y="330" fill="#555" font-size="13">vs 16,777,216 to fine-tune W itself: 0.39% of the parameters, 1/256 of the size</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.25;0.5;0.75" values="0;0;0;1"/>
+<rect x="30" y="285" width="670" height="58" rx="8" fill="#e0f2f1"/>
+<text x="45" y="308" font-weight="bold" fill="#00897b">r = 16</text>
+<text x="110" y="308">trainable: 4096·16 + 16·4096 = <tspan font-weight="bold">131,072</tspan> numbers</text>
+<text x="110" y="330" fill="#555" font-size="13">vs 16,777,216 to fine-tune W itself: 0.78% of the parameters, 1/128 of the size</text>
+</g>
+</svg>

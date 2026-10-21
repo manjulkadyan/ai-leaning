@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" font-family="Helvetica, Arial, sans-serif" font-size="13" class="animated">
+<text x="14" y="28" font-weight="bold" font-size="15">Month 1 in one picture: from Python to PCA</text>
+<line x1="70" y1="130" x2="710" y2="130" stroke="#ccc" stroke-width="6" stroke-linecap="round"/>
+<line x1="70" y1="130" x2="70" y2="130" stroke="#ef6c00" stroke-width="6" stroke-linecap="round"><animate attributeName="x2" calcMode="discrete" values="70;200;330;460;590;710" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></line>
+<rect x="10.0" y="58" width="120" height="46" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="10.0" y="58" width="120" height="46" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></rect>
+<text x="70" y="76" text-anchor="middle" font-size="10.5" fill="#555">Week 1 · Days 1–3</text>
+<text x="70" y="95" text-anchor="middle" font-weight="bold" fill="#3949ab">Python</text>
+<line x1="70" y1="104" x2="70" y2="122" stroke="#3949ab" stroke-width="1.5"/>
+<circle cx="70" cy="130" r="8" fill="#fff" stroke="#3949ab" stroke-width="2.5"/>
+<rect x="140.0" y="58" width="120" height="46" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="140.0" y="58" width="120" height="46" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></rect>
+<text x="200" y="76" text-anchor="middle" font-size="10.5" fill="#555">Weeks 1–2 · Days 4–9</text>
+<text x="200" y="95" text-anchor="middle" font-weight="bold" fill="#00897b">NumPy</text>
+<line x1="200" y1="104" x2="200" y2="122" stroke="#00897b" stroke-width="1.5"/>
+<circle cx="200" cy="130" r="8" fill="#fff" stroke="#00897b" stroke-width="2.5"/>
+<rect x="270.0" y="58" width="120" height="46" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="270.0" y="58" width="120" height="46" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></rect>
+<text x="330" y="76" text-anchor="middle" font-size="10.5" fill="#555">Week 2 · Days 10–12</text>
+<text x="330" y="95" text-anchor="middle" font-weight="bold" fill="#3949ab">Matrices</text>
+<line x1="330" y1="104" x2="330" y2="122" stroke="#3949ab" stroke-width="1.5"/>
+<circle cx="330" cy="130" r="8" fill="#fff" stroke="#3949ab" stroke-width="2.5"/>
+<rect x="400.0" y="58" width="120" height="46" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<rect x="400.0" y="58" width="120" height="46" rx="8" fill="#fff59d" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></rect>
+<text x="460" y="76" text-anchor="middle" font-size="10.5" fill="#555">Week 3 · Days 15–19</text>
+<text x="460" y="95" text-anchor="middle" font-weight="bold" fill="#ef6c00">pandas</text>
+<line x1="460" y1="104" x2="460" y2="122" stroke="#ef6c00" stroke-width="1.5"/>
+<circle cx="460" cy="130" r="8" fill="#fff" stroke="#ef6c00" stroke-width="2.5"/>
+<rect x="530.0" y="58" width="120" height="46" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="530.0" y="58" width="120" height="46" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></rect>
+<text x="590" y="76" text-anchor="middle" font-size="10.5" fill="#555">Week 4 · Days 22–25</text>
+<text x="590" y="95" text-anchor="middle" font-weight="bold" fill="#00897b">Linear algebra</text>
+<line x1="590" y1="104" x2="590" y2="122" stroke="#00897b" stroke-width="1.5"/>
+<circle cx="590" cy="130" r="8" fill="#fff" stroke="#00897b" stroke-width="2.5"/>
+<rect x="667.0" y="58" width="86" height="46" rx="8" fill="#fff3e0" stroke="#e53935" stroke-width="1.5"/>
+<rect x="667.0" y="58" width="86" height="46" rx="8" fill="#fff59d" stroke="#e53935" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></rect>
+<text x="710" y="76" text-anchor="middle" font-size="10.5" fill="#555">Days 27–28</text>
+<text x="710" y="95" text-anchor="middle" font-weight="bold" fill="#e53935">Milestone</text>
+<line x1="710" y1="104" x2="710" y2="122" stroke="#e53935" stroke-width="1.5"/>
+<path d="M704 140 L704 116" stroke="#333" stroke-width="2"/>
+<path d="M704 116 L722 122 L704 128 Z" fill="#e53935"/>
+<circle cx="70" cy="130" r="10" fill="#ef6c00" stroke="#fff" stroke-width="2.5"><animate attributeName="cx" calcMode="discrete" values="70;200;330;460;590;710" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/></circle>
+<text x="200" y="156" text-anchor="middle" font-size="10.5" fill="#555">Day 6 review</text>
+<path d="M200 141 L200 146" stroke="#999" stroke-width="1.5"/>
+<text x="395" y="156" text-anchor="middle" font-size="10.5" fill="#555">Day 13 review</text>
+<path d="M395 141 L395 146" stroke="#999" stroke-width="1.5"/>
+<text x="525" y="156" text-anchor="middle" font-size="10.5" fill="#555">Day 20 review</text>
+<path d="M525 141 L525 146" stroke="#999" stroke-width="1.5"/>
+<text x="650" y="156" text-anchor="middle" font-size="10.5" fill="#555">Day 26: today</text>
+<path d="M650 141 L650 146" stroke="#999" stroke-width="1.5"/>
+<rect x="14" y="178" width="732" height="96" rx="8" fill="#fafafa" stroke="#ddd"/>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/><text x="30" y="206" font-size="16" font-weight="bold">Python: names point at objects</text><text x="30" y="230" font-size="13" fill="#333">lists, dicts, slicing, comprehensions, functions, dataclasses</text><text x="30" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">b = a   # same list, not a copy</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/><text x="30" y="206" font-size="16" font-weight="bold">NumPy: one dtype, one block of memory, no loops</text><text x="30" y="230" font-size="13" fill="#333">shape and axis, vectors and cosine, reshape, broadcasting</text><text x="30" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">X.mean(axis=0)   # (n, d) → (d,)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/><text x="30" y="206" font-size="16" font-weight="bold">Matrices: a layer is a matrix multiply</text><text x="30" y="230" font-size="13" fill="#333">row·column, shape rule, transpose, inverse and solve, ReLU, FLOPs</text><text x="30" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">(64, 20) @ (20, 50) → (64, 50)</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/><text x="30" y="206" font-size="16" font-weight="bold">pandas: labelled columns you can trust</text><text x="30" y="230" font-size="13" fill="#333">select and filter, clean the mess, groupby, merge, honest charts</text><text x="30" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">apps.groupby("category")["rating"].mean()</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/><text x="30" y="206" font-size="16" font-weight="bold">Linear algebra: lengths, directions, structure</text><text x="30" y="230" font-size="13" fill="#333">norms and distances, rank and span, eigenvectors, projections, PCA</text><text x="30" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">vals, vecs = np.linalg.eigh(np.cov(Xc.T))</text></g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="18s" repeatCount="indefinite"/><text x="30" y="206" font-size="16" font-weight="bold">Milestone: every station at once</text><text x="30" y="230" font-size="13" fill="#333">matmul and norms from scratch vs NumPy, then a five-plot analysis</text><text x="30" y="258" font-family="Menlo, Consolas, monospace" font-size="13" fill="#3949ab">assert np.allclose(matmul_py(A, B), A @ B)</text></g>
+<text x="14" y="302" font-size="12" fill="#555">Each station is built on the one before it: pandas columns are NumPy arrays, and PCA is matrices plus eigenvectors.</text>
+</svg>

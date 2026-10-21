@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs>
+    <marker id="d25a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/></marker>
+    <marker id="d25b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker>
+    <marker id="d25e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker>
+  </defs>
+  <text x="20" y="26" font-weight="bold" font-size="15">Projecting a onto b: drop a straight down onto b's line</text>
+  <!-- grid: origin (70,270), 1 unit = 46px -->
+  <g stroke="#eceff1">
+    <line x1="116" y1="45" x2="116" y2="290"/><line x1="162" y1="45" x2="162" y2="290"/><line x1="208" y1="45" x2="208" y2="290"/><line x1="254" y1="45" x2="254" y2="290"/><line x1="300" y1="45" x2="300" y2="290"/><line x1="346" y1="45" x2="346" y2="290"/>
+    <line x1="50" y1="224" x2="400" y2="224"/><line x1="50" y1="178" x2="400" y2="178"/><line x1="50" y1="132" x2="400" y2="132"/><line x1="50" y1="86" x2="400" y2="86"/>
+  </g>
+  <g stroke="#90a4ae" stroke-width="1.5"><line x1="50" y1="270" x2="400" y2="270"/><line x1="70" y1="290" x2="70" y2="45"/></g>
+  <g font-size="11" fill="#90a4ae"><text x="250" y="285">4</text><text x="158" y="285">2</text><text x="58" y="182">2</text><text x="58" y="90">4</text></g>
+  <!-- the line through b -->
+  <line x1="47" y1="281.5" x2="392" y2="109" stroke="#ef6c00" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="300" y="145" font-size="12" fill="#ef6c00">line through b</text>
+  <!-- step 2: the shadow p grows along b's line -->
+  <line x1="70" y1="270" x2="70" y2="270" stroke="#e53935" stroke-width="5" opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;1" values="0;1;1"/>
+    <animate attributeName="x2" dur="12s" repeatCount="indefinite" keyTimes="0;0.33;0.48;1" values="70;70;254;254"/>
+    <animate attributeName="y2" dur="12s" repeatCount="indefinite" keyTimes="0;0.33;0.48;1" values="270;270;178;178"/>
+  </line>
+  <!-- b -->
+  <line x1="70" y1="270" x2="162" y2="224" stroke="#ef6c00" stroke-width="3.5" marker-end="url(#d25b)"/>
+  <text x="128" y="258" fill="#ef6c00" font-weight="bold">b = [2, 1]</text>
+  <!-- a -->
+  <line x1="70" y1="270" x2="208" y2="86" stroke="#3949ab" stroke-width="3.5" marker-end="url(#d25a)"/>
+  <text x="140" y="80" fill="#3949ab" font-weight="bold">a = [3, 4]</text>
+
+  <!-- step 1: light drops straight down from a's tip -->
+  <line x1="208" y1="86" x2="208" y2="86" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3" opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.12;1" values="0;1;1"/>
+    <animate attributeName="x2" dur="12s" repeatCount="indefinite" keyTimes="0;0.12;0.3;1" values="208;208;254;254"/>
+    <animate attributeName="y2" dur="12s" repeatCount="indefinite" keyTimes="0;0.12;0.3;1" values="86;86;178;178"/>
+  </line>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.48;1" values="0;1;1"/>
+    <text x="262" y="200" fill="#e53935" font-weight="bold">p = [4, 2]</text>
+    <text x="262" y="216" font-size="12" fill="#555">the shadow</text>
+  </g>
+  <!-- step 3: the leftover e, at a right angle -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.58;1" values="0;1;1"/>
+    <line x1="254" y1="178" x2="210" y2="90" stroke="#00897b" stroke-width="3" marker-end="url(#d25e)"/>
+    <polyline points="264.7,172.6 259.3,161.9 248.6,167.3" fill="none" stroke="#333" stroke-width="1.5"/>
+    <text x="238" y="128" fill="#00897b" font-weight="bold">e</text>
+    <text x="250" y="128" font-size="12" fill="#00897b">= [−1, 2]</text>
+  </g>
+
+  <!-- right panel: the numbers -->
+  <rect x="425" y="45" width="260" height="250" rx="8" fill="#e8eaf6"/>
+  <text x="555" y="72" text-anchor="middle" font-weight="bold">The arithmetic</text>
+  <text x="440" y="104">a · b = 3·2 + 4·1 = 10</text>
+  <text x="440" y="128">b · b = 2·2 + 1·1 = 5</text>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;1" values="0;1;1"/>
+    <text x="440" y="160">how many b's?  10 / 5 = 2</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.48;1" values="0;1;1"/>
+    <text x="440" y="186" fill="#e53935">p = 2 · b = [4, 2]</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.58;1" values="0;1;1"/>
+    <text x="440" y="212" fill="#00897b">e = a − p = [−1, 2]</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7;1" values="0;1;1"/>
+    <text x="440" y="244">e · b = −2 + 2 = 0</text>
+    <text x="440" y="264" font-size="12" fill="#555">so e is perpendicular to b, and</text>
+    <text x="440" y="280" font-size="12" fill="#555">p is the closest point on the line</text>
+  </g>
+  <text x="20" y="312" font-size="12" fill="#555">Dashed grey: the "light" falling straight down onto b's line. Red: the shadow p. Teal: what is left over, e.</text>
+</svg>

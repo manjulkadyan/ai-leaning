@@ -41,16 +41,16 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 17 | [Missing data and cleaning](../lessons/phase-1/day-17-pandas-cleaning.md) | 90 min |
 | 18 | [groupby, merge and pivot](../lessons/phase-1/day-18-pandas-groupby-merge.md) | 120 min |
 | 19 | [Plotting with Matplotlib](../lessons/phase-1/day-19-matplotlib.md) | 90 min |
-| 20 | **Review + mini-project:** exploratory analysis of a public dataset | 3 h |
+| 20 | **Review + mini-project:** [exploratory analysis of a public dataset](../lessons/phase-1/day-20-week3-review.md) | 3 h |
 | 21 | Rest | |
 
 ## Week 4: Linear algebra for ML
 
 | Day | Lesson | Time |
 |---|---|---|
-| 22 | Norms and distances *(coming soon)* | 90 min |
-| 23 | Rank, span and linear independence *(coming soon)* | 120 min |
-| 24 | Eigenvectors, intuitively *(coming soon)* | 120 min |
-| 25 | Projections and PCA preview *(coming soon)* | 120 min |
-| 26 | Month 1 recap and gaps *(coming soon)* | 90 min |
-| 27–28 | **Monthly milestone** and retrospective | 6 h |
+| 22 | [Norms and distances](../lessons/phase-1/day-22-norms-distances.md) | 90 min |
+| 23 | [Rank, span and linear independence](../lessons/phase-1/day-23-rank-span.md) | 120 min |
+| 24 | [Eigenvectors, intuitively](../lessons/phase-1/day-24-eigenvectors.md) | 120 min |
+| 25 | [Projections and PCA preview](../lessons/phase-1/day-25-projections-pca.md) | 120 min |
+| 26 | [Month 1 recap and gaps](../lessons/phase-1/day-26-month1-recap.md) | 90 min |
+| 27–28 | [**Monthly milestone** and retrospective](../lessons/phase-1/day-27-month1-milestone.md) | 6 h |

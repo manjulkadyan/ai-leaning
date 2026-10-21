@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<defs><marker id="d24p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/></marker><marker id="d24pg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9fa8da"/></marker></defs>
+<text x="20" y="28" font-weight="bold" font-size="15">Power iteration: multiply by A, rescale to length 1, repeat</text>
+<g stroke="#b0bec5" stroke-width="1.2"><line x1="70" y1="330" x2="390" y2="330"/><line x1="90" y1="345" x2="90" y2="50"/></g>
+<path d="M350,330 A260,260 0 0 0 90,70" fill="none" stroke="#cfd8dc" stroke-dasharray="4 4"/>
+<text x="344" y="348" font-size="11" fill="#90a4ae">1</text><text x="74" y="74" font-size="11" fill="#90a4ae">1</text>
+<line x1="90" y1="330" x2="302.1" y2="117.9" stroke="#ef6c00" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="240" y="235" fill="#ef6c00" font-size="12" font-weight="bold">eigen-line [1, 1]</text>
+<text x="240" y="250" fill="#ef6c00" font-size="12">λ = 5, the biggest</text>
+<line x1="90" y1="330" x2="90.0" y2="70.0" stroke="#9fa8da" stroke-width="1.5" marker-end="url(#d24pg)" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.0875;0.97" values="0;1;0"/></line>
+<text x="90.0" y="56.0" font-size="11" fill="#7986cb" opacity="0">0<animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.0875;0.97" values="0;1;0"/></text>
+<line x1="90" y1="330" x2="172.2" y2="83.3" stroke="#9fa8da" stroke-width="1.5" marker-end="url(#d24pg)" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.2042;0.97" values="0;1;0"/></line>
+<text x="176.6" y="70.1" font-size="11" fill="#7986cb" opacity="0">1<animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.2042;0.97" values="0;1;0"/></text>
+<line x1="90" y1="330" x2="229.6" y2="110.6" stroke="#9fa8da" stroke-width="1.5" marker-end="url(#d24pg)" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.3208;0.97" values="0;1;0"/></line>
+<text x="237.1" y="98.8" font-size="11" fill="#7986cb" opacity="0">2<animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.3208;0.97" values="0;1;0"/></text>
+<line x1="90" y1="330" x2="256.0" y2="129.9" stroke="#9fa8da" stroke-width="1.5" marker-end="url(#d24pg)" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.4375;0.97" values="0;1;0"/></line>
+<text x="265.0" y="119.1" font-size="11" fill="#7986cb" opacity="0">3<animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.4375;0.97" values="0;1;0"/></text>
+<line x1="90" y1="330" x2="266.8" y2="139.3" stroke="#9fa8da" stroke-width="1.5" marker-end="url(#d24pg)" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.5542;0.97" values="0;1;0"/></line>
+<line x1="90" y1="330" x2="271.0" y2="143.4" stroke="#9fa8da" stroke-width="1.5" marker-end="url(#d24pg)" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.6708;0.97" values="0;1;0"/></line>
+<line x1="90" y1="330" x2="90.0" y2="70.0" stroke="#3949ab" stroke-width="3.5" marker-end="url(#d24p)"><animate attributeName="x2" dur="12.0s" repeatCount="indefinite" keyTimes="0.0000;0.0875;0.1167;0.2042;0.2333;0.3208;0.3500;0.4375;0.4667;0.5542;0.5833;0.6708;0.7000;0.9700;0.9750;1.0000" values="90.0;90.0;172.2;172.2;229.6;229.6;256.0;256.0;266.8;266.8;271.0;271.0;272.7;272.7;90.0;90.0"/><animate attributeName="y2" dur="12.0s" repeatCount="indefinite" keyTimes="0.0000;0.0875;0.1167;0.2042;0.2333;0.3208;0.3500;0.4375;0.4667;0.5542;0.5833;0.6708;0.7000;0.9700;0.9750;1.0000" values="70.0;70.0;83.3;83.3;110.6;110.6;129.9;129.9;139.3;139.3;143.4;143.4;145.0;145.0;70.0;70.0"/></line>
+<circle cx="90" cy="330" r="3" fill="#333"/>
+<rect x="430" y="55" width="270" height="290" rx="8" fill="#e8eaf6"/>
+<text x="565" y="84" text-anchor="middle" font-size="13" fill="#555">each step:  v ← A v / ‖A v‖</text>
+<g opacity="1"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.1167;0.97" values="1;0;1"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 0</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.000, 1.000]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 90.0°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">45.0° away from the eigen-line</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.1167;0.2333" values="0;1;0"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 1</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.316, 0.949]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 71.6°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">26.6° away from the eigen-line</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.2333;0.3500" values="0;1;0"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 2</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.537, 0.844]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 57.5°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">12.5° away from the eigen-line</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.3500;0.4667" values="0;1;0"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 3</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.639, 0.770]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 50.3°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">5.3° away from the eigen-line</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.4667;0.5833" values="0;1;0"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 4</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.680, 0.733]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 47.2°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">2.2° away from the eigen-line</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.5833;0.7000" values="0;1;0"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 5</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.696, 0.718]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 45.9°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">0.9° away from the eigen-line</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12.0s" repeatCount="indefinite" keyTimes="0;0.7000;0.9700" values="0;1;0"/>
+<text x="565" y="130" text-anchor="middle" font-weight="bold" font-size="18">step 6</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#3949ab">v = [0.703, 0.711]</text>
+<text x="565" y="215" text-anchor="middle" font-size="16">angle 45.4°</text>
+<text x="565" y="245" text-anchor="middle" font-size="13" fill="#555">0.4° away from the eigen-line</text>
+</g>
+<text x="565" y="290" text-anchor="middle" font-size="12" fill="#555">the gap shrinks by about λ₂/λ₁ = 2/5</text>
+<text x="565" y="307" text-anchor="middle" font-size="12" fill="#555">per step, so v lines up with [1, 1]</text>
+<text x="565" y="324" text-anchor="middle" font-size="12" fill="#555">(the dominant eigenvector)</text>
+</svg>

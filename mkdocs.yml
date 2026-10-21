@@ -110,4 +110,12 @@ nav:
           - "Day 17: Cleaning data": lessons/phase-1/day-17-pandas-cleaning.md
           - "Day 18: groupby & merge": lessons/phase-1/day-18-pandas-groupby-merge.md
           - "Day 19: Matplotlib": lessons/phase-1/day-19-matplotlib.md
+          - "Day 20: Week 3 review": lessons/phase-1/day-20-week3-review.md
+          - "Day 22: Norms & distances": lessons/phase-1/day-22-norms-distances.md
+          - "Day 23: Rank & span": lessons/phase-1/day-23-rank-span.md
+          - "Day 24: Eigenvectors": lessons/phase-1/day-24-eigenvectors.md
+          - "Day 25: Projections & PCA": lessons/phase-1/day-25-projections-pca.md
+          - "Day 26: Month 1 recap": lessons/phase-1/day-26-month1-recap.md
+          - "Days 27–28: Month 1 milestone": lessons/phase-1/day-27-month1-milestone.md
   - Datasets: datasets.md
+  - Glossary: glossary.md

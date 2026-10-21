@@ -83,6 +83,11 @@ def _figures():
     plt.close("all")
     return images
 
+def _is_plot_object(value):
+    # ax.set_title(...) and friends return artists; echoing them is noise.
+    items = value if isinstance(value, (list, tuple)) and value else [value]
+    return all(type(v).__module__.startswith("matplotlib") for v in items)
+
 def course_run(src, ns):
     ns.setdefault("_course_timeit", _timeit)
     out = io.StringIO()
@@ -96,7 +101,7 @@ def course_run(src, ns):
             _patch_matplotlib()
             if isinstance(node, ast.Expr):
                 value = eval(compile(ast.Expression(node.value), "<cell>", "eval"), ns)
-                if value is not None:
+                if value is not None and not _is_plot_object(value):
                     print(repr(value))
             else:
                 exec(compile(ast.Module([node], []), "<cell>", "exec"), ns)

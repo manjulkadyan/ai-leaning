@@ -25,13 +25,13 @@ What's written, what's planned, and what's next. This page is updated with every
 | 17 | Missing data and cleaning | ✅ |
 | 18 | groupby, merge and pivot | ✅ |
 | 19 | Plotting with Matplotlib | ✅ |
-| 20 | Week 3 review and mini-project: exploratory analysis | ⬜ |
-| 22 | Norms and distances | ⬜ |
-| 23 | Rank, span and linear independence | ⬜ |
-| 24 | Eigenvectors, intuitively | ⬜ |
-| 25 | Projections and PCA preview | ⬜ |
-| 26 | Month 1 recap and gaps | ⬜ |
-| 27–28 | Month 1 milestone project and retrospective | ⬜ |
+| 20 | Week 3 review and mini-project: exploratory analysis | ✅ |
+| 22 | Norms and distances | ✅ |
+| 23 | Rank, span and linear independence | ✅ |
+| 24 | Eigenvectors, intuitively | ✅ |
+| 25 | Projections and PCA preview | ✅ |
+| 26 | Month 1 recap and gaps | ✅ |
+| 27–28 | Month 1 milestone project and retrospective | ✅ |
 
 ## Months 2–12
 
@@ -60,4 +60,4 @@ The goals and milestones for every month are already in the [Monthly plan](plan/
 | Animated SVG diagrams in every lesson | ✅ |
 | Interactive widgets (vector playground, matmul stepper) | ✅ |
 | Course datasets for hands-on lessons | ✅ |
-| Glossary of terms and acronyms | ⬜ |
+| [Glossary](glossary.md) of terms and acronyms (Month 1 terms; grows with each lesson) | ✅ |
