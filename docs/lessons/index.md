@@ -47,3 +47,9 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 25 | [Projections and PCA preview](phase-1/day-25-projections-pca.md) |
 | 26 | [Month 1 recap and gaps](phase-1/day-26-month1-recap.md) |
 | 27–28 | [Month 1 milestone and retrospective](phase-1/day-27-month1-milestone.md) |
+
+### Week 5: Calculus for machine learning
+
+| Day | Lesson |
+|---|---|
+| 29 | [Derivatives as slopes and rates of change](phase-1/day-29-derivatives.md) |

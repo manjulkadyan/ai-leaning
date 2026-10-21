@@ -10,7 +10,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 29 | Derivatives as slopes and rates of change *(coming soon)* | 120 min |
+| 29 | [Derivatives as slopes and rates of change](../lessons/phase-1/day-29-derivatives.md) | 120 min |
 | 30 | Derivative rules you'll actually use *(coming soon)* | 90 min |
 | 31 | The chain rule and computational graphs *(coming soon)* | 120 min |
 | 32 | Partial derivatives and the gradient *(coming soon)* | 120 min |

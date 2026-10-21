@@ -1,0 +1,33 @@
+/* Interactive tangent explorer (docs/javascripts/tangent-explorer.js).
+   Colors come from Material's CSS variables so it works in light and dark mode. */
+.md-typeset .tangent-explorer {
+  margin: 1.5em 0;
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+.tangent-explorer .te-bar { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.5rem; }
+.md-typeset .tangent-explorer .te-btn { margin: 0; padding: 0.25em 0.9em; font-size: 0.7rem; cursor: pointer; }
+.tangent-explorer .te-svg { display: block; width: 100%; max-width: 560px; cursor: crosshair; user-select: none; -webkit-user-select: none; }
+.tangent-explorer .te-grid { stroke: var(--md-default-fg-color--lightest); stroke-width: 1; }
+.tangent-explorer .te-axis { stroke: var(--md-default-fg-color--light); stroke-width: 1.5; }
+.tangent-explorer .te-tick { fill: var(--md-default-fg-color--light); font: 10px sans-serif; }
+.tangent-explorer .te-curve { fill: none; stroke: #3949ab; stroke-width: 3; }
+.tangent-explorer .te-tangent { stroke: #e53935; stroke-width: 2.5; }
+.tangent-explorer .te-secant { stroke: #ef6c00; stroke-width: 2; stroke-dasharray: 7 4; }
+.tangent-explorer .te-q { fill: #ef6c00; }
+.tangent-explorer .te-handle { fill: #3949ab; stroke: #fff; stroke-width: 2; cursor: grab; }
+.tangent-explorer .te-handle:focus { outline: none; stroke: var(--md-accent-fg-color); stroke-width: 3; }
+.tangent-explorer .te-ctrl { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin-top: 0.4rem; font-size: 0.75rem; }
+.tangent-explorer .te-ctrl input { flex: 1 1 160px; max-width: 280px; }
+.tangent-explorer .te-readout {
+  margin-top: 0.5rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.72rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.tangent-explorer .te-t { color: #e53935; font-weight: 700; }
+.tangent-explorer .te-s { color: #ef6c00; font-weight: 700; }
+[data-md-color-scheme="slate"] .tangent-explorer .te-curve { stroke: #7986cb; }
+[data-md-color-scheme="slate"] .tangent-explorer .te-handle { fill: #7986cb; }

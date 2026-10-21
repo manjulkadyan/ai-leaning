@@ -67,12 +67,14 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/matmul-stepper.css
   - stylesheets/run-python.css
+  - stylesheets/tangent-explorer.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/vector-playground.js
   - javascripts/matmul-stepper.js
   - javascripts/run-python.js
+  - javascripts/tangent-explorer.js
   - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
 
 hooks:
@@ -118,5 +120,6 @@ nav:
           - "Day 25: Projections & PCA": lessons/phase-1/day-25-projections-pca.md
           - "Day 26: Month 1 recap": lessons/phase-1/day-26-month1-recap.md
           - "Days 27–28: Month 1 milestone": lessons/phase-1/day-27-month1-milestone.md
+          - "Day 29: Derivatives": lessons/phase-1/day-29-derivatives.md
   - Datasets: datasets.md
   - Glossary: glossary.md

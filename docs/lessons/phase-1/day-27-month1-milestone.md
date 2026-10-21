@@ -699,4 +699,4 @@ Month 1 gave you the tools: Python, NumPy, pandas, plots, and the linear algebra
 - [ ] `month1-milestone/` runs from a clean folder and has a README.
 - [ ] I wrote my Month 1 retrospective with at least one specific adjustment for Month 2.
 
-**Next:** Month 2: calculus, probability and statistics (coming soon)
+**Next:** Month 2 begins with [Day 29: Derivatives as slopes and rates of change](day-29-derivatives.md)
