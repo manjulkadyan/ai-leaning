@@ -760,4 +760,4 @@ Two more translations you will meet: a **Laplace prior**, density proportional t
 - [ ] I can find an MLE numerically with a 1-D or 2-D grid search and `np.unravel_index`.
 - [ ] I can explain MAP as "log-likelihood + log-prior", and derive that a Gaussian prior on a weight gives an L2 penalty with \( \lambda = \sigma^2/\tau^2 \).
 
-**Next:** Day 48: Week 7 review and mini-project (coming soon)
+**Next:** [Day 48: Week 7 review and mini-project](day-48-week7-review.md)

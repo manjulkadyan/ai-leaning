@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="Helvetica, Arial, sans-serif" font-size="13" class="animated">
+<text x="14" y="26" font-weight="bold" font-size="15">Week 7 in one picture: each day supplies one step of an A/B test readout</text>
+<rect x="14" y="44" width="112" height="96" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="14" y="44" width="112" height="96" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="70" y="64" text-anchor="middle" font-size="11" fill="#555">Day 43</text>
+<text x="70" y="88" text-anchor="middle" font-weight="bold" fill="#3949ab">sampling</text>
+<text x="70" y="114" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">√(p(1−p)/n)</text>
+<path d="M127 92 L137 92" stroke="#555" stroke-width="1.5"/>
+<path d="M133 88 L137 92 L133 96" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M62 158 L70 148 L78 158 Z" fill="#3949ab" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><rect x="14" y="160" width="732" height="76" rx="8" fill="#ffffff" stroke="#3949ab" stroke-width="1.5"/><text x="30" y="190" font-weight="bold" fill="#3949ab">Day 43: Your 20,000 users are a sample of all future users.</text><text x="30" y="216" fill="#222">Control converts 876 / 9,993 = 8.77%, give or take one SE of 0.28 pp.</text></g>
+<rect x="138" y="44" width="112" height="96" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="138" y="44" width="112" height="96" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="194" y="64" text-anchor="middle" font-size="11" fill="#555">Day 44</text>
+<text x="194" y="88" text-anchor="middle" font-weight="bold" fill="#00897b">intervals</text>
+<text x="194" y="114" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">est ± 1.96 SE</text>
+<path d="M251 92 L261 92" stroke="#555" stroke-width="1.5"/>
+<path d="M257 88 L261 92 L257 96" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M186 158 L194 148 L202 158 Z" fill="#00897b" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><rect x="14" y="160" width="732" height="76" rx="8" fill="#ffffff" stroke="#00897b" stroke-width="1.5"/><text x="30" y="190" font-weight="bold" fill="#00897b">Day 44: Report an interval, not a point.</text><text x="30" y="216" fill="#222">Lift +1.17 pp, 95% CI (+0.36, +1.97) pp; the bootstrap gives the same.</text></g>
+<rect x="262" y="44" width="112" height="96" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<rect x="262" y="44" width="112" height="96" rx="8" fill="#fff59d" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="318" y="64" text-anchor="middle" font-size="11" fill="#555">Day 45</text>
+<text x="318" y="88" text-anchor="middle" font-weight="bold" fill="#ef6c00">tests</text>
+<text x="318" y="114" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">p-value</text>
+<path d="M375 92 L385 92" stroke="#555" stroke-width="1.5"/>
+<path d="M381 88 L385 92 L381 96" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M310 158 L318 148 L326 158 Z" fill="#ef6c00" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><rect x="14" y="160" width="732" height="76" rx="8" fill="#ffffff" stroke="#ef6c00" stroke-width="1.5"/><text x="30" y="190" font-weight="bold" fill="#ef6c00">Day 45: How surprising would this be if the paywall did nothing?</text><text x="30" y="216" fill="#222">z = 2.83, p = 0.0046; only 24 of 5,000 shuffled labellings were as extreme.</text></g>
+<rect x="386" y="44" width="112" height="96" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="386" y="44" width="112" height="96" rx="8" fill="#fff59d" stroke="#3949ab" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="442" y="64" text-anchor="middle" font-size="11" fill="#555">Day 46</text>
+<text x="442" y="88" text-anchor="middle" font-weight="bold" fill="#3949ab">causation</text>
+<text x="442" y="114" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">coin flip</text>
+<path d="M499 92 L509 92" stroke="#555" stroke-width="1.5"/>
+<path d="M505 88 L509 92 L505 96" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M434 158 L442 148 L450 158 Z" fill="#3949ab" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><rect x="14" y="160" width="732" height="76" rx="8" fill="#ffffff" stroke="#3949ab" stroke-width="1.5"/><text x="30" y="190" font-weight="bold" fill="#3949ab">Day 46: Random assignment is what lets you say &quot;caused&quot;.</text><text x="30" y="216" fill="#222">No confounders: every pre-test covariate is balanced (|SMD| &lt; 0.03).</text></g>
+<rect x="510" y="44" width="112" height="96" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<rect x="510" y="44" width="112" height="96" rx="8" fill="#fff59d" stroke="#00897b" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="566" y="64" text-anchor="middle" font-size="11" fill="#555">Day 47</text>
+<text x="566" y="88" text-anchor="middle" font-weight="bold" fill="#00897b">likelihood</text>
+<text x="566" y="114" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">p̂ = k / n</text>
+<path d="M623 92 L633 92" stroke="#555" stroke-width="1.5"/>
+<path d="M629 88 L633 92 L629 96" fill="none" stroke="#555" stroke-width="1.5"/>
+<path d="M558 158 L566 148 L574 158 Z" fill="#00897b" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><rect x="14" y="160" width="732" height="76" rx="8" fill="#ffffff" stroke="#00897b" stroke-width="1.5"/><text x="30" y="190" font-weight="bold" fill="#00897b">Day 47: The observed rate is the maximum-likelihood estimate of p.</text><text x="30" y="216" fill="#222">Each user is a Bernoulli trial; p̂ = 994 / 10,007 = 9.93% for the new paywall.</text></g>
+<rect x="634" y="44" width="112" height="96" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<rect x="634" y="44" width="112" height="96" rx="8" fill="#fff59d" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></rect>
+<text x="690" y="64" text-anchor="middle" font-size="11" fill="#555">Day 48</text>
+<text x="690" y="88" text-anchor="middle" font-weight="bold" fill="#ef6c00">decision</text>
+<text x="690" y="114" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10.5">rule → SHIP</text>
+<path d="M682 158 L690 148 L698 158 Z" fill="#ef6c00" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/></path>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1" keyTimes="0.0000;0.1667;0.3333;0.5000;0.6667;0.8333" dur="12s" repeatCount="indefinite"/><rect x="14" y="160" width="732" height="76" rx="8" fill="#ffffff" stroke="#ef6c00" stroke-width="1.5"/><text x="30" y="190" font-weight="bold" fill="#ef6c00">Day 48: Decide with the rule you wrote before looking.</text><text x="30" y="216" fill="#222">SHIP: lift CI above 0, both guardrails held. Next test: 14,665 users per group.</text></g>
+<text x="14" y="262" font-size="12" fill="#555">The whole readout in one line:</text>
+<text x="14" y="284" font-family="Menlo, Consolas, monospace" font-size="12">lift = p̂_B − p̂_A;  CI = lift ± 1.96·√(p̂_A(1−p̂_A)/n_A + p̂_B(1−p̂_B)/n_B);  ship if CI &gt; 0</text>
+</svg>

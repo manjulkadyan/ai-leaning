@@ -39,7 +39,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 45 | [Hypothesis tests, p-values and A/B tests](../lessons/phase-1/day-45-hypothesis-tests.md) | 120 min |
 | 46 | [Correlation, causation and confounders](../lessons/phase-1/day-46-correlation-causation.md) | 90 min |
 | 47 | [Maximum likelihood estimation](../lessons/phase-1/day-47-maximum-likelihood.md) | 120 min |
-| 48 | **Review + mini-project:** analysing an A/B test of an app feature *(coming soon)* | 3 h |
+| 48 | **Review + mini-project:** [analysing an A/B test of an app feature](../lessons/phase-1/day-48-week7-review.md) | 3 h |
 | 49 | Rest | |
 
 ## Week 8: Optimization and information theory
