@@ -715,4 +715,4 @@ labels.mean()                            # 0.8261
 - [ ] I can use a CDF to get \( P(a < X \le b) = F(b) - F(a) \) and a percentile such as p95.
 - [ ] I can name where distributions appear in ML: initialization, dropout, noise and output probabilities.
 
-**Next:** Day 38: Conditional probability and Bayes' rule (coming soon)
+**Next:** [Day 38: Conditional probability and Bayes' rule](day-38-bayes-rule.md)

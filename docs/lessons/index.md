@@ -65,3 +65,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 |---|---|
 | 36 | [Probability and random variables, by simulation](phase-1/day-36-probability-basics.md) |
 | 37 | [Common distributions: Bernoulli, binomial, uniform, normal](phase-1/day-37-distributions.md) |
+| 38 | [Conditional probability and Bayes' rule](phase-1/day-38-bayes-rule.md) |

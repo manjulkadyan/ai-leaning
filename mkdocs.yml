@@ -128,5 +128,6 @@ nav:
           - "Day 34: Week 5 review": lessons/phase-1/day-34-week5-review.md
           - "Day 36: Probability basics": lessons/phase-1/day-36-probability-basics.md
           - "Day 37: Distributions": lessons/phase-1/day-37-distributions.md
+          - "Day 38: Bayes' rule": lessons/phase-1/day-38-bayes-rule.md
   - Datasets: datasets.md
   - Glossary: glossary.md
