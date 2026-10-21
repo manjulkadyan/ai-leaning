@@ -814,4 +814,4 @@ Putting it all together, a trustworthy experiment looks like this. Day 48's mini
 - [ ] I can compute the users per group an A/B test needs, and I know halving the effect needs about 4× the users.
 - [ ] I can explain why testing many metrics, or peeking every day, inflates false positives, and how to prevent it.
 
-**Next:** Day 46: Correlation, causation and confounders (coming soon)
+**Next:** [Day 46: Correlation, causation and confounders](day-46-correlation-causation.md)

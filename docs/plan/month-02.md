@@ -37,7 +37,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 43 | [Samples, populations and the sampling distribution](../lessons/phase-1/day-43-sampling.md) | 90 min |
 | 44 | [Confidence intervals and the bootstrap](../lessons/phase-1/day-44-confidence-intervals.md) | 120 min |
 | 45 | [Hypothesis tests, p-values and A/B tests](../lessons/phase-1/day-45-hypothesis-tests.md) | 120 min |
-| 46 | Correlation, causation and confounders *(coming soon)* | 90 min |
+| 46 | [Correlation, causation and confounders](../lessons/phase-1/day-46-correlation-causation.md) | 90 min |
 | 47 | Maximum likelihood estimation *(coming soon)* | 120 min |
 | 48 | **Review + mini-project:** analysing an A/B test of an app feature *(coming soon)* | 3 h |
 | 49 | Rest | |

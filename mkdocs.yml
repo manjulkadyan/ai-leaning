@@ -135,5 +135,6 @@ nav:
           - "Day 43: Sampling": lessons/phase-1/day-43-sampling.md
           - "Day 44: Confidence intervals": lessons/phase-1/day-44-confidence-intervals.md
           - "Day 45: Hypothesis tests": lessons/phase-1/day-45-hypothesis-tests.md
+          - "Day 46: Correlation & causation": lessons/phase-1/day-46-correlation-causation.md
   - Datasets: datasets.md
   - Glossary: glossary.md
