@@ -56,3 +56,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 30 | [Derivative rules you'll actually use](phase-1/day-30-derivative-rules.md) |
 | 31 | [The chain rule and computational graphs](phase-1/day-31-chain-rule.md) |
 | 32 | [Partial derivatives and the gradient](phase-1/day-32-partial-derivatives-gradient.md) |
+| 33 | [Gradients of vectors and matrices, checked numerically](phase-1/day-33-vector-matrix-gradients.md) |

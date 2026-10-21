@@ -647,4 +647,4 @@ The contours are long thin ellipses: the valley is steep across and nearly flat 
 - [ ] I derived \( \partial L / \partial w \) and \( \partial L / \partial b \) for the MSE of a line fit, and checked them numerically.
 - [ ] I took steps \( \mathbf{w} \leftarrow \mathbf{w} - \eta \nabla L \) and watched the loss fall, and I know a too-large \( \eta \) makes it blow up.
 
-**Next:** Day 33: Gradients of vectors and matrices, checked numerically (coming soon)
+**Next:** [Day 33: Gradients of vectors and matrices, checked numerically](day-33-vector-matrix-gradients.md)
