@@ -67,3 +67,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 37 | [Common distributions: Bernoulli, binomial, uniform, normal](phase-1/day-37-distributions.md) |
 | 38 | [Conditional probability and Bayes' rule](phase-1/day-38-bayes-rule.md) |
 | 39 | [Expectation, variance and the law of large numbers](phase-1/day-39-expectation-variance.md) |
+| 40 | [Joint distributions, independence and the central limit theorem](phase-1/day-40-joint-clt.md) |

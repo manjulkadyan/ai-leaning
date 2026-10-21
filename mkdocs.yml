@@ -130,5 +130,6 @@ nav:
           - "Day 37: Distributions": lessons/phase-1/day-37-distributions.md
           - "Day 38: Bayes' rule": lessons/phase-1/day-38-bayes-rule.md
           - "Day 39: Expectation & variance": lessons/phase-1/day-39-expectation-variance.md
+          - "Day 40: Joint distributions & CLT": lessons/phase-1/day-40-joint-clt.md
   - Datasets: datasets.md
   - Glossary: glossary.md

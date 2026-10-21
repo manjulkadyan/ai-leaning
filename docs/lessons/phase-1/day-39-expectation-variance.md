@@ -640,4 +640,4 @@ This is the trade-off behind **stochastic gradient descent** (SGD), which Day 52
 - [ ] I plotted running means and can explain the law of large numbers without the gambler's fallacy.
 - [ ] I can explain why a mini-batch gradient is unbiased, and why a 4× bigger batch only halves its noise.
 
-**Next:** Day 40: Joint distributions, independence and the central limit theorem (coming soon)
+**Next:** [Day 40: Joint distributions, independence and the central limit theorem](day-40-joint-clt.md)
