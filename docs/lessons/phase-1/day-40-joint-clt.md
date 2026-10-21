@@ -1032,4 +1032,4 @@ dist = np.sqrt((err ** 2).sum(axis=1))
 - [ ] I can explain why \( \bar{x} \pm 1.96\, s/\sqrt{n} \) catches the true mean about 95% of the time.
 - [ ] I can sample a 2-D normal with \( \boldsymbol{\mu} + L\mathbf{z} \), draw its ellipses from the eigenvectors of \( \Sigma \), and say why only 39% of points fall inside the 1σ ellipse.
 
-**Next:** Day 41: Week 6 review and mini-project (coming soon)
+**Next:** [Day 41: Week 6 review and mini-project](day-41-week6-review.md)

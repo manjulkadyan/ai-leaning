@@ -27,7 +27,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 | 38 | [Conditional probability and Bayes' rule](../lessons/phase-1/day-38-bayes-rule.md) | 120 min |
 | 39 | [Expectation, variance and the law of large numbers](../lessons/phase-1/day-39-expectation-variance.md) | 90 min |
 | 40 | [Joint distributions, independence and the central limit theorem](../lessons/phase-1/day-40-joint-clt.md) | 120 min |
-| 41 | **Review + mini-project:** a naive Bayes spam filter from scratch *(coming soon)* | 3 h |
+| 41 | **Review + mini-project:** [a naive Bayes spam filter from scratch](../lessons/phase-1/day-41-week6-review.md) | 3 h |
 | 42 | Rest | |
 
 ## Week 7: Statistics
