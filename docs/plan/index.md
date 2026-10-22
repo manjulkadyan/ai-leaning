@@ -39,3 +39,4 @@ Each month ends with a milestone project from the roadmap. A month counts as com
 
 - [Monthly plan](monthly.md): all twelve months with their goals and milestones.
 - [Month 1, week by week](month-01.md): the first month planned day by day, with links to every lesson.
+- [Month 2, week by week](month-02.md): calculus, probability, statistics and optimization, day by day.

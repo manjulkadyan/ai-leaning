@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+    <marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker>
+  </defs>
+  <text x="20" y="28" font-weight="bold" font-size="15">Randomizing the treatment cuts the confounder's arrow</text>
+  <text x="20" y="47" font-size="12" fill="#555">Simulated app, 20,000 users; the true effect of the reminder notifications is +1.0 minute per day</text>
+  <!-- step titles -->
+  <g><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5" values="1;0"/>
+    <text x="215" y="80" text-anchor="middle" font-weight="bold" fill="#3949ab">Observational data: users choose</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5" values="0;1"/>
+    <text x="215" y="80" text-anchor="middle" font-weight="bold" fill="#ef6c00">A/B test: a coin chooses</text></g>
+  <!-- nodes -->
+  <rect x="140" y="98" width="150" height="44" rx="10" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+  <text x="215" y="118" text-anchor="middle" font-weight="bold">Engagement</text>
+  <text x="215" y="134" text-anchor="middle" font-size="11" fill="#555">(week-1 sessions)</text>
+  <rect x="30" y="236" width="160" height="44" rx="10" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <text x="110" y="256" text-anchor="middle" font-weight="bold">Notifications on</text>
+  <text x="110" y="272" text-anchor="middle" font-size="11" fill="#555">(the treatment)</text>
+  <rect x="250" y="236" width="160" height="44" rx="10" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+  <text x="330" y="256" text-anchor="middle" font-weight="bold">Minutes per day</text>
+  <text x="330" y="272" text-anchor="middle" font-size="11" fill="#555">(the outcome)</text>
+  <!-- arrows -->
+  <line x1="250" y1="144" x2="315" y2="232" stroke="#555" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="300" y="186" font-size="11" fill="#555">+2.0 per session</text>
+  <line x1="192" y1="258" x2="246" y2="258" stroke="#555" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="219" y="300" text-anchor="middle" font-size="11" fill="#555">+1.0 (true effect)</text>
+  <line x1="219" y1="263" x2="219" y2="288" stroke="#bbb" stroke-width="1"/>
+  <!-- confounder arrow into treatment: fades in step 2 -->
+  <g><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5" values="1;0.15"/>
+    <line x1="180" y1="144" x2="120" y2="232" stroke="#555" stroke-width="2.5" marker-end="url(#ah)"/>
+    <text x="62" y="186" font-size="11" fill="#555">engaged users</text>
+    <text x="62" y="200" font-size="11" fill="#555">opt in more</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;0.58" values="0;0.6;1"/>
+    <line x1="140" y1="178" x2="160" y2="198" stroke="#e53935" stroke-width="4"/>
+    <line x1="160" y1="178" x2="140" y2="198" stroke="#e53935" stroke-width="4"/></g>
+  <!-- coin -->
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5" values="0;1"/>
+    <circle cx="45" cy="120" r="22" fill="#fff59d" stroke="#ef6c00" stroke-width="2"/>
+    <text x="45" y="125" text-anchor="middle" font-weight="bold" fill="#ef6c00">coin</text>
+    <line x1="45" y1="142" x2="50" y2="232" stroke="#ef6c00" stroke-width="2.5" marker-end="url(#ahr)"/>
+  </g>
+  <!-- result panel -->
+  <rect x="440" y="70" width="265" height="230" rx="8" fill="#fff3e0"/>
+  <g><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5" values="1;0"/>
+    <text x="572" y="100" text-anchor="middle" font-weight="bold" fill="#3949ab">Compare opted-in vs not</text>
+    <text x="572" y="128" text-anchor="middle">engagement differs:</text>
+    <text x="572" y="150" text-anchor="middle">5.86 vs 4.16 sessions</text>
+    <text x="572" y="190" text-anchor="middle">naive gap in minutes</text>
+    <text x="572" y="222" text-anchor="middle" font-size="22" font-weight="bold" fill="#e53935">+4.38</text>
+    <text x="572" y="252" text-anchor="middle" font-size="12" fill="#555">effect + confounding</text>
+    <text x="572" y="270" text-anchor="middle" font-size="12" fill="#555">(over 4 times too big)</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="12s" repeatCount="indefinite" keyTimes="0;0.5" values="0;1"/>
+    <text x="572" y="100" text-anchor="middle" font-weight="bold" fill="#ef6c00">Compare coin = on vs off</text>
+    <text x="572" y="128" text-anchor="middle">engagement balanced:</text>
+    <text x="572" y="150" text-anchor="middle">5.01 vs 5.01 sessions</text>
+    <text x="572" y="190" text-anchor="middle">randomized gap</text>
+    <text x="572" y="222" text-anchor="middle" font-size="22" font-weight="bold" fill="#00897b">+1.00</text>
+    <text x="572" y="252" text-anchor="middle" font-size="12" fill="#555">the true effect, recovered</text>
+    <text x="572" y="270" text-anchor="middle" font-size="12" fill="#555">without measuring engagement</text></g>
+</svg>

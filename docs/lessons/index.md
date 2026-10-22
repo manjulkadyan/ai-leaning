@@ -47,3 +47,36 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 25 | [Projections and PCA preview](phase-1/day-25-projections-pca.md) |
 | 26 | [Month 1 recap and gaps](phase-1/day-26-month1-recap.md) |
 | 27–28 | [Month 1 milestone and retrospective](phase-1/day-27-month1-milestone.md) |
+
+### Week 5: Calculus for machine learning
+
+| Day | Lesson |
+|---|---|
+| 29 | [Derivatives as slopes and rates of change](phase-1/day-29-derivatives.md) |
+| 30 | [Derivative rules you'll actually use](phase-1/day-30-derivative-rules.md) |
+| 31 | [The chain rule and computational graphs](phase-1/day-31-chain-rule.md) |
+| 32 | [Partial derivatives and the gradient](phase-1/day-32-partial-derivatives-gradient.md) |
+| 33 | [Gradients of vectors and matrices, checked numerically](phase-1/day-33-vector-matrix-gradients.md) |
+| 34 | [Week 5 review and mini-project: a tiny autodiff engine](phase-1/day-34-week5-review.md) |
+
+### Week 6: Probability
+
+| Day | Lesson |
+|---|---|
+| 36 | [Probability and random variables, by simulation](phase-1/day-36-probability-basics.md) |
+| 37 | [Common distributions: Bernoulli, binomial, uniform, normal](phase-1/day-37-distributions.md) |
+| 38 | [Conditional probability and Bayes' rule](phase-1/day-38-bayes-rule.md) |
+| 39 | [Expectation, variance and the law of large numbers](phase-1/day-39-expectation-variance.md) |
+| 40 | [Joint distributions, independence and the central limit theorem](phase-1/day-40-joint-clt.md) |
+| 41 | [Week 6 review and mini-project: a naive Bayes spam filter](phase-1/day-41-week6-review.md) |
+
+### Week 7: Statistics
+
+| Day | Lesson |
+|---|---|
+| 43 | [Samples, populations and the sampling distribution](phase-1/day-43-sampling.md) |
+| 44 | [Confidence intervals and the bootstrap](phase-1/day-44-confidence-intervals.md) |
+| 45 | [Hypothesis tests, p-values and A/B tests](phase-1/day-45-hypothesis-tests.md) |
+| 46 | [Correlation, causation and confounders](phase-1/day-46-correlation-causation.md) |
+| 47 | [Maximum likelihood estimation](phase-1/day-47-maximum-likelihood.md) |
+| 48 | [Week 7 review and mini-project: analysing an A/B test of an app feature](phase-1/day-48-week7-review.md) |

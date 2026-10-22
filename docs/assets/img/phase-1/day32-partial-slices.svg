@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <defs>
+    <marker id="d32r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+    <marker id="d32o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker>
+    <marker id="d32t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker>
+  </defs>
+  <text x="20" y="26" font-weight="bold" font-size="15">Partial derivatives: freeze one variable, take an ordinary slope</text>
+  <text x="20" y="48" font-size="12" fill="#555">Contour map of f(x, y) = x² + 3y², seen from above</text>
+  <rect x="22" y="60" width="256" height="262" rx="6" fill="#e8eaf6" opacity="0.45"/>
+  <g stroke="#90a4ae" stroke-width="1.2"><line x1="25" y1="190" x2="275" y2="190"/><line x1="150" y1="65" x2="150" y2="318"/></g>
+  <g font-size="11" fill="#90a4ae"><text x="268" y="204">x</text><text x="155" y="76">y</text><text x="191" y="204">1</text><text x="138" y="150">1</text></g>
+  <ellipse cx="150" cy="190" rx="44.0" ry="25.4" fill="none" stroke="#3949ab" stroke-width="1.6"/>
+  <ellipse cx="150" cy="190" rx="88.0" ry="50.8" fill="none" stroke="#3949ab" stroke-width="1.6"/>
+  <ellipse cx="150" cy="190" rx="116.4" ry="67.2" fill="none" stroke="#3949ab" stroke-width="1.6"/>
+  <g font-size="11" fill="#3949ab"><text x="136" y="228">f = 1</text><text x="136" y="254">f = 4</text><text x="136" y="270">f = 7</text></g>
+  <line x1="25" y1="146" x2="275" y2="146" stroke="#ef6c00" stroke-width="2.5" stroke-dasharray="7 4"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;0.66;1" values="1;0;1;1"/></line>
+  <line x1="194" y1="65" x2="194" y2="318" stroke="#00897b" stroke-width="2.5" stroke-dasharray="7 4" opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;0.66;1" values="0;1;1;1"/></line>
+  <g opacity="1"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;0.66;1" values="1;0;1;1"/><text x="30" y="139" font-size="12" fill="#ef6c00" font-weight="bold">freeze y = 1</text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;0.66;1" values="0;1;1;1"/><text x="200" y="314" font-size="12" fill="#00897b" font-weight="bold">freeze x = 1</text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.66;1" values="0;1;1"/>
+    <line x1="160.6" y1="134.9" x2="227.4" y2="157.1" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <polyline points="196.8,137.5 188.3,134.6 185.5,143.2" fill="none" stroke="#333" stroke-width="1.3"/>
+    <line x1="194" y1="146" x2="211.6" y2="93.2" stroke="#e53935" stroke-width="3.5" marker-end="url(#d32r)"/>
+    <rect x="84" y="79" width="116" height="36" rx="4" fill="#fff" opacity="0.9"/>
+    <text x="90" y="94" fill="#e53935" font-weight="bold">∇f = [2, 6]</text>
+    <text x="90" y="109" font-size="11" fill="#555">⟂ to the contour</text>
+  </g>
+  <circle cx="194" cy="146" r="5" fill="#e53935"/>
+  <rect x="204" y="154" width="66" height="17" rx="3" fill="#fff" opacity="0.85"/>
+  <text x="207" y="167" font-size="12" font-weight="bold">P = (1, 1)</text>
+  <g opacity="1"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;0.66;1" values="1;0.35;1;1"/>
+    <rect x="300" y="60" width="405" height="142" rx="8" fill="#fff3e0"/>
+    <text x="314" y="82" font-weight="bold" fill="#ef6c00">Freeze y = 1:  f(x, 1) = x² + 3</text>
+    <text x="314" y="99" font-size="12" fill="#555">an ordinary 1-D curve in x</text>
+    <g stroke="#90a4ae" stroke-width="1"><line x1="330" y1="186" x2="570" y2="186"/></g>
+    <polyline points="340.0,111.2 345.5,117.8 351.0,124.1 356.5,130.1 362.0,135.7 367.5,140.9 373.0,145.9 378.5,150.5 384.0,154.7 389.5,158.6 395.0,162.2 400.5,165.4 406.0,168.3 411.5,170.9 417.0,173.1 422.5,174.9 428.0,176.5 433.5,177.7 439.0,178.5 444.5,179.0 450.0,179.2 455.5,179.0 461.0,178.5 466.5,177.7 472.0,176.5 477.5,174.9 483.0,173.1 488.5,170.9 494.0,168.3 499.5,165.4 505.0,162.2 510.5,158.6 516.0,154.7 521.5,150.5 527.0,145.9 532.5,140.9 538.0,135.7 543.5,130.1 549.0,124.1 554.5,117.8 560.0,111.2" fill="none" stroke="#3949ab" stroke-width="2.2"/>
+    <line x1="474.8" y1="180.9" x2="554.5" y2="131.6" stroke="#ef6c00" stroke-width="2.5"/>
+    <circle cx="505.0" cy="162.2" r="4.5" fill="#e53935"/>
+    <text x="447.0" y="200" font-size="11" fill="#90a4ae">0</text><text x="502.0" y="200" font-size="11" fill="#90a4ae">1</text><text x="562" y="200" font-size="11" fill="#90a4ae">x</text>
+    <text x="585" y="130" font-size="12" fill="#555">slope at x = 1:</text>
+    <text x="585" y="152" fill="#ef6c00" font-weight="bold">∂f/∂x = 2x</text>
+    <text x="585" y="172" fill="#ef6c00" font-weight="bold">= 2</text>
+  </g>
+  <g opacity="0.35"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.33;0.66;1" values="0.35;1;1;1"/>
+    <rect x="300" y="212" width="405" height="142" rx="8" fill="#e0f2f1"/>
+    <text x="314" y="234" font-weight="bold" fill="#00897b">Freeze x = 1:  f(1, y) = 1 + 3y²</text>
+    <text x="314" y="251" font-size="12" fill="#555">an ordinary 1-D curve in y</text>
+    <g stroke="#90a4ae" stroke-width="1"><line x1="330" y1="334" x2="570" y2="334"/></g>
+    <polyline points="348.0,257.2 353.1,264.3 358.2,271.1 363.3,277.5 368.4,283.6 373.5,289.3 378.6,294.6 383.7,299.6 388.8,304.2 393.9,308.4 399.0,312.2 404.1,315.7 409.2,318.8 414.3,321.6 419.4,324.0 424.5,326.0 429.6,327.7 434.7,328.9 439.8,329.9 444.9,330.4 450.0,330.6 455.1,330.4 460.2,329.9 465.3,328.9 470.4,327.7 475.5,326.0 480.6,324.0 485.7,321.6 490.8,318.8 495.9,315.7 501.0,312.2 506.1,308.4 511.2,304.2 516.3,299.6 521.4,294.6 526.5,289.3 531.6,283.6 536.7,277.5 541.8,271.1 546.9,264.3 552.0,257.2" fill="none" stroke="#3949ab" stroke-width="2.2"/>
+    <line x1="496.8" y1="325.5" x2="564.8" y2="243.9" stroke="#00897b" stroke-width="2.5"/>
+    <circle cx="535.0" cy="279.6" r="4.5" fill="#e53935"/>
+    <text x="447.0" y="348" font-size="11" fill="#90a4ae">0</text><text x="532.0" y="348" font-size="11" fill="#90a4ae">1</text><text x="562" y="348" font-size="11" fill="#90a4ae">y</text>
+    <text x="585" y="282" font-size="12" fill="#555">slope at y = 1:</text>
+    <text x="585" y="304" fill="#00897b" font-weight="bold">∂f/∂y = 6y</text>
+    <text x="585" y="324" fill="#00897b" font-weight="bold">= 6</text>
+  </g>
+  <text x="20" y="373" font-size="12" fill="#555">Orange: walk along x with y frozen. Teal: walk along y with x frozen. Red: the two slopes stacked into one vector, the gradient.</text>
+</svg>

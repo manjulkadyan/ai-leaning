@@ -660,7 +660,7 @@ You forget fast at first and slower after each review: that is the **spacing eff
 
 ### The rule for your rows
 
-Day numbers continue the course's numbering: Days 27–28 are the milestone, and Month 2 starts on Day 29 with the same six-days-on, one-off rhythm (Days 35, 42, 49 and 56 are rest days, so reviews avoid them).
+Day numbers continue the course's numbering: Days 27–28 are the milestone, and Month 2 starts on Day 29 with the same six-days-on, one-off rhythm (Days 35, 42 and 49 are rest days and Days 55–56 are the Month 2 milestone; see the [Month 2 plan](../../plan/month-02.md)).
 
 | Row colour today | Review on | What a review is |
 |---|---|---|

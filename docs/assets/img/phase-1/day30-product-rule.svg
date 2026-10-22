@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="28" font-weight="bold" font-size="15">The product rule is a growing rectangle: area = u × v</text>
+  <!-- base rectangle u x v: x 60..300, y 120..280 -->
+  <rect x="60" y="120" width="240" height="160" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+  <text x="180" y="205" text-anchor="middle" font-size="16" fill="#3949ab" font-weight="bold">u · v</text>
+  <text x="180" y="302" text-anchor="middle" fill="#3949ab">u</text>
+  <text x="44" y="205" text-anchor="middle" fill="#3949ab">v</text>
+  <!-- right strip: du * v -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.15;0.2;0.92;1" values="0;0;1;1;0"/>
+    <rect x="300" y="120" width="50" height="160" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+    <text x="325" y="196" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold">Δu</text>
+    <text x="325" y="214" text-anchor="middle" font-size="13" fill="#00897b" font-weight="bold">· v</text>
+    <text x="325" y="302" text-anchor="middle" fill="#00897b">Δu</text>
+  </g>
+  <!-- top strip: u * dv -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.32;0.37;0.92;1" values="0;0;1;1;0"/>
+    <rect x="60" y="85" width="240" height="35" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+    <text x="180" y="108" text-anchor="middle" font-size="13" fill="#ef6c00" font-weight="bold">u · Δv</text>
+    <text x="44" y="108" text-anchor="middle" fill="#ef6c00">Δv</text>
+  </g>
+  <!-- corner: du * dv -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.49;0.54;0.92;1" values="0;0;1;1;0"/>
+    <rect x="300" y="85" width="50" height="35" fill="#fff59d" stroke="#e53935" stroke-width="2"/>
+    <text x="325" y="107" text-anchor="middle" font-size="11" fill="#e53935" font-weight="bold">ΔuΔv</text>
+  </g>
+  <!-- explanation, step by step -->
+  <g font-size="14" fill="#333">
+    <text x="395" y="100">Nudge x a little: u grows by Δu,</text>
+    <text x="395" y="120">v grows by Δv. The new area is the</text>
+    <text x="395" y="140">old one plus three new pieces:</text>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.15;0.2;0.92;1" values="0;0;1;1;0"/>
+      <text x="410" y="170" fill="#00897b">Δu · v   (the side strip)</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.32;0.37;0.92;1" values="0;0;1;1;0"/>
+      <text x="410" y="192" fill="#ef6c00">+ u · Δv   (the top strip)</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.49;0.54;0.92;1" values="0;0;1;1;0"/>
+      <text x="410" y="214" fill="#e53935">+ Δu · Δv   (tiny × tiny: vanishes)</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.66;0.71;0.92;1" values="0;0;1;1;0"/>
+      <rect x="395" y="236" width="300" height="56" rx="6" fill="#fff59d" stroke="#3949ab"/>
+      <text x="410" y="258" font-size="13" fill="#555">divide by Δx and shrink Δx toward 0:</text>
+      <text x="410" y="281" font-size="16" font-weight="bold" fill="#3949ab">(u v)′ = u′ v + u v′</text>
+    </g>
+  </g>
+</svg>

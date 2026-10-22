@@ -67,12 +67,14 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/matmul-stepper.css
   - stylesheets/run-python.css
+  - stylesheets/tangent-explorer.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/vector-playground.js
   - javascripts/matmul-stepper.js
   - javascripts/run-python.js
+  - javascripts/tangent-explorer.js
   - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
 
 hooks:
@@ -90,6 +92,7 @@ nav:
       - plan/index.md
       - Monthly plan: plan/monthly.md
       - Month 1: plan/month-01.md
+      - Month 2: plan/month-02.md
   - Lessons:
       - lessons/index.md
       - Phase 1 · Foundations:
@@ -117,5 +120,23 @@ nav:
           - "Day 25: Projections & PCA": lessons/phase-1/day-25-projections-pca.md
           - "Day 26: Month 1 recap": lessons/phase-1/day-26-month1-recap.md
           - "Days 27–28: Month 1 milestone": lessons/phase-1/day-27-month1-milestone.md
+          - "Day 29: Derivatives": lessons/phase-1/day-29-derivatives.md
+          - "Day 30: Derivative rules": lessons/phase-1/day-30-derivative-rules.md
+          - "Day 31: Chain rule": lessons/phase-1/day-31-chain-rule.md
+          - "Day 32: Partials & gradient": lessons/phase-1/day-32-partial-derivatives-gradient.md
+          - "Day 33: Vector & matrix gradients": lessons/phase-1/day-33-vector-matrix-gradients.md
+          - "Day 34: Week 5 review": lessons/phase-1/day-34-week5-review.md
+          - "Day 36: Probability basics": lessons/phase-1/day-36-probability-basics.md
+          - "Day 37: Distributions": lessons/phase-1/day-37-distributions.md
+          - "Day 38: Bayes' rule": lessons/phase-1/day-38-bayes-rule.md
+          - "Day 39: Expectation & variance": lessons/phase-1/day-39-expectation-variance.md
+          - "Day 40: Joint distributions & CLT": lessons/phase-1/day-40-joint-clt.md
+          - "Day 41: Week 6 review": lessons/phase-1/day-41-week6-review.md
+          - "Day 43: Sampling": lessons/phase-1/day-43-sampling.md
+          - "Day 44: Confidence intervals": lessons/phase-1/day-44-confidence-intervals.md
+          - "Day 45: Hypothesis tests": lessons/phase-1/day-45-hypothesis-tests.md
+          - "Day 46: Correlation & causation": lessons/phase-1/day-46-correlation-causation.md
+          - "Day 47: Maximum likelihood": lessons/phase-1/day-47-maximum-likelihood.md
+          - "Day 48: Week 7 review": lessons/phase-1/day-48-week7-review.md
   - Datasets: datasets.md
   - Glossary: glossary.md

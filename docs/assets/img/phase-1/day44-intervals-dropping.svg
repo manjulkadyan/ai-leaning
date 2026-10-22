@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="26" font-weight="bold" font-size="15">Twenty surveys of 40 apps, twenty 95% intervals</text>
+  <line x1="60" y1="372" x2="500" y2="372" stroke="#90a4ae" stroke-width="1.5"/>
+  <line x1="96.7" y1="372" x2="96.7" y2="378" stroke="#90a4ae"/><text x="96.7" y="393" text-anchor="middle" font-size="12" fill="#555">3.9</text>
+  <line x1="170.0" y1="372" x2="170.0" y2="378" stroke="#90a4ae"/><text x="170.0" y="393" text-anchor="middle" font-size="12" fill="#555">4.0</text>
+  <line x1="243.3" y1="372" x2="243.3" y2="378" stroke="#90a4ae"/><text x="243.3" y="393" text-anchor="middle" font-size="12" fill="#555">4.1</text>
+  <line x1="316.7" y1="372" x2="316.7" y2="378" stroke="#90a4ae"/><text x="316.7" y="393" text-anchor="middle" font-size="12" fill="#555">4.2</text>
+  <line x1="390.0" y1="372" x2="390.0" y2="378" stroke="#90a4ae"/><text x="390.0" y="393" text-anchor="middle" font-size="12" fill="#555">4.3</text>
+  <line x1="463.3" y1="372" x2="463.3" y2="378" stroke="#90a4ae"/><text x="463.3" y="393" text-anchor="middle" font-size="12" fill="#555">4.4</text>
+  <text x="280.0" y="410" text-anchor="middle" font-size="12" fill="#555">mean rating</text>
+  <line x1="291.4" y1="44" x2="291.4" y2="372" stroke="#e53935" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="297.4" y="56" fill="#e53935" font-size="12" font-weight="bold">true mean 4.166</text>
+  <text x="297.4" y="70" fill="#e53935" font-size="11">(the peg: never moves)</text>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0250;0.0469;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0250;0.0469;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="108.3" y1="84" x2="305.0" y2="84" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="206.7" cy="84" r="3" fill="#333"/>
+    <text x="52" y="88" text-anchor="end" font-size="11" fill="#555">81</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0625;0.0844;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0625;0.0844;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="254.2" y1="98" x2="459.8" y2="98" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="357.0" cy="98" r="3" fill="#333"/>
+    <text x="52" y="102" text-anchor="end" font-size="11" fill="#555">82</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1000;0.1219;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1000;0.1219;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="182.6" y1="112" x2="377.4" y2="112" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="280.0" cy="112" r="3" fill="#333"/>
+    <text x="52" y="116" text-anchor="end" font-size="11" fill="#555">83</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1375;0.1594;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1375;0.1594;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="250.2" y1="126" x2="445.5" y2="126" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="347.8" cy="126" r="3" fill="#333"/>
+    <text x="52" y="130" text-anchor="end" font-size="11" fill="#555">84</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1750;0.1969;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.1750;0.1969;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="237.0" y1="140" x2="444.0" y2="140" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="340.5" cy="140" r="3" fill="#333"/>
+    <text x="52" y="144" text-anchor="end" font-size="11" fill="#555">85</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2125;0.2344;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2125;0.2344;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="85.1" y1="154" x2="284.2" y2="154" stroke="#e53935" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="184.7" cy="154" r="3" fill="#333"/>
+    <text x="52" y="158" text-anchor="end" font-size="11" fill="#555">86</text>
+    <text x="299.4" y="158" font-size="12" fill="#e53935" font-weight="bold">missed: it stops short of the line</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2500;0.2719;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2500;0.2719;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="136.7" y1="168" x2="357.3" y2="168" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="247.0" cy="168" r="3" fill="#333"/>
+    <text x="52" y="172" text-anchor="end" font-size="11" fill="#555">87</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2875;0.3094;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2875;0.3094;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="172.3" y1="182" x2="354.7" y2="182" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="263.5" cy="182" r="3" fill="#333"/>
+    <text x="52" y="186" text-anchor="end" font-size="11" fill="#555">88</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.3250;0.3469;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.3250;0.3469;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="257.2" y1="196" x2="434.8" y2="196" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="346.0" cy="196" r="3" fill="#333"/>
+    <text x="52" y="200" text-anchor="end" font-size="11" fill="#555">89</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.3625;0.3844;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.3625;0.3844;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="132.7" y1="210" x2="354.0" y2="210" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="243.3" cy="210" r="3" fill="#333"/>
+    <text x="52" y="214" text-anchor="end" font-size="11" fill="#555">90</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4000;0.4219;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4000;0.4219;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="126.7" y1="224" x2="308.7" y2="224" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="217.7" cy="224" r="3" fill="#333"/>
+    <text x="52" y="228" text-anchor="end" font-size="11" fill="#555">91</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4375;0.4594;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4375;0.4594;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="106.0" y1="238" x2="329.3" y2="238" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="217.7" cy="238" r="3" fill="#333"/>
+    <text x="52" y="242" text-anchor="end" font-size="11" fill="#555">92</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4750;0.4969;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4750;0.4969;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="229.3" y1="252" x2="444.4" y2="252" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="336.8" cy="252" r="3" fill="#333"/>
+    <text x="52" y="256" text-anchor="end" font-size="11" fill="#555">93</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5125;0.5344;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5125;0.5344;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="256.2" y1="266" x2="450.4" y2="266" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="353.3" cy="266" r="3" fill="#333"/>
+    <text x="52" y="270" text-anchor="end" font-size="11" fill="#555">94</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5500;0.5719;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5500;0.5719;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="270.9" y1="280" x2="457.8" y2="280" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="364.3" cy="280" r="3" fill="#333"/>
+    <text x="52" y="284" text-anchor="end" font-size="11" fill="#555">95</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5875;0.6094;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5875;0.6094;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="226.6" y1="294" x2="436.1" y2="294" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="331.3" cy="294" r="3" fill="#333"/>
+    <text x="52" y="298" text-anchor="end" font-size="11" fill="#555">96</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6250;0.6469;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6250;0.6469;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="141.8" y1="308" x2="359.6" y2="308" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="250.7" cy="308" r="3" fill="#333"/>
+    <text x="52" y="312" text-anchor="end" font-size="11" fill="#555">97</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6625;0.6844;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6625;0.6844;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="213.9" y1="322" x2="430.4" y2="322" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="322.2" cy="322" r="3" fill="#333"/>
+    <text x="52" y="326" text-anchor="end" font-size="11" fill="#555">98</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7000;0.7219;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7000;0.7219;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="111.4" y1="336" x2="320.3" y2="336" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="215.8" cy="336" r="3" fill="#333"/>
+    <text x="52" y="340" text-anchor="end" font-size="11" fill="#555">99</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7375;0.7594;0.96;1" values="0;0;1;1;0"/>
+    <animateTransform attributeName="transform" type="translate" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7375;0.7594;1" values="0 -30;0 -30;0 0;0 0"/>
+    <line x1="174.5" y1="350" x2="374.5" y2="350" stroke="#3949ab" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="274.5" cy="350" r="3" fill="#333"/>
+    <text x="52" y="354" text-anchor="end" font-size="11" fill="#555">100</text>
+  </g>
+  <rect x="540" y="84" width="160" height="150" rx="8" fill="#e8eaf6"/>
+  <text x="620" y="108" text-anchor="middle" font-weight="bold">Caught so far</text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">1 / 1<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0469;0.0844;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">2 / 2<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0844;0.1219;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">3 / 3<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1219;0.1594;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">4 / 4<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1594;0.1969;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">5 / 5<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1969;0.2344;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">5 / 6<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2344;0.2719;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">6 / 7<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2719;0.3094;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">7 / 8<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3094;0.3469;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">8 / 9<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3469;0.3844;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">9 / 10<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3844;0.4219;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">10 / 11<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4219;0.4594;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">11 / 12<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4594;0.4969;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">12 / 13<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4969;0.5344;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">13 / 14<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5344;0.5719;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">14 / 15<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5719;0.6094;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">15 / 16<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6094;0.6469;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">16 / 17<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6469;0.6844;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">17 / 18<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6844;0.7219;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">18 / 19<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7219;0.7594;1" values="0;1;0;0"/></text>
+  <text x="620" y="160" text-anchor="middle" font-size="30" font-weight="bold" fill="#3949ab" opacity="0">19 / 20<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7594;0.9600;1" values="0;1;0;0"/></text>
+  <text x="620" y="190" text-anchor="middle" font-size="12" fill="#555">intervals that</text>
+  <text x="620" y="206" text-anchor="middle" font-size="12" fill="#555">cross the red line</text>
+  <rect x="540" y="250" width="160" height="96" rx="8" fill="#fff3e0"/>
+  <text x="552" y="272" font-size="12">Each bar: x̄ ± 1.96·s/√40</text>
+  <text x="552" y="292" font-size="12">from one survey alone.</text>
+  <text x="552" y="316" font-size="12">Over 10,000 surveys,</text>
+  <text x="552" y="334" font-size="12">93.8% caught the peg.</text>
+</svg>

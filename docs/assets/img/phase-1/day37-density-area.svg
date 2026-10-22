@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="26" font-weight="bold" font-size="15">Density: narrower and narrower bars become a curve, and probability is area</text>
+  <line x1="50" y1="270" x2="430" y2="270" stroke="#90a4ae" stroke-width="1.5"/>
+  <line x1="50" y1="270" x2="50" y2="45" stroke="#90a4ae" stroke-width="1.5"/>
+  <text x="60.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">-3</text>
+  <text x="120.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">-2</text>
+  <text x="180.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">-1</text>
+  <text x="240.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">0</text>
+  <text x="300.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">1</text>
+  <text x="360.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">2</text>
+  <text x="420.0" y="288" font-size="11" fill="#90a4ae" text-anchor="middle">3</text>
+  <line x1="46" y1="218.0" x2="50" y2="218.0" stroke="#90a4ae"/><text x="42" y="222.0" font-size="11" fill="#90a4ae" text-anchor="end">0.1</text>
+  <line x1="46" y1="166.0" x2="50" y2="166.0" stroke="#90a4ae"/><text x="42" y="170.0" font-size="11" fill="#90a4ae" text-anchor="end">0.2</text>
+  <line x1="46" y1="114.0" x2="50" y2="114.0" stroke="#90a4ae"/><text x="42" y="118.0" font-size="11" fill="#90a4ae" text-anchor="end">0.3</text>
+  <line x1="46" y1="62.0" x2="50" y2="62.0" stroke="#90a4ae"/><text x="42" y="66.0" font-size="11" fill="#90a4ae" text-anchor="end">0.4</text>
+  <text x="240" y="306" font-size="12" fill="#555" text-anchor="middle">x</text>
+  <text x="16" y="160" font-size="12" fill="#555" transform="rotate(-90 16 160)" text-anchor="middle">height = density</text>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0312;0.2500;1" values="0;1;0;0"/>
+    <rect x="60.0" y="247.3" width="90.0" height="22.7" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="150.0" y="119.8" width="90.0" height="150.2" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="240.0" y="119.8" width="90.0" height="150.2" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="330.0" y="247.3" width="90.0" height="22.7" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2500;0.4688;1" values="0;1;0;0"/>
+    <rect x="60.0" y="262.5" width="45.0" height="7.5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="105.0" y="232.2" width="45.0" height="37.8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="150.0" y="159.2" width="45.0" height="110.8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="195.0" y="80.5" width="45.0" height="189.5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="240.0" y="80.5" width="45.0" height="189.5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="285.0" y="159.2" width="45.0" height="110.8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="330.0" y="232.2" width="45.0" height="37.8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="375.0" y="262.5" width="45.0" height="7.5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4688;0.6875;1" values="0;1;0;0"/>
+    <rect x="60.0" y="265.9" width="22.5" height="4.1" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="82.5" y="259.1" width="22.5" height="10.9" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="105.0" y="244.8" width="22.5" height="25.2" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="127.5" y="219.5" width="22.5" height="50.5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="150.0" y="182.0" width="22.5" height="88.0" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="172.5" y="136.4" width="22.5" height="133.6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="195.0" y="93.6" width="22.5" height="176.4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="217.5" y="67.3" width="22.5" height="202.7" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="240.0" y="67.3" width="22.5" height="202.7" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="262.5" y="93.6" width="22.5" height="176.4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="285.0" y="136.4" width="22.5" height="133.6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="307.5" y="182.0" width="22.5" height="88.0" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="330.0" y="219.5" width="22.5" height="50.5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="352.5" y="244.8" width="22.5" height="25.2" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="375.0" y="259.1" width="22.5" height="10.9" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+    <rect x="397.5" y="265.9" width="22.5" height="4.1" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.2"/>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6875;1" values="0;1;1"/>
+    <polygon points="180.0,270 180.0,144.2 181.5,141.0 183.0,137.9 184.5,134.8 186.0,131.6 187.5,128.5 189.0,125.4 190.5,122.4 192.0,119.4 193.5,116.4 195.0,113.4 196.5,110.5 198.0,107.6 199.5,104.8 201.0,102.1 202.5,99.4 204.0,96.7 205.5,94.2 207.0,91.7 208.5,89.3 210.0,86.9 211.5,84.7 213.0,82.5 214.5,80.5 216.0,78.5 217.5,76.6 219.0,74.9 220.5,73.2 222.0,71.7 223.5,70.2 225.0,68.9 226.5,67.7 228.0,66.7 229.5,65.7 231.0,64.9 232.5,64.2 234.0,63.6 235.5,63.1 237.0,62.8 238.5,62.6 240.0,62.6 241.5,62.6 243.0,62.8 244.5,63.1 246.0,63.6 247.5,64.2 249.0,64.9 250.5,65.7 252.0,66.7 253.5,67.7 255.0,68.9 256.5,70.2 258.0,71.7 259.5,73.2 261.0,74.9 262.5,76.6 264.0,78.5 265.5,80.5 267.0,82.5 268.5,84.7 270.0,86.9 271.5,89.3 273.0,91.7 274.5,94.2 276.0,96.7 277.5,99.4 279.0,102.1 280.5,104.8 282.0,107.6 283.5,110.5 285.0,113.4 286.5,116.4 288.0,119.4 289.5,122.4 291.0,125.4 292.5,128.5 294.0,131.6 295.5,134.8 297.0,137.9 298.5,141.0 300.0,144.2 300.0,270" fill="#fff59d" stroke="none"/>
+    <line x1="180.0" y1="270" x2="180.0" y2="144.2" stroke="#ef6c00" stroke-width="1.5"/>
+    <line x1="300.0" y1="270" x2="300.0" y2="144.2" stroke="#ef6c00" stroke-width="1.5"/>
+    <text x="240.0" y="230" text-anchor="middle" font-weight="bold" fill="#ef6c00">area 0.683</text>
+  </g>
+  <polyline points="60.0,267.7 61.5,267.5 63.0,267.3 64.5,267.1 66.0,266.9 67.5,266.7 69.0,266.4 70.5,266.2 72.0,265.9 73.5,265.6 75.0,265.3 76.5,264.9 78.0,264.6 79.5,264.2 81.0,263.8 82.5,263.4 84.0,262.9 85.5,262.5 87.0,262.0 88.5,261.4 90.0,260.9 91.5,260.3 93.0,259.7 94.5,259.0 96.0,258.4 97.5,257.6 99.0,256.9 100.5,256.1 102.0,255.3 103.5,254.4 105.0,253.5 106.5,252.5 108.0,251.6 109.5,250.5 111.0,249.4 112.5,248.3 114.0,247.1 115.5,245.9 117.0,244.6 118.5,243.3 120.0,241.9 121.5,240.5 123.0,239.0 124.5,237.5 126.0,235.9 127.5,234.2 129.0,232.5 130.5,230.8 132.0,228.9 133.5,227.1 135.0,225.1 136.5,223.1 138.0,221.1 139.5,219.0 141.0,216.8 142.5,214.6 144.0,212.3 145.5,210.0 147.0,207.6 148.5,205.1 150.0,202.7 151.5,200.1 153.0,197.5 154.5,194.8 156.0,192.1 157.5,189.4 159.0,186.6 160.5,183.8 162.0,180.9 163.5,178.0 165.0,175.0 166.5,172.0 168.0,169.0 169.5,166.0 171.0,162.9 172.5,159.8 174.0,156.7 175.5,153.6 177.0,150.5 178.5,147.3 180.0,144.2 181.5,141.0 183.0,137.9 184.5,134.8 186.0,131.6 187.5,128.5 189.0,125.4 190.5,122.4 192.0,119.4 193.5,116.4 195.0,113.4 196.5,110.5 198.0,107.6 199.5,104.8 201.0,102.1 202.5,99.4 204.0,96.7 205.5,94.2 207.0,91.7 208.5,89.3 210.0,86.9 211.5,84.7 213.0,82.5 214.5,80.5 216.0,78.5 217.5,76.6 219.0,74.9 220.5,73.2 222.0,71.7 223.5,70.2 225.0,68.9 226.5,67.7 228.0,66.7 229.5,65.7 231.0,64.9 232.5,64.2 234.0,63.6 235.5,63.1 237.0,62.8 238.5,62.6 240.0,62.6 241.5,62.6 243.0,62.8 244.5,63.1 246.0,63.6 247.5,64.2 249.0,64.9 250.5,65.7 252.0,66.7 253.5,67.7 255.0,68.9 256.5,70.2 258.0,71.7 259.5,73.2 261.0,74.9 262.5,76.6 264.0,78.5 265.5,80.5 267.0,82.5 268.5,84.7 270.0,86.9 271.5,89.3 273.0,91.7 274.5,94.2 276.0,96.7 277.5,99.4 279.0,102.1 280.5,104.8 282.0,107.6 283.5,110.5 285.0,113.4 286.5,116.4 288.0,119.4 289.5,122.4 291.0,125.4 292.5,128.5 294.0,131.6 295.5,134.8 297.0,137.9 298.5,141.0 300.0,144.2 301.5,147.3 303.0,150.5 304.5,153.6 306.0,156.7 307.5,159.8 309.0,162.9 310.5,166.0 312.0,169.0 313.5,172.0 315.0,175.0 316.5,178.0 318.0,180.9 319.5,183.8 321.0,186.6 322.5,189.4 324.0,192.1 325.5,194.8 327.0,197.5 328.5,200.1 330.0,202.7 331.5,205.1 333.0,207.6 334.5,210.0 336.0,212.3 337.5,214.6 339.0,216.8 340.5,219.0 342.0,221.1 343.5,223.1 345.0,225.1 346.5,227.1 348.0,228.9 349.5,230.8 351.0,232.5 352.5,234.2 354.0,235.9 355.5,237.5 357.0,239.0 358.5,240.5 360.0,241.9 361.5,243.3 363.0,244.6 364.5,245.9 366.0,247.1 367.5,248.3 369.0,249.4 370.5,250.5 372.0,251.6 373.5,252.5 375.0,253.5 376.5,254.4 378.0,255.3 379.5,256.1 381.0,256.9 382.5,257.6 384.0,258.4 385.5,259.0 387.0,259.7 388.5,260.3 390.0,260.9 391.5,261.4 393.0,262.0 394.5,262.5 396.0,262.9 397.5,263.4 399.0,263.8 400.5,264.2 402.0,264.6 403.5,264.9 405.0,265.3 406.5,265.6 408.0,265.9 409.5,266.2 411.0,266.4 412.5,266.7 414.0,266.9 415.5,267.1 417.0,267.3 418.5,267.5 420.0,267.7" fill="none" stroke="#e53935" stroke-width="2.5" opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4688;0.6875;1" values="0;0.45;1;1"/></polyline>
+  <rect x="438" y="44" width="276" height="250" rx="8" fill="#e0f2f1" stroke="#00897b"/>
+  <text x="450" y="68" font-size="13" fill="#555">bar height =</text>
+  <text x="450" y="86" font-size="13" fill="#555">(chance of landing in the bar) / (bar width)</text>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0312;0.2500;1" values="0;1;0;0"/><text x="450" y="118" font-weight="bold" fill="#3949ab">4 bars, width 1.5</text><text x="450" y="140" font-size="13" fill="#555">all the bar areas add up to ≈ 1</text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2500;0.4688;1" values="0;1;0;0"/><text x="450" y="118" font-weight="bold" fill="#3949ab">8 bars, width 0.75</text><text x="450" y="140" font-size="13" fill="#555">all the bar areas add up to ≈ 1</text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4688;0.6875;1" values="0;1;0;0"/><text x="450" y="118" font-weight="bold" fill="#3949ab">16 bars, width 0.375</text><text x="450" y="140" font-size="13" fill="#555">all the bar areas add up to ≈ 1</text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4688;0.6875;1" values="0;1;0;0"/><text x="450" y="166" font-size="13" fill="#e53935">the red curve is what the bars approach</text></g>
+  <g opacity="0"><animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6875;1" values="0;1;1"/>
+    <text x="450" y="118" font-weight="bold" fill="#e53935">the density curve f(x)</text>
+    <text x="450" y="144" font-size="13">P(−1 ≤ X ≤ 1) = yellow area</text>
+    <text x="450" y="164" font-size="13" font-weight="bold" fill="#ef6c00">= 0.683</text>
+    <text x="450" y="196" font-size="13">height at 0 is 0.399:</text>
+    <text x="450" y="214" font-size="13">a density, not a probability</text>
+    <text x="450" y="246" font-size="13">P(X = exactly 0.5) = 0:</text>
+    <text x="450" y="264" font-size="13">a line has no width, so no area</text>
+  </g>
+</svg>

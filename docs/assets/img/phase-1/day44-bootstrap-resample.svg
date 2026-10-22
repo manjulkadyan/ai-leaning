@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="26" font-weight="bold" font-size="15">The bootstrap: resample your sample, with replacement</text>
+  <rect x="20" y="50" width="200" height="120" rx="14" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+  <text x="120" y="70" text-anchor="middle" font-size="12" fill="#555">your sample (n = 5)</text>
+  <circle cx="45" cy="115" r="15" fill="#fff" stroke="#00897b" stroke-width="2"/><text x="45" y="120" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="82" cy="115" r="15" fill="#fff" stroke="#00897b" stroke-width="2"/><text x="82" y="120" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="119" cy="115" r="15" fill="#fff" stroke="#00897b" stroke-width="2"/><text x="119" y="120" text-anchor="middle" font-weight="bold">5</text>
+  <circle cx="156" cy="115" r="15" fill="#fff" stroke="#00897b" stroke-width="2"/><text x="156" y="120" text-anchor="middle" font-weight="bold">6</text>
+  <circle cx="193" cy="115" r="15" fill="#fff" stroke="#00897b" stroke-width="2"/><text x="193" y="120" text-anchor="middle" font-weight="bold">9</text>
+  <text x="120" y="160" text-anchor="middle" font-size="12" fill="#555">mean 5.0</text>
+  <circle cx="45" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0375;0.0656;1" values="0;1;0;0"/></circle>
+  <circle cx="119" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0688;0.0969;1" values="0;1;0;0"/></circle>
+  <circle cx="156" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1000;0.1281;1" values="0;1;0;0"/></circle>
+  <circle cx="119" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1313;0.1594;1" values="0;1;0;0"/></circle>
+  <circle cx="193" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1625;0.1906;1" values="0;1;0;0"/></circle>
+  <circle cx="156" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2375;0.2656;1" values="0;1;0;0"/></circle>
+  <circle cx="193" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2688;0.2969;1" values="0;1;0;0"/></circle>
+  <circle cx="82" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3000;0.3281;1" values="0;1;0;0"/></circle>
+  <circle cx="45" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3313;0.3594;1" values="0;1;0;0"/></circle>
+  <circle cx="119" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3625;0.3906;1" values="0;1;0;0"/></circle>
+  <circle cx="119" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4375;0.4656;1" values="0;1;0;0"/></circle>
+  <circle cx="193" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4688;0.4969;1" values="0;1;0;0"/></circle>
+  <circle cx="156" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000;0.5281;1" values="0;1;0;0"/></circle>
+  <circle cx="119" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5312;0.5594;1" values="0;1;0;0"/></circle>
+  <circle cx="193" cy="115" r="19" fill="none" stroke="#ef6c00" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5625;0.5906;1" values="0;1;0;0"/></circle>
+  <text x="250" y="58" font-size="12" fill="#555">three resamples: 5 draws each, a value can come back</text>
+  <text x="250" y="90" font-size="12" fill="#555">#1</text>
+  <rect x="275" y="71" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="311" y="71" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="347" y="71" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="383" y="71" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="419" y="71" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <text x="290" y="90" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">2<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0375;0.96;1" values="0;1;0;0"/></text>
+  <text x="326" y="90" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">5<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0688;0.96;1" values="0;1;0;0"/></text>
+  <text x="362" y="90" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">6<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1000;0.96;1" values="0;1;0;0"/></text>
+  <text x="398" y="90" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">5<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1313;0.96;1" values="0;1;0;0"/></text>
+  <text x="434" y="90" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">9<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1625;0.96;1" values="0;1;0;0"/></text>
+  <text x="460" y="90" fill="#3949ab" font-weight="bold" opacity="0">mean = 5.4<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2000;0.96;1" values="0;1;0;0"/></text>
+  <text x="250" y="126" font-size="12" fill="#555">#2</text>
+  <rect x="275" y="107" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="311" y="107" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="347" y="107" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="383" y="107" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="419" y="107" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <text x="290" y="126" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">6<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2375;0.96;1" values="0;1;0;0"/></text>
+  <text x="326" y="126" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">9<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2688;0.96;1" values="0;1;0;0"/></text>
+  <text x="362" y="126" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">3<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3000;0.96;1" values="0;1;0;0"/></text>
+  <text x="398" y="126" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">2<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3313;0.96;1" values="0;1;0;0"/></text>
+  <text x="434" y="126" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">5<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3625;0.96;1" values="0;1;0;0"/></text>
+  <text x="460" y="126" fill="#3949ab" font-weight="bold" opacity="0">mean = 5.0<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4000;0.96;1" values="0;1;0;0"/></text>
+  <text x="250" y="162" font-size="12" fill="#555">#3</text>
+  <rect x="275" y="143" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="311" y="143" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="347" y="143" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="383" y="143" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <rect x="419" y="143" width="30" height="28" rx="5" fill="none" stroke="#c5cae9"/>
+  <text x="290" y="162" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">5<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4375;0.96;1" values="0;1;0;0"/></text>
+  <text x="326" y="162" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">9<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4688;0.96;1" values="0;1;0;0"/></text>
+  <text x="362" y="162" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">6<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000;0.96;1" values="0;1;0;0"/></text>
+  <text x="398" y="162" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">5<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5312;0.96;1" values="0;1;0;0"/></text>
+  <text x="434" y="162" text-anchor="middle" font-weight="bold" fill="#ef6c00" opacity="0">9<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5625;0.96;1" values="0;1;0;0"/></text>
+  <text x="460" y="162" fill="#3949ab" font-weight="bold" opacity="0">mean = 6.8<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6000;0.96;1" values="0;1;0;0"/></text>
+  <rect x="560" y="64" width="145" height="96" rx="8" fill="#fff3e0"/>
+  <text x="570" y="84" font-size="12">#1: 5 twice, no 3</text>
+  <text x="570" y="101" font-size="12">#2: each value once</text>
+  <text x="570" y="118" font-size="12">#3: two 9s, two 5s</text>
+  <text x="570" y="135" font-size="12">Each resample is a</text>
+  <text x="570" y="152" font-size="12">“new survey”.</text>
+  <line x1="60.0" y1="345" x2="660.0" y2="345" stroke="#90a4ae" stroke-width="1.5"/>
+  <line x1="60.0" y1="345" x2="60.0" y2="350" stroke="#90a4ae"/><text x="60.0" y="364" text-anchor="middle" font-size="12" fill="#555">2</text>
+  <line x1="145.7" y1="345" x2="145.7" y2="350" stroke="#90a4ae"/><text x="145.7" y="364" text-anchor="middle" font-size="12" fill="#555">3</text>
+  <line x1="231.4" y1="345" x2="231.4" y2="350" stroke="#90a4ae"/><text x="231.4" y="364" text-anchor="middle" font-size="12" fill="#555">4</text>
+  <line x1="317.1" y1="345" x2="317.1" y2="350" stroke="#90a4ae"/><text x="317.1" y="364" text-anchor="middle" font-size="12" fill="#555">5</text>
+  <line x1="402.9" y1="345" x2="402.9" y2="350" stroke="#90a4ae"/><text x="402.9" y="364" text-anchor="middle" font-size="12" fill="#555">6</text>
+  <line x1="488.6" y1="345" x2="488.6" y2="350" stroke="#90a4ae"/><text x="488.6" y="364" text-anchor="middle" font-size="12" fill="#555">7</text>
+  <line x1="574.3" y1="345" x2="574.3" y2="350" stroke="#90a4ae"/><text x="574.3" y="364" text-anchor="middle" font-size="12" fill="#555">8</text>
+  <line x1="660.0" y1="345" x2="660.0" y2="350" stroke="#90a4ae"/><text x="660.0" y="364" text-anchor="middle" font-size="12" fill="#555">9</text>
+  <text x="360.0" y="381" text-anchor="middle" font-size="12" fill="#555">mean of each resample</text>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6625;0.7375;0.96;1" values="0;0;1;1;0"/>
+    <rect x="55.0" y="344.0" width="10" height="1.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="72.1" y="341.5" width="10" height="3.5" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="89.3" y="339.6" width="10" height="5.4" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="106.4" y="336.1" width="10" height="8.9" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="123.6" y="329.6" width="10" height="15.4" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="140.7" y="321.0" width="10" height="24.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="157.9" y="309.4" width="10" height="35.6" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="175.0" y="304.6" width="10" height="40.4" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="192.1" y="285.0" width="10" height="60.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="209.3" y="275.8" width="10" height="69.2" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="226.4" y="274.4" width="10" height="70.6" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="243.6" y="244.1" width="10" height="100.9" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="260.7" y="230.9" width="10" height="114.1" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="277.9" y="260.5" width="10" height="84.5" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="295.0" y="236.3" width="10" height="108.7" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="312.1" y="205.0" width="10" height="140.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="329.3" y="241.8" width="10" height="103.2" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="346.4" y="260.5" width="10" height="84.5" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="363.6" y="233.8" width="10" height="111.2" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="380.7" y="257.0" width="10" height="88.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="397.9" y="291.4" width="10" height="53.6" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="415.0" y="270.4" width="10" height="74.6" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="432.1" y="281.4" width="10" height="63.6" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="449.3" y="316.8" width="10" height="28.2" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="466.4" y="322.2" width="10" height="22.8" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="483.6" y="311.0" width="10" height="34.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="500.7" y="329.6" width="10" height="15.4" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="517.9" y="340.4" width="10" height="4.6" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="535.0" y="331.0" width="10" height="14.0" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="552.1" y="338.8" width="10" height="6.2" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="586.4" y="342.1" width="10" height="2.9" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="603.6" y="343.2" width="10" height="1.8" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <rect x="655.0" y="344.8" width="10" height="0.2" fill="#c5cae9" stroke="#3949ab" stroke-width="0.6"/>
+    <text x="77.1" y="225" font-size="12" fill="#3949ab">10,000 resamples later:</text>
+    <text x="77.1" y="241" font-size="12" fill="#3949ab">their spread stands in for</text>
+    <text x="77.1" y="257" font-size="12" fill="#3949ab">the sampling distribution</text>
+  </g>
+  <circle cx="351.4" cy="337" r="7" fill="#e53935" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2000;0.96;1" values="0;1;0;0"/><animate attributeName="cy" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2000;0.2313;1" values="175;175;337;337"/></circle>
+  <circle cx="317.1" cy="337" r="7" fill="#e53935" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4000;0.96;1" values="0;1;0;0"/><animate attributeName="cy" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.4000;0.4313;1" values="175;175;337;337"/></circle>
+  <circle cx="471.4" cy="337" r="7" fill="#e53935" opacity="0"><animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6000;0.96;1" values="0;1;0;0"/><animate attributeName="cy" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.6000;0.6312;1" values="175;175;337;337"/></circle>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<text x="20" y="28" font-weight="bold" font-size="15">Rates multiply: three gears in a chain</text>
+<g><animateTransform attributeName="transform" type="rotate" from="0 100 175" to="360 100 175" dur="12s" repeatCount="indefinite"/>
+<circle cx="100" cy="175" r="76" fill="none" stroke="#3949ab" stroke-width="10" stroke-dasharray="9.948 9.948"/>
+<circle cx="100" cy="175" r="72" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+<line x1="100" y1="175" x2="100" y2="106" stroke="#3949ab" stroke-width="4" stroke-linecap="round"/>
+<circle cx="100" cy="111" r="3.5" fill="#e53935"/>
+</g>
+<circle cx="100" cy="175" r="4" fill="#333"/>
+<g><animateTransform attributeName="transform" type="rotate" from="0 217 175" to="-360 217 175" dur="6s" repeatCount="indefinite"/>
+<circle cx="217" cy="175" r="40" fill="none" stroke="#00897b" stroke-width="10" stroke-dasharray="10.472 10.472"/>
+<circle cx="217" cy="175" r="36" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<line x1="217" y1="175" x2="217" y2="142" stroke="#00897b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="217" cy="147" r="3.5" fill="#e53935"/>
+</g>
+<circle cx="217" cy="175" r="4" fill="#333"/>
+<g><animateTransform attributeName="transform" type="rotate" from="0 274 175" to="360 274 175" dur="2s" repeatCount="indefinite"/>
+<circle cx="274" cy="175" r="16" fill="none" stroke="#ef6c00" stroke-width="10" stroke-dasharray="8.378 8.378"/>
+<circle cx="274" cy="175" r="12" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<line x1="274" y1="175" x2="274" y2="166" stroke="#ef6c00" stroke-width="4" stroke-linecap="round"/>
+<circle cx="274" cy="171" r="3.5" fill="#e53935"/>
+</g>
+<circle cx="274" cy="175" r="4" fill="#333"/>
+<text x="100" y="280" text-anchor="middle" font-weight="bold" fill="#3949ab">gear x</text>
+<text x="100" y="298" text-anchor="middle" font-size="12" fill="#555">1 turn per 12 s</text>
+<text x="217" y="280" text-anchor="middle" font-weight="bold" fill="#00897b">gear u</text>
+<text x="217" y="298" text-anchor="middle" font-size="12" fill="#555">2 turns per 12 s</text>
+<text x="284" y="105" text-anchor="middle" font-weight="bold" fill="#ef6c00">gear y</text>
+<text x="284" y="123" text-anchor="middle" font-size="12" fill="#555">6 turns per 12 s</text>
+<rect x="400" y="55" width="300" height="250" rx="8" fill="#e8eaf6"/>
+<text x="550" y="90" text-anchor="middle" font-size="15"><tspan fill="#00897b" font-weight="bold">u</tspan> turns 2× as fast as <tspan fill="#3949ab" font-weight="bold">x</tspan></text>
+<text x="550" y="114" text-anchor="middle" font-size="15"><tspan font-style="italic">du/dx</tspan> = 2</text>
+<text x="550" y="152" text-anchor="middle" font-size="15"><tspan fill="#ef6c00" font-weight="bold">y</tspan> turns 3× as fast as <tspan fill="#00897b" font-weight="bold">u</tspan></text>
+<text x="550" y="176" text-anchor="middle" font-size="15"><tspan font-style="italic">dy/du</tspan> = 3</text>
+<line x1="430" y1="196" x2="670" y2="196" stroke="#9fa8da"/>
+<text x="550" y="226" text-anchor="middle" font-size="15">so <tspan fill="#ef6c00" font-weight="bold">y</tspan> turns 2 × 3 = 6× as fast as <tspan fill="#3949ab" font-weight="bold">x</tspan></text>
+<text x="550" y="256" text-anchor="middle" font-size="17" font-weight="bold"><tspan font-style="italic">dy/dx</tspan> = <tspan font-style="italic">dy/du</tspan> · <tspan font-style="italic">du/dx</tspan> = 6</text>
+<text x="550" y="286" text-anchor="middle" font-size="12" fill="#555">watch the red dots: one lap of x, six of y</text>
+</svg>
