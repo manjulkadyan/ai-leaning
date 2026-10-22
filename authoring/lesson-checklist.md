@@ -58,6 +58,7 @@ The reviewer also checks:
 ## Code and build (integrator, after the reviewer passes)
 
 - [ ] All blocks, solutions included, run in page order in one namespace with the runner script (`rt/test.py`): 0 failures. Blocks that can't run in the browser are labelled.
+- [ ] Output comments under bare expressions show the `repr()` form the ▶ Run button prints (commas in arrays, `np.float64(...)`), or the line uses `print(...)`.
 - [ ] Every printed value on the page matches that run, and none of them is approximate (timings excepted, and marked as machine-dependent).
 - [ ] `mkdocs build --strict` passes on the lesson's own commit.
 - [ ] The lesson is wired into the nav, the lessons index, the month plan, the progress page and the previous lesson's `Next:` line.
