@@ -1,6 +1,6 @@
 # Week 1 rewrite map
 
-Days 1–5 are being rewritten under [lesson-brief.md](../lesson-brief.md) and [lesson-checklist.md](../lesson-checklist.md), because they skipped topics and under-explained ([review-week1.md](../review-week1.md)). Five extra lessons are added so the Python and NumPy foundations aren't crammed into five days. The extras get letter suffixes, so no later day number changes.
+Days 1–5 are being rewritten under [lesson-brief.md](../lesson-brief.md) and [lesson-checklist.md](../lesson-checklist.md), because they skipped topics and under-explained ([review-week1.md](../review-week1.md)). Six extra lessons are added so the Python and NumPy foundations aren't crammed into five days. The extras get letter suffixes, so no later day number changes.
 
 Rules for rewrites:
 
@@ -218,3 +218,8 @@ Rules for rewrites:
 
 - Day 6 (the review) gets a pass so its recap, self-check and concept map cover Days 2b, 3b, 3c and 4b as well.
 - Days 8–13 get a reviewer pass against the checklist. Fixes are patches, not rewrites, unless the reviewer finds a must-topic missing.
+
+
+## Split note: Day 2a (2026-10-23)
+
+The Day 2 rewrite came out at ~1,800 lines and ~180 minutes, so Strings moves to **Day 2a: Strings, text and formatting** (`day-02a-strings.md`, new). Day 2 keeps a short f-string primer. Next lines: Day 2 → `**Next:** [Day 2a: Strings, text and formatting](day-02a-strings.md)`; Day 2a → `**Next:** [Day 2b: Collections](day-02b-collections.md)`.
