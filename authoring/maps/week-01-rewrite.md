@@ -1,6 +1,6 @@
 # Week 1 rewrite map
 
-Days 1–5 are being rewritten under [lesson-brief.md](../lesson-brief.md) and [lesson-checklist.md](../lesson-checklist.md), because they skipped topics and under-explained ([review-week1.md](../review-week1.md)). Four extra lessons are added so the Python and NumPy foundations aren't crammed into five days. The extras get letter suffixes, so no later day number changes.
+Days 1–5 are being rewritten under [lesson-brief.md](../lesson-brief.md) and [lesson-checklist.md](../lesson-checklist.md), because they skipped topics and under-explained ([review-week1.md](../review-week1.md)). Five extra lessons are added so the Python and NumPy foundations aren't crammed into five days. The extras get letter suffixes, so no later day number changes.
 
 Rules for rewrites:
 
@@ -110,8 +110,9 @@ Rules for rewrites:
         - `__init__.py`, absolute vs relative imports, `sys.path`, `python -m`;
         - circular imports briefly;
         - multi-file examples labelled "run on your computer".
+- **Split (2026-10-23):** the rewrite came out at 2,634 lines, so it is split at Part 2. Day 3 (`day-03-functions-classes.md`, file name kept for links) is now "Functions, scope and type hints". Classes, dataclasses, the nn.Module shape, decorators and modules move to **Day 3a** (`day-03a-classes-modules.md`, new).
 - **Not in this lesson:** errors, files and JSON go to Day 3b; iterators and generators to Day 3c.
-- **Next:** `**Next:** [Day 3b: Errors, files and JSON](day-03b-errors-files-json.md)`
+- **Next:** Day 3 → `**Next:** [Day 3a: Classes, decorators and modules](day-03a-classes-modules.md)`; Day 3a → `**Next:** [Day 3b: Errors, files and JSON](day-03b-errors-files-json.md)`
 
 ### Day 3b: Errors, files and JSON
 
