@@ -223,3 +223,10 @@ Rules for rewrites:
 ## Split note: Day 2a (2026-10-23)
 
 The Day 2 rewrite came out at ~1,800 lines and ~180 minutes, so Strings moves to **Day 2a: Strings, text and formatting** (`day-02a-strings.md`, new). Day 2 keeps a short f-string primer. Next lines: Day 2 → `**Next:** [Day 2a: Strings, text and formatting](day-02a-strings.md)`; Day 2a → `**Next:** [Day 2b: Collections](day-02b-collections.md)`.
+
+
+## Split note: Day 3b / 3c, and iterators become Day 3d (2026-10-26)
+
+The Day 3b draft came out at 2,450 lines, so it splits at context managers. Day 3b (`day-03b-errors-files-json.md`, file name kept) is "Errors and exceptions" → `**Next:** [Day 3c: Files, JSON, logging and tests](day-03c-files-json.md)`. **Day 3c** (`day-03c-files-json.md`, new) is context managers, files, pathlib, csv, JSON, logging and pytest → `**Next:** [Day 3d: Iterators and generators](day-03d-iterators-generators.md)`. Iterators and generators move to **Day 3d** (`day-03d-iterators-generators.md`, asset prefix day03d-) → `**Next:** [Day 4: NumPy arrays, and why ML runs on them](day-04-numpy-arrays.md)`.
+
+Header minutes: Day 1 ~150, Day 2b ~170 (the writers' honest estimates replace the ~120 above).
