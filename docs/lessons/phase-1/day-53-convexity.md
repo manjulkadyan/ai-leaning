@@ -1419,4 +1419,4 @@ Every solution below is self-contained: it imports NumPy and re-creates its own 
 - [ ] I can tell a local minimum, a saddle point and a plateau apart, and describe what gradient descent does near each.
 - [ ] I can explain why neural network losses are not convex, and give honest reasons why training them works anyway.
 
-**Next:** Day 54: Entropy, cross-entropy and KL divergence (coming soon)
+**Next:** [Day 54: Entropy, cross-entropy and KL divergence](day-54-information-theory.md)

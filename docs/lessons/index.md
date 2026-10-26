@@ -89,3 +89,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 51 | [Gradient descent](phase-1/day-51-gradient-descent.md) |
 | 52 | [Learning rates, mini-batches, SGD and momentum](phase-1/day-52-sgd-momentum.md) |
 | 53 | [Convexity, local minima and saddle points](phase-1/day-53-convexity.md) |
+| 54 | [Entropy, cross-entropy and KL divergence](phase-1/day-54-information-theory.md) |

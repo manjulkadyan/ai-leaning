@@ -144,5 +144,6 @@ nav:
           - "Day 51: Gradient descent": lessons/phase-1/day-51-gradient-descent.md
           - "Day 52: SGD & momentum": lessons/phase-1/day-52-sgd-momentum.md
           - "Day 53: Convexity": lessons/phase-1/day-53-convexity.md
+          - "Day 54: Entropy & KL": lessons/phase-1/day-54-information-theory.md
   - Datasets: datasets.md
   - Glossary: glossary.md
