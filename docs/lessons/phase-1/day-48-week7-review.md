@@ -1348,4 +1348,4 @@ Questions I missed:
 - [ ] I finished at least one stretch goal.
 - [ ] I wrote my Week 7 retro in the journal.
 
-**Next:** Week 8 begins with Day 50: Loss functions: what "wrong" means (coming soon)
+**Next:** Week 8 begins with [Day 50: Loss functions: what "wrong" means](day-50-loss-functions.md)

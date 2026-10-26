@@ -1,6 +1,6 @@
 # Glossary
 
-Plain-language definitions of the terms the course uses, each with the lesson that teaches it. It covers all of Month 1 and grows as lessons are added. Use your browser's find (Ctrl/Cmd + F) to jump to a word.
+Plain-language definitions of the terms the course uses, each with the lesson that teaches it. It covers Months 1 and 2 and grows as lessons are added. Use your browser's find (Ctrl/Cmd + F) to jump to a word.
 
 ## A–C
 
@@ -9,47 +9,69 @@ Plain-language definitions of the terms the course uses, each with the lesson th
 - **Axis.** One dimension of an array. `axis=0` runs down the rows, `axis=1` across the columns; `a.sum(axis=0)` collapses the rows. *[Day 4](lessons/phase-1/day-04-numpy-arrays.md)*
 - **Basis.** A set of independent vectors that spans a space, so every point has exactly one recipe (its coordinates) in terms of them. *[Day 23](lessons/phase-1/day-23-rank-span.md)*
 - **Batch.** Several inputs processed together, stacked along a new first axis. A batch of 32 images of 224×224 RGB is a `(32, 224, 224, 3)` array. *[Day 12](lessons/phase-1/day-12-layer-is-matmul.md)*
+- **Bayes' rule.** How to turn P(evidence | cause) into P(cause | evidence): multiply by the prior and divide by how likely the evidence is overall. The basis of naive Bayes classifiers. *[Day 38](lessons/phase-1/day-38-bayes-rule.md)*
 - **Bias.** The number added after a neuron's weighted sum (\(\mathbf{w} \cdot \mathbf{x} + b\)). It lets the neuron shift its output up or down. *[Day 5](lessons/phase-1/day-05-vectors.md)*
 - **Boolean mask.** An array of `True`/`False` values used to pick elements or rows, as in `apps[apps["rating"] > 4.5]`. *[Day 4](lessons/phase-1/day-04-numpy-arrays.md), [Day 16](lessons/phase-1/day-16-pandas-selecting.md)*
+- **Bootstrap.** Estimating how much a statistic would vary by recomputing it on many resamples of your own data, drawn with replacement. *[Day 44](lessons/phase-1/day-44-confidence-intervals.md)*
 - **Broadcasting.** NumPy's rule for combining arrays of different shapes by lining them up from the right and stretching size-1 dimensions, without copying data. *[Day 9](lessons/phase-1/day-09-broadcasting.md)*
+- **Central limit theorem.** The average of many independent random values is close to normally distributed, whatever their own distribution looks like. *[Day 40](lessons/phase-1/day-40-joint-clt.md)*
+- **Chain rule.** The derivative of a function of a function is the product of the derivatives along the chain. Backpropagation is the chain rule applied through a network's layers. *[Day 31](lessons/phase-1/day-31-chain-rule.md)*
 - **Column space.** Every output \(A\mathbf{x}\) a matrix can produce: the span of its columns. Its dimension is the rank. *[Day 23](lessons/phase-1/day-23-rank-span.md)*
 - **Column vector / row vector.** A vector written as an \(n \times 1\) matrix (a column) or a \(1 \times n\) matrix (a row). In NumPy a plain 1-D array is neither until you reshape it. *[Day 10](lessons/phase-1/day-10-matrices-matmul.md)*
+- **Confidence interval.** A range computed from a sample that would contain the true value in, say, 95% of repeated samples. *[Day 44](lessons/phase-1/day-44-confidence-intervals.md)*
+- **Confounder.** A third variable that drives two others, making them correlate without one causing the other. *[Day 46](lessons/phase-1/day-46-correlation-causation.md)*
+- **Convex function.** A bowl-shaped function: the straight line between any two points on its graph lies on or above it, so every local minimum is the global minimum. *[Day 53](lessons/phase-1/day-53-convexity.md)*
 - **Copy-on-Write.** The pandas 3 rule that every selection behaves like a new object, so modifying it never changes the original. Chained assignment like `df[mask]["col"] = 0` therefore does nothing. *[Day 17](lessons/phase-1/day-17-pandas-cleaning.md)*
 - **Correlation.** How strongly two columns move together, from −1 to 1; it is the cosine similarity of the two centred columns. *[Day 20](lessons/phase-1/day-20-week3-review.md)*
 - **Cosine similarity.** How closely two vectors point the same way, from −1 (opposite) to 1 (same direction), ignoring their lengths. The standard score for comparing embeddings. *[Day 5](lessons/phase-1/day-05-vectors.md)*
 - **Covariance matrix.** A square table of how much each pair of features varies together. Its eigenvectors are the directions PCA keeps. *[Day 24](lessons/phase-1/day-24-eigenvectors.md), [Day 25](lessons/phase-1/day-25-projections-pca.md)*
+- **Cross-entropy.** The average number of nats (or bits) needed to encode outcomes from distribution p using a code built for q. As a loss it is \(-\ln\) of the probability the model gave the correct class. *[Day 54](lessons/phase-1/day-54-information-theory.md)*
 - **Curse of dimensionality.** In many dimensions the nearest and farthest points end up almost equally far away, so distance-based methods weaken. *[Day 22](lessons/phase-1/day-22-norms-distances.md)*
 
 ## D–F
 
 - **DataFrame.** pandas' table: named columns (each a Series) that share one row index. Think of a Room table loaded into memory. *[Day 15](lessons/phase-1/day-15-pandas-dataframes.md)*
+- **Derivative.** How fast a function's output changes as its input changes: the slope of its graph at a point. *[Day 29](lessons/phase-1/day-29-derivatives.md)*
 - **Determinant.** One number per square matrix telling how much it scales area (or volume). Zero means the matrix squashes space flat and has no inverse. *[Day 11](lessons/phase-1/day-11-transpose-identity-inverse.md)*
+- **Distribution.** The list of possible values of a random quantity and how likely each one is, such as Bernoulli, binomial, uniform or normal. *[Day 37](lessons/phase-1/day-37-distributions.md)*
 - **Dot product.** Multiply two vectors element by element and add up the results. Large when they point the same way; zero when they are perpendicular. *[Day 5](lessons/phase-1/day-05-vectors.md)*
 - **dtype.** The element type of an array or column, such as `float32`, `int64` or pandas' `str`. It fixes memory size and which operations are allowed. *[Day 4](lessons/phase-1/day-04-numpy-arrays.md), [Day 15](lessons/phase-1/day-15-pandas-dataframes.md)*
 - **Eigenvector / eigenvalue.** A direction a matrix only stretches, never turns, and the factor it stretches by: \(A\mathbf{v} = \lambda\mathbf{v}\). *[Day 24](lessons/phase-1/day-24-eigenvectors.md)*
 - **Embedding.** A vector of numbers that represents a word, sentence, image or user so that similar things get nearby vectors. Introduced in Phase 4; the counting approach it replaces is on [Day 6](lessons/phase-1/day-06-week1-review.md).
+- **Entropy.** The average surprise of a distribution: how unpredictable its outcomes are, in bits or nats. *[Day 54](lessons/phase-1/day-54-information-theory.md)*
+- **Epoch.** One full pass over the training data. With mini-batches, an epoch is many update steps. *[Day 52](lessons/phase-1/day-52-sgd-momentum.md)*
+- **Expectation (mean).** The long-run average value of a random quantity, each value weighted by its probability. *[Day 39](lessons/phase-1/day-39-expectation-variance.md)*
 - **Feature.** One measurable input column, such as an app's size or rating. A row of features is one example's input vector. *[Day 5](lessons/phase-1/day-05-vectors.md)*
 - **FLOP.** One floating-point operation (an add or a multiply). A matrix multiply of \((m, n) @ (n, p)\) costs about \(2mnp\) FLOPs, which is how you estimate a model's speed. *[Day 12](lessons/phase-1/day-12-layer-is-matmul.md), [Day 13](lessons/phase-1/day-13-week2-review.md)*
 - **Forward pass.** Running an input through a model's layers, in order, to get its output. *[Day 12](lessons/phase-1/day-12-layer-is-matmul.md)*
 
 ## G–L
 
+- **Gradient.** The vector of a function's partial derivatives. It points in the direction of steepest increase, so stepping against it lowers the loss. *[Day 32](lessons/phase-1/day-32-partial-derivatives-gradient.md), [Day 33](lessons/phase-1/day-33-vector-matrix-gradients.md)*
+- **Gradient descent.** Training by repeatedly moving the parameters a small step against the gradient of the loss. *[Day 51](lessons/phase-1/day-51-gradient-descent.md)*
 - **groupby (split-apply-combine).** Split rows into groups by a key, compute something per group, and combine the results into one table. SQL's `GROUP BY`. *[Day 18](lessons/phase-1/day-18-pandas-groupby-merge.md)*
 - **Identity matrix (\(I\)).** The square matrix with 1s on the diagonal and 0s elsewhere. Multiplying by it changes nothing, like multiplying a number by 1. *[Day 11](lessons/phase-1/day-11-transpose-identity-inverse.md)*
 - **Index (pandas).** The row labels of a Series or DataFrame. Operations line up rows by index label, not by position. *[Day 15](lessons/phase-1/day-15-pandas-dataframes.md)*
 - **Inverse (\(A^{-1}\)).** The matrix that undoes \(A\): \(A^{-1}A = I\). Only exists when the determinant isn't zero, and in practice you solve systems with `np.linalg.solve` instead of computing it. *[Day 11](lessons/phase-1/day-11-transpose-identity-inverse.md)*
 - **Join / merge.** Combining two tables by matching key columns. An inner join keeps only matches; a left join keeps every row of the left table. *[Day 18](lessons/phase-1/day-18-pandas-groupby-merge.md)*
 - **Jupyter notebook (`.ipynb`).** A document of code cells and text cells you run one at a time, with outputs saved under each cell. Every lesson offers its code as one. *[Day 1](lessons/phase-1/day-01-setup.md)*
+- **KL divergence.** How many extra nats you pay for using q where the truth is p: cross-entropy minus entropy. Always at least 0, and not symmetric. *[Day 54](lessons/phase-1/day-54-information-theory.md)*
+- **Learning rate.** The step size in gradient descent. Too small is slow; too large overshoots and diverges. *[Day 51](lessons/phase-1/day-51-gradient-descent.md), [Day 52](lessons/phase-1/day-52-sgd-momentum.md)*
 - **L1 / L2 / L∞ norm.** Three ways to measure length: the sum of absolute values (Manhattan), the square root of the sum of squares (straight line), and the largest absolute value. *[Day 22](lessons/phase-1/day-22-norms-distances.md)*
 - **Layer (linear / dense / fully connected).** Many neurons applied at once: \(\mathbf{y} = W\mathbf{x} + \mathbf{b}\). PyTorch calls it `nn.Linear`; LiteRT calls it `FULLY_CONNECTED`. *[Day 12](lessons/phase-1/day-12-layer-is-matmul.md)*
 - **Least squares.** Fitting by making the sum of squared errors as small as possible; geometrically, projecting the data onto the column space. *[Day 25](lessons/phase-1/day-25-projections-pca.md)*
 - **Linear independence.** No vector in the set can be built from the others. Dependent columns make a matrix lose rank. *[Day 23](lessons/phase-1/day-23-rank-span.md)*
 - **LoRA (low-rank adaptation).** Fine-tuning a big model by freezing its weights \(W\) and learning a small low-rank update \(BA\), often under 1% of the parameters. *[Day 23](lessons/phase-1/day-23-rank-span.md)*
+- **Loss function.** One number that measures how wrong a model's predictions are, such as mean squared error or cross-entropy. Training means making it small. *[Day 50](lessons/phase-1/day-50-loss-functions.md)*
 
 ## M–O
 
 - **Matrix.** A 2-D grid of numbers with shape (rows, columns). It can store a dataset (one row per example) or a transformation (a layer's weights). *[Day 10](lessons/phase-1/day-10-matrices-matmul.md)*
 - **Matrix multiplication (`@`).** Each output entry is the dot product of a row of the left matrix with a column of the right one. Shapes must agree: \((m, n) @ (n, p) \to (m, p)\). *[Day 10](lessons/phase-1/day-10-matrices-matmul.md)*
+- **Maximum likelihood.** Choosing the parameters that make the observed data most probable. Minimizing cross-entropy is maximum likelihood for classifiers. *[Day 47](lessons/phase-1/day-47-maximum-likelihood.md), [Day 54](lessons/phase-1/day-54-information-theory.md)*
+- **Mean squared error (MSE).** The average of the squared differences between predictions and true values; the standard regression loss. *[Day 50](lessons/phase-1/day-50-loss-functions.md)*
+- **Mini-batch / SGD.** Stochastic gradient descent estimates the gradient from a small random batch of examples instead of the whole dataset, so each step is cheap. *[Day 52](lessons/phase-1/day-52-sgd-momentum.md)*
+- **Momentum.** An optimizer trick that keeps a running average of past gradients, so steps speed up along consistent directions and zig-zag less. *[Day 52](lessons/phase-1/day-52-sgd-momentum.md)*
 - **NaN.** "Not a Number", the float value pandas and NumPy use for a missing measurement. Any arithmetic with NaN gives NaN, and `NaN == NaN` is `False`. *[Day 17](lessons/phase-1/day-17-pandas-cleaning.md)*
 - **Nearest-neighbour search.** Finding the stored vectors closest to a query, the core of semantic search and recommendation. *[Day 22](lessons/phase-1/day-22-norms-distances.md)*
 - **Neuron.** The smallest unit of a neural network: a dot product of inputs with weights, plus a bias, usually followed by an activation. *[Day 5](lessons/phase-1/day-05-vectors.md)*
@@ -59,11 +81,13 @@ Plain-language definitions of the terms the course uses, each with the lesson th
 ## P–R
 
 - **Parameters (weights).** The numbers a model learns during training: every entry of every weight matrix and bias vector. A layer with \(n\) inputs and \(m\) outputs has \(mn + m\). *[Day 12](lessons/phase-1/day-12-layer-is-matmul.md)*
+- **Partial derivative.** The derivative with respect to one input while the others are held fixed. *[Day 32](lessons/phase-1/day-32-partial-derivatives-gradient.md)*
 - **PCA (principal component analysis).** Rotating data onto the directions of largest variance (the covariance eigenvectors) so you can keep the few that matter. *[Day 25](lessons/phase-1/day-25-projections-pca.md)*
 - **Permutation (shuffle) test.** Shuffling group labels many times to see how often chance alone produces a gap as big as the real one. *[Day 20](lessons/phase-1/day-20-week3-review.md)*
 - **Pivot table.** A summary table that turns the values of one column into new columns, aggregating as it goes, like a spreadsheet pivot. *[Day 18](lessons/phase-1/day-18-pandas-groupby-merge.md)*
 - **Power iteration.** Multiplying a vector by a matrix again and again (rescaling each time) until it lines up with the biggest eigenvector; the idea behind PageRank. *[Day 24](lessons/phase-1/day-24-eigenvectors.md)*
 - **Projection.** The "shadow" of a vector on a line or plane: the closest point there, with the leftover perpendicular to it. *[Day 25](lessons/phase-1/day-25-projections-pca.md)*
+- **p-value.** Assuming there is no real effect, the probability of seeing a result at least as extreme as the one observed. *[Day 45](lessons/phase-1/day-45-hypothesis-tests.md)*
 - **Quantization (int8).** Storing weights and activations as 8-bit integers plus a scale factor instead of 32-bit floats: 4× smaller and much faster on phone NPUs, at a small accuracy cost. *[Day 13](lessons/phase-1/day-13-week2-review.md)*
 - **Rank.** The number of independent columns (equivalently rows) of a matrix: how many dimensions its outputs really fill. *[Day 23](lessons/phase-1/day-23-rank-span.md)*
 - **ReLU.** The activation \(\max(0, x)\): negative values become 0, positive values pass through. *[Day 12](lessons/phase-1/day-12-layer-is-matmul.md)*
@@ -71,16 +95,19 @@ Plain-language definitions of the terms the course uses, each with the lesson th
 
 ## S–Z
 
+- **Saddle point.** A flat point that is a minimum in some directions and a maximum in others. Common in neural-network losses. *[Day 53](lessons/phase-1/day-53-convexity.md)*
 - **Scalar.** A single number, as opposed to a vector or matrix. *[Day 5](lessons/phase-1/day-05-vectors.md)*
 - **Series.** pandas' labelled 1-D array: values plus an index. One column of a DataFrame. *[Day 15](lessons/phase-1/day-15-pandas-dataframes.md)*
 - **Shape.** The size of an array along each axis, as a tuple: `(3, 4)` means 3 rows and 4 columns. Most ML bugs are shape bugs. *[Day 4](lessons/phase-1/day-04-numpy-arrays.md), [Day 8](lessons/phase-1/day-08-shapes-indexing.md)*
 - **Singular matrix.** A square matrix with determinant 0. It collapses some direction to nothing, so it has no inverse and its system of equations has no unique solution. *[Day 11](lessons/phase-1/day-11-transpose-identity-inverse.md)*
+- **Softmax.** Turns a vector of scores (logits) into probabilities: exponentiate each, then divide by the sum. *[Day 54](lessons/phase-1/day-54-information-theory.md)*
 - **Span.** Every vector you can reach by scaling and adding a set of vectors. *[Day 23](lessons/phase-1/day-23-rank-span.md)*
 - **Standardization.** Rescaling each feature to mean 0 and standard deviation 1, using statistics from the training set only, so no feature dominates distances. *[Day 22](lessons/phase-1/day-22-norms-distances.md)*
 - **SVD (singular value decomposition).** Splitting any matrix into rotation × stretch × rotation; what libraries use to compute PCA and low-rank approximations. *[Day 25](lessons/phase-1/day-25-projections-pca.md)*
 - **Tensor.** The general name for an array with any number of dimensions: a scalar is 0-D, a vector 1-D, a matrix 2-D, a batch of images 4-D. PyTorch and LiteRT call their arrays tensors. *[Day 4](lessons/phase-1/day-04-numpy-arrays.md)*
 - **TF-IDF.** A way to weight word counts so that words common to every document (like "the") count less than distinctive ones. *[Day 6](lessons/phase-1/day-06-week1-review.md)*
 - **Transpose (\(A^\top\)).** Flipping a matrix over its diagonal so rows become columns: shape \((m, n)\) becomes \((n, m)\). *[Day 11](lessons/phase-1/day-11-transpose-identity-inverse.md)*
+- **Variance.** The expected squared distance from the mean: how spread out a random quantity is. Its square root is the standard deviation. *[Day 39](lessons/phase-1/day-39-expectation-variance.md)*
 - **Vector.** An ordered list of numbers, which you can picture as an arrow or a point in space. Everything in ML (an image, a sentence, a user) becomes one. *[Day 5](lessons/phase-1/day-05-vectors.md)*
 - **Vectorization.** Replacing a Python loop with one array operation that runs in compiled code, usually 10–100× faster. *[Day 4](lessons/phase-1/day-04-numpy-arrays.md)*
 - **View vs copy.** A view is a new array object that shares memory with the original (slicing, `reshape`); changing it changes the original. A copy has its own memory. *[Day 8](lessons/phase-1/day-08-shapes-indexing.md)*

@@ -46,9 +46,9 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 50 | Loss functions: what "wrong" means *(coming soon)* | 90 min |
-| 51 | Gradient descent *(coming soon)* | 120 min |
-| 52 | Learning rates, mini-batches, SGD and momentum *(coming soon)* | 120 min |
-| 53 | Convexity, local minima and saddle points *(coming soon)* | 90 min |
-| 54 | Entropy, cross-entropy and KL divergence *(coming soon)* | 120 min |
-| 55–56 | **Monthly milestone** and retrospective *(coming soon)* | 6 h |
+| 50 | [Loss functions: what "wrong" means](../lessons/phase-1/day-50-loss-functions.md) | 150 min |
+| 51 | [Gradient descent](../lessons/phase-1/day-51-gradient-descent.md) | 150 min |
+| 52 | [Learning rates, mini-batches, SGD and momentum](../lessons/phase-1/day-52-sgd-momentum.md) | 150 min |
+| 53 | [Convexity, local minima and saddle points](../lessons/phase-1/day-53-convexity.md) | 150 min |
+| 54 | [Entropy, cross-entropy and KL divergence](../lessons/phase-1/day-54-information-theory.md) | 150 min |
+| 55–56 | [**Monthly milestone** and retrospective](../lessons/phase-1/day-55-month2-milestone.md) | 7 h |

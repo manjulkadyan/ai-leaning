@@ -37,7 +37,7 @@ What's written, what's planned, and what's next. This page is updated with every
 
 | Month | Focus | Daily plan | Lessons |
 |---|---|---|---|
-| 2 | Calculus, probability, statistics, optimization | [✅](plan/month-02.md) | 🚧 |
+| 2 | Calculus, probability, statistics, optimization | [✅](plan/month-02.md) | ✅ |
 | 3 | Classic machine learning | ⬜ | ⬜ |
 | 4 | Neural networks and PyTorch | ⬜ | ⬜ |
 | 5 | CNNs, embeddings, transformers | ⬜ | ⬜ |

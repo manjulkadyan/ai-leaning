@@ -1,0 +1,49 @@
+/* Gradient-descent playground (docs/javascripts/gd-playground.js).
+   Colors come from Material's CSS variables where possible so it works in light and dark mode. */
+.md-typeset .gd-playground {
+  margin: 1.5em 0;
+  padding: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+.gd-playground .gdp-bar { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.5rem; }
+.md-typeset .gd-playground .gdp-btn { margin: 0; padding: 0.25em 0.9em; font-size: 0.7rem; cursor: pointer; }
+.gd-playground .gdp-svg { display: block; width: 100%; max-width: 560px; cursor: crosshair; user-select: none; -webkit-user-select: none; border-radius: 4px; }
+.gd-playground .gdp-bg { fill: #f5f6fb; }
+.gd-playground .gdp-contour { fill: none; stroke: #3949ab; stroke-width: 1.2; }
+.gd-playground .gdp-axis { stroke: #9e9e9e; stroke-width: 1; stroke-dasharray: 3 3; }
+.gd-playground .gdp-tick { fill: #757575; font: 11px sans-serif; }
+.gd-playground .gdp-min { fill: #00897b; }
+.gd-playground .gdp-trail { fill: none; stroke: #ef6c00; stroke-width: 2; stroke-linejoin: round; }
+.gd-playground .gdp-dot { fill: #ef6c00; }
+.gd-playground .gdp-start { fill: #fff; stroke: #ef6c00; stroke-width: 2.5; }
+.gd-playground .gdp-current { fill: #e53935; stroke: #fff; stroke-width: 2; }
+.gd-playground .gdp-ctrl { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.5rem; font-size: 0.75rem; }
+.gd-playground .gdp-ctrl label { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; flex: 1 1 260px; min-width: 0; }
+.gd-playground .gdp-ctrl input { flex: 1 1 120px; max-width: 220px; }
+.gd-playground .gdp-readout {
+  margin-top: 0.5rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.72rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.gd-playground .gdp-note { color: var(--md-default-fg-color--light); font-family: var(--md-text-font-family); }
+.gd-playground .gdp-ok { color: #00897b; }
+.gd-playground .gdp-bad { color: #e53935; }
+[data-md-color-scheme="slate"] .gd-playground .gdp-bg { fill: #1e2130; }
+[data-md-color-scheme="slate"] .gd-playground .gdp-contour { stroke: #9fa8da; }
+[data-md-color-scheme="slate"] .gd-playground .gdp-tick { fill: #bdbdbd; }
+.gd-playground .gdp-lr {
+  width: 5.5em;
+  font-family: var(--md-code-font-family);
+  font-size: 0.72rem;
+  padding: 0.1em 0.3em;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+.gd-playground .gdp-ctrl input.gdp-lr { flex: 0 0 5.5em; max-width: 5.5em; }
+.gd-playground .gdp-ctrl label span { white-space: nowrap; }
+.gd-playground .gdp-lrgroup { display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }
