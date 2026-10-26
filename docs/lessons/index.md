@@ -88,3 +88,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 50 | [Loss functions: what "wrong" means](phase-1/day-50-loss-functions.md) |
 | 51 | [Gradient descent](phase-1/day-51-gradient-descent.md) |
 | 52 | [Learning rates, mini-batches, SGD and momentum](phase-1/day-52-sgd-momentum.md) |
+| 53 | [Convexity, local minima and saddle points](phase-1/day-53-convexity.md) |

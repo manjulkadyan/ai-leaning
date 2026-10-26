@@ -1347,4 +1347,4 @@ The exercises go from warm-ups to a challenge. Every solution below re-creates i
 - [ ] I can write Adam's update with its defaults, and name two things it doesn't fix (including a tilted ravine from uncentred features).
 - [ ] I can implement step-decay, cosine and warmup schedules and plug them into a training loop.
 
-**Next:** Day 53: Convexity, local minima and saddle points (coming soon)
+**Next:** [Day 53: Convexity, local minima and saddle points](day-53-convexity.md)
