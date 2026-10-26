@@ -80,3 +80,9 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | 46 | [Correlation, causation and confounders](phase-1/day-46-correlation-causation.md) |
 | 47 | [Maximum likelihood estimation](phase-1/day-47-maximum-likelihood.md) |
 | 48 | [Week 7 review and mini-project: analysing an A/B test of an app feature](phase-1/day-48-week7-review.md) |
+
+### Week 8: Optimization and information theory
+
+| Day | Lesson |
+|---|---|
+| 50 | [Loss functions: what "wrong" means](phase-1/day-50-loss-functions.md) |

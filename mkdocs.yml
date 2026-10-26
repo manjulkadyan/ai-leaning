@@ -138,5 +138,6 @@ nav:
           - "Day 46: Correlation & causation": lessons/phase-1/day-46-correlation-causation.md
           - "Day 47: Maximum likelihood": lessons/phase-1/day-47-maximum-likelihood.md
           - "Day 48: Week 7 review": lessons/phase-1/day-48-week7-review.md
+          - "Day 50: Loss functions": lessons/phase-1/day-50-loss-functions.md
   - Datasets: datasets.md
   - Glossary: glossary.md

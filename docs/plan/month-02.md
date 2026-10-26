@@ -46,7 +46,7 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 50 | Loss functions: what "wrong" means *(coming soon)* | 90 min |
+| 50 | [Loss functions: what "wrong" means](../lessons/phase-1/day-50-loss-functions.md) | 90 min |
 | 51 | Gradient descent *(coming soon)* | 120 min |
 | 52 | Learning rates, mini-batches, SGD and momentum *(coming soon)* | 120 min |
 | 53 | Convexity, local minima and saddle points *(coming soon)* | 90 min |
