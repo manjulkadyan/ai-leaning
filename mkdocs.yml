@@ -68,6 +68,7 @@ extra_css:
   - stylesheets/matmul-stepper.css
   - stylesheets/run-python.css
   - stylesheets/tangent-explorer.css
+  - stylesheets/gd-playground.css
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -75,6 +76,7 @@ extra_javascript:
   - javascripts/matmul-stepper.js
   - javascripts/run-python.js
   - javascripts/tangent-explorer.js
+  - javascripts/gd-playground.js
   - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
 
 hooks:
@@ -139,5 +141,6 @@ nav:
           - "Day 47: Maximum likelihood": lessons/phase-1/day-47-maximum-likelihood.md
           - "Day 48: Week 7 review": lessons/phase-1/day-48-week7-review.md
           - "Day 50: Loss functions": lessons/phase-1/day-50-loss-functions.md
+          - "Day 51: Gradient descent": lessons/phase-1/day-51-gradient-descent.md
   - Datasets: datasets.md
   - Glossary: glossary.md

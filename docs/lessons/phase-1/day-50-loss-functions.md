@@ -1121,4 +1121,4 @@ Two warm-ups, three core exercises, then a predict-the-output, a find-the-bug an
 - [ ] I can read a loss as a function of the parameters, and I drew a 1-parameter loss curve and a 2-parameter loss surface.
 - [ ] I can recognise residuals that cancel, a broadcasting column of targets, `nan` from missing data, `log(0)` and `exp` overflow from their symptoms, and fix each one.
 
-**Next:** Day 51: Gradient descent (coming soon)
+**Next:** [Day 51: Gradient descent](day-51-gradient-descent.md)

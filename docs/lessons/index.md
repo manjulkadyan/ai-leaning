@@ -86,3 +86,4 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 | Day | Lesson |
 |---|---|
 | 50 | [Loss functions: what "wrong" means](phase-1/day-50-loss-functions.md) |
+| 51 | [Gradient descent](phase-1/day-51-gradient-descent.md) |
