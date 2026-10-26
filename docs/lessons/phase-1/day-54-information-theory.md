@@ -1076,4 +1076,4 @@ These are real and useful, but not needed yet:
 - [ ] I know why softmax subtracts the max, and why a fresh \( K \)-class classifier should start near a loss of \( \ln K \).
 - [ ] I can spot log of 0, bits vs nats, counts instead of probabilities, and softmax applied twice.
 
-**Next:** Days 55–56: Month 2 milestone (coming soon)
+**Next:** [Days 55–56: Month 2 milestone and retrospective](day-55-month2-milestone.md)
