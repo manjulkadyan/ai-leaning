@@ -207,6 +207,12 @@ def course_run(src, ns):
   function addButtons() {
     pageNamespace = null; // new page, new namespace (instant navigation keeps the JS alive)
     document.querySelectorAll(".md-typeset .language-python.highlight:not([data-run])").forEach((block) => {
+      // Blocks labelled "Run this on your computer" need a real machine
+      // (files, torch, pip...), so they get no Run button.
+      if (/^\s*# Run this on your computer/.test(block.querySelector("code")?.textContent || "")) {
+        block.dataset.run = "local";
+        return;
+      }
       block.dataset.run = "1";
       const bar = document.createElement("div");
       bar.className = "run-bar";

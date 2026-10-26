@@ -108,7 +108,7 @@ Match the depth of these lessons:
     - never use a name before the block that defines it, and that includes solutions and illustrative snippets like `match device:`;
     - a block that errors on purpose is short and says so in a comment;
     - never read `sys.argv`, call `input()`, start threads, or write files other than `fig.savefig(...)` of a figure you embed.
-- **Blocks that can't run in the browser**, such as multi-file packages, `torch`, `pip`, shell commands, or anything reading the local disk, start with a comment: `# Run this on your computer (or in Colab), not in the browser.`
+- **Blocks that can't run in the browser**, such as multi-file packages, `torch`, `pip`, shell commands, or anything reading the local disk, start with a comment: `# Run this on your computer (or in Colab), not in the browser.` That exact first line hides the ▶ Run button for the block (and the runner script skips it), so use it only for code that truly needs a real machine. Every other ```python block must run without error; show a deliberate error inside `try`/`except`, or as a ```pycon transcript.
 - **Check runnability** by concatenating all blocks in page order and running them in one namespace from a scratch directory. The integrator's runner script does the same, and any failure sends the lesson back.
 - Use `rng = np.random.default_rng(<seed>)` for anything random.
 - **Libraries:** locally numpy 2.5, pandas 3.0, matplotlib 3.11. No scipy, sklearn or torch in runnable blocks unless the lesson is about them. Elsewhere, show them only as clearly marked "on your computer" code.
