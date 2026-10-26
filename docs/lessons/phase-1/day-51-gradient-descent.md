@@ -1186,4 +1186,4 @@ These are real and useful, but beyond today. Days 52–55 pick up the first thre
 - [ ] I fitted the Play Store regression with gradient descent and matched `lstsq`.
 - [ ] I saw raw features make the same fit thousands of times slower, and I can explain why standardizing fixes it.
 
-**Next:** Day 52: Learning rates, mini-batches, SGD and momentum (coming soon)
+**Next:** [Day 52: Learning rates, mini-batches, SGD and momentum](day-52-sgd-momentum.md)
