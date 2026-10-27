@@ -92,12 +92,12 @@ There is no length cap. A 90–120 minute lesson that follows Step 2 is usually 
 
 Match the depth of these lessons:
 
-- `docs/lessons/phase-1/day-08-shapes-indexing.md` and `day-09-broadcasting.md` (Python/NumPy, including prediction exercises);
+- `docs/lessons/phase-1/day-03d-iterators-generators.md`, `day-04-numpy-arrays.md` and `day-05-vectors.md` (Python, NumPy and maths written to this brief and passed by a reviewer);
 - `day-22-norms-distances.md` and `day-25-projections-pca.md` (maths);
 - `day-17-pandas-cleaning.md` (data work);
 - `day-20-week3-review.md` (review days).
 
-**Do not** use Days 1–5 as references: they are being rewritten for being too thin (see [review-week1.md](review-week1.md)).
+Days 1–5 were rewritten to this brief in October 2026 and are now good references. Days 8–13 are being revised; until then, don't copy their output style (print-form comments, unwrapped errors).
 
 ## Code: it has to be perfect
 
