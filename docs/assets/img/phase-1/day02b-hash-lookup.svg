@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<defs><marker id="arb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/></marker><marker id="art" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker><marker id="aro" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker><marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="720" height="330" fill="white"/>
+<text x="20" y="28" font-size="16" fill="#222" text-anchor="start" font-weight="bold">Membership: a list scans, a set jumps</text>
+<line x1="350" y1="45" x2="350" y2="300" stroke="#ccc" stroke-width="1"/>
+<text x="175" y="62" font-size="15" fill="#3949ab" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">"fox" in names</text>
+<text x="175" y="82" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">names is a list of 6 strings</text>
+<rect x="25" y="130" width="50" height="36" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" rx="0"/>
+<text x="50" y="153" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">cat</text>
+<text x="50" y="184" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">0</text>
+<rect x="75" y="130" width="50" height="36" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" rx="0"/>
+<text x="100" y="153" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">dog</text>
+<text x="100" y="184" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<rect x="125" y="130" width="50" height="36" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" rx="0"/>
+<text x="150" y="153" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">owl</text>
+<text x="150" y="184" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<rect x="175" y="130" width="50" height="36" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" rx="0"/>
+<text x="200" y="153" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">pig</text>
+<text x="200" y="184" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<rect x="225" y="130" width="50" height="36" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" rx="0"/>
+<text x="250" y="153" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">emu</text>
+<text x="250" y="184" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<rect x="275" y="130" width="50" height="36" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" rx="0"/>
+<text x="300" y="153" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">fox</text>
+<text x="300" y="184" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<rect x="25" y="130" width="50" height="36" fill="none" stroke="#ef6c00" stroke-width="3.5" opacity="0"><animate attributeName="x" values="25;25;75;125;175;225;275;275" keyTimes="0.000;0.100;0.200;0.300;0.400;0.500;0.600;1.000" calcMode="discrete" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1000;0.1250;0.9500;0.9750;1" dur="10s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1000;0.1250;0.2000;0.2250;1" dur="10s" repeatCount="indefinite"/><text x="175" y="248" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">comparisons: 1</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2250;0.3000;0.3250;1" dur="10s" repeatCount="indefinite"/><text x="175" y="248" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">comparisons: 2</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3000;0.3250;0.4000;0.4250;1" dur="10s" repeatCount="indefinite"/><text x="175" y="248" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">comparisons: 3</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4000;0.4250;0.5000;0.5250;1" dur="10s" repeatCount="indefinite"/><text x="175" y="248" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">comparisons: 4</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5000;0.5250;0.6000;0.6250;1" dur="10s" repeatCount="indefinite"/><text x="175" y="248" font-size="14" fill="#222" text-anchor="middle" font-weight="bold">comparisons: 5</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6250;0.9500;0.9750;1" dur="10s" repeatCount="indefinite"/><text x="175" y="248" font-size="14" fill="#00897b" text-anchor="middle" font-weight="bold">comparisons: 6 → found</text></g>
+<text x="175" y="280" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">cost grows with the length: O(n)</text>
+<text x="175" y="298" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">a million items → up to a million ==</text>
+<text x="535" y="62" font-size="15" fill="#00897b" text-anchor="middle" font-weight="bold" font-family="Menlo, Consolas, monospace">"fox" in names_set</text>
+<text x="535" y="82" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">the same 6 strings in a hash table of 8 slots</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1000;0.1250;0.9500;0.9750;1" dur="10s" repeatCount="indefinite"/><rect x="450" y="96" width="170" height="30" fill="#fff59d" stroke="#ef6c00" stroke-width="1.5" rx="4"/><text x="535" y="116" font-size="13" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">hash("fox") → slot 5</text></g>
+<rect x="375" y="160" width="40" height="36" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="395" y="183" font-size="12" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">owl</text>
+<text x="395" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">0</text>
+<rect x="415" y="160" width="40" height="36" fill="#f5f5f5" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="435" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<rect x="455" y="160" width="40" height="36" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="475" y="183" font-size="12" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">cat</text>
+<text x="475" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<rect x="495" y="160" width="40" height="36" fill="#f5f5f5" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="515" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<rect x="535" y="160" width="40" height="36" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="555" y="183" font-size="12" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">pig</text>
+<text x="555" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<rect x="575" y="160" width="40" height="36" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="595" y="183" font-size="12" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">fox</text>
+<text x="595" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<rect x="615" y="160" width="40" height="36" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="635" y="183" font-size="12" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">dog</text>
+<text x="635" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<rect x="655" y="160" width="40" height="36" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5" rx="0"/>
+<text x="675" y="183" font-size="12" fill="#222" text-anchor="middle" font-weight="normal" font-family="Menlo, Consolas, monospace">emu</text>
+<text x="675" y="214" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2250;0.9500;0.9750;1" dur="10s" repeatCount="indefinite"/><line x1="535" y1="127" x2="595" y2="157" stroke="#ef6c00" stroke-width="2" marker-end="url(#aro)"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2500;0.2750;0.9500;0.9750;1" dur="10s" repeatCount="indefinite"/><rect x="575" y="160" width="40" height="36" fill="none" stroke="#ef6c00" stroke-width="3.5" rx="0"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3000;0.3250;0.9500;0.9750;1" dur="10s" repeatCount="indefinite"/><text x="535" y="248" font-size="14" fill="#00897b" text-anchor="middle" font-weight="bold">comparisons: 1 → found</text></g>
+<text x="535" y="280" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">cost stays flat: O(1) on average</text>
+<text x="535" y="298" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">(the real slot depends on the hash)</text>
+</svg>
