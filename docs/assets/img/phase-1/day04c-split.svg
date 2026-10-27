@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="animated" viewBox="0 0 720 320" font-family="Helvetica, Arial, sans-serif">
+<rect width="720" height="320" fill="#ffffff"/>
+<text x="360" y="28" font-size="16" text-anchor="middle" fill="#222" font-family="Menlo, Consolas, monospace">idx = rng.permutation(10)</text>
+<text x="74" y="84" font-size="13" text-anchor="end" fill="#333">sample</text>
+<text x="74" y="140" font-size="13" text-anchor="end" fill="#333">label y</text>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;448 0;448 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="84" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="84" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="84" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="84" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="111.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">0</text>
+<text x="111.0" y="140" font-size="14" text-anchor="middle" fill="#333">0</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;512 0;512 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="148" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="148" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="148" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="148" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="175.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">1</text>
+<text x="175.0" y="140" font-size="14" text-anchor="middle" fill="#333">1</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;0 0;0 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="212" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="212" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="212" y="62" width="54" height="36" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<rect x="212" y="118" width="54" height="34" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/></g>
+<text x="239.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">2</text>
+<text x="239.0" y="140" font-size="14" text-anchor="middle" fill="#333">0</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;64 0;64 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="276" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="276" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="276" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="276" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="303.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">3</text>
+<text x="303.0" y="140" font-size="14" text-anchor="middle" fill="#333">1</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;-256 0;-256 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="340" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="340" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="340" y="62" width="54" height="36" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<rect x="340" y="118" width="54" height="34" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/></g>
+<text x="367.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">4</text>
+<text x="367.0" y="140" font-size="14" text-anchor="middle" fill="#333">0</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;0 0;0 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="404" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="404" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="404" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="404" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="431.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">5</text>
+<text x="431.0" y="140" font-size="14" text-anchor="middle" fill="#333">1</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;-320 0;-320 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="468" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="468" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="468" y="62" width="54" height="36" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<rect x="468" y="118" width="54" height="34" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/></g>
+<text x="495.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">6</text>
+<text x="495.0" y="140" font-size="14" text-anchor="middle" fill="#333">0</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;-256 0;-256 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="532" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="532" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="532" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="532" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="559.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">7</text>
+<text x="559.0" y="140" font-size="14" text-anchor="middle" fill="#333">1</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;0 0;0 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="596" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="596" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="596" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="596" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="623.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">8</text>
+<text x="623.0" y="140" font-size="14" text-anchor="middle" fill="#333">0</text>
+</g>
+<g><animateTransform type="translate" attributeName="transform" values="0 0;0 0;-192 0;-192 0;0 0" keyTimes="0;0.12;0.38;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="660" y="62" width="54" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="660" y="118" width="54" height="34" rx="5" fill="#f5f5f5" stroke="#999" stroke-width="1.2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.52;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="660" y="62" width="54" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<rect x="660" y="118" width="54" height="34" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/></g>
+<text x="687.0" y="86" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">9</text>
+<text x="687.0" y="140" font-size="14" text-anchor="middle" fill="#333">1</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.6;0.95;1" dur="12s" repeatCount="indefinite"/>
+<path d="M84 166 v8 H266 v-8" fill="none" stroke="#ef6c00" stroke-width="2"/>
+<text x="175.0" y="196" font-size="14" text-anchor="middle" fill="#bf360c" font-family="Menlo, Consolas, monospace">test_idx = idx[:3]</text>
+<path d="M276 166 v8 H714 v-8" fill="none" stroke="#00897b" stroke-width="2"/>
+<text x="495.0" y="196" font-size="14" text-anchor="middle" fill="#00695c" font-family="Menlo, Consolas, monospace">train_idx = idx[3:]</text>
+<text x="360" y="236" font-size="14" text-anchor="middle" fill="#333" font-family="Menlo, Consolas, monospace">X[test_idx], y[test_idx]   |   X[train_idx], y[train_idx]</text></g>
+<text x="360" y="276" font-size="13" text-anchor="middle" fill="#555">One shuffled list of positions moves each sample and its label together,</text>
+<text x="360" y="296" font-size="13" text-anchor="middle" fill="#555">then one cut gives two groups that never overlap and together cover every sample.</text>
+</svg>
