@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="animated" viewBox="0 0 720 340" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker></defs>
+<rect width="720" height="340" fill="#ffffff"/>
+<text x="360" y="26" font-size="17" text-anchor="middle" fill="#222" font-family="Menlo, Consolas, monospace">np.where(x &gt; 0, x, 0.0)</text>
+<text x="150" y="70.0" font-size="15" text-anchor="end" fill="#333" font-family="Menlo, Consolas, monospace">x &gt; 0</text>
+<text x="150" y="121.0" font-size="15" text-anchor="end" fill="#333" font-family="Menlo, Consolas, monospace">x</text>
+<text x="150" y="201.0" font-size="15" text-anchor="end" fill="#333" font-family="Menlo, Consolas, monospace">result</text>
+<text x="150" y="281.0" font-size="15" text-anchor="end" fill="#333" font-family="Menlo, Consolas, monospace">0.0</text>
+<rect x="170" y="50" width="86" height="30" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="213.0" y="70" font-size="14" text-anchor="middle" fill="#00897b">True</text>
+<rect x="170" y="96" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="213.0" y="121" font-size="16" text-anchor="middle" fill="#1a237e">0.5</text>
+<rect x="170" y="256" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="213.0" y="281" font-size="16" text-anchor="middle" fill="#bf360c">0.0</text>
+<rect x="170" y="176" width="86" height="40" rx="5" fill="#fafafa" stroke="#bbb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.060;0.080;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="170" y="176" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="213.0" y="201" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">0.5</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.060;0.070;0.200;0.210;1" dur="12s" repeatCount="indefinite"/>
+<rect x="166" y="92" width="94" height="48" rx="7" fill="none" stroke="#e53935" stroke-width="3"/>
+<rect x="166" y="46" width="94" height="38" rx="7" fill="none" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="213.0" y1="142" x2="213.0" y2="172" stroke="#e53935" stroke-width="2.5" marker-end="url(#ah)"/>
+</g>
+<rect x="276" y="50" width="86" height="30" rx="5" fill="#ffffff" stroke="#e53935" stroke-width="1.5"/>
+<text x="319.0" y="70" font-size="14" text-anchor="middle" fill="#e53935">False</text>
+<rect x="276" y="96" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="319.0" y="121" font-size="16" text-anchor="middle" fill="#1a237e">-1.2</text>
+<rect x="276" y="256" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="319.0" y="281" font-size="16" text-anchor="middle" fill="#bf360c">0.0</text>
+<rect x="276" y="176" width="86" height="40" rx="5" fill="#fafafa" stroke="#bbb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.210;0.230;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="276" y="176" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="319.0" y="201" font-size="16" text-anchor="middle" fill="#bf360c" font-weight="bold">0.0</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.210;0.220;0.350;0.360;1" dur="12s" repeatCount="indefinite"/>
+<rect x="272" y="252" width="94" height="48" rx="7" fill="none" stroke="#e53935" stroke-width="3"/>
+<rect x="272" y="46" width="94" height="38" rx="7" fill="none" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="319.0" y1="250" x2="319.0" y2="220" stroke="#e53935" stroke-width="2.5" marker-end="url(#ah)"/>
+</g>
+<rect x="382" y="50" width="86" height="30" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="425.0" y="70" font-size="14" text-anchor="middle" fill="#00897b">True</text>
+<rect x="382" y="96" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="425.0" y="121" font-size="16" text-anchor="middle" fill="#1a237e">3.0</text>
+<rect x="382" y="256" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="425.0" y="281" font-size="16" text-anchor="middle" fill="#bf360c">0.0</text>
+<rect x="382" y="176" width="86" height="40" rx="5" fill="#fafafa" stroke="#bbb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.360;0.380;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="382" y="176" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="425.0" y="201" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">3.0</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.360;0.370;0.500;0.510;1" dur="12s" repeatCount="indefinite"/>
+<rect x="378" y="92" width="94" height="48" rx="7" fill="none" stroke="#e53935" stroke-width="3"/>
+<rect x="378" y="46" width="94" height="38" rx="7" fill="none" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="425.0" y1="142" x2="425.0" y2="172" stroke="#e53935" stroke-width="2.5" marker-end="url(#ah)"/>
+</g>
+<rect x="488" y="50" width="86" height="30" rx="5" fill="#ffffff" stroke="#e53935" stroke-width="1.5"/>
+<text x="531.0" y="70" font-size="14" text-anchor="middle" fill="#e53935">False</text>
+<rect x="488" y="96" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="531.0" y="121" font-size="16" text-anchor="middle" fill="#1a237e">-0.1</text>
+<rect x="488" y="256" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="531.0" y="281" font-size="16" text-anchor="middle" fill="#bf360c">0.0</text>
+<rect x="488" y="176" width="86" height="40" rx="5" fill="#fafafa" stroke="#bbb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.510;0.530;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="488" y="176" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="531.0" y="201" font-size="16" text-anchor="middle" fill="#bf360c" font-weight="bold">0.0</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.510;0.520;0.650;0.660;1" dur="12s" repeatCount="indefinite"/>
+<rect x="484" y="252" width="94" height="48" rx="7" fill="none" stroke="#e53935" stroke-width="3"/>
+<rect x="484" y="46" width="94" height="38" rx="7" fill="none" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="531.0" y1="250" x2="531.0" y2="220" stroke="#e53935" stroke-width="2.5" marker-end="url(#ah)"/>
+</g>
+<rect x="594" y="50" width="86" height="30" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="637.0" y="70" font-size="14" text-anchor="middle" fill="#00897b">True</text>
+<rect x="594" y="96" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="637.0" y="121" font-size="16" text-anchor="middle" fill="#1a237e">2.2</text>
+<rect x="594" y="256" width="86" height="40" rx="5" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="637.0" y="281" font-size="16" text-anchor="middle" fill="#bf360c">0.0</text>
+<rect x="594" y="176" width="86" height="40" rx="5" fill="#fafafa" stroke="#bbb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.660;0.680;0.95;1" dur="12s" repeatCount="indefinite"/>
+<rect x="594" y="176" width="86" height="40" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="637.0" y="201" font-size="16" text-anchor="middle" fill="#1a237e" font-weight="bold">2.2</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.660;0.670;0.800;0.810;1" dur="12s" repeatCount="indefinite"/>
+<rect x="590" y="92" width="94" height="48" rx="7" fill="none" stroke="#e53935" stroke-width="3"/>
+<rect x="590" y="46" width="94" height="38" rx="7" fill="none" stroke="#e53935" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="637.0" y1="142" x2="637.0" y2="172" stroke="#e53935" stroke-width="2.5" marker-end="url(#ah)"/>
+</g>
+<text x="360" y="326" font-size="13" text-anchor="middle" fill="#555">Slot by slot: True takes the value from x (above), False takes it from 0.0 (below).</text>
+</svg>
