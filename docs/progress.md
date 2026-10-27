@@ -10,10 +10,18 @@ What's written, what's planned, and what's next. This page is updated with every
 |---|---|---|
 | 1 | [Your AI workstation and first Python program](lessons/phase-1/day-01-setup.md) | ✅ |
 | 2 | [Python's core types, through Kotlin eyes](lessons/phase-1/day-02-python-types.md) | ✅ |
-| 3 | [Functions, classes and modules](lessons/phase-1/day-03-functions-classes.md) | ✅ |
+| 2a | [Strings, text and formatting](lessons/phase-1/day-02a-strings.md) | ✅ |
+| 2b | [Lists, tuples, dicts and sets in depth](lessons/phase-1/day-02b-collections.md) | ✅ |
+| 3 | [Functions, scope and type hints](lessons/phase-1/day-03-functions-classes.md) | ✅ |
+| 3a | [Classes, decorators and modules](lessons/phase-1/day-03a-classes-modules.md) | ✅ |
+| 3b | [Errors and exceptions](lessons/phase-1/day-03b-errors-files-json.md) | ✅ |
+| 3c | [Files, JSON, logging and tests](lessons/phase-1/day-03c-files-json.md) | ✅ |
+| 3d | [Iterators and generators](lessons/phase-1/day-03d-iterators-generators.md) | ✅ |
 | 4 | [NumPy arrays, and why ML runs on them](lessons/phase-1/day-04-numpy-arrays.md) | ✅ |
+| 4b | [The NumPy toolkit](lessons/phase-1/day-04b-numpy-toolkit.md) | ✅ |
+| 4c | [Random numbers, saving arrays and statistics](lessons/phase-1/day-04c-random-io-stats.md) | ✅ |
 | 5 | [Vectors, the atoms of machine learning](lessons/phase-1/day-05-vectors.md) | ✅ |
-| 6 | Week 1 review and mini-project: word-count vectors | ✅ |
+| 6 | [Week 1 review and mini-project: word-count search](lessons/phase-1/day-06-week1-review.md) | ✅ |
 | 8 | [Shapes, reshaping and indexing](lessons/phase-1/day-08-shapes-indexing.md) | ✅ |
 | 9 | [Broadcasting](lessons/phase-1/day-09-broadcasting.md) | ✅ |
 | 10 | [Matrices and matrix multiplication](lessons/phase-1/day-10-matrices-matmul.md) | ✅ |

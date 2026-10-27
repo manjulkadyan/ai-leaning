@@ -152,7 +152,7 @@ three_in_2d = np.column_stack([[1., 0.], [0., 1.], [3., -2.]])
 np.linalg.matrix_rank(three_in_2d)    # 2: three vectors in 2-D are ALWAYS dependent
 ```
 
-`matrix_rank` (properly introduced below) counts independent columns. (In Jupyter its result displays as `np.int64(2)`; the comments show the plain value, as on Day 11.) A fact worth memorizing: **in \( n \)-dimensional space you can never have more than \( n \) independent vectors.** Three thrusters on a flat field: one is always redundant (here \( [3, -2] = 3[1, 0] - 2[0, 1] \)).
+`matrix_rank` (properly introduced below) counts independent columns. (In Jupyter and with ▶ Run its result displays as `np.int64(2)`, or `np.int32(2)` in the browser; the comment shows the plain value.) A fact worth memorizing: **in \( n \)-dimensional space you can never have more than \( n \) independent vectors.** Three thrusters on a flat field: one is always redundant (here \( [3, -2] = 3[1, 0] - 2[0, 1] \)).
 
 !!! warning "Common mistake: \"no two are parallel\" is not enough"
     With two vectors, dependent means parallel. With three or more, it doesn't: \( \mathbf{u}, \mathbf{v}, \mathbf{w} \) above are pairwise non-parallel, yet dependent, because \( \mathbf{w} \) is a combination of *both* others. Checking pairs (say, with cosine similarity from Day 5) can't detect this; the rank can.
