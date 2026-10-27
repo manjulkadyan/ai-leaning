@@ -8,11 +8,11 @@
     <rect x="50" y="70" width="50" height="50" fill="#c5cae9"/><rect x="100" y="70" width="50" height="50" fill="#c5cae9"/><rect x="150" y="70" width="50" height="50" fill="#c5cae9"/>
     <rect x="50" y="120" width="50" height="50" fill="#b2dfdb"/><rect x="100" y="120" width="50" height="50" fill="#b2dfdb"/><rect x="150" y="120" width="50" height="50" fill="#b2dfdb"/>
   </g>
-  <g text-anchor="middle">
-    <text x="75" y="102" fill="#3949ab" font-weight="bold">1</text><text x="125" y="102" fill="#3949ab">2</text><text x="175" y="102" fill="#3949ab">3</text>
-    <text x="75" y="152" fill="#00897b">4</text><text x="125" y="152" fill="#00897b" font-weight="bold">5</text><text x="175" y="152" fill="#00897b">6</text>
-  </g>
   <line x1="42" y1="62" x2="160" y2="180" stroke="#e53935" stroke-width="2" stroke-dasharray="6 4"/>
+  <g text-anchor="middle">
+    <text x="75" y="102" fill="#3949ab" font-weight="bold" stroke="#fff" stroke-width="5" paint-order="stroke">1</text><text x="125" y="102" fill="#3949ab">2</text><text x="175" y="102" fill="#3949ab">3</text>
+    <text x="75" y="152" fill="#00897b">4</text><text x="125" y="152" fill="#00897b" font-weight="bold" stroke="#fff" stroke-width="5" paint-order="stroke">5</text><text x="175" y="152" fill="#00897b">6</text>
+  </g>
   <text x="125" y="205" text-anchor="middle" font-size="14" font-weight="bold">A</text>
   <text x="125" y="224" text-anchor="middle" font-size="13" fill="#555">shape (2, 3)</text>
 
@@ -27,11 +27,11 @@
     <rect x="370" y="45" width="50" height="50" fill="#c5cae9"/><rect x="370" y="95" width="50" height="50" fill="#c5cae9"/><rect x="370" y="145" width="50" height="50" fill="#c5cae9"/>
     <rect x="420" y="45" width="50" height="50" fill="#b2dfdb"/><rect x="420" y="95" width="50" height="50" fill="#b2dfdb"/><rect x="420" y="145" width="50" height="50" fill="#b2dfdb"/>
   </g>
-  <g text-anchor="middle">
-    <text x="395" y="77" fill="#3949ab" font-weight="bold">1</text><text x="395" y="127" fill="#3949ab">2</text><text x="395" y="177" fill="#3949ab">3</text>
-    <text x="445" y="77" fill="#00897b">4</text><text x="445" y="127" fill="#00897b" font-weight="bold">5</text><text x="445" y="177" fill="#00897b">6</text>
-  </g>
   <line x1="362" y1="37" x2="480" y2="155" stroke="#e53935" stroke-width="2" stroke-dasharray="6 4"/>
+  <g text-anchor="middle">
+    <text x="395" y="77" fill="#3949ab" font-weight="bold" stroke="#fff" stroke-width="5" paint-order="stroke">1</text><text x="395" y="127" fill="#3949ab">2</text><text x="395" y="177" fill="#3949ab">3</text>
+    <text x="445" y="77" fill="#00897b">4</text><text x="445" y="127" fill="#00897b" font-weight="bold" stroke="#fff" stroke-width="5" paint-order="stroke">5</text><text x="445" y="177" fill="#00897b">6</text>
+  </g>
   <text x="420" y="220" text-anchor="middle" font-size="14" font-weight="bold" font-family="Menlo, Consolas, monospace">A.T</text>
   <text x="420" y="239" text-anchor="middle" font-size="13" fill="#555">shape (3, 2)</text>
 

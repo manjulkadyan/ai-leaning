@@ -10,7 +10,7 @@
     <line x1="60" y1="90" x2="430" y2="90"/><line x1="60" y1="170" x2="430" y2="170"/>
   </g>
   <g stroke="#90a4ae" stroke-width="1.5"><line x1="60" y1="250" x2="430" y2="250"/><line x1="230" y1="320" x2="230" y2="50"/></g>
-  <g font-size="11" fill="#90a4ae"><text x="386" y="265">2</text><text x="142" y="265">−1</text><text x="218" y="94">2</text></g>
+  <g font-size="11" fill="#90a4ae"><text x="386" y="286">2</text><text x="139" y="286">−1</text><text x="218" y="94">2</text></g>
   <!-- ghost of the original unit square -->
   <polygon points="230,250 310,250 310,170 230,170" fill="none" stroke="#9e9e9e" stroke-dasharray="5 4"/>
   <!-- the transformed unit square -->
