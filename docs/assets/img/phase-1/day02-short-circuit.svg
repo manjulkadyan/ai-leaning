@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <rect x="0" y="0" width="700" height="300" fill="#ffffff"/>
+  <text x="350" y="26" text-anchor="middle" font-weight="bold">or returns an operand, and stops as soon as it knows</text>
+
+  <!-- ===== case 1 ===== -->
+  <text x="30" y="60" font-size="13" fill="#555">case 1: the left operand is falsy</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="18">
+    <text x="40" y="100">""</text>
+    <text x="100" y="100" fill="#3949ab">or</text>
+    <text x="160" y="100">"anonymous"</text>
+  </g>
+  <!-- step 1: test the left -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;0.06;0.2;0.33;0.46;0.5;1" dur="12s" repeatCount="indefinite"/>
+    <rect x="30" y="80" width="46" height="28" rx="5" fill="#fff59d" stroke="#ef6c00"/>
+    <text x="53" y="100" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="18">""</text>
+    <text x="30" y="132" font-size="12" fill="#ef6c00">test it: "" is falsy</text>
+  </g>
+  <!-- step 2: cross it out, move on -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;1;0;0" keyTimes="0;0.2;0.24;0.33;0.46;0.5;1" dur="12s" repeatCount="indefinite"/>
+    <line x1="30" y1="94" x2="76" y2="94" stroke="#e53935" stroke-width="2"/>
+    <text x="30" y="148" font-size="12" fill="#555">so the answer isn't known yet: move on to the right operand</text>
+  </g>
+  <!-- step 3: result -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.2;0.3;0.34;0.46;0.5;1" dur="12s" repeatCount="indefinite"/>
+    <rect x="152" y="80" width="134" height="28" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+    <text x="219" y="100" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="18">"anonymous"</text>
+    <text x="300" y="100" font-size="13" fill="#00897b">&#8592; the result: the right operand</text>
+  </g>
+
+  <!-- ===== case 2 ===== -->
+  <text x="30" y="186" font-size="13" fill="#555">case 2: the left operand is truthy</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="18">
+    <text x="40" y="226">"Ana"</text>
+    <text x="130" y="226" fill="#3949ab">or</text>
+    <text x="190" y="226">"anonymous"
+      <animate attributeName="opacity" values="1;1;0.25;0.25;1" keyTimes="0;0.5;0.56;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;1;0" keyTimes="0;0.2;0.3;0.4;0.5;0.56;0.75;0.95;1" dur="12s" repeatCount="indefinite"/>
+    <rect x="30" y="206" width="76" height="28" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+    <text x="68" y="226" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="18">"Ana"</text>
+    <text x="30" y="258" font-size="12" fill="#00897b">truthy, so this IS the result; nothing else runs</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;1;0" keyTimes="0;0.2;0.3;0.4;0.5;0.56;0.75;0.95;1" dur="12s" repeatCount="indefinite"/>
+    <text x="330" y="226" font-size="12" fill="#555">never evaluated</text>
+  </g>
+  <text x="30" y="288" font-size="12" fill="#555">and works the same way with truthy and falsy swapped: it returns the first falsy operand, or the last one.</text>
+</svg>
