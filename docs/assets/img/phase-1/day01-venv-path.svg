@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="animated" viewBox="0 0 760 470" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<defs><marker id="d1b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="760" height="470" fill="#ffffff"/>
+<rect x="250" y="12" width="260" height="34" rx="6" fill="#263238"/>
+<text x="266" y="34" font-family="Menlo, Consolas, monospace" fill="#e0f2f1">$ python hello.py</text>
+<text x="380" y="66" text-anchor="middle" font-size="13" fill="#555">The shell looks for a program called python in each PATH folder, top to bottom, and runs the first one it finds.</text>
+<text x="195" y="98" text-anchor="middle" font-weight="bold" font-size="15" fill="#3949ab">Before activation</text>
+<text x="30" y="122" font-size="12" fill="#555">PATH</text>
+<rect x="30" y="130" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="30" y="130" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.050;0.250;1.000" values="0;1;0;0"/></rect>
+<text x="40" y="150" font-family="Menlo, Consolas, monospace" font-size="13">/usr/local/bin</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.090;1.000" values="0;1;1"/><text x="350" y="150" text-anchor="end" font-size="12" fill="#e53935">no python</text></g>
+<rect x="30" y="166" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="30" y="166" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.250;1.000" values="0;1;1"/></rect>
+<text x="40" y="186" font-family="Menlo, Consolas, monospace" font-size="13">/usr/bin</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.310;1.000" values="0;1;1"/><rect x="278" y="171" width="76" height="20" rx="10" fill="#e0f2f1" stroke="#00897b"/><text x="316" y="185" text-anchor="middle" font-size="12" fill="#00897b">python ✓</text></g>
+<rect x="30" y="202" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="30" y="202" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;2.000;1.000" values="0;1;1"/></rect>
+<text x="40" y="222" font-family="Menlo, Consolas, monospace" font-size="13">/bin</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.390;1.000" values="0;1;1"/>
+<line x1="195" y1="282" x2="195" y2="298" stroke="#555" stroke-width="2" marker-end="url(#d1b)"/>
+<rect x="30" y="300" width="330" height="84" rx="8" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="42" y="322" font-size="12" font-family="Menlo, Consolas, monospace">runs /usr/bin/python</text>
+<text x="42" y="342" font-size="12">imports from the system site-packages,</text>
+<text x="42" y="362" font-size="12">shared by every project on the machine</text>
+</g>
+<text x="565" y="98" text-anchor="middle" font-weight="bold" font-size="15" fill="#00897b">After source .venv/bin/activate</text>
+<text x="400" y="122" font-size="12" fill="#555">PATH</text>
+<rect x="400" y="130" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="400" y="130" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.050;1.000" values="0;1;1"/></rect>
+<text x="410" y="150" font-family="Menlo, Consolas, monospace" font-size="13">~/ai-course/.venv/bin</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.110;1.000" values="0;1;1"/><rect x="648" y="135" width="76" height="20" rx="10" fill="#e0f2f1" stroke="#00897b"/><text x="686" y="149" text-anchor="middle" font-size="12" fill="#00897b">python ✓</text></g>
+<rect x="400" y="166" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="400" y="166" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;2.000;1.000" values="0;1;1"/></rect>
+<text x="410" y="186" font-family="Menlo, Consolas, monospace" font-size="13">/usr/local/bin</text>
+<rect x="400" y="202" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="400" y="202" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;2.000;1.000" values="0;1;1"/></rect>
+<text x="410" y="222" font-family="Menlo, Consolas, monospace" font-size="13">/usr/bin</text>
+<rect x="400" y="238" width="330" height="30" rx="5" fill="#ffffff" stroke="#bbb"/>
+<rect x="400" y="238" width="330" height="30" rx="5" fill="#fff59d" stroke="#ef6c00" stroke-width="2" opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;2.000;1.000" values="0;1;1"/></rect>
+<text x="410" y="258" font-family="Menlo, Consolas, monospace" font-size="13">/bin</text>
+<g opacity="0"><animate attributeName="opacity" dur="9s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.190;1.000" values="0;1;1"/>
+<line x1="565" y1="282" x2="565" y2="298" stroke="#555" stroke-width="2" marker-end="url(#d1b)"/>
+<rect x="400" y="300" width="330" height="104" rx="8" fill="#e0f2f1" stroke="#00897b"/>
+<text x="412" y="322" font-size="12" font-family="Menlo, Consolas, monospace">runs ~/ai-course/.venv/bin/python</text>
+<text x="412" y="342" font-size="12">which reads .venv/pyvenv.cfg and imports</text>
+<text x="412" y="362" font-size="12" font-family="Menlo, Consolas, monospace">from .venv/lib/python3.13/site-packages</text>
+<text x="412" y="382" font-size="12">(this project's packages only)</text>
+</g>
+<text x="380" y="438" text-anchor="middle" font-size="13" fill="#555">Activation changes only PATH (plus the prompt and VIRTUAL_ENV). Nothing is copied or installed.</text>
+<text x="380" y="458" text-anchor="middle" font-size="13" fill="#555">Which python the shell finds decides which packages import can see.</text>
+</svg>
