@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<rect width="760" height="380" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">A round trip through JSON: what comes back changed</text>
+<g font-weight="bold"><text x="20" y="62" fill="#3949ab">Python, before</text><text x="280" y="62" fill="#ef6c00">JSON text</text><text x="530" y="62" fill="#00897b">Python, after</text></g>
+<rect x="20" y="72" width="215" height="200" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<rect x="272" y="72" width="215" height="200" rx="6" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<rect x="525" y="72" width="215" height="200" rx="6" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<g font-family="Courier New, monospace" font-size="13">
+<text x="30" y="100">"lr": 0.001</text><text x="282" y="100">"lr": 0.001</text><text x="535" y="100">'lr': 0.001</text>
+<text x="30" y="132">"pretrained": True</text><text x="282" y="132">"pretrained": true</text><text x="535" y="132">'pretrained': True</text>
+<text x="30" y="164">"weights": None</text><text x="282" y="164">"weights": null</text><text x="535" y="164">'weights': None</text>
+<text x="30" y="196">"shape": (1, 224, 3)</text><text x="282" y="196">"shape": [1, 224, 3]</text><text x="535" y="196" fill="#e53935" font-weight="bold">'shape': [1, 224, 3]</text>
+<text x="30" y="228">0: "cat"</text><text x="282" y="228">"0": "cat"</text><text x="535" y="228" fill="#e53935" font-weight="bold">'0': 'cat'</text>
+<text x="30" y="258" fill="#555" font-size="12">(a dict, in memory)</text><text x="282" y="258" fill="#555" font-size="12">(one str, in a file)</text><text x="535" y="258" fill="#555" font-size="12">(a new dict)</text>
+</g>
+<g stroke="#555" stroke-width="1.5" fill="#555"><path d="M238 170 H266"/><path d="M262 165 L270 170 L262 175 Z"/><path d="M490 170 H518"/><path d="M514 165 L522 170 L514 175 Z"/></g>
+<text x="253" y="295" text-anchor="middle" font-size="12" font-family="Courier New, monospace">json.dumps</text>
+<text x="505" y="295" text-anchor="middle" font-size="12" font-family="Courier New, monospace">json.loads</text>
+<rect x="20" y="312" width="720" height="54" rx="6" fill="#fff59d" stroke="#ef6c00" stroke-width="1"/>
+<text x="32" y="334" font-size="13"><tspan font-weight="bold" fill="#e53935">Changed:</tspan> JSON has no tuples, so a tuple comes back as a list; JSON keys are always</text>
+<text x="32" y="354" font-size="13">strings, so the int key 0 comes back as the string '0'. Convert them back yourself after loading.</text>
+</svg>

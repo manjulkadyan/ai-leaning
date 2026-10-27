@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 400" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<rect width="740" height="400" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">with: __exit__ runs whether the body finishes or fails</text>
+<text x="20" y="60" font-weight="bold" fill="#3949ab">What you write</text>
+<rect x="20" y="70" width="325" height="80" rx="6" fill="#f5f5f5" stroke="#999"/>
+<g font-family="Courier New, monospace" font-size="13">
+<text x="32" y="96">with open(path, encoding="utf-8") as f:</text>
+<text x="63" y="118">text = f.read()</text>
+<text x="63" y="140">config = json.loads(text)</text>
+</g>
+<text x="20" y="182" font-weight="bold" fill="#00897b">What Python does (roughly)</text>
+<rect x="20" y="192" width="325" height="160" rx="6" fill="#f5f5f5" stroke="#999"/>
+<g font-family="Courier New, monospace" font-size="13">
+<text x="32" y="216">manager = open(path, encoding="utf-8")</text>
+<text x="32" y="236">f = manager.__enter__()</text>
+<text x="32" y="256">try:</text>
+<text x="63" y="276">text = f.read()</text>
+<text x="63" y="296">config = json.loads(text)</text>
+<text x="32" y="316">finally:</text>
+<text x="63" y="336">manager.__exit__(...)</text>
+</g>
+<!-- timeline -->
+<text x="362" y="60" font-weight="bold" fill="#3949ab">Two runs</text>
+<g font-size="13">
+<rect x="360" y="80" width="90" height="36" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="405" y="103" text-anchor="middle">__enter__</text>
+<rect x="470" y="80" width="110" height="36" rx="6" fill="#e0f2f1" stroke="#00897b"/><text x="525" y="103" text-anchor="middle">body runs</text>
+<rect x="600" y="80" width="120" height="36" rx="6" fill="#fff3e0" stroke="#ef6c00"/><text x="660" y="97" text-anchor="middle">__exit__</text><text x="660" y="111" text-anchor="middle" font-size="11">file closed</text>
+<text x="362" y="140" font-size="12" fill="#555">Valid JSON: body finishes, __exit__ closes the file.</text>
+<rect x="360" y="190" width="90" height="36" rx="6" fill="#e8eaf6" stroke="#3949ab"/><text x="405" y="213" text-anchor="middle">__enter__</text>
+<rect x="470" y="190" width="110" height="36" rx="6" fill="#ffebee" stroke="#e53935"/><text x="525" y="207" text-anchor="middle">body fails</text><text x="525" y="221" text-anchor="middle" font-size="11">JSONDecodeError</text>
+<rect x="600" y="190" width="120" height="36" rx="6" fill="#fff3e0" stroke="#ef6c00"/><text x="660" y="207" text-anchor="middle">__exit__</text><text x="660" y="221" text-anchor="middle" font-size="11">file closed</text>
+<text x="362" y="250" font-size="12" fill="#555">Broken JSON: __exit__ still runs and closes the file,</text>
+<text x="362" y="266" font-size="12" fill="#555">then the exception carries on up to your except.</text>
+<rect x="600" y="290" width="120" height="36" rx="6" fill="#ffebee" stroke="#e53935"/><text x="660" y="313" text-anchor="middle" font-size="12">to the caller</text>
+</g>
+<g stroke-width="2" fill="none"><path d="M450 98 H468 M580 98 H598" stroke="#3949ab"/><path d="M450 208 H468 M580 208 H598" stroke="#3949ab"/><path d="M660 226 V288" stroke="#e53935"/></g>
+<circle r="8" fill="#00897b"><animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.05;0.4;1" calcMode="linear" path="M405 98 H615"/>
+<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.42;0.44;1" dur="10s" repeatCount="indefinite"/></circle>
+<circle r="8" fill="#e53935" opacity="0"><animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;0;0.62;1;1" keyTimes="0;0.5;0.8;0.92;1" calcMode="linear" path="M405 208 H660 V308"/>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.51;0.96;1" dur="10s" repeatCount="indefinite"/></circle>
+<text x="20" y="384" font-size="12" fill="#555">Kotlin's use { } does the same: close() runs in a finally, so the resource is released on every path.</text>
+</svg>
