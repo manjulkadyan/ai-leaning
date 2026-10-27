@@ -103,6 +103,7 @@ Match the depth of these lessons:
 
 - **Real output only.** Run every snippet with `python3 -I` from a scratch directory, not the repo, and paste the actual output. Never write "≈", "~" or "something like" for a value the code prints. Timings are the one exception: they depend on the machine, so say so ("on my laptop; yours will differ").
 - **Show output the way ▶ Run shows it.** The Run button echoes a bare expression with `repr()`, like a notebook. So a comment under a bare expression must show the repr: `array([[1, 2],\n       [3, 4]])` with commas, and `np.float64(0.5)`, not `0.5`. If you want the cleaner `print()` look, write `print(...)` explicitly. Say once per lesson, where NumPy scalars first appear, that they display as `np.float64(...)`.
+- **Integer dtypes differ in the browser.** Pyodide is 32-bit, so NumPy's default integer there is `int32`; on the reader's laptop (and in your runs) it is `int64`. Show the 64-bit output, and where an integer dtype or `np.int64(...)` first appears in a lesson, add one sentence saying ▶ Run shows `int32` there. [How lessons work](../docs/how-lessons-work.md) explains it site-wide.
 - **Runnable in page order.** Every Python block on the site has a ▶ Run button (Pyodide: Python 3.14, numpy 2.4, pandas 3.0, matplotlib 3.10). Blocks on a page share one namespace, top to bottom, like notebook cells. So:
     - imports and data loading come early;
     - never use a name before the block that defines it, and that includes solutions and illustrative snippets like `match device:`;
