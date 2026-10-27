@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <text x="20" y="28" font-weight="bold" font-size="15">Dividing each row by its total: without and with keepdims=True</text>
+  <line x1="360" y1="46" x2="360" y2="380" stroke="#cfd8dc" stroke-width="1.5"/>
+
+  <!-- LEFT: without keepdims -->
+  <text x="30" y="62" font-weight="bold" fill="#e53935">S / S.sum(axis=1)</text>
+  <text x="60" y="84" font-size="12" fill="#555">S, shape (2, 3)</text>
+  <g font-weight="bold" fill="#3949ab" text-anchor="middle">
+    <rect x="60" y="90" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="87" y="112">1</text>
+    <rect x="114" y="90" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="141" y="112">2</text>
+    <rect x="168" y="90" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="195" y="112">1</text>
+    <rect x="60" y="124" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="87" y="146">4</text>
+    <rect x="114" y="124" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="141" y="146">4</text>
+    <rect x="168" y="124" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="195" y="146">2</text>
+  </g>
+  <text x="60" y="180" font-size="12" fill="#555">tot, shape (2,): lines up with the columns</text>
+  <rect x="60" y="192" width="54" height="34" fill="#ffffff" stroke="#9e9e9e" stroke-dasharray="4 3"/>
+  <text x="87" y="214" text-anchor="middle" fill="#9e9e9e" font-weight="bold">?</text>
+  <g font-weight="bold" fill="#ef6c00" text-anchor="middle">
+    <rect x="114" y="192" width="54" height="34" fill="#fff3e0" stroke="#ef6c00"/><text x="141" y="214">4</text>
+    <rect x="168" y="192" width="54" height="34" fill="#fff3e0" stroke="#ef6c00"/><text x="195" y="214">10</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.2;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="54" y="186" width="174" height="46" rx="6" fill="none" stroke="#e53935" stroke-width="3"/>
+    <text x="30" y="262" font-size="13">(2, 3)</text>
+    <text x="30" y="282" font-size="13">(1, 2)  ← (2,) padded on the left</text>
+    <text x="30" y="306" font-size="13" font-weight="bold" fill="#e53935">last axis: 3 vs 2, neither is 1</text>
+    <text x="30" y="330" font-size="16" font-weight="bold" fill="#e53935">ValueError</text>
+    <text x="30" y="352" font-size="12" fill="#555">2 row totals, but 3 columns to cover.</text>
+    <text x="30" y="368" font-size="12" fill="#555">On a square matrix it runs, dividing columns.</text>
+  </g>
+
+  <!-- RIGHT: with keepdims -->
+  <text x="380" y="62" font-weight="bold" fill="#00897b">S / S.sum(axis=1, keepdims=True)</text>
+  <text x="400" y="84" font-size="12" fill="#555">S, shape (2, 3)</text>
+  <g font-weight="bold" fill="#3949ab" text-anchor="middle">
+    <rect x="400" y="90" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="427" y="112">1</text>
+    <rect x="454" y="90" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="481" y="112">2</text>
+    <rect x="508" y="90" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="535" y="112">1</text>
+    <rect x="400" y="124" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="427" y="146">4</text>
+    <rect x="454" y="124" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="481" y="146">4</text>
+    <rect x="508" y="124" width="54" height="34" fill="#e8eaf6" stroke="#3949ab"/><text x="535" y="146">2</text>
+  </g>
+  <text x="604" y="84" font-size="12" fill="#555">tot (2, 1)</text>
+  <g font-weight="bold" fill="#ef6c00" text-anchor="middle">
+    <rect x="610" y="90" width="54" height="34" fill="#fff3e0" stroke="#ef6c00"/><text x="637" y="112">4</text>
+    <rect x="610" y="124" width="54" height="34" fill="#fff3e0" stroke="#ef6c00"/><text x="637" y="146">10</text>
+  </g>
+  <text x="400" y="180" font-size="12" fill="#555">tot stretched along axis 1 (stride 0, no copy)</text>
+  <!-- three ghost copies of the column slide into place -->
+  <g font-weight="bold" fill="#ef6c00" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.27;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="210,-102;210,-102;0,0;0,0" keyTimes="0;0.25;0.33;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="400" y="192" width="54" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-dasharray="4 3"/><text x="427" y="214">4</text>
+    <rect x="400" y="226" width="54" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-dasharray="4 3"/><text x="427" y="248">10</text>
+  </g>
+  <g font-weight="bold" fill="#ef6c00" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.35;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="156,-102;156,-102;0,0;0,0" keyTimes="0;0.33;0.41;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="454" y="192" width="54" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-dasharray="4 3"/><text x="481" y="214">4</text>
+    <rect x="454" y="226" width="54" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-dasharray="4 3"/><text x="481" y="248">10</text>
+  </g>
+  <g font-weight="bold" fill="#ef6c00" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.41;0.43;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="102,-102;102,-102;0,0;0,0" keyTimes="0;0.41;0.49;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="508" y="192" width="54" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-dasharray="4 3"/><text x="535" y="214">4</text>
+    <rect x="508" y="226" width="54" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-dasharray="4 3"/><text x="535" y="248">10</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.6;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <text x="400" y="284" font-size="12" fill="#555">P = S / tot, shape (2, 3): each row sums to 1</text>
+    <g font-weight="bold" fill="#00897b" text-anchor="middle">
+      <rect x="400" y="292" width="54" height="34" fill="#e0f2f1" stroke="#00897b"/><text x="427" y="314">0.25</text>
+      <rect x="454" y="292" width="54" height="34" fill="#e0f2f1" stroke="#00897b"/><text x="481" y="314">0.5</text>
+      <rect x="508" y="292" width="54" height="34" fill="#e0f2f1" stroke="#00897b"/><text x="535" y="314">0.25</text>
+      <rect x="400" y="326" width="54" height="34" fill="#e0f2f1" stroke="#00897b"/><text x="427" y="348">0.4</text>
+      <rect x="454" y="326" width="54" height="34" fill="#e0f2f1" stroke="#00897b"/><text x="481" y="348">0.4</text>
+      <rect x="508" y="326" width="54" height="34" fill="#e0f2f1" stroke="#00897b"/><text x="535" y="348">0.2</text>
+    </g>
+    <text x="576" y="306" font-size="12" fill="#555">(2, 3)</text>
+    <text x="576" y="324" font-size="12" fill="#555">(2, 1)</text>
+    <text x="576" y="342" font-size="12" fill="#00897b">3 vs 1: stretch</text>
+    <text x="576" y="358" font-size="12" fill="#00897b">2 vs 2: equal</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<rect width="760" height="400" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">A generator runs only up to the next yield, then pauses</text>
+<text x="20" y="66" font-weight="bold" fill="#3949ab">Caller</text>
+<text x="340" y="66" font-weight="bold" fill="#ef6c00">Generator body</text>
+<rect x="20" y="80" width="290" height="140" rx="6" fill="#f5f5f5" stroke="#999"/>
+<rect x="340" y="80" width="400" height="215" rx="6" fill="#f5f5f5" stroke="#999"/>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1071;0.8857" dur="14s" calcMode="discrete" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,112;0,112;0,136;0,160;0,184;0,208;0,232;0,136;0,160;0,184;0,208;0,232;0,136;0,256" keyTimes="0;0.1071;0.1571;0.2071;0.2571;0.3929;0.4429;0.4929;0.5429;0.5929;0.7143;0.7571;0.8000;0.8429" dur="14s" calcMode="discrete" repeatCount="indefinite"/><rect x="346" y="0" width="388" height="23" rx="3" fill="#fff59d" stroke="#ef6c00"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0,86;0,116;0,146;0,176" keyTimes="0.0000;0.1071;0.3929;0.7143" dur="14s" calcMode="discrete" repeatCount="indefinite"/><rect x="26" y="0" width="278" height="26" rx="3" fill="#e8eaf6" stroke="#3949ab"/></g>
+<g style="white-space:pre" font-family="Courier New, monospace" font-size="13">
+<text x="352" y="105">def countdown_traced(n):</text>
+<text x="352" y="129">    print("  body starts")</text>
+<text x="352" y="153">    while n &gt; 0:</text>
+<text x="352" y="177">        print(f"  about to yield {n}")</text>
+<text x="352" y="201">        yield n</text>
+<text x="352" y="225">        print(f"  resumed after {n}")</text>
+<text x="352" y="249">        n -= 1</text>
+<text x="352" y="273">    print("  body ends")</text>
+<text x="34" y="105">gen = countdown_traced(2)</text>
+<text x="34" y="135">next(gen)</text>
+<text x="34" y="165">next(gen)</text>
+<text x="34" y="195">next(gen)</text>
+</g>
+<text x="130" y="135" style="white-space:pre" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#3949ab">→ 2<animate attributeName="opacity" values="0;1" keyTimes="0;0.2571" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="130" y="165" style="white-space:pre" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#3949ab">→ 1<animate attributeName="opacity" values="0;1" keyTimes="0;0.5929" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="130" y="195" style="white-space:pre" font-family="Courier New, monospace" font-size="13" font-weight="bold" fill="#e53935">→ StopIteration<animate attributeName="opacity" values="0;1" keyTimes="0;0.8857" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2571;0.3929" dur="14s" calcMode="discrete" repeatCount="indefinite"/><rect x="540" y="185" width="190" height="22" rx="11" fill="#ef6c00"/><text x="635" y="201" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">paused here, n = 2</text></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5929;0.7143" dur="14s" calcMode="discrete" repeatCount="indefinite"/><rect x="540" y="185" width="190" height="22" rx="11" fill="#ef6c00"/><text x="635" y="201" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">paused here, n = 1</text></g>
+<text x="20" y="252" font-weight="bold">Generator state</text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#555">GEN_CREATED<animate attributeName="opacity" values="1;0" keyTimes="0;0.1071" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00897b">GEN_RUNNING<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1071;0.2571" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#ef6c00">GEN_SUSPENDED<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2571;0.3929" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00897b">GEN_RUNNING<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3929;0.5929" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#ef6c00">GEN_SUSPENDED<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5929;0.7143" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00897b">GEN_RUNNING<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7143;0.8857" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#e53935">GEN_CLOSED<animate attributeName="opacity" values="0;1" keyTimes="0;0.8857" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="200" y="252" font-weight="bold">Locals in the frame</text>
+<text x="200" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold">n = 2<animate attributeName="opacity" values="1;0" keyTimes="0;0.4429" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="200" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold">n = 1<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4429;0.8000" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="200" y="276" style="white-space:pre" font-family="Courier New, monospace" font-size="15" font-weight="bold">n = 0<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8000;0.8857" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="200" y="276" font-size="14" font-weight="bold" fill="#e53935">frame released<animate attributeName="opacity" values="0;1" keyTimes="0;0.8857" dur="14s" calcMode="discrete" repeatCount="indefinite"/></text>
+<g font-size="13" fill="#555">
+<text x="20" y="330">1. gen = countdown_traced(2) builds the generator; no body line runs.</text>
+<text x="20" y="350">2. Each next(gen) resumes just after the last yield and runs to the next one.</text>
+<text x="20" y="370">3. Between calls the frame, with n and the current line, waits inside gen.</text>
+<text x="20" y="390">4. When the body ends, next(gen) raises StopIteration and gen is closed.</text>
+</g></svg>

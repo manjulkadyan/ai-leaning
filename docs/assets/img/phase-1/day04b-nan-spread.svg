@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="720" height="330" fill="#ffffff"/>
+<line x1="360" y1="20" x2="360" y2="270" stroke="#ddd" stroke-width="1.5"/>
+<text x="190" y="30" font-size="16" text-anchor="middle" fill="#222" font-family="Menlo, Consolas, monospace">data.sum()</text>
+<text x="38" y="80" font-size="11" text-anchor="end" fill="#555">data</text>
+<text x="38" y="166" font-size="11" text-anchor="end" fill="#555">total</text>
+<rect x="44" y="58" width="64" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="76.0" y="82" font-size="15" text-anchor="middle" fill="#1a237e">4.0</text>
+<line x1="76.0" y1="98" x2="76.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="44" y="144" width="64" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="76.0" y="168" font-size="15" text-anchor="middle" fill="#00695c">4.0</text>
+<line x1="109" y1="162" x2="119" y2="162" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="120" y="58" width="64" height="36" rx="5" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+<text x="152.0" y="82" font-size="15" text-anchor="middle" fill="#c62828">NaN</text>
+<line x1="152.0" y1="98" x2="152.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="120" y="144" width="64" height="36" rx="5" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+<text x="152.0" y="168" font-size="15" text-anchor="middle" fill="#c62828">NaN</text>
+<line x1="185" y1="162" x2="195" y2="162" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="196" y="58" width="64" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="228.0" y="82" font-size="15" text-anchor="middle" fill="#1a237e">3.0</text>
+<line x1="228.0" y1="98" x2="228.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="196" y="144" width="64" height="36" rx="5" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+<text x="228.0" y="168" font-size="15" text-anchor="middle" fill="#c62828">NaN</text>
+<line x1="261" y1="162" x2="271" y2="162" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="272" y="58" width="64" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="304.0" y="82" font-size="15" text-anchor="middle" fill="#1a237e">5.0</text>
+<line x1="304.0" y1="98" x2="304.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="272" y="144" width="64" height="36" rx="5" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+<text x="304.0" y="168" font-size="15" text-anchor="middle" fill="#c62828">NaN</text>
+<rect x="130" y="206" width="120" height="40" rx="6" fill="#ffebee" stroke="#e53935" stroke-width="2"/>
+<text x="190" y="232" font-size="17" text-anchor="middle" fill="#c62828" font-weight="bold" font-family="Menlo, Consolas, monospace">nan</text>
+<line x1="304" y1="184" x2="254" y2="210" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<text x="546" y="30" font-size="16" text-anchor="middle" fill="#222" font-family="Menlo, Consolas, monospace">np.nansum(data)</text>
+<text x="394" y="80" font-size="11" text-anchor="end" fill="#555">data</text>
+<text x="394" y="166" font-size="11" text-anchor="end" fill="#555">total</text>
+<rect x="400" y="58" width="64" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="432.0" y="82" font-size="15" text-anchor="middle" fill="#1a237e">4.0</text>
+<line x1="432.0" y1="98" x2="432.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="400" y="144" width="64" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="432.0" y="168" font-size="15" text-anchor="middle" fill="#00695c">4.0</text>
+<line x1="465" y1="162" x2="475" y2="162" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="476" y="58" width="64" height="36" rx="5" fill="#f5f5f5" stroke="#999" stroke-dasharray="4 3"/>
+<text x="508.0" y="82" font-size="15" text-anchor="middle" fill="#999">NaN</text>
+<line x1="484" y1="88" x2="532" y2="64" stroke="#999" stroke-width="2"/>
+<text x="508.0" y="112" font-size="11" text-anchor="middle" fill="#555">skipped</text>
+<rect x="476" y="144" width="64" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="508.0" y="168" font-size="15" text-anchor="middle" fill="#00695c">4.0</text>
+<line x1="541" y1="162" x2="551" y2="162" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="552" y="58" width="64" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="584.0" y="82" font-size="15" text-anchor="middle" fill="#1a237e">3.0</text>
+<line x1="584.0" y1="98" x2="584.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="552" y="144" width="64" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="584.0" y="168" font-size="15" text-anchor="middle" fill="#00695c">7.0</text>
+<line x1="617" y1="162" x2="627" y2="162" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="628" y="58" width="64" height="36" rx="5" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="660.0" y="82" font-size="15" text-anchor="middle" fill="#1a237e">5.0</text>
+<line x1="660.0" y1="98" x2="660.0" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<rect x="628" y="144" width="64" height="36" rx="5" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="660.0" y="168" font-size="15" text-anchor="middle" fill="#00695c">12.0</text>
+<rect x="486" y="206" width="120" height="40" rx="6" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="546" y="232" font-size="17" text-anchor="middle" fill="#00695c" font-weight="bold" font-family="Menlo, Consolas, monospace">12.0</text>
+<line x1="660" y1="184" x2="610" y2="210" stroke="#555" stroke-width="1.5" marker-end="url(#a3)"/>
+<text x="360" y="292" font-size="14" text-anchor="middle" fill="#333">Once NaN enters a running total, every later step is NaN too.</text>
+<text x="360" y="316" font-size="13" text-anchor="middle" fill="#555">The nan* functions treat NaN as "not there" and use the remaining values.</text>
+</svg>

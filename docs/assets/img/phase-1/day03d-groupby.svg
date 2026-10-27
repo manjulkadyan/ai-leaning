@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<rect width="760" height="330" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">itertools.groupby groups runs of equal neighbours</text>
+<text x="20" y="64" font-weight="bold">Unsorted input</text>
+<rect x="20" y="76" width="120" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="80" y="95" text-anchor="middle" font-weight="bold" fill="#3949ab">GAME</text>
+<text x="80" y="113" text-anchor="middle" font-size="12">Chess</text>
+<rect x="150" y="76" width="120" height="44" rx="6" fill="#e0f2f1" stroke="#00897b"/>
+<text x="210" y="95" text-anchor="middle" font-weight="bold" fill="#00897b">TOOLS</text>
+<text x="210" y="113" text-anchor="middle" font-size="12">Files</text>
+<rect x="280" y="76" width="120" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="340" y="95" text-anchor="middle" font-weight="bold" fill="#3949ab">GAME</text>
+<text x="340" y="113" text-anchor="middle" font-size="12">Go</text>
+<path d="M24,128 v8 H136 v-8" fill="none" stroke="#3949ab" stroke-width="2"/>
+<text x="80.0" y="154" text-anchor="middle" font-size="13" fill="#3949ab">GAME: 1 item</text>
+<path d="M154,128 v8 H266 v-8" fill="none" stroke="#00897b" stroke-width="2"/>
+<text x="210.0" y="154" text-anchor="middle" font-size="13" fill="#00897b">TOOLS: 1 item</text>
+<path d="M284,128 v8 H396 v-8" fill="none" stroke="#e53935" stroke-width="2"/>
+<text x="340.0" y="154" text-anchor="middle" font-size="13" fill="#e53935">GAME again!</text>
+<text x="420" y="104" font-size="13" fill="#555">3 groups: GAME appears twice</text>
+<text x="20" y="194" font-weight="bold">After sorted(..., key=category)</text>
+<rect x="20" y="206" width="120" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="80" y="225" text-anchor="middle" font-weight="bold" fill="#3949ab">GAME</text>
+<text x="80" y="243" text-anchor="middle" font-size="12">Chess</text>
+<rect x="150" y="206" width="120" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="210" y="225" text-anchor="middle" font-weight="bold" fill="#3949ab">GAME</text>
+<text x="210" y="243" text-anchor="middle" font-size="12">Go</text>
+<rect x="280" y="206" width="120" height="44" rx="6" fill="#e0f2f1" stroke="#00897b"/>
+<text x="340" y="225" text-anchor="middle" font-weight="bold" fill="#00897b">TOOLS</text>
+<text x="340" y="243" text-anchor="middle" font-size="12">Files</text>
+<path d="M24,258 v8 H266 v-8" fill="none" stroke="#3949ab" stroke-width="2"/>
+<text x="145.0" y="284" text-anchor="middle" font-size="13" fill="#3949ab">GAME: 2 items</text>
+<path d="M284,258 v8 H396 v-8" fill="none" stroke="#00897b" stroke-width="2"/>
+<text x="340.0" y="284" text-anchor="middle" font-size="13" fill="#00897b">TOOLS: 1 item</text>
+<text x="420" y="234" font-size="13" fill="#555">2 groups, one per key</text>
+<text x="20" y="318" font-size="13" fill="#555">Kotlin's groupBy { } gives the bottom answer for either input; Python's groupby needs the sort.</text>
+</svg>

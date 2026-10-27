@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="animated" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<defs><marker id="d1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16" fill="#3949ab">Kotlin on Android</text>
+<rect x="12" y="40" width="476" height="112" rx="10" fill="#e8eaf6" fill-opacity="0.45" stroke="#3949ab" stroke-dasharray="5 4"/>
+<text x="250" y="142" text-anchor="middle" font-size="12" fill="#3949ab">on your laptop, once, at build time (Gradle)</text>
+<rect x="24" y="54" width="100" height="50" rx="8" fill="#ffffff" stroke="#3949ab"/>
+<rect x="24" y="54" width="100" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.150;0.151;1.000" values="1;1;0;0"/></rect>
+<rect x="24" y="54" width="100" height="50" rx="8" fill="none" stroke="#3949ab" stroke-width="1.5"/>
+<text x="74.0" y="84" text-anchor="middle">Main.kt</text>
+
+<rect x="158" y="54" width="140" height="50" rx="8" fill="#ffffff" stroke="#3949ab"/>
+<rect x="158" y="54" width="140" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.149;0.150;0.350;0.351;1.000" values="0;0;1;1;0;0"/></rect>
+<rect x="158" y="54" width="140" height="50" rx="8" fill="none" stroke="#3949ab" stroke-width="1.5"/>
+<text x="228.0" y="76" text-anchor="middle">kotlinc + D8</text>
+<text x="228.0" y="94" text-anchor="middle" font-size="12" fill="#555">type-check, compile</text>
+
+<rect x="332" y="54" width="140" height="50" rx="8" fill="#ffffff" stroke="#3949ab"/>
+<rect x="332" y="54" width="140" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.349;0.350;0.500;0.501;1.000" values="0;0;1;1;0;0"/></rect>
+<rect x="332" y="54" width="140" height="50" rx="8" fill="none" stroke="#3949ab" stroke-width="1.5"/>
+<text x="402.0" y="76" text-anchor="middle">classes.dex</text>
+<text x="402.0" y="94" text-anchor="middle" font-size="12" fill="#555">inside the APK</text>
+
+<rect x="530" y="54" width="210" height="50" rx="8" fill="#e8eaf6" stroke="#3949ab"/>
+<rect x="530" y="54" width="210" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.549;0.550;1.000" values="0;0;1;1"/></rect>
+<rect x="530" y="54" width="210" height="50" rx="8" fill="none" stroke="#3949ab" stroke-width="1.5"/>
+<text x="635.0" y="76" text-anchor="middle">ART on the phone</text>
+<text x="635.0" y="94" text-anchor="middle" font-size="12" fill="#555">AOT/JIT to machine code</text>
+
+<line x1="124" y1="79" x2="156" y2="79" stroke="#555" stroke-width="2" marker-end="url(#d1a)"/>
+<line x1="298" y1="79" x2="330" y2="79" stroke="#555" stroke-width="2" marker-end="url(#d1a)"/>
+<line x1="472" y1="79" x2="528" y2="79" stroke="#555" stroke-width="2" marker-end="url(#d1a)"/>
+
+<text x="509" y="70" text-anchor="middle" font-size="11" fill="#555">install</text>
+<text x="228" y="124" text-anchor="middle" font-size="12" fill="#e53935">type errors stop the build here</text>
+<text x="20" y="196" font-weight="bold" font-size="16" fill="#00897b">Python (CPython)</text>
+<rect x="12" y="208" width="736" height="132" rx="10" fill="#e0f2f1" fill-opacity="0.45" stroke="#00897b" stroke-dasharray="5 4"/>
+<text x="380" y="330" text-anchor="middle" font-size="12" fill="#00897b">all on the same machine, every time you type python hello.py</text>
+<rect x="24" y="244" width="100" height="50" rx="8" fill="#ffffff" stroke="#00897b"/>
+<rect x="24" y="244" width="100" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.120;0.121;1.000" values="1;1;0;0"/></rect>
+<rect x="24" y="244" width="100" height="50" rx="8" fill="none" stroke="#00897b" stroke-width="1.5"/>
+<text x="74.0" y="274" text-anchor="middle">hello.py</text>
+
+<rect x="158" y="244" width="150" height="50" rx="8" fill="#ffffff" stroke="#00897b"/>
+<rect x="158" y="244" width="150" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.119;0.120;0.250;0.251;1.000" values="0;0;1;1;0;0"/></rect>
+<rect x="158" y="244" width="150" height="50" rx="8" fill="none" stroke="#00897b" stroke-width="1.5"/>
+<text x="233.0" y="266" text-anchor="middle">compile</text>
+<text x="233.0" y="284" text-anchor="middle" font-size="12" fill="#555">to bytecode, in memory</text>
+
+<rect x="342" y="244" width="180" height="50" rx="8" fill="#ffffff" stroke="#00897b"/>
+<rect x="342" y="244" width="180" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.249;0.250;0.550;0.551;1.000" values="0;0;1;1;0;0"/></rect>
+<rect x="342" y="244" width="180" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.699;0.700;1.000" values="0;0;1;1"/></rect>
+<rect x="342" y="244" width="180" height="50" rx="8" fill="none" stroke="#00897b" stroke-width="1.5"/>
+<text x="432.0" y="266" text-anchor="middle">eval loop</text>
+<text x="432.0" y="284" text-anchor="middle" font-size="12" fill="#555">one instruction at a time</text>
+
+<rect x="560" y="244" width="180" height="50" rx="8" fill="#fff3e0" stroke="#ef6c00"/>
+<rect x="560" y="244" width="180" height="50" rx="8" fill="#fff59d" opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000;0.549;0.550;0.700;0.701;1.000" values="0;0;1;1;0;0"/></rect>
+<rect x="560" y="244" width="180" height="50" rx="8" fill="none" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="650.0" y="266" text-anchor="middle">NumPy / PyTorch</text>
+<text x="650.0" y="284" text-anchor="middle" font-size="12" fill="#555">compiled C, C++, CUDA</text>
+
+<line x1="124" y1="269" x2="156" y2="269" stroke="#555" stroke-width="2" marker-end="url(#d1a)"/>
+<line x1="308" y1="269" x2="340" y2="269" stroke="#555" stroke-width="2" marker-end="url(#d1a)"/>
+<line x1="522" y1="269" x2="558" y2="269" stroke="#555" stroke-width="2" marker-end="url(#d1a)"/>
+
+<path d="M402,242 C402,218 462,218 462,242" fill="none" stroke="#00897b" stroke-width="2" marker-end="url(#d1a)"/>
+<text x="470" y="232" font-size="11" fill="#555">repeat</text>
+<text x="432" y="312" text-anchor="middle" font-size="12" fill="#e53935">type errors appear only when that line runs</text>
+<text x="650" y="312" text-anchor="middle" font-size="12" fill="#ef6c00">the heavy maths runs here</text>
+<text x="380" y="378" text-anchor="middle" font-size="13" fill="#555">Kotlin does its checking and compiling before the app ever runs.</text>
+<text x="380" y="400" text-anchor="middle" font-size="13" fill="#555">Python compiles and runs in one go, and hands big array maths to native code.</text>
+</svg>

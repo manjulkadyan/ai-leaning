@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 336" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+  <rect x="0" y="0" width="780" height="336" fill="#ffffff"/>
+  <text x="390" y="26" text-anchor="middle" font-weight="bold">One character, one to four UTF-8 bytes</text>
+  <g font-size="12" fill="#555">
+    <text x="24" y="58">character</text>
+    <text x="110" y="58">code point</text>
+    <text x="210" y="58">bytes in UTF-8 (marker bits in orange)</text>
+  </g>
+
+  <!-- moving highlight -->
+  <rect x="8" y="66" width="764" height="52" rx="6" fill="#fff59d" stroke="#ef6c00" stroke-width="2">
+    <animate attributeName="y" values="66;124;182;240" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- row A -->
+  <g>
+    <text x="40" y="99" font-size="22" text-anchor="middle">A</text>
+    <text x="150" y="98" text-anchor="middle" font-family="Menlo, Consolas, monospace">65</text>
+    <rect x="210" y="74" width="132" height="34" rx="4" fill="#e0f2f1" stroke="#00897b"/>
+    <text x="222" y="97" font-family="Menlo, Consolas, monospace" font-size="15"><tspan fill="#ef6c00">0</tspan>1000001</text>
+    <text x="360" y="97" font-size="12" fill="#555">1 byte: a leading 0, then 7 bits. Same as ASCII.</text>
+  </g>
+  <!-- row e-acute -->
+  <g>
+    <text x="40" y="157" font-size="22" text-anchor="middle">é</text>
+    <text x="150" y="156" text-anchor="middle" font-family="Menlo, Consolas, monospace">233</text>
+    <rect x="210" y="132" width="132" height="34" rx="4" fill="#e0f2f1" stroke="#00897b"/>
+    <text x="222" y="155" font-family="Menlo, Consolas, monospace" font-size="15"><tspan fill="#ef6c00">110</tspan>00011</text>
+    <rect x="350" y="132" width="132" height="34" rx="4" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="362" y="155" font-family="Menlo, Consolas, monospace" font-size="15"><tspan fill="#ef6c00">10</tspan>101001</text>
+    <text x="500" y="155" font-size="12" fill="#555">2 bytes: 110 means "two"</text>
+  </g>
+  <!-- row euro -->
+  <g>
+    <text x="40" y="215" font-size="22" text-anchor="middle">€</text>
+    <text x="150" y="214" text-anchor="middle" font-family="Menlo, Consolas, monospace">8364</text>
+    <rect x="210" y="190" width="132" height="34" rx="4" fill="#e0f2f1" stroke="#00897b"/>
+    <text x="222" y="213" font-family="Menlo, Consolas, monospace" font-size="15"><tspan fill="#ef6c00">1110</tspan>0010</text>
+    <rect x="350" y="190" width="132" height="34" rx="4" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="362" y="213" font-family="Menlo, Consolas, monospace" font-size="15"><tspan fill="#ef6c00">10</tspan>000010</text>
+    <rect x="490" y="190" width="132" height="34" rx="4" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="502" y="213" font-family="Menlo, Consolas, monospace" font-size="15"><tspan fill="#ef6c00">10</tspan>101100</text>
+    <text x="634" y="213" font-size="12" fill="#555">3 bytes</text>
+  </g>
+  <!-- row emoji -->
+  <g>
+    <text x="40" y="273" font-size="22" text-anchor="middle">👍</text>
+    <text x="150" y="272" text-anchor="middle" font-family="Menlo, Consolas, monospace">128077</text>
+    <rect x="210" y="248" width="120" height="34" rx="4" fill="#e0f2f1" stroke="#00897b"/>
+    <text x="218" y="271" font-family="Menlo, Consolas, monospace" font-size="14"><tspan fill="#ef6c00">11110</tspan>000</text>
+    <rect x="338" y="248" width="120" height="34" rx="4" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="346" y="271" font-family="Menlo, Consolas, monospace" font-size="14"><tspan fill="#ef6c00">10</tspan>011111</text>
+    <rect x="466" y="248" width="120" height="34" rx="4" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="474" y="271" font-family="Menlo, Consolas, monospace" font-size="14"><tspan fill="#ef6c00">10</tspan>010001</text>
+    <rect x="594" y="248" width="120" height="34" rx="4" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="602" y="271" font-family="Menlo, Consolas, monospace" font-size="14"><tspan fill="#ef6c00">10</tspan>001101</text>
+    <text x="722" y="270" font-size="12" fill="#555">4 bytes</text>
+  </g>
+  <text x="24" y="310" font-size="12" fill="#555">The lead byte's run of 1 bits counts the bytes in the character;</text>
+  <text x="24" y="326" font-size="12" fill="#555">every continuation byte starts with 10, so a decoder always knows where a character begins.</text>
+</svg>

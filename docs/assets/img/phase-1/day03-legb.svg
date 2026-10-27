@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<rect width="700" height="430" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">LEGB: looking up a bare name, from the inside out</text>
+<rect x="20" y="60" width="660" height="330" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="32" y="82" font-weight="bold" fill="#ef6c00">B  Built-in</text>
+<text x="668" y="82" text-anchor="end" font-size="12" font-family="Courier New, monospace">len, print, range, list, max, ...</text>
+<rect x="40" y="100" width="620" height="280" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="52" y="122" font-weight="bold" fill="#3949ab">G  Global (the module)</text>
+<text x="648" y="122" text-anchor="end" font-size="12" font-family="Courier New, monospace">scale = 10,  outer = &lt;function&gt;</text>
+<rect x="60" y="140" width="580" height="230" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="72" y="162" font-weight="bold" fill="#00897b">E  Enclosing: outer()</text>
+<text x="628" y="162" text-anchor="end" font-size="12" font-family="Courier New, monospace">scale = 2,  inner = &lt;function&gt;</text>
+<rect x="80" y="180" width="330" height="180" rx="8" fill="#ffffff" stroke="#3949ab" stroke-width="1.5"/>
+<text x="92" y="202" font-weight="bold" fill="#3949ab">L  Local: inner(x)</text>
+<text x="398" y="202" text-anchor="end" font-size="12" font-family="Courier New, monospace">x = 5,  n</text>
+<text x="95" y="245" font-size="12" font-family="Courier New, monospace">n = len(...)</text>
+<text x="95" y="268" font-size="12" font-family="Courier New, monospace">return x * scale</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.050;0.45;0.460;1" dur="12s" repeatCount="indefinite"/><rect x="77" y="177" width="336" height="186" rx="10" fill="none" stroke="#e53935" stroke-width="3"/><text x="398" y="350" text-anchor="end" font-size="12" font-weight="bold" fill="#e53935">✗ scale? not here</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.14;0.150;0.45;0.460;1" dur="12s" repeatCount="indefinite"/><rect x="57" y="137" width="586" height="236" rx="10" fill="none" stroke="#00897b" stroke-width="3"/><text x="250" y="162" text-anchor="start" font-size="12" font-weight="bold" fill="#00897b">✓ scale found: 2</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.530;0.97;0.980;1" dur="12s" repeatCount="indefinite"/><rect x="77" y="177" width="336" height="186" rx="10" fill="none" stroke="#e53935" stroke-width="3"/><text x="398" y="350" text-anchor="end" font-size="12" font-weight="bold" fill="#e53935">✗ len? not here</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.610;0.97;0.980;1" dur="12s" repeatCount="indefinite"/><rect x="57" y="137" width="586" height="236" rx="10" fill="none" stroke="#e53935" stroke-width="3"/><text x="250" y="162" text-anchor="start" font-size="12" font-weight="bold" fill="#e53935">✗ len? not here</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.68;0.690;0.97;0.980;1" dur="12s" repeatCount="indefinite"/><rect x="37" y="97" width="626" height="286" rx="10" fill="none" stroke="#e53935" stroke-width="3"/><text x="250" y="122" text-anchor="start" font-size="12" font-weight="bold" fill="#e53935">✗ len? not here</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.76;0.770;0.97;0.980;1" dur="12s" repeatCount="indefinite"/><rect x="17" y="57" width="666" height="336" rx="10" fill="none" stroke="#00897b" stroke-width="3"/><text x="250" y="82" text-anchor="start" font-size="12" font-weight="bold" fill="#00897b">✓ len found: built-in</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02;0.030;0.45;0.460;1" dur="12s" repeatCount="indefinite"/><text x="20" y="415" font-size="13" fill="#555">Looking up <tspan font-weight="bold" fill="#00897b">scale</tspan> inside inner: Local has no scale, Enclosing does. First match wins: 2.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.510;0.97;0.980;1" dur="12s" repeatCount="indefinite"/><text x="20" y="415" font-size="13" fill="#555">Looking up <tspan font-weight="bold" fill="#ef6c00">len</tspan>: not in L, E or G, so Python finds the built-in.</text></g>
+</svg>

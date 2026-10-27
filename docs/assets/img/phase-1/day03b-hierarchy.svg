@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="760" height="400" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">The exception tree (the parts you'll meet)</text>
+<g font-family="Courier New, monospace" font-size="12">
+<rect x="300" y="44" width="160" height="30" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/><text x="380" y="64" text-anchor="middle" font-weight="bold">BaseException</text>
+<rect x="40" y="110" width="170" height="30" rx="6" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="125" y="130" text-anchor="middle">KeyboardInterrupt</text>
+<rect x="40" y="150" width="170" height="30" rx="6" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/><text x="125" y="170" text-anchor="middle">SystemExit</text>
+<rect x="420" y="110" width="120" height="30" rx="6" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/><text x="480" y="130" text-anchor="middle" font-weight="bold">Exception</text>
+</g>
+<text x="40" y="200" font-size="12" fill="#ef6c00" font-weight="bold">stop signals: don't swallow</text>
+<g stroke="#555" stroke-width="1.5" fill="none">
+<path d="M380 74 V92 H230 V165 M230 125 H212 M230 165 H212"/>
+<path d="M380 92 H480 V108"/>
+</g>
+<rect x="250" y="150" width="490" height="230" rx="10" fill="none" stroke="#00897b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="730" y="170" text-anchor="end" font-size="12" fill="#00897b" font-weight="bold">caught by except Exception</text>
+<g stroke="#555" stroke-width="1.5" fill="none"><path d="M480 140 V180 H320 V196 M480 180 H480 M480 180 H650 V196 M400 180 V196 M560 180 V196 M480 180 V196"/></g>
+<g font-family="Courier New, monospace" font-size="12">
+<rect x="262" y="198" width="116" height="26" rx="5" fill="#e8eaf6" stroke="#3949ab"/><text x="320" y="216" text-anchor="middle">LookupError</text>
+<rect x="262" y="232" width="116" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="320" y="249" text-anchor="middle">KeyError</text>
+<rect x="262" y="262" width="116" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="320" y="279" text-anchor="middle">IndexError</text>
+<rect x="382" y="198" width="70" height="26" rx="5" fill="#e8eaf6" stroke="#3949ab"/><text x="417" y="216" text-anchor="middle">OSError</text>
+<rect x="382" y="232" width="70" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="417" y="249" text-anchor="middle" font-size="10">FileNotFound</text>
+<rect x="382" y="262" width="70" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="417" y="279" text-anchor="middle" font-size="10">Permission</text>
+<rect x="382" y="292" width="70" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="417" y="309" text-anchor="middle" font-size="10">Connection</text>
+<rect x="456" y="198" width="100" height="26" rx="5" fill="#e8eaf6" stroke="#3949ab"/><text x="506" y="216" text-anchor="middle" font-size="10">ArithmeticError</text>
+<rect x="456" y="232" width="100" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="506" y="249" text-anchor="middle" font-size="10">ZeroDivision</text>
+<rect x="560" y="198" width="80" height="26" rx="5" fill="#e8eaf6" stroke="#3949ab"/><text x="600" y="216" text-anchor="middle">ValueError</text>
+<rect x="560" y="232" width="80" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="600" y="249" text-anchor="middle" font-size="10">JSONDecode</text>
+<rect x="644" y="198" width="88" height="26" rx="5" fill="#e8eaf6" stroke="#3949ab"/><text x="688" y="216" text-anchor="middle">TypeError</text>
+<rect x="644" y="300" width="88" height="26" rx="5" fill="#e8eaf6" stroke="#3949ab"/><text x="688" y="318" text-anchor="middle" font-size="11">RuntimeError</text>
+<rect x="644" y="334" width="88" height="24" rx="5" fill="#fff" stroke="#3949ab"/><text x="688" y="351" text-anchor="middle" font-size="10">RecursionError</text>
+</g>
+<g stroke="#555" stroke-width="1" fill="none">
+<path d="M320 224 V232 M320 256 V262"/><path d="M417 224 V232 M417 256 V262 M417 286 V292"/><path d="M506 224 V232"/><path d="M600 224 V232"/><path d="M688 326 V334"/>
+<path d="M650 180 H736 V313 H732"/>
+</g>
+<text x="262" y="350" font-size="12" fill="#555">Library errors hang off these: JSONDecodeError is a ValueError,</text>
+<text x="262" y="366" font-size="12" fill="#555">so except ValueError catches bad JSON too.</text>
+</svg>

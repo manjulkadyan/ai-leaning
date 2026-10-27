@@ -8,14 +8,24 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 ## Week 1: Python for Kotlin developers
 
+Week 1 was rewritten in depth, so it now has 13 lessons (Days 2a–4c are the extra ones) and about 38 hours of work including the review day. That's more than one calendar week for most people: take it at your own pace, one lesson per sitting.
+
 | Day | Lesson | Time |
 |---|---|---|
-| 1 | [Your AI workstation and first Python program](../lessons/phase-1/day-01-setup.md) | 90 min |
-| 2 | [Python's core types, through Kotlin eyes](../lessons/phase-1/day-02-python-types.md) | 90 min |
-| 3 | [Functions, classes and modules](../lessons/phase-1/day-03-functions-classes.md) | 90 min |
-| 4 | [NumPy arrays: why ML runs on them](../lessons/phase-1/day-04-numpy-arrays.md) | 120 min |
-| 5 | [Vectors: the atoms of machine learning](../lessons/phase-1/day-05-vectors.md) | 120 min |
-| 6 | **Review + mini-project:** [a word-frequency analyzer that turns sentences into count vectors and finds the most similar pair](../lessons/phase-1/day-06-week1-review.md) | 3 h |
+| 1 | [Your AI workstation and first Python program](../lessons/phase-1/day-01-setup.md) | 150 min |
+| 2 | [Python's core types, through Kotlin eyes](../lessons/phase-1/day-02-python-types.md) | 140 min |
+| 2a | [Strings, text and formatting](../lessons/phase-1/day-02a-strings.md) | 130 min |
+| 2b | [Lists, tuples, dicts and sets in depth](../lessons/phase-1/day-02b-collections.md) | 170 min |
+| 3 | [Functions, scope and type hints](../lessons/phase-1/day-03-functions-classes.md) | 150 min |
+| 3a | [Classes, decorators and modules](../lessons/phase-1/day-03a-classes-modules.md) | 180 min |
+| 3b | [Errors and exceptions](../lessons/phase-1/day-03b-errors-files-json.md) | 140 min |
+| 3c | [Files, JSON, logging and tests](../lessons/phase-1/day-03c-files-json.md) | 170 min |
+| 3d | [Iterators and generators](../lessons/phase-1/day-03d-iterators-generators.md) | 150 min |
+| 4 | [NumPy arrays, and why ML runs on them](../lessons/phase-1/day-04-numpy-arrays.md) | 180 min |
+| 4b | [The NumPy toolkit](../lessons/phase-1/day-04b-numpy-toolkit.md) | 160 min |
+| 4c | [Random numbers, saving arrays and statistics](../lessons/phase-1/day-04c-random-io-stats.md) | 140 min |
+| 5 | [Vectors, the atoms of machine learning](../lessons/phase-1/day-05-vectors.md) | 150 min |
+| 6 | **Review + mini-project:** [word-count search over a folder of notes: files, JSON, generators, errors and NumPy similarity](../lessons/phase-1/day-06-week1-review.md) | 5 h (two sittings) |
 | 7 | Rest | |
 
 **Self-check.** Can you explain the difference between a Python list and a NumPy array? What does a dot product measure?
@@ -24,11 +34,11 @@ Lessons marked *coming soon* are being written; the plan is fixed so you can see
 
 | Day | Lesson | Time |
 |---|---|---|
-| 8 | [Shapes, reshaping and indexing](../lessons/phase-1/day-08-shapes-indexing.md) | 90 min |
-| 9 | [Broadcasting](../lessons/phase-1/day-09-broadcasting.md) | 90 min |
-| 10 | [Matrices and matrix multiplication](../lessons/phase-1/day-10-matrices-matmul.md) | 120 min |
-| 11 | [Transpose, identity and inverse](../lessons/phase-1/day-11-transpose-identity-inverse.md) | 90 min |
-| 12 | [A neural-network layer is a matrix multiply](../lessons/phase-1/day-12-layer-is-matmul.md) | 120 min |
+| 8 | [Shapes, reshaping and indexing](../lessons/phase-1/day-08-shapes-indexing.md) | 150 min |
+| 9 | [Broadcasting](../lessons/phase-1/day-09-broadcasting.md) | 120 min |
+| 10 | [Matrices and matrix multiplication](../lessons/phase-1/day-10-matrices-matmul.md) | 150 min |
+| 11 | [Transpose, identity and inverse](../lessons/phase-1/day-11-transpose-identity-inverse.md) | 150 min |
+| 12 | [A neural-network layer is a matrix multiply](../lessons/phase-1/day-12-layer-is-matmul.md) | 150 min |
 | 13 | **Review + mini-project:** [pure-Python vs NumPy matrix benchmark](../lessons/phase-1/day-13-week2-review.md) | 3 h |
 | 14 | Rest | |
 

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<rect width="760" height="400" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker></defs>
+<text x="20" y="26" font-weight="bold" font-size="15">Four floats as a Python list, and as a NumPy array</text>
+<text x="20" y="54" font-weight="bold" fill="#3949ab">Python list   xs = [1.5, 2.0, 3.25, 4.0]</text>
+<text x="20" y="72" font-size="12" fill="#555">a list object, an array of 8-byte addresses, and four separate float objects (24 bytes each) wherever the heap put them</text>
+<rect x="20" y="90" width="84" height="40" rx="3" fill="#fff3e0" stroke="#ef6c00"/><text x="62" y="107" text-anchor="middle" font-size="12">list object</text><text x="62" y="123" text-anchor="middle" font-size="12">len 4</text>
+<line x1="104" y1="110" x2="118" y2="110" stroke="#ef6c00" stroke-width="1.5" marker-end="url(#ao)"/>
+<rect x="120" y="90" width="56" height="40" fill="#e8eaf6" stroke="#3949ab"/><text x="148" y="115" text-anchor="middle" font-size="12">addr</text>
+<rect x="176" y="90" width="56" height="40" fill="#e8eaf6" stroke="#3949ab"/><text x="204" y="115" text-anchor="middle" font-size="12">addr</text>
+<rect x="232" y="90" width="56" height="40" fill="#e8eaf6" stroke="#3949ab"/><text x="260" y="115" text-anchor="middle" font-size="12">addr</text>
+<rect x="288" y="90" width="56" height="40" fill="#e8eaf6" stroke="#3949ab"/><text x="316" y="115" text-anchor="middle" font-size="12">addr</text>
+<rect x="400" y="200" width="118" height="32" rx="6" fill="#ffffff" stroke="#9e9e9e"/><text x="459" y="221" text-anchor="middle" font-size="12">float object 1.5</text>
+<line x1="148" y1="130" x2="459" y2="198" stroke="#7986cb" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="490" y="165" width="118" height="32" rx="6" fill="#ffffff" stroke="#9e9e9e"/><text x="549" y="186" text-anchor="middle" font-size="12">float object 2.0</text>
+<line x1="204" y1="130" x2="549" y2="163" stroke="#7986cb" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="230" y="180" width="118" height="32" rx="6" fill="#ffffff" stroke="#9e9e9e"/><text x="289" y="201" text-anchor="middle" font-size="12">float object 3.25</text>
+<line x1="260" y1="130" x2="289" y2="178" stroke="#7986cb" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="610" y="140" width="118" height="32" rx="6" fill="#ffffff" stroke="#9e9e9e"/><text x="669" y="161" text-anchor="middle" font-size="12">float object 4.0</text>
+<line x1="316" y1="130" x2="669" y2="138" stroke="#7986cb" stroke-width="1.5" marker-end="url(#ar)"/>
+<circle r="7" fill="#e53935" opacity="0.9"><animateMotion dur="8s" repeatCount="indefinite" path="M148,110 L459,216 L204,110 L549,181 L260,110 L289,196 L316,110 L669,156" keyPoints="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571;1.0000" keyTimes="0.0000;0.1429;0.2857;0.4286;0.5714;0.7143;0.8571;1.0000" calcMode="linear"/></circle>
+<text x="20" y="252" font-size="12" fill="#555">reading means: fetch an address, jump to the object, check its type, read its value, repeat</text>
+<line x1="20" y1="262" x2="740" y2="262" stroke="#ddd"/>
+<text x="20" y="282" font-weight="bold" fill="#00897b">NumPy array   arr = np.array([1.5, 2.0, 3.25, 4.0])</text>
+<text x="20" y="300" font-size="12" fill="#555">one small header, and one block of raw 8-byte float64 values side by side: no addresses, no per-item objects</text>
+<rect x="20" y="314" width="150" height="60" rx="3" fill="#fff3e0" stroke="#ef6c00"/><text x="95" y="332" text-anchor="middle" font-size="12">ndarray header</text><text x="95" y="349" text-anchor="middle" font-size="12">dtype float64</text><text x="95" y="366" text-anchor="middle" font-size="12">shape (4,)</text>
+<line x1="170" y1="344" x2="198" y2="344" stroke="#ef6c00" stroke-width="1.5" marker-end="url(#ao)"/>
+<rect x="200" y="324" width="100" height="40" fill="#e0f2f1" stroke="#00897b"/><text x="250" y="349" text-anchor="middle" font-family="Menlo, Consolas, monospace">1.5</text><text x="204" y="380" font-size="11" fill="#555">byte 0</text>
+<rect x="300" y="324" width="100" height="40" fill="#e0f2f1" stroke="#00897b"/><text x="350" y="349" text-anchor="middle" font-family="Menlo, Consolas, monospace">2.0</text><text x="304" y="380" font-size="11" fill="#555">byte 8</text>
+<rect x="400" y="324" width="100" height="40" fill="#e0f2f1" stroke="#00897b"/><text x="450" y="349" text-anchor="middle" font-family="Menlo, Consolas, monospace">3.25</text><text x="404" y="380" font-size="11" fill="#555">byte 16</text>
+<rect x="500" y="324" width="100" height="40" fill="#e0f2f1" stroke="#00897b"/><text x="550" y="349" text-anchor="middle" font-family="Menlo, Consolas, monospace">4.0</text><text x="504" y="380" font-size="11" fill="#555">byte 24</text>
+<rect x="200" y="322" width="24" height="44" fill="#ef6c00" opacity="0.35"><animate attributeName="x" values="200;576;576" keyTimes="0;0.25;1" dur="8s" repeatCount="indefinite"/></rect>
+<text x="612" y="338" font-size="12" fill="#555">32 bytes of data</text>
+<text x="612" y="356" font-size="12" fill="#00897b" opacity="0">one sweep: done<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" dur="8s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="612" y="356" font-size="12" fill="#555">streaming…<animate attributeName="opacity" values="1;0;0" keyTimes="0;0.25;1" dur="8s" calcMode="discrete" repeatCount="indefinite"/></text>
+</svg>

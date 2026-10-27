@@ -92,22 +92,24 @@ There is no length cap. A 90–120 minute lesson that follows Step 2 is usually 
 
 Match the depth of these lessons:
 
-- `docs/lessons/phase-1/day-08-shapes-indexing.md` and `day-09-broadcasting.md` (Python/NumPy, including prediction exercises);
+- `docs/lessons/phase-1/day-03d-iterators-generators.md`, `day-04-numpy-arrays.md` and `day-05-vectors.md` (Python, NumPy and maths written to this brief and passed by a reviewer);
 - `day-22-norms-distances.md` and `day-25-projections-pca.md` (maths);
 - `day-17-pandas-cleaning.md` (data work);
 - `day-20-week3-review.md` (review days).
 
-**Do not** use Days 1–5 as references: they are being rewritten for being too thin (see [review-week1.md](review-week1.md)).
+Days 1–5 were rewritten to this brief in October 2026 and are now good references. Days 8–13 are being revised; until then, don't copy their output style (print-form comments, unwrapped errors).
 
 ## Code: it has to be perfect
 
 - **Real output only.** Run every snippet with `python3 -I` from a scratch directory, not the repo, and paste the actual output. Never write "≈", "~" or "something like" for a value the code prints. Timings are the one exception: they depend on the machine, so say so ("on my laptop; yours will differ").
+- **Show output the way ▶ Run shows it.** The Run button echoes a bare expression with `repr()`, like a notebook. So a comment under a bare expression must show the repr: `array([[1, 2],\n       [3, 4]])` with commas, and `np.float64(0.5)`, not `0.5`. If you want the cleaner `print()` look, write `print(...)` explicitly. Say once per lesson, where NumPy scalars first appear, that they display as `np.float64(...)`.
+- **Integer dtypes differ in the browser.** Pyodide is 32-bit, so NumPy's default integer there is `int32`; on the reader's laptop (and in your runs) it is `int64`. Show the 64-bit output, and where an integer dtype or `np.int64(...)` first appears in a lesson, add one sentence saying ▶ Run shows `int32` there. [How lessons work](../docs/how-lessons-work.md) explains it site-wide.
 - **Runnable in page order.** Every Python block on the site has a ▶ Run button (Pyodide: Python 3.14, numpy 2.4, pandas 3.0, matplotlib 3.10). Blocks on a page share one namespace, top to bottom, like notebook cells. So:
     - imports and data loading come early;
     - never use a name before the block that defines it, and that includes solutions and illustrative snippets like `match device:`;
     - a block that errors on purpose is short and says so in a comment;
     - never read `sys.argv`, call `input()`, start threads, or write files other than `fig.savefig(...)` of a figure you embed.
-- **Blocks that can't run in the browser**, such as multi-file packages, `torch`, `pip`, shell commands, or anything reading the local disk, start with a comment: `# Run this on your computer (or in Colab), not in the browser.`
+- **Blocks that can't run in the browser**, such as multi-file packages, `torch`, `pip`, shell commands, or anything reading the local disk, start with a comment: `# Run this on your computer (or in Colab), not in the browser.` That exact first line hides the ▶ Run button for the block (and the runner script skips it), so use it only for code that truly needs a real machine. Every other ```python block must run without error; show a deliberate error inside `try`/`except`, or as a ```pycon transcript.
 - **Check runnability** by concatenating all blocks in page order and running them in one namespace from a scratch directory. The integrator's runner script does the same, and any failure sends the lesson back.
 - Use `rng = np.random.default_rng(<seed>)` for anything random.
 - **Libraries:** locally numpy 2.5, pandas 3.0, matplotlib 3.11. No scipy, sklearn or torch in runnable blocks unless the lesson is about them. Elsewhere, show them only as clearly marked "on your computer" code.

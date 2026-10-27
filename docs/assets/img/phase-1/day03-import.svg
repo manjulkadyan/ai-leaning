@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="720" height="440" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">What import mlkit does</text>
+<rect x="30" y="50" width="300" height="36" rx="6" fill="#fff59d" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="180.0" y="73" text-anchor="middle" font-size="13" font-weight="bold" font-family="Courier New, monospace">import mlkit</text>
+<rect x="30" y="110" width="300" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="180.0" y="137" text-anchor="middle" font-size="13">1. Is 'mlkit' in sys.modules?</text>
+<rect x="30" y="185" width="300" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="180.0" y="212" text-anchor="middle" font-size="13">2. Find mlkit.py or mlkit/ on sys.path</text>
+<rect x="30" y="255" width="300" height="54" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="180.0" y="278" text-anchor="middle" font-size="13">3. Create an empty module object and</text>
+<text x="180.0" y="296" text-anchor="middle" font-size="13">store it: sys.modules['mlkit']</text>
+<rect x="30" y="335" width="300" height="44" rx="6" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="180.0" y="362" text-anchor="middle" font-size="13">4. Run the file top to bottom inside it</text>
+<rect x="420" y="335" width="270" height="44" rx="6" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="555.0" y="362" text-anchor="middle" font-size="13">5. Bind the name mlkit here</text>
+<path d="M180,86 L180,108" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M180,154 L180,183" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M180,229 L180,253" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M180,309 L180,333" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M330,357 L418,357" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M330,132 L665,132 L665,333" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="190" y="173" font-size="12" fill="#e53935">no (first import)</text>
+<text x="450" y="124" font-size="12" fill="#00897b">yes: skip steps 2 to 4</text>
+<rect x="420" y="180" width="225" height="110" rx="6" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="532" y="200" text-anchor="middle" font-weight="bold" font-size="13" fill="#ef6c00">sys.modules (the cache)</text>
+<text x="435" y="225" font-size="12" font-family="Courier New, monospace">'sys': &lt;module&gt;</text>
+<text x="435" y="245" font-size="12" font-family="Courier New, monospace">'math': &lt;module&gt;</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.26;0.97;1" dur="14s" repeatCount="indefinite"/><text x="435" y="270" font-size="12" font-weight="bold" font-family="Courier New, monospace" fill="#00897b">'mlkit': &lt;module&gt;  (new)</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02;0.032;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="47" width="306" height="42" rx="8" fill="none" stroke="#e53935" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.092;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="107" width="306" height="50" rx="8" fill="none" stroke="#e53935" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.16;0.172;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="182" width="306" height="50" rx="8" fill="none" stroke="#e53935" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24;0.252;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="252" width="306" height="60" rx="8" fill="none" stroke="#e53935" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.352;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="332" width="306" height="50" rx="8" fill="none" stroke="#e53935" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.42;0.432;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><rect x="417" y="332" width="276" height="50" rx="8" fill="none" stroke="#e53935" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03;0.042;0.5;0.512;1" dur="14s" repeatCount="indefinite"/><text x="20" y="425" font-size="13" fill="#555">First import: not cached, so Python finds the file, caches a new module, runs the file once, then binds the name.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.56;0.572;0.97;0.982;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="47" width="306" height="42" rx="8" fill="none" stroke="#00897b" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.64;0.652;0.97;0.982;1" dur="14s" repeatCount="indefinite"/><rect x="27" y="107" width="306" height="50" rx="8" fill="none" stroke="#00897b" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.74;0.752;0.97;0.982;1" dur="14s" repeatCount="indefinite"/><rect x="417" y="332" width="276" height="50" rx="8" fill="none" stroke="#00897b" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.56;0.572;0.97;0.982;1" dur="14s" repeatCount="indefinite"/><text x="20" y="425" font-size="13" fill="#555">Any later import (from any file): found in the cache, nothing runs, the name is bound.</text></g>
+</svg>

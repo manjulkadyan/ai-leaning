@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" font-family="Helvetica, Arial, sans-serif" font-size="15" class="animated">
+  <defs>
+    <marker id="rvm-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3949ab"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="310" fill="#ffffff"/>
+  <line x1="360" y1="15" x2="360" y2="295" stroke="#cccccc" stroke-dasharray="4 4"/>
+
+  <!-- ===== LEFT: immutable int ===== -->
+  <text x="20" y="28" font-weight="bold" fill="#00897b">int is immutable: += moves the label</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="14">
+    <rect x="20" y="42" width="130" height="24" rx="4" fill="#fff59d" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.3;0.33;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="68" width="130" height="24" rx="4" fill="#fff59d" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.36;0.63;0.66;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="94" width="130" height="24" rx="4" fill="#fff59d" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.69;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="30" y="59">n = 5</text>
+    <text x="30" y="85">m = n</text>
+    <text x="30" y="111">n += 1</text>
+  </g>
+  <text x="30" y="160" font-size="12" fill="#555">names</text>
+  <text x="210" y="112" font-size="12" fill="#555">objects</text>
+
+  <!-- name n -->
+  <rect x="30" y="170" width="56" height="32" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+  <text x="58" y="191" text-anchor="middle" font-weight="bold">n</text>
+  <!-- name m (appears at step 2) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.36;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="30" y="238" width="56" height="32" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="58" y="259" text-anchor="middle" font-weight="bold">m</text>
+    <line x1="86" y1="254" x2="206" y2="232" stroke="#3949ab" stroke-width="2" marker-end="url(#rvm-h)"/>
+  </g>
+  <!-- object 5 -->
+  <rect x="208" y="205" width="64" height="40" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+  <text x="240" y="231" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16">5</text>
+  <!-- n -> 5 (until step 3) -->
+  <line x1="86" y1="186" x2="206" y2="218" stroke="#3949ab" stroke-width="2" marker-end="url(#rvm-h)">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.69;0.7;0.97;1" dur="9s" repeatCount="indefinite"/>
+  </line>
+  <!-- object 6 and n -> 6 (step 3) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.72;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="208" y="130" width="64" height="40" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+    <text x="240" y="156" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16">6</text>
+    <text x="282" y="155" font-size="12" fill="#ef6c00">new</text>
+    <line x1="86" y1="182" x2="206" y2="155" stroke="#3949ab" stroke-width="2" marker-end="url(#rvm-h)"/>
+    <text x="30" y="292" font-size="12" fill="#555">n moved to a new object; m still sees 5</text>
+  </g>
+
+  <!-- ===== RIGHT: mutable list ===== -->
+  <text x="380" y="28" font-weight="bold" fill="#00897b">list is mutable: append changes it</text>
+  <g font-family="Menlo, Consolas, monospace" font-size="14">
+    <rect x="380" y="42" width="150" height="24" rx="4" fill="#fff59d" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.3;0.33;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="380" y="68" width="150" height="24" rx="4" fill="#fff59d" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.36;0.63;0.66;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="380" y="94" width="150" height="24" rx="4" fill="#fff59d" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.69;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <text x="390" y="59">a = [1, 2]</text>
+    <text x="390" y="85">b = a</text>
+    <text x="390" y="111">b.append(3)</text>
+  </g>
+  <text x="390" y="160" font-size="12" fill="#555">names</text>
+  <text x="560" y="160" font-size="12" fill="#555">object</text>
+
+  <rect x="390" y="170" width="56" height="32" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+  <text x="418" y="191" text-anchor="middle" font-weight="bold">a</text>
+  <line x1="446" y1="186" x2="556" y2="214" stroke="#3949ab" stroke-width="2" marker-end="url(#rvm-h)"/>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.36;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <rect x="390" y="238" width="56" height="32" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+    <text x="418" y="259" text-anchor="middle" font-weight="bold">b</text>
+    <line x1="446" y1="254" x2="556" y2="232" stroke="#3949ab" stroke-width="2" marker-end="url(#rvm-h)"/>
+  </g>
+  <rect x="558" y="202" width="140" height="44" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+  <text x="628" y="230" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16">[1, 2]
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.69;0.7;0.97;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="628" y="230" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="16" fill="#e53935" opacity="0">[1, 2, 3]
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.72;0.95;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.72;0.95;1" dur="9s" repeatCount="indefinite"/>
+    <text x="390" y="292" font-size="12" fill="#555">same object changed in place; a and b both see it</text>
+  </g>
+</svg>

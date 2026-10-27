@@ -10,10 +10,18 @@ Lessons are grouped by roadmap phase and numbered by study day. Follow them in o
 |---|---|
 | 1 | [Your AI workstation and first Python program](phase-1/day-01-setup.md) |
 | 2 | [Python's core types, through Kotlin eyes](phase-1/day-02-python-types.md) |
-| 3 | [Functions, classes and modules](phase-1/day-03-functions-classes.md) |
+| 2a | [Strings, text and formatting](phase-1/day-02a-strings.md) |
+| 2b | [Lists, tuples, dicts and sets in depth](phase-1/day-02b-collections.md) |
+| 3 | [Functions, scope and type hints](phase-1/day-03-functions-classes.md) |
+| 3a | [Classes, decorators and modules](phase-1/day-03a-classes-modules.md) |
+| 3b | [Errors and exceptions](phase-1/day-03b-errors-files-json.md) |
+| 3c | [Files, JSON, logging and tests](phase-1/day-03c-files-json.md) |
+| 3d | [Iterators and generators](phase-1/day-03d-iterators-generators.md) |
 | 4 | [NumPy arrays, and why ML runs on them](phase-1/day-04-numpy-arrays.md) |
+| 4b | [The NumPy toolkit](phase-1/day-04b-numpy-toolkit.md) |
+| 4c | [Random numbers, saving arrays and statistics](phase-1/day-04c-random-io-stats.md) |
 | 5 | [Vectors, the atoms of machine learning](phase-1/day-05-vectors.md) |
-| 6 | [Week 1 review and mini-project: a word-frequency analyzer](phase-1/day-06-week1-review.md) |
+| 6 | [Week 1 review and mini-project: word-count search](phase-1/day-06-week1-review.md) |
 
 ### Week 2: NumPy in depth and matrices
 

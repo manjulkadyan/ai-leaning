@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 340" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="d11fi" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53935"/></marker>
+    <marker id="d11fj" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e88e5"/></marker>
+    <marker id="d11fa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+    <marker id="d11fo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker>
+  </defs>
+  <text x="20" y="26" font-weight="bold" font-size="15">A negative determinant means the plane was flipped over</text>
+
+  <!-- LEFT panel: before. origin (120,200), 1 unit = 100px -->
+  <text x="150" y="56" text-anchor="middle" font-weight="bold">Before: the identity</text>
+  <g stroke="#90a4ae" stroke-width="1.2"><line x1="40" y1="200" x2="260" y2="200"/><line x1="120" y1="290" x2="120" y2="70"/></g>
+  <polygon points="172,190 192,190 192,150 222,150 222,135 192,135 192,115 232,115 232,100 172,100" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+  <line x1="120" y1="200" x2="220" y2="200" stroke="#e53935" stroke-width="3" marker-end="url(#d11fi)"/>
+  <line x1="120" y1="200" x2="120" y2="100" stroke="#1e88e5" stroke-width="3" marker-end="url(#d11fj)"/>
+  <text x="226" y="218" fill="#e53935" font-weight="bold" font-size="16">î</text>
+  <text x="100" y="104" fill="#1e88e5" font-weight="bold" font-size="16">ĵ</text>
+  <path d="M176,192 A60,60 0 0 0 128,144" fill="none" stroke="#ef6c00" stroke-width="2" marker-end="url(#d11fo)"/>
+  <text x="150" y="240" text-anchor="middle" font-size="12" fill="#555">from î, turn counterclockwise</text>
+  <text x="150" y="255" text-anchor="middle" font-size="12" fill="#555">a quarter turn to reach ĵ</text>
+  <text x="150" y="282" text-anchor="middle" font-size="13" font-weight="bold">det(I) = +1</text>
+
+  <!-- middle arrow -->
+  <line x1="275" y1="170" x2="365" y2="170" stroke="#555" stroke-width="2" marker-end="url(#d11fa)"/>
+  <text x="320" y="122" text-anchor="middle" font-size="13">F =</text>
+  <text x="320" y="142" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace">[[1,  0],</text>
+  <text x="320" y="158" text-anchor="middle" font-size="13" font-family="Menlo, Consolas, monospace"> [0, -1]]</text>
+  <text x="320" y="192" text-anchor="middle" font-size="12" fill="#555">mirror across</text>
+  <text x="320" y="207" text-anchor="middle" font-size="12" fill="#555">the x-axis</text>
+
+  <!-- RIGHT panel: after. origin (440,140), 1 unit = 100px, y flipped -->
+  <text x="500" y="56" text-anchor="middle" font-weight="bold">After: F</text>
+  <g stroke="#90a4ae" stroke-width="1.2"><line x1="390" y1="140" x2="620" y2="140"/><line x1="440" y1="70" x2="440" y2="290"/></g>
+  <polygon points="492,150 512,150 512,190 542,190 542,205 512,205 512,225 552,225 552,240 492,240" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+  <line x1="440" y1="140" x2="540" y2="140" stroke="#e53935" stroke-width="3" marker-end="url(#d11fi)"/>
+  <line x1="440" y1="140" x2="440" y2="240" stroke="#1e88e5" stroke-width="3" marker-end="url(#d11fj)"/>
+  <text x="548" y="162" fill="#e53935" font-weight="bold" font-size="16">î</text>
+  <text x="420" y="248" fill="#1e88e5" font-weight="bold" font-size="16">ĵ</text>
+  <path d="M496,148 A60,60 0 0 1 448,196" fill="none" stroke="#ef6c00" stroke-width="2" marker-end="url(#d11fo)"/>
+  <text x="560" y="82" text-anchor="middle" font-size="12" fill="#555">now ĵ is a quarter</text>
+  <text x="560" y="97" text-anchor="middle" font-size="12" fill="#555">turn CLOCKWISE</text>
+  <text x="560" y="112" text-anchor="middle" font-size="12" fill="#555">from î</text>
+  <text x="500" y="282" text-anchor="middle" font-size="13" font-weight="bold" fill="#e53935">det(F) = −1</text>
+
+  <text x="330" y="312" text-anchor="middle" font-size="12" fill="#555">The F is mirrored, not turned: no rotation can produce it.</text>
+  <text x="330" y="328" text-anchor="middle" font-size="12" fill="#555">|det| = 1 says the area is unchanged; the minus sign says "flipped".</text>
+</svg>

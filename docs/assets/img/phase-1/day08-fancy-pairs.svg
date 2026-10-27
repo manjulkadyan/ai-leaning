@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" font-family="Helvetica, Arial, sans-serif">
+<rect width="720" height="350" fill="#ffffff"/>
+<defs><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ef6c00"/></marker><marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00897b"/></marker></defs>
+<text x="188" y="30" font-size="16" text-anchor="middle" fill="#222" font-weight="bold">m[[0, 1, 2], [3, 2, 1]]</text>
+<text x="188" y="52" font-size="13" text-anchor="middle" fill="#555">paired: (0,3), (1,2), (2,1)</text>
+<text x="122.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 0</text>
+<text x="166.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 1</text>
+<text x="210.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 2</text>
+<text x="254.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 3</text>
+<text x="92" y="114.0" font-size="12" fill="#555" text-anchor="end">row 0</text>
+<rect x="100" y="92" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="122.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">0</text>
+<rect x="144" y="92" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="166.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">1</text>
+<rect x="188" y="92" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="210.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">2</text>
+<rect x="232" y="92" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="2.5"/>
+<text x="254.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">3</text>
+<text x="92" y="148.0" font-size="12" fill="#555" text-anchor="end">row 1</text>
+<rect x="100" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="122.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">4</text>
+<rect x="144" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="166.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">5</text>
+<rect x="188" y="126" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="2.5"/>
+<text x="210.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">6</text>
+<rect x="232" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="254.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">7</text>
+<text x="92" y="182.0" font-size="12" fill="#555" text-anchor="end">row 2</text>
+<rect x="100" y="160" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="122.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">8</text>
+<rect x="144" y="160" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="2.5"/>
+<text x="166.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">9</text>
+<rect x="188" y="160" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="210.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">10</text>
+<rect x="232" y="160" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="254.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">11</text>
+<text x="188" y="248" font-size="13" text-anchor="middle" fill="#555">result shape (3,)</text>
+<rect x="122" y="262" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<text x="144.0" y="284.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">3</text>
+<rect x="166" y="262" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<text x="188.0" y="284.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">6</text>
+<rect x="210" y="262" width="44" height="34" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+<text x="232.0" y="284.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">9</text>
+<path d="M 188 202 L 188 230" stroke="#ef6c00" stroke-width="2" fill="none" marker-end="url(#ao)"/>
+<text x="558" y="30" font-size="16" text-anchor="middle" fill="#222" font-weight="bold">m[np.ix_([0, 2], [1, 3])]</text>
+<text x="558" y="52" font-size="13" text-anchor="middle" fill="#555">block: rows 0, 2 × cols 1, 3</text>
+<text x="492.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 0</text>
+<text x="536.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 1</text>
+<text x="580.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 2</text>
+<text x="624.0" y="84" font-size="12" fill="#555" text-anchor="middle">col 3</text>
+<text x="462" y="114.0" font-size="12" fill="#555" text-anchor="end">row 0</text>
+<rect x="470" y="92" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="492.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">0</text>
+<rect x="514" y="92" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2.5"/>
+<text x="536.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">1</text>
+<rect x="558" y="92" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="580.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">2</text>
+<rect x="602" y="92" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2.5"/>
+<text x="624.0" y="114.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">3</text>
+<text x="462" y="148.0" font-size="12" fill="#555" text-anchor="end">row 1</text>
+<rect x="470" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="492.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">4</text>
+<rect x="514" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="536.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">5</text>
+<rect x="558" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="580.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">6</text>
+<rect x="602" y="126" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="624.0" y="148.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">7</text>
+<text x="462" y="182.0" font-size="12" fill="#555" text-anchor="end">row 2</text>
+<rect x="470" y="160" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="492.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">8</text>
+<rect x="514" y="160" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2.5"/>
+<text x="536.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">9</text>
+<rect x="558" y="160" width="44" height="34" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+<text x="580.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="normal">10</text>
+<rect x="602" y="160" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2.5"/>
+<text x="624.0" y="182.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">11</text>
+<text x="558" y="248" font-size="13" text-anchor="middle" fill="#555">result shape (2, 2)</text>
+<rect x="514" y="262" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="536.0" y="284.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">1</text>
+<rect x="558" y="262" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="580.0" y="284.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">3</text>
+<rect x="514" y="296" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="536.0" y="318.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">9</text>
+<rect x="558" y="296" width="44" height="34" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="580.0" y="318.0" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">11</text>
+<path d="M 558 202 L 558 230" stroke="#00897b" stroke-width="2" fill="none" marker-end="url(#at)"/>
+<line x1="360" y1="20" x2="360" y2="335" stroke="#ccc" stroke-dasharray="4 4"/>
+</svg>

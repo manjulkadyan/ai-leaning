@@ -98,8 +98,16 @@ nav:
       - Phase 1 · Foundations:
           - "Day 1: Workstation setup": lessons/phase-1/day-01-setup.md
           - "Day 2: Python core types": lessons/phase-1/day-02-python-types.md
-          - "Day 3: Functions & classes": lessons/phase-1/day-03-functions-classes.md
+          - "Day 2a: Strings & formatting": lessons/phase-1/day-02a-strings.md
+          - "Day 2b: Collections": lessons/phase-1/day-02b-collections.md
+          - "Day 3: Functions & type hints": lessons/phase-1/day-03-functions-classes.md
+          - "Day 3a: Classes & modules": lessons/phase-1/day-03a-classes-modules.md
+          - "Day 3b: Errors & exceptions": lessons/phase-1/day-03b-errors-files-json.md
+          - "Day 3c: Files, JSON & tests": lessons/phase-1/day-03c-files-json.md
+          - "Day 3d: Iterators & generators": lessons/phase-1/day-03d-iterators-generators.md
           - "Day 4: NumPy arrays": lessons/phase-1/day-04-numpy-arrays.md
+          - "Day 4b: NumPy toolkit": lessons/phase-1/day-04b-numpy-toolkit.md
+          - "Day 4c: Random, I/O & stats": lessons/phase-1/day-04c-random-io-stats.md
           - "Day 5: Vectors": lessons/phase-1/day-05-vectors.md
           - "Day 6: Week 1 review": lessons/phase-1/day-06-week1-review.md
           - "Day 8: Shapes & indexing": lessons/phase-1/day-08-shapes-indexing.md

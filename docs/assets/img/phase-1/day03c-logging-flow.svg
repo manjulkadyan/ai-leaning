@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="760" height="360" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">The path of one log message</text>
+<rect x="20" y="60" width="150" height="70" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="95" y="86" text-anchor="middle" font-family="Courier New, monospace" font-size="12">log.info(...)</text>
+<text x="95" y="106" text-anchor="middle" font-size="12" fill="#555">logger "trainer.data"</text>
+<text x="95" y="122" text-anchor="middle" font-size="12" fill="#555">(its level, or its parents')</text>
+<rect x="200" y="60" width="160" height="70" rx="8" fill="#fff3e0" stroke="#ef6c00" stroke-width="1.5"/>
+<text x="280" y="86" text-anchor="middle" font-weight="bold">1. Level check</text>
+<text x="280" y="106" text-anchor="middle" font-size="12">INFO at or above the</text>
+<text x="280" y="122" text-anchor="middle" font-size="12">logger's level?</text>
+<rect x="390" y="60" width="160" height="70" rx="8" fill="#e0f2f1" stroke="#00897b" stroke-width="1.5"/>
+<text x="470" y="86" text-anchor="middle" font-weight="bold">2. LogRecord</text>
+<text x="470" y="106" text-anchor="middle" font-size="12">message, level, name,</text>
+<text x="470" y="122" text-anchor="middle" font-size="12">time, file, line</text>
+<rect x="580" y="60" width="160" height="70" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5"/>
+<text x="660" y="86" text-anchor="middle" font-weight="bold">3. Handlers</text>
+<text x="660" y="106" text-anchor="middle" font-size="12">its own, then its parents',</text>
+<text x="660" y="122" text-anchor="middle" font-size="12">up to the root (propagation)</text>
+<g stroke="#555" stroke-width="1.5" fill="#555">
+<path d="M170 95 H194"/><path d="M190 90 L198 95 L190 100 Z"/>
+<path d="M360 95 H384"/><path d="M380 90 L388 95 L380 100 Z"/>
+<path d="M550 95 H574"/><path d="M570 90 L578 95 L570 100 Z"/>
+<path d="M280 130 V170" fill="none"/><path d="M275 164 L280 172 L285 164 Z"/>
+<path d="M660 130 V160 H470 V196 M660 160 H660 V196" fill="none"/>
+<path d="M465 190 L470 198 L475 190 Z"/><path d="M655 190 L660 198 L665 190 Z"/>
+</g>
+<text x="290" y="156" font-size="12" fill="#e53935" font-weight="bold">no</text>
+<rect x="200" y="174" width="160" height="40" rx="8" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+<text x="280" y="199" text-anchor="middle" font-size="12">dropped (no string built)</text>
+<rect x="390" y="200" width="160" height="96" rx="8" fill="#ffffff" stroke="#00897b" stroke-width="1.5"/>
+<text x="470" y="222" text-anchor="middle" font-weight="bold">Console handler</text>
+<text x="470" y="242" text-anchor="middle" font-size="12">its own level: INFO</text>
+<text x="470" y="260" text-anchor="middle" font-size="12">its own formatter</text>
+<text x="470" y="282" text-anchor="middle" font-size="12" fill="#3949ab">→ the screen (stderr)</text>
+<rect x="580" y="200" width="160" height="96" rx="8" fill="#ffffff" stroke="#00897b" stroke-width="1.5"/>
+<text x="660" y="222" text-anchor="middle" font-weight="bold">File handler</text>
+<text x="660" y="242" text-anchor="middle" font-size="12">its own level: DEBUG</text>
+<text x="660" y="260" text-anchor="middle" font-size="12">its own formatter</text>
+<text x="660" y="282" text-anchor="middle" font-size="12" fill="#3949ab">→ train.log</text>
+<text x="20" y="330" font-size="12" fill="#555">logger.setLevel decides which messages are created at all; handler.setLevel decides which of them each destination writes.</text>
+</svg>
