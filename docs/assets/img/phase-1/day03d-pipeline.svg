@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Helvetica, Arial, sans-serif" font-size="14" class="animated">
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="20" y="28" font-weight="bold" font-size="16">The same four stages, eager versus lazy</text>
+<text x="20" y="62" font-weight="bold" fill="#ef6c00">Eager: a full list after every stage</text>
+<rect x="30" y="74" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="90.0" y="96" text-anchor="middle">read</text>
+<rect x="190" y="74" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="250.0" y="96" text-anchor="middle">parse</text>
+<rect x="350" y="74" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="410.0" y="96" text-anchor="middle">clean</text>
+<rect x="510" y="74" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="570.0" y="96" text-anchor="middle">batch</text>
+<line x1="150" y1="91" x2="188" y2="91" stroke="#777" stroke-width="2"/><polygon points="190,91 182,86 182,96" fill="#777"/>
+<line x1="310" y1="91" x2="348" y2="91" stroke="#777" stroke-width="2"/><polygon points="350,91 342,86 342,96" fill="#777"/>
+<line x1="470" y1="91" x2="508" y2="91" stroke="#777" stroke-width="2"/><polygon points="510,91 502,86 502,96" fill="#777"/>
+<rect x="670" y="74" width="80" height="34" rx="6" fill="#e0f2f1" stroke="#00897b"/>
+<text x="710" y="96" text-anchor="middle">train</text>
+<line x1="630" y1="91" x2="668" y2="91" stroke="#777" stroke-width="2"/>
+<rect x="34" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0417;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="50" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0708;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="66" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1000;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="82" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1292;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="98" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1583;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="114" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1875;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="130" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2167;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="30" y="150" font-size="11" fill="#555">list of 7 lines<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0417;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></text>
+<rect x="194" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2500;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="210" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2792;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="226" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3083;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="242" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3375;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="258" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3667;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="190" y="150" font-size="11" fill="#555">list of 5<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2500;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></text>
+<rect x="354" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4583;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="370" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4875;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="386" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5167;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="402" y="118" width="13" height="13" rx="2" fill="#fff3e0" stroke="#ef6c00"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5458;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="350" y="150" font-size="11" fill="#555">list of 4<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4583;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></text>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/><rect x="514" y="118" width="34" height="15" rx="2" fill="#e0f2f1" stroke="#00897b"/></g>
+<g><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7167;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/><rect x="554" y="118" width="34" height="15" rx="2" fill="#e0f2f1" stroke="#00897b"/></g>
+<text x="510" y="150" font-size="11" fill="#555">2 batches<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></text>
+<text x="20" y="176" font-size="12" fill="#555">held in memory</text>
+<rect x="130" y="164" width="400" height="14" rx="3" fill="none" stroke="#bbb"/>
+<rect x="130" y="164" width="0" height="14" rx="3" fill="#e53935" opacity="0.7"><animate attributeName="width" values="0;20;40;60;80;100;120;140;160;180;200;220;240;260;280;300;320;360;400;0" keyTimes="0.0000;0.0417;0.0708;0.1000;0.1292;0.1583;0.1875;0.2167;0.2500;0.2792;0.3083;0.3375;0.3667;0.4583;0.4875;0.5167;0.5458;0.6667;0.7167;0.9583" dur="12s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="545" y="176" font-size="12" fill="#555">grows with the dataset</text>
+<text x="20" y="250" font-weight="bold" fill="#00897b">Lazy: generators pull one record at a time</text>
+<rect x="30" y="262" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="90.0" y="284" text-anchor="middle">read</text>
+<rect x="190" y="262" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="250.0" y="284" text-anchor="middle">parse</text>
+<rect x="350" y="262" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="410.0" y="284" text-anchor="middle">clean</text>
+<rect x="510" y="262" width="120" height="34" rx="6" fill="#e8eaf6" stroke="#3949ab"/>
+<text x="570.0" y="284" text-anchor="middle">batch</text>
+<line x1="150" y1="279" x2="188" y2="279" stroke="#777" stroke-width="2"/><polygon points="190,279 182,274 182,284" fill="#777"/>
+<line x1="310" y1="279" x2="348" y2="279" stroke="#777" stroke-width="2"/><polygon points="350,279 342,274 342,284" fill="#777"/>
+<line x1="470" y1="279" x2="508" y2="279" stroke="#777" stroke-width="2"/><polygon points="510,279 502,274 502,284" fill="#777"/>
+<rect x="670" y="262" width="80" height="34" rx="6" fill="#e0f2f1" stroke="#00897b"/>
+<text x="710" y="284" text-anchor="middle">train</text>
+<line x1="630" y1="279" x2="668" y2="279" stroke="#777" stroke-width="2"/>
+<circle cx="90.0" cy="312" r="8" fill="#00897b" stroke="#333" opacity="0"><animate attributeName="cx" values="90.0;90.0;250.0;410.0;570.0;595;595;710;710;710" keyTimes="0.0000;0.0417;0.0750;0.1083;0.1417;0.1667;0.4000;0.4417;0.4667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="312;312;312;312;312;312;312;279;279;279" keyTimes="0.0000;0.0417;0.0750;0.1083;0.1417;0.1667;0.4000;0.4417;0.4667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;1;1;1;1;0;0" keyTimes="0.0000;0.0417;0.0750;0.1083;0.1417;0.1667;0.4000;0.4417;0.4667;1.0000" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="90.0" cy="312" r="8" fill="#e53935" stroke="#333" opacity="0"><animate attributeName="cx" values="90.0;90.0;250.0;410.0;410.0;410.0;410.0" keyTimes="0.0000;0.1667;0.2000;0.2333;0.2583;0.2833;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="312;312;312;312;326;326;326" keyTimes="0.0000;0.1667;0.2000;0.2333;0.2583;0.2833;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0.6;0;0" keyTimes="0.0000;0.1667;0.2000;0.2333;0.2583;0.2833;1.0000" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="90.0" cy="312" r="8" fill="#00897b" stroke="#333" opacity="0"><animate attributeName="cx" values="90.0;90.0;250.0;410.0;570.0;623;623;710;710;710" keyTimes="0.0000;0.2917;0.3250;0.3583;0.3917;0.4167;0.4000;0.4417;0.4667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="312;312;312;312;312;312;312;279;279;279" keyTimes="0.0000;0.2917;0.3250;0.3583;0.3917;0.4167;0.4000;0.4417;0.4667;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;1;1;1;1;0;0" keyTimes="0.0000;0.2917;0.3250;0.3583;0.3917;0.4167;0.4000;0.4417;0.4667;1.0000" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="90.0" cy="312" r="8" fill="#e53935" stroke="#333" opacity="0"><animate attributeName="cx" values="90.0;90.0;250.0;250.0;250.0;250.0" keyTimes="0.0000;0.4167;0.4500;0.4750;0.5000;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="312;312;312;326;326;326" keyTimes="0.0000;0.4167;0.4500;0.4750;0.5000;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0.6;0;0" keyTimes="0.0000;0.4167;0.4500;0.4750;0.5000;1.0000" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="90.0" cy="312" r="8" fill="#00897b" stroke="#333" opacity="0"><animate attributeName="cx" values="90.0;90.0;250.0;410.0;570.0;595;595;710;710;710" keyTimes="0.0000;0.5417;0.5750;0.6083;0.6417;0.6667;0.7750;0.8167;0.8417;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="312;312;312;312;312;312;312;279;279;279" keyTimes="0.0000;0.5417;0.5750;0.6083;0.6417;0.6667;0.7750;0.8167;0.8417;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;1;1;1;1;0;0" keyTimes="0.0000;0.5417;0.5750;0.6083;0.6417;0.6667;0.7750;0.8167;0.8417;1.0000" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="90.0" cy="312" r="8" fill="#00897b" stroke="#333" opacity="0"><animate attributeName="cx" values="90.0;90.0;250.0;410.0;570.0;623;623;710;710;710" keyTimes="0.0000;0.6667;0.7000;0.7333;0.7667;0.7917;0.7750;0.8167;0.8417;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="312;312;312;312;312;312;312;279;279;279" keyTimes="0.0000;0.6667;0.7000;0.7333;0.7667;0.7917;0.7750;0.8167;0.8417;1.0000" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;1;1;1;1;0;0" keyTimes="0.0000;0.6667;0.7000;0.7333;0.7667;0.7917;0.7750;0.8167;0.8417;1.0000" dur="12s" repeatCount="indefinite"/></circle>
+<rect x="584" y="301" width="22" height="22" rx="3" fill="none" stroke="#00897b" stroke-dasharray="3 2"/>
+<rect x="612" y="301" width="22" height="22" rx="3" fill="none" stroke="#00897b" stroke-dasharray="3 2"/>
+<text x="586" y="340" font-size="11" fill="#555">batch of 2</text>
+<text x="190" y="342" font-size="11" fill="#555">red: dropped (bad or too short)</text>
+<text x="20" y="372" font-size="12" fill="#555">held in memory</text>
+<rect x="130" y="360" width="400" height="14" rx="3" fill="none" stroke="#bbb"/>
+<rect x="130" y="360" width="60" height="14" rx="3" fill="#00897b" opacity="0.7"/>
+<text x="545" y="372" font-size="12" fill="#555">one record + one batch</text>
+<text x="20" y="400" font-size="12" fill="#555">Lazy: record 1 reaches clean before record 2 is read. Eager: nothing is trained until every stage has finished.</text>
+</svg>
