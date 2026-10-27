@@ -230,3 +230,10 @@ The Day 2 rewrite came out at ~1,800 lines and ~180 minutes, so Strings moves to
 The Day 3b draft came out at 2,450 lines, so it splits at context managers. Day 3b (`day-03b-errors-files-json.md`, file name kept) is "Errors and exceptions" → `**Next:** [Day 3c: Files, JSON, logging and tests](day-03c-files-json.md)`. **Day 3c** (`day-03c-files-json.md`, new) is context managers, files, pathlib, csv, JSON, logging and pytest → `**Next:** [Day 3d: Iterators and generators](day-03d-iterators-generators.md)`. Iterators and generators move to **Day 3d** (`day-03d-iterators-generators.md`, asset prefix day03d-) → `**Next:** [Day 4: NumPy arrays, and why ML runs on them](day-04-numpy-arrays.md)`.
 
 Header minutes: Day 1 ~150, Day 2b ~170 (the writers' honest estimates replace the ~120 above).
+
+
+## Split note: Day 4b / 4c (2026-10-27)
+
+The Day 4b draft came out at 2,185 lines (~240 min). Day 4b (`day-04b-numpy-toolkit.md`) keeps where/clip/select, sorting and counting, cumsum/diff, nan/inf and comparing floats → `**Next:** [Day 4c: Random numbers, saving arrays and statistics](day-04c-random-io-stats.md)`. **Day 4c** (`day-04c-random-io-stats.md`, new, prefix day04c-) takes random numbers and splits, save/load, percentiles/histograms and the closing pipeline → `**Next:** [Day 5: Vectors, the atoms of machine learning](day-05-vectors.md)`.
+
+Header minutes now: Day 2 ~140, 2a ~130, 3 ~150, 3a ~180, 3b ~140, 3c ~170, 3d ~150, 4 ~180, 5 ~150.
